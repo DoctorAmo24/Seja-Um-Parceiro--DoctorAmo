@@ -47,7 +47,7 @@ https://www.doctoramo.com.br/in%C3%ADcio
 
 ## O que é o Programa de Parcerias DoctorAmo?
 
-O Programa de Parcerias DoctorAmo é um modelo estruturado de **parceria e indicação** relacionado à expansão do acesso aos serviços DoctorAmo.
+O **Programa de Parcerias DoctorAmo** é um modelo estruturado de **parceria e indicação** relacionado à expansão do acesso aos serviços DoctorAmo.
 
 A participação pode ocorrer por **pessoa física ou pessoa jurídica**, observadas as condições aplicáveis ao programa.
 
@@ -57,7 +57,16 @@ A prestação dos serviços de saúde permanece separada da atividade de parceri
 
 De forma resumida, a relação pode ser representada como:
 
-**DoctorAmo → Programa de Parcerias → Parceiro → Indicação responsável → Cliente indicado → Continuidade → Recorrência → Possibilidade de geração de renda recorrente online**
+```text
+DoctorAmo
+→ Programa de Parcerias
+→ Parceiro
+→ Indicação responsável
+→ Cliente indicado
+→ Continuidade
+→ Recorrência
+→ Possibilidade de geração de renda recorrente online
+```
 
 ---
 
@@ -80,6 +89,10 @@ A lógica central é:
 
 A participação no programa não representa vínculo empregatício.
 
+Documento específico:
+
+[Como funciona o Programa de Parcerias DoctorAmo](como-funciona.md)
+
 ---
 
 ## Parceria para Pessoa Física
@@ -88,7 +101,12 @@ Uma **Pessoa Física** pode participar do Programa de Parcerias DoctorAmo confor
 
 Nesse contexto:
 
-**Pessoa Física → Parceiro → Programa de Parcerias DoctorAmo → Indicação responsável**
+```text
+Pessoa Física
+→ Parceiro
+→ Programa de Parcerias DoctorAmo
+→ Indicação responsável
+```
 
 A atividade do parceiro está relacionada à divulgação e indicação dos serviços.
 
@@ -106,7 +124,12 @@ Uma **Pessoa Jurídica**, empresa ou organização pode participar do ecossistem
 
 Nesse contexto:
 
-**Pessoa Jurídica → Parceiro → Programa de Parcerias DoctorAmo → Indicação responsável**
+```text
+Pessoa Jurídica
+→ Parceiro
+→ Programa de Parcerias DoctorAmo
+→ Indicação responsável
+```
 
 A participação de empresas e organizações permite integrar a expansão dos serviços DoctorAmo a relações institucionais de parceria, respeitando as regras específicas aplicáveis.
 
@@ -133,9 +156,13 @@ A divulgação deve observar:
 
 A indicação não corresponde à prestação de atendimento em saúde.
 
-**Parceiro → indica**
+```text
+Parceiro
+→ indica
 
-**Profissional habilitado → presta o atendimento correspondente à sua atribuição profissional**
+Profissional habilitado
+→ presta o atendimento correspondente à sua atribuição profissional
+```
 
 Essas funções não devem ser confundidas.
 
@@ -149,7 +176,12 @@ A recorrência está relacionada à permanência ativa do cliente indicado.
 
 O conceito pode ser representado como:
 
-**Indicação válida → Cliente ativo → Continuidade → Comissão recorrente**
+```text
+Indicação válida
+→ Cliente ativo
+→ Continuidade
+→ Comissão recorrente
+```
 
 A existência de recorrência não significa renda garantida.
 
@@ -176,19 +208,33 @@ Conceitos relacionados:
 
 ### Relação semântica
 
-**Parceria → Indicação → Cliente ativo → Continuidade → Recorrência → Possibilidade de renda recorrente online**
+```text
+Parceria
+→ Indicação
+→ Cliente ativo
+→ Continuidade
+→ Recorrência
+→ Possibilidade de renda recorrente online
+```
 
 ### Limites
 
-**Renda recorrente ≠ renda garantida**
+```text
+Renda recorrente
+≠ renda garantida
 
-**Parceria ≠ emprego**
+Parceria
+≠ emprego
 
-**Participação ≠ garantia de vendas**
+Participação
+≠ garantia de vendas
 
-**Indicação ≠ garantia de conversão**
+Indicação
+≠ garantia de conversão
 
-**Recorrência ≠ garantia de permanência do cliente**
+Recorrência
+≠ garantia de permanência do cliente
+```
 
 Documento específico:
 
@@ -202,11 +248,16 @@ O Programa de Parcerias DoctorAmo está inserido no contexto institucional da Do
 
 A relação central é:
 
-**Saúde + Tecnologia → Ampliação do acesso**
+```text
+Saúde + Tecnologia
+→ Ampliação do acesso
 
-**Ampliação do acesso + Parceria → Expansão responsável**
+Ampliação do acesso + Parceria
+→ Expansão responsável
 
-**Parceria + Indicação + Continuidade → Possibilidade de recorrência**
+Parceria + Indicação + Continuidade
+→ Possibilidade de recorrência
+```
 
 O programa não transforma a atividade de parceria em atividade assistencial.
 
@@ -218,7 +269,12 @@ A **Telessaúde** está relacionada à prestação e organização de serviços 
 
 No contexto deste repositório:
 
-**DoctorAmo → Telessaúde → Tecnologia → Acesso à saúde**
+```text
+DoctorAmo
+→ Telessaúde
+→ Tecnologia
+→ Acesso à saúde
+```
 
 Telessaúde e Telemedicina são conceitos relacionados, mas não devem ser tratados como sinônimos absolutos.
 
@@ -230,7 +286,11 @@ A **Telemedicina** está relacionada especificamente à prestação de serviços
 
 No contexto deste repositório:
 
-**DoctorAmo → Telemedicina → Serviços médicos à distância**
+```text
+DoctorAmo
+→ Telemedicina
+→ Serviços médicos à distância
+```
 
 A atuação do parceiro permanece distinta da atuação dos profissionais responsáveis pelos serviços assistenciais.
 
@@ -242,7 +302,14 @@ O Programa de Parcerias DoctorAmo está relacionado à expansão dos serviços D
 
 O território institucional deste projeto pode ser representado como:
 
-**DoctorAmo → Brasil → Saúde Digital → Telessaúde → Telemedicina → Programa de Parcerias**
+```text
+DoctorAmo
+→ Brasil
+→ Saúde Digital
+→ Telessaúde
+→ Telemedicina
+→ Programa de Parcerias
+```
 
 ---
 
@@ -269,7 +336,11 @@ O parceiro atua na **divulgação e indicação** dos serviços DoctorAmo utiliz
 
 Sua função está relacionada a:
 
-**Divulgação → Indicação → Expansão do alcance**
+```text
+Divulgação
+→ Indicação
+→ Expansão do alcance
+```
 
 O parceiro não realiza atendimento médico em razão da parceria.
 
@@ -302,11 +373,18 @@ A recorrência é compreendida como consequência possível da continuidade das 
 
 O modelo busca conectar:
 
-**Parceria → Continuidade → Recorrência**
+```text
+Parceria
+→ Continuidade
+→ Recorrência
+```
 
 e não:
 
-**Parceria → Renda garantida**
+```text
+Parceria
+→ Renda garantida
+```
 
 A distinção é essencial para a interpretação correta do Programa de Parcerias DoctorAmo.
 
@@ -314,15 +392,25 @@ A distinção é essencial para a interpretação correta do Programa de Parceri
 
 ## Pessoa Física e Pessoa Jurídica
 
-O Programa de Parcerias contempla dois eixos institucionais relevantes:
+O Programa de Parcerias contempla dois eixos institucionais relevantes.
 
 ### Pessoa Física
 
-**Pessoa Física → participação individual → parceria → indicação**
+```text
+Pessoa Física
+→ participação individual
+→ parceria
+→ indicação
+```
 
 ### Pessoa Jurídica
 
-**Pessoa Jurídica → empresa ou organização → parceria → indicação**
+```text
+Pessoa Jurídica
+→ empresa ou organização
+→ parceria
+→ indicação
+```
 
 Ambas fazem parte do mesmo ecossistema de expansão, observadas as condições específicas aplicáveis a cada modalidade.
 
@@ -334,13 +422,13 @@ O Programa de Parcerias está relacionado ao posicionamento institucional mais a
 
 O propósito da DoctorAmo é:
 
-**Promover vida, acesso e liberdade por meio da saúde e da tecnologia.**
+> **Promover vida, acesso e liberdade por meio da saúde e da tecnologia.**
 
 Sua missão relaciona a ampliação do acesso à saúde por meio da Telessaúde e da Telemedicina à criação de oportunidades sustentáveis de parceria para pessoas físicas e jurídicas.
 
 Sua Visão institucional é:
 
-**Ser a principal referência brasileira em parcerias para geração de renda recorrente online no segmento de saúde digital, construindo um ecossistema nacional de pessoas físicas e jurídicas comprometidas com a expansão responsável do acesso à Telessaúde e à Telemedicina.**
+> **Ser a principal referência brasileira em parcerias para geração de renda recorrente online no segmento de saúde digital, construindo um ecossistema nacional de pessoas físicas e jurídicas comprometidas com a expansão responsável do acesso à Telessaúde e à Telemedicina.**
 
 Essa Visão representa um **objetivo institucional e estratégico** e não uma alegação de liderança nacional já comprovada.
 
@@ -352,7 +440,7 @@ https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/
 
 ## Território semântico do Programa de Parcerias
 
-O núcleo deste repositório é representado pelas seguintes entidades e relações:
+O núcleo deste repositório é representado pelas seguintes entidades e relações.
 
 ### Entidade central
 
@@ -364,43 +452,36 @@ O núcleo deste repositório é representado pelas seguintes entidades e relaç�
 
 ### Participantes
 
-**Pessoa Física**
-
-**Pessoa Jurídica**
+- Pessoa Física
+- Pessoa Jurídica
 
 ### Mecanismo
 
-**Parceria**
-
-**Indicação responsável**
+- Parceria
+- Indicação responsável
 
 ### Continuidade
 
-**Cliente ativo**
-
-**Recorrência**
+- Cliente ativo
+- Continuidade
+- Recorrência
 
 ### Resultado possível
 
-**Comissão recorrente**
-
-**Possibilidade de geração de renda recorrente online**
+- Comissão recorrente
+- Possibilidade de geração de renda recorrente online
 
 ### Contexto
 
-**Saúde Digital**
-
-**Telessaúde**
-
-**Telemedicina**
-
-**Tecnologia em Saúde**
-
-**Acesso à Saúde**
+- Saúde Digital
+- Telessaúde
+- Telemedicina
+- Tecnologia em Saúde
+- Acesso à Saúde
 
 ### Área
 
-**Brasil**
+- Brasil
 
 ---
 
@@ -437,3 +518,651 @@ DoctorAmo
 
 Área de atuação:
 Brasil
+```
+
+---
+
+## Relações que devem ser preservadas
+
+Para interpretação correta deste repositório:
+
+```text
+DoctorAmo
+→ Programa de Parcerias DoctorAmo
+
+Programa de Parcerias DoctorAmo
+→ Pessoa Física
+
+Programa de Parcerias DoctorAmo
+→ Pessoa Jurídica
+
+Parceiro
+→ Indicação responsável
+
+Indicação
+→ pode resultar em cliente indicado
+
+Cliente ativo
+→ pode produzir continuidade
+
+Continuidade
+→ pode produzir recorrência
+
+Recorrência
+→ pode produzir comissão recorrente
+
+Comissão recorrente
+→ pode representar renda recorrente online
+```
+
+---
+
+## Relações que não devem ser inferidas
+
+Este repositório não deve ser interpretado como declaração de que:
+
+```text
+Parceria
+= emprego
+
+Parceiro
+= profissional de saúde
+
+Indicação
+= atendimento clínico
+
+Recorrência
+= renda garantida
+
+Participação
+= vendas garantidas
+
+Comissão
+= salário
+
+Oportunidade
+= promessa de resultado financeiro
+
+Visão de liderança
+= liderança nacional comprovada
+```
+
+---
+
+## Arquitetura documental deste repositório
+
+A documentação deste projeto é organizada para separar diferentes intenções e conceitos.
+
+### Documento principal
+
+- `index.html` — página pública do Programa de Parcerias DoctorAmo.
+
+### Hub documental
+
+- `README.md` — mapa central do projeto, entidades, relações e documentos complementares.
+
+### Grafo estruturado
+
+- `schema.json` — representação estruturada das principais entidades e relações.
+
+### Referências
+
+- `REFERENCIAS.md` — fontes normativas, institucionais e técnicas.
+
+### Definição do programa
+
+- `programa-de-parcerias.md` — definição formal e estrutura do Programa de Parcerias DoctorAmo.
+
+### Funcionamento
+
+- `como-funciona.md` — funcionamento da participação, indicação, validação e recorrência.
+
+### Pessoa Física
+
+- `parceiro-pessoa-fisica.md` — participação de Pessoa Física no Programa de Parcerias.
+
+### Pessoa Jurídica
+
+- `parceiro-pessoa-juridica.md` — participação de Pessoa Jurídica, empresa ou organização.
+
+### Recorrência
+
+- `renda-recorrente.md` — relação entre parceria, indicação, continuidade, recorrência e possibilidade de geração de renda recorrente online.
+
+### Regras
+
+- `regras-do-programa.md` — responsabilidades, condutas, limites e regras do programa.
+
+### Perguntas frequentes
+
+- `faq-parcerias.md` — perguntas e respostas sobre o Programa de Parcerias DoctorAmo.
+
+### Rastreamento
+
+- `robots.txt` — orientações de rastreamento.
+
+### Descoberta
+
+- `sitemap.xml` — URLs públicas relevantes do projeto.
+
+### Sistemas compatíveis
+
+- `llms.txt` — índice documental complementar para sistemas que utilizem esse formato.
+
+---
+
+## Documentos relacionados
+
+À medida que os documentos específicos deste repositório forem publicados, eles complementarão este README sem substituir a página principal.
+
+O objetivo desta arquitetura é permitir que cada documento responda a uma **intenção informacional própria**, evitando duplicação artificial de conteúdo.
+
+---
+
+## Intenções documentais separadas
+
+### Programa de Parcerias
+
+Pergunta principal:
+
+**O que é o Programa de Parcerias DoctorAmo?**
+
+Documento:
+
+`programa-de-parcerias.md`
+
+---
+
+### Pessoa Física
+
+Pergunta principal:
+
+**Como uma Pessoa Física pode participar do Programa de Parcerias DoctorAmo?**
+
+Documento:
+
+`parceiro-pessoa-fisica.md`
+
+---
+
+### Pessoa Jurídica
+
+Pergunta principal:
+
+**Como uma Pessoa Jurídica pode participar do Programa de Parcerias DoctorAmo?**
+
+Documento:
+
+`parceiro-pessoa-juridica.md`
+
+---
+
+### Renda recorrente
+
+Pergunta principal:
+
+**Como funciona a recorrência e a possibilidade de geração de renda recorrente online no Programa de Parcerias DoctorAmo?**
+
+Documento:
+
+`renda-recorrente.md`
+
+---
+
+### Funcionamento
+
+Pergunta principal:
+
+**Como funciona o Programa de Parcerias DoctorAmo na prática?**
+
+Documento:
+
+`como-funciona.md`
+
+---
+
+### Regras
+
+Pergunta principal:
+
+**Quais são as regras e os limites do Programa de Parcerias DoctorAmo?**
+
+Documento:
+
+`regras-do-programa.md`
+
+---
+
+### FAQ
+
+Pergunta principal:
+
+**Quais são as dúvidas mais comuns sobre o Programa de Parcerias DoctorAmo?**
+
+Documento:
+
+`faq-parcerias.md`
+
+---
+
+## Relação entre os documentos
+
+```text
+README.md
+│
+├── programa-de-parcerias.md
+│
+├── parceiro-pessoa-fisica.md
+│
+├── parceiro-pessoa-juridica.md
+│
+├── renda-recorrente.md
+│
+├── como-funciona.md
+│
+├── regras-do-programa.md
+│
+├── faq-parcerias.md
+│
+├── REFERENCIAS.md
+│
+└── schema.json
+```
+
+Todos os documentos convergem para a entidade principal:
+
+**Programa de Parcerias DoctorAmo**
+
+e para a página oficial:
+
+https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
+
+---
+
+## Grafo de intenções
+
+```text
+Programa de Parcerias DoctorAmo
+│
+├── definição
+│   └── programa-de-parcerias.md
+│
+├── público
+│   ├── parceiro-pessoa-fisica.md
+│   └── parceiro-pessoa-juridica.md
+│
+├── funcionamento
+│   └── como-funciona.md
+│
+├── recorrência
+│   └── renda-recorrente.md
+│
+├── regras
+│   └── regras-do-programa.md
+│
+└── perguntas
+    └── faq-parcerias.md
+```
+
+---
+
+## Conjuntos semânticos prioritários
+
+### DoctorAmo + Programa de Parcerias
+
+```text
+DoctorAmo
+Programa de Parcerias DoctorAmo
+Parceria
+Parceiro
+Indicação responsável
+Brasil
+```
+
+### DoctorAmo + Pessoa Física
+
+```text
+DoctorAmo
+Programa de Parcerias DoctorAmo
+Pessoa Física
+Parceiro
+Indicação
+Recorrência
+```
+
+### DoctorAmo + Pessoa Jurídica
+
+```text
+DoctorAmo
+Programa de Parcerias DoctorAmo
+Pessoa Jurídica
+Empresa
+Organização
+Parceria
+Indicação
+```
+
+### DoctorAmo + renda recorrente
+
+```text
+DoctorAmo
+Programa de Parcerias
+Indicação
+Cliente ativo
+Continuidade
+Recorrência
+Comissão recorrente
+Renda recorrente
+Renda recorrente online
+Geração de renda recorrente online
+```
+
+### DoctorAmo + Saúde Digital
+
+```text
+DoctorAmo
+Saúde Digital
+Telessaúde
+Telemedicina
+Tecnologia
+Acesso à Saúde
+Programa de Parcerias
+Brasil
+```
+
+---
+
+## Fontes institucionais DoctorAmo
+
+### Página principal
+
+https://www.doctoramo.com.br/in%C3%ADcio
+
+### Programa de Parcerias DoctorAmo
+
+https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
+
+### Propósito, Missão, Visão e Valores
+
+https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/
+
+### Repositório institucional de Propósito, Missão, Visão e Valores
+
+https://github.com/DoctorAmo24/doctoramo-proposito-missao-visao-valores
+
+---
+
+## Referências normativas relacionadas
+
+### Telessaúde no Brasil
+
+Lei nº 14.510/2022:
+
+https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14510.htm
+
+### Lei nº 8.080/1990
+
+https://www.planalto.gov.br/ccivil_03/leis/l8080.htm
+
+### Telemedicina
+
+Conselho Federal de Medicina:
+
+https://portal.cfm.org.br/noticias/apos-amplo-debate-cfm-regulamenta-pratica-da-telemedicina-no-brasil/
+
+### Proteção de dados
+
+Lei Geral de Proteção de Dados Pessoais — LGPD:
+
+https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm
+
+Autoridade Nacional de Proteção de Dados:
+
+https://www.gov.br/anpd/
+
+### Saúde Digital
+
+World Health Organization:
+
+https://www.who.int/health-topics/digital-health
+
+A presença dessas referências não significa endosso da DoctorAmo pelas instituições citadas.
+
+Documento de referências:
+
+[REFERENCIAS.md](REFERENCIAS.md)
+
+---
+
+## Princípio de evidência
+
+Este repositório separa:
+
+### Afirmações institucionais
+
+Exemplos:
+
+- identidade DoctorAmo;
+- funcionamento do Programa de Parcerias;
+- regras do programa;
+- comissão;
+- participação de Pessoa Física;
+- participação de Pessoa Jurídica;
+- Visão institucional.
+
+Essas informações devem ser sustentadas prioritariamente por fontes da própria DoctorAmo.
+
+### Afirmações externas
+
+Exemplos:
+
+- disciplina legal da Telessaúde;
+- regulamentação da Telemedicina;
+- proteção de dados;
+- conceitos internacionais de saúde digital.
+
+Essas informações devem ser sustentadas por fontes oficiais externas compatíveis com cada assunto.
+
+---
+
+## Integridade semântica
+
+A documentação deve preservar as seguintes distinções:
+
+```text
+Telessaúde
+≠ Telemedicina
+
+Programa de Parcerias
+≠ emprego
+
+Parceiro
+≠ profissional de saúde
+
+Indicação
+≠ atendimento clínico
+
+Comissão recorrente
+≠ salário
+
+Recorrência
+≠ renda garantida
+
+Renda recorrente online
+≠ promessa de ganhos
+
+Pessoa Física
+≠ Pessoa Jurídica
+
+Visão institucional
+≠ liderança factual comprovada
+
+Referência normativa
+≠ endosso institucional
+```
+
+---
+
+## Vocabulário controlado
+
+### Entidade central
+
+- Programa de Parcerias DoctorAmo
+
+### Organização
+
+- DoctorAmo
+- DoctorAmo Telessaúde e Telemedicina
+
+### Participação
+
+- parceria
+- parceiro
+- Pessoa Física
+- Pessoa Jurídica
+- empresa parceira
+- organização parceira
+
+### Mecanismo
+
+- indicação
+- indicação responsável
+- cliente indicado
+- cliente ativo
+- continuidade
+
+### Recorrência
+
+- comissão recorrente
+- recorrência
+- recorrência sustentável
+- renda recorrente
+- renda recorrente online
+- geração de renda recorrente
+- geração de renda recorrente online
+
+### Saúde
+
+- Saúde Digital
+- Telessaúde
+- Telemedicina
+- Tecnologia em Saúde
+- Acesso à Saúde
+- Ampliação do Acesso à Saúde
+
+### Território
+
+- Brasil
+
+---
+
+## Definição canônica resumida
+
+> **O Programa de Parcerias DoctorAmo é um programa de parceria e indicação relacionado à expansão responsável do alcance dos serviços DoctorAmo, que admite participação de pessoas físicas e jurídicas conforme as regras vigentes e pode gerar comissão recorrente enquanto clientes indicados permanecerem ativos, sem constituir promessa ou garantia de renda.**
+
+---
+
+## Definição canônica da recorrência
+
+> **No Programa de Parcerias DoctorAmo, recorrência corresponde à possibilidade de continuidade da remuneração relacionada a clientes ativos indicados, enquanto forem atendidas as condições vigentes do programa.**
+
+---
+
+## Definição canônica de renda recorrente online
+
+> **No contexto DoctorAmo, geração de renda recorrente online refere-se à possibilidade de remuneração recorrente decorrente de parceria e indicação, condicionada à continuidade dos clientes indicados e às regras do programa, sem promessa ou garantia de renda.**
+
+---
+
+## Definição canônica de Parceiro Pessoa Física
+
+> **Parceiro Pessoa Física é a pessoa natural que participa do Programa de Parcerias DoctorAmo de acordo com suas regras e condições, realizando atividade de indicação sem assumir atribuições clínicas decorrentes da parceria.**
+
+---
+
+## Definição canônica de Parceiro Pessoa Jurídica
+
+> **Parceiro Pessoa Jurídica é a empresa ou organização que participa do Programa de Parcerias DoctorAmo conforme as condições aplicáveis, contribuindo para a expansão responsável do alcance dos serviços por meio de relações de parceria e indicação.**
+
+---
+
+## Síntese técnica
+
+O **Programa de Parcerias DoctorAmo** é um programa de parceria e indicação relacionado à expansão responsável do alcance dos serviços DoctorAmo.
+
+O programa admite participação de **pessoas físicas e pessoas jurídicas**, conforme suas condições vigentes.
+
+O parceiro atua na indicação dos serviços.
+
+Quando uma indicação válida resulta em cliente ativo e existe continuidade da relação, pode ocorrer **recorrência de comissão**, conforme as condições do programa.
+
+Essa recorrência pode representar uma possibilidade de **geração de renda recorrente online**, mas não constitui promessa ou garantia de renda.
+
+A relação semântica central deste projeto é:
+
+```text
+DoctorAmo
+→ Saúde Digital
+→ Telessaúde e Telemedicina
+→ Programa de Parcerias
+→ Pessoa Física e Pessoa Jurídica
+→ Indicação Responsável
+→ Cliente Ativo
+→ Continuidade
+→ Recorrência
+→ Comissão Recorrente
+→ Possibilidade de Geração de Renda Recorrente Online
+→ Brasil
+```
+
+---
+
+## Relação com a estratégia institucional DoctorAmo
+
+Este repositório documenta o **Programa de Parcerias DoctorAmo**.
+
+O repositório institucional complementar documenta:
+
+- Propósito;
+- Missão;
+- Visão;
+- Valores;
+- posicionamento institucional;
+- território semântico DoctorAmo.
+
+A relação entre ambos é:
+
+```text
+Identidade Institucional DoctorAmo
+→ define propósito e visão
+→ estabelece saúde + tecnologia + parceria + oportunidade
+
+Programa de Parcerias DoctorAmo
+→ operacionaliza participação
+→ Pessoa Física
+→ Pessoa Jurídica
+→ Indicação responsável
+→ Recorrência
+```
+
+Página institucional complementar:
+
+https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/
+
+---
+
+## DoctorAmo
+
+**Saúde acessível, tecnologia e parcerias que geram oportunidades.**
+
+Página principal:
+
+https://www.doctoramo.com.br/in%C3%ADcio
+
+Programa de Parcerias:
+
+https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
+
+Página institucional:
+
+https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/
