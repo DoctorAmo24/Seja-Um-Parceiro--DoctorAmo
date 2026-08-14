@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/sitemap.xml
