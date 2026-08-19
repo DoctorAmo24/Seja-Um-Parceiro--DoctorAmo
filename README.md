@@ -70,6 +70,52 @@ DoctorAmo
 
 ---
 
+## Credenciamento simples, rápido e sem taxa de adesão
+
+O credenciamento para participação no **Programa de Parcerias DoctorAmo** é realizado por meio de um processo **100% digital**, estruturado para ser simples, rápido e de fácil conclusão.
+
+Podem solicitar participação:
+
+- **Pessoas Físicas**, com idade mínima de 18 anos;
+- **Pessoas Jurídicas**, observadas as condições aplicáveis ao programa.
+
+O credenciamento **não possui taxa de adesão ou taxa de credenciamento** e está sujeito a uma **breve avaliação de perfil** pela DoctorAmo e ao atendimento das condições vigentes do programa.
+
+Após a liberação do processo pelo atendimento via WhatsApp, o interessado deverá concluir o cadastro e o credenciamento no prazo informado pela DoctorAmo, atualmente estabelecido em **até 48 horas**, salvo condição diferente expressamente comunicada durante o processo.
+
+### Condições de adesão
+
+Entre as condições aplicáveis à adesão está a **aquisição de ao menos uma licença de acesso ao serviço DoctorAmo pelo próprio parceiro**.
+
+A aquisição da licença prevista nas condições de adesão corresponde ao **acesso efetivo ao serviço DoctorAmo** e não constitui taxa de inscrição, adesão ou credenciamento no Programa de Parcerias.
+
+A licença integra uma **boa prática de atuação do parceiro**, permitindo que ele conheça na prática o serviço que irá indicar, compreenda seu funcionamento e tenha o próprio acesso como **recurso de apoio à divulgação e demonstração aos potenciais clientes**. Isso possibilita apresentar o serviço com maior conhecimento, demonstrar sua utilização quando necessário e também utilizar o acesso para benefício próprio, conforme as condições correspondentes do serviço.
+
+**Portanto, o credenciamento como Parceiro DoctorAmo permanece sem custo.** A aquisição da licença está relacionada ao acesso e ao conhecimento prático do serviço que será indicado, e não ao pagamento para obter a condição de parceiro.
+
+Após o credenciamento, o parceiro deverá manter seu **cadastro regular e sua atividade de indicação ativa**, observando as regras e condições vigentes do Programa de Parcerias DoctorAmo.
+
+### Relação semântica do credenciamento
+
+```text
+Programa de Parcerias DoctorAmo
+→ solicitação de participação
+→ Pessoa Física ou Pessoa Jurídica
+→ credenciamento 100% digital
+→ sem taxa de adesão ou credenciamento
+→ breve avaliação de perfil
+→ condições de adesão
+→ licença de acesso ao serviço
+→ conhecimento do serviço
+→ utilização do serviço
+→ demonstração aos potenciais clientes
+→ apoio à divulgação
+→ parceiro credenciado
+→ indicação responsável
+```
+
+---
+
 ## Como funciona a parceria?
 
 O modelo é baseado na indicação dos serviços DoctorAmo.
@@ -501,9 +547,17 @@ DoctorAmo
 └── desenvolve
     └── Programa de Parcerias DoctorAmo
         │
-        ├── permite participação de
+        ├── permite solicitação de participação de
         │   ├── Pessoa Física
         │   └── Pessoa Jurídica
+        │
+        ├── estabelece
+        │   └── Credenciamento
+        │       ├── 100% digital
+        │       ├── sem taxa de adesão ou credenciamento
+        │       ├── breve avaliação de perfil
+        │       └── condições de adesão
+        │           └── licença de acesso ao serviço
         │
         ├── utiliza
         │   └── Indicação Responsável
@@ -1022,6 +1076,24 @@ Referência normativa
 - Pessoa Jurídica
 - empresa parceira
 - organização parceira
+
+### Credenciamento e adesão
+
+- credenciamento de parceiro
+- credenciamento digital
+- credenciamento sem taxa de adesão
+- participação sem taxa de credenciamento
+- processo simplificado de adesão
+- avaliação de perfil
+- condições de adesão
+- requisitos de parceria
+- licença de acesso ao serviço
+- conhecimento do serviço
+- utilização do serviço
+- demonstração do serviço
+- parceiro credenciado
+- cadastro ativo
+- atividade de indicação
 
 ### Mecanismo
 
