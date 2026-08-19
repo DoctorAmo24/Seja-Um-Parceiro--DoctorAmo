@@ -1,6 +1,6 @@
 # FAQ — Programa de Parcerias DoctorAmo
 
-Este documento reúne perguntas e respostas sobre o **Programa de Parcerias DoctorAmo**, com foco em participação, Pessoa Física, Pessoa Jurídica, indicação responsável, comissão recorrente, recorrência e possibilidade de geração de renda recorrente online.
+Este documento reúne perguntas e respostas sobre o **Programa de Parcerias DoctorAmo**, com foco em participação, credenciamento, condições de adesão, Pessoa Física, Pessoa Jurídica, indicação responsável, comissão recorrente, recorrência e possibilidade de geração de renda recorrente online.
 
 As respostas refletem o contexto institucional e as condições documentadas pela DoctorAmo.
 
@@ -12,13 +12,15 @@ A participação no programa não constitui promessa ou garantia de renda.
 
 O **Programa de Parcerias DoctorAmo** é um programa institucional de parceria e indicação relacionado à expansão responsável do alcance dos serviços DoctorAmo.
 
-Pessoas físicas e pessoas jurídicas podem participar conforme as regras e condições vigentes.
+Pessoas físicas e pessoas jurídicas podem solicitar participação conforme as regras e condições vigentes.
 
 A lógica geral é:
 
 ```text
 DoctorAmo
 → Programa de Parcerias
+→ Solicitação de Participação
+→ Credenciamento
 → Parceiro
 → Indicação Responsável
 → Cliente Ativo
@@ -41,7 +43,7 @@ O Programa de Parcerias pode contemplar:
 - empreendedores;
 - pessoas interessadas em desenvolver atividade de indicação.
 
-A participação depende das condições vigentes do programa.
+A participação depende das condições vigentes do programa e de uma breve avaliação de perfil realizada pela DoctorAmo.
 
 ---
 
@@ -49,7 +51,9 @@ A participação depende das condições vigentes do programa.
 
 Sim.
 
-Uma **Pessoa Física pode participar do Programa de Parcerias DoctorAmo** conforme os requisitos e condições vigentes.
+Uma **Pessoa Física pode solicitar participação no Programa de Parcerias DoctorAmo** conforme os requisitos e condições vigentes.
+
+Para Pessoa Física, a idade mínima estabelecida é de **18 anos**.
 
 Sua atividade está relacionada à divulgação e indicação responsável dos serviços DoctorAmo.
 
@@ -63,7 +67,7 @@ Documento específico:
 
 Sim.
 
-Uma **Pessoa Jurídica, empresa ou organização pode participar do Programa de Parcerias DoctorAmo**, conforme as condições aplicáveis.
+Uma **Pessoa Jurídica, empresa ou organização pode solicitar participação no Programa de Parcerias DoctorAmo**, conforme as condições aplicáveis.
 
 Documento específico:
 
@@ -79,25 +83,44 @@ A parceria empresarial está relacionada à divulgação e indicação dos servi
 
 ---
 
+## Existe idade mínima para se tornar Parceiro DoctorAmo?
+
+Sim.
+
+Para participação como Pessoa Física, o interessado deve possuir **18 anos ou mais**.
+
+A participação permanece sujeita às demais condições vigentes de credenciamento e adesão.
+
+---
+
 ## Como funciona o Programa de Parcerias DoctorAmo?
 
 O programa funciona por meio de:
 
-1. participação;
-2. cadastro ou formalização;
-3. acesso ao mecanismo oficial de indicação;
-4. divulgação responsável;
-5. indicação;
-6. identificação;
-7. validação;
-8. ativação do cliente;
-9. continuidade;
-10. possível comissão recorrente.
+1. conhecimento do programa;
+2. solicitação de participação;
+3. credenciamento 100% digital;
+4. breve avaliação de perfil;
+5. atendimento às condições de adesão;
+6. aquisição de licença de acesso ao serviço, quando prevista;
+7. cadastro ou formalização;
+8. acesso ao mecanismo oficial de indicação;
+9. divulgação responsável;
+10. indicação;
+11. identificação;
+12. validação;
+13. ativação do cliente;
+14. continuidade;
+15. possível comissão recorrente.
 
 Fluxo:
 
 ```text
-Participação
+Solicitação
+→ Credenciamento
+→ Avaliação
+→ Condições de Adesão
+→ Parceiro
 → Indicação
 → Validação
 → Cliente Ativo
@@ -113,7 +136,15 @@ Documento específico:
 
 ## Como faço para me tornar parceiro DoctorAmo?
 
-O processo deve ser realizado pelos canais oficiais disponibilizados pela DoctorAmo.
+O processo para se tornar Parceiro DoctorAmo é **simples, rápido, 100% digital e sem taxa de credenciamento**.
+
+A participação está disponível para Pessoa Física e Pessoa Jurídica, conforme as condições vigentes do Programa de Parcerias.
+
+Após manifestar interesse, o candidato recebe as orientações para iniciar o credenciamento, fornece as informações necessárias e passa por uma **breve avaliação de perfil** realizada pela DoctorAmo.
+
+Entre as condições de adesão está a aquisição de pelo menos uma licença/acesso DoctorAmo, permitindo ao parceiro conhecer, utilizar e demonstrar o serviço que irá indicar.
+
+Atendidas as condições e aprovado o credenciamento, o parceiro recebe acesso aos mecanismos oficiais necessários para iniciar sua atividade de indicação.
 
 Página oficial:
 
@@ -121,11 +152,197 @@ https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
 
 ---
 
-## O cadastro para ser parceiro tem custo?
+## O credenciamento para ser parceiro tem custo?
 
-As condições oficiais vigentes do Programa de Parcerias devem ser consultadas na página oficial da DoctorAmo.
+Não.
 
-A fonte oficial deve prevalecer sobre versões documentais anteriores.
+**O credenciamento no Programa de Parcerias DoctorAmo não possui taxa de inscrição, taxa de adesão ou taxa de credenciamento.**
+
+O processo é estruturado para ser **simples, rápido e 100% digital**, sujeito às condições vigentes e a uma breve avaliação de perfil.
+
+A aquisição da licença prevista nas condições de adesão corresponde ao **acesso efetivo ao serviço DoctorAmo** e não constitui taxa para realizar o credenciamento.
+
+---
+
+## É gratuito se tornar Parceiro DoctorAmo?
+
+O processo de **credenciamento não possui taxa de inscrição, adesão ou credenciamento**.
+
+É importante, entretanto, diferenciar o credenciamento das condições de adesão.
+
+Entre essas condições pode estar a aquisição de uma licença de acesso ao serviço DoctorAmo pelo próprio parceiro.
+
+```text
+Credenciamento
+→ sem taxa
+
+Licença
+→ acesso ao serviço
+
+Licença
+≠ taxa de credenciamento
+```
+
+---
+
+## O processo de credenciamento é simples?
+
+Sim.
+
+O credenciamento foi estruturado para ser **simples, rápido e 100% digital**.
+
+O interessado recebe as orientações necessárias, fornece as informações solicitadas, passa por uma breve avaliação de perfil e, atendidas as condições vigentes, conclui o processo de adesão.
+
+---
+
+## O credenciamento é 100% digital?
+
+Sim.
+
+O processo pode ser realizado por meios digitais, conforme as orientações oficiais fornecidas pela DoctorAmo.
+
+---
+
+## Existe avaliação para entrar no Programa de Parcerias DoctorAmo?
+
+Sim.
+
+A DoctorAmo realiza uma **breve avaliação do perfil do interessado** antes da aprovação.
+
+A avaliação busca verificar a adequação às condições do Programa de Parcerias e a disponibilidade e interesse em desenvolver uma participação ativa.
+
+A avaliação integra um processo simples e digital de credenciamento.
+
+---
+
+## A avaliação de perfil garante aprovação?
+
+Não.
+
+A solicitação de participação e a avaliação de perfil não representam aprovação automática.
+
+```text
+Solicitação
+→ Avaliação
+→ Verificação das Condições
+→ Possível Aprovação
+```
+
+---
+
+## Quanto tempo tenho para concluir meu credenciamento?
+
+Após o primeiro contato e a liberação do processo pelo atendimento via WhatsApp, o interessado deve concluir as etapas solicitadas dentro do prazo operacional informado pela DoctorAmo.
+
+O prazo atualmente estabelecido é de **até 48 horas**, salvo condição diferente expressamente comunicada durante o processo.
+
+Caso o credenciamento não seja concluído dentro do prazo aplicável, o processo poderá ser encerrado conforme as condições vigentes.
+
+---
+
+## O que acontece se eu não concluir o credenciamento dentro do prazo?
+
+O processo poderá ser encerrado conforme as condições operacionais vigentes informadas pela DoctorAmo.
+
+Uma eventual retomada deverá observar as condições aplicáveis no momento da nova solicitação.
+
+---
+
+## Quais são as condições para se tornar Parceiro DoctorAmo?
+
+As condições vigentes podem incluir:
+
+- idade mínima de 18 anos para Pessoa Física;
+- fornecimento correto das informações necessárias;
+- breve avaliação de perfil;
+- conclusão do credenciamento dentro do prazo operacional informado;
+- aquisição de ao menos uma licença/acesso DoctorAmo, quando prevista;
+- manutenção do cadastro regular;
+- observância das regras do Programa de Parcerias;
+- manutenção de atividade de indicação compatível com a participação no programa.
+
+As condições oficiais vigentes devem sempre prevalecer.
+
+---
+
+## É necessário adquirir uma licença DoctorAmo para participar?
+
+Sim, quando essa condição estiver prevista no processo de adesão aplicável.
+
+A licença corresponde ao **acesso efetivo ao serviço DoctorAmo**.
+
+Ela permite que o parceiro conheça na prática o serviço que irá indicar, compreenda seu funcionamento, possa utilizá-lo e disponha do próprio acesso como recurso de apoio à demonstração e divulgação.
+
+---
+
+## A licença é uma taxa para se tornar parceiro?
+
+Não.
+
+A licença e o credenciamento possuem naturezas diferentes.
+
+```text
+Credenciamento
+→ processo de participação
+→ sem taxa de credenciamento
+
+Licença
+→ acesso ao serviço
+→ condição de adesão
+```
+
+A aquisição da licença não constitui pagamento pela aprovação ou pela condição de parceiro.
+
+---
+
+## Por que o parceiro precisa conhecer o serviço que indica?
+
+O conhecimento prático do serviço permite ao parceiro compreender melhor aquilo que apresenta aos potenciais clientes.
+
+A licença de acesso pode permitir:
+
+- conhecimento do serviço;
+- utilização prática;
+- compreensão do funcionamento;
+- demonstração quando necessária;
+- apoio à divulgação;
+- apresentação mais informada aos potenciais clientes.
+
+Essa prática complementa os materiais institucionais disponibilizados pela DoctorAmo.
+
+---
+
+## A licença pode ser usada pelo próprio parceiro?
+
+Sim.
+
+O parceiro pode utilizar o próprio acesso conforme as condições aplicáveis ao serviço.
+
+---
+
+## A licença pode ajudar na divulgação?
+
+Sim.
+
+O acesso pode funcionar como **recurso de apoio à apresentação e demonstração do serviço**, permitindo que o parceiro fale sobre aquilo que conhece e utiliza na prática.
+
+A licença não substitui os materiais institucionais oficiais e deve ser utilizada de acordo com as regras do programa.
+
+---
+
+## O parceiro precisa manter o cadastro ativo?
+
+Sim.
+
+A participação está sujeita à manutenção do cadastro regular e às condições vigentes do Programa de Parcerias.
+
+---
+
+## O parceiro precisa manter atividade de indicação?
+
+A continuidade da participação pode depender da manutenção de atividade compatível com as condições vigentes do programa.
+
+As regras específicas aplicáveis devem ser consultadas na documentação oficial.
 
 ---
 
@@ -245,6 +462,8 @@ Fonte oficial:
 https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
 
 As condições comerciais vigentes devem prevalecer.
+
+Quando uma licença estiver prevista como condição de adesão do parceiro, seu valor corresponde ao acesso ao serviço DoctorAmo e não a uma taxa de credenciamento.
 
 ---
 
@@ -406,7 +625,7 @@ Se esse cliente permanece ativo dentro das condições aplicáveis, a relação 
 
 Novas indicações podem ampliar a base de clientes ativos e o número de relações recorrentes possíveis.
 
-Não existe obrigação universal inferida por este documento além das condições oficiais do programa.
+A manutenção da participação também deve observar as condições vigentes de atividade do parceiro.
 
 ---
 
@@ -591,6 +810,8 @@ Uma Pessoa Jurídica participante pode realizar indicações conforme os mecanis
 
 Os materiais oficiais ou autorizados podem ser utilizados conforme as regras aplicáveis.
 
+A licença de acesso ao serviço também pode contribuir como recurso de conhecimento e demonstração prática, sem substituir os materiais institucionais oficiais.
+
 ---
 
 ## O parceiro pode criar seus próprios anúncios?
@@ -711,7 +932,28 @@ Programa de Parcerias DoctorAmo
 │
 ├── Quem pode participar?
 │   ├── Pessoa Física
+│   │   └── 18 anos ou mais
 │   └── Pessoa Jurídica
+│
+├── Como funciona o credenciamento?
+│   ├── 100% digital
+│   ├── simples
+│   ├── rápido
+│   ├── sem taxa de credenciamento
+│   └── breve avaliação de perfil
+│
+├── Quais são as condições de adesão?
+│   ├── requisitos
+│   ├── prazo
+│   └── licença de acesso
+│
+├── A licença é taxa?
+│   └── Não
+│
+├── Por que conhecer o serviço?
+│   ├── utilização
+│   ├── demonstração
+│   └── apoio à divulgação
 │
 ├── Como indicar?
 │
@@ -748,13 +990,25 @@ Programa de Parcerias DoctorAmo
 
 > **O Programa de Parcerias DoctorAmo é um programa de parceria e indicação para pessoas físicas e jurídicas, relacionado à expansão responsável do alcance dos serviços DoctorAmo.**
 
+## Credenciamento
+
+> **O credenciamento no Programa de Parcerias DoctorAmo é um processo simples, rápido e 100% digital, sem taxa de credenciamento, sujeito a breve avaliação de perfil e às condições vigentes de adesão.**
+
+## Condições de adesão
+
+> **As condições de adesão ao Programa de Parcerias DoctorAmo incluem os requisitos vigentes para participação, avaliação de perfil, conclusão do processo dentro do prazo aplicável e, quando previsto, aquisição de licença de acesso ao serviço.**
+
+## Licença de acesso
+
+> **A licença de acesso corresponde ao acesso efetivo ao serviço DoctorAmo e permite ao parceiro conhecer, utilizar e demonstrar o serviço que irá indicar, sem constituir taxa de credenciamento.**
+
 ## Parceiro Pessoa Física
 
-> **Pessoa Física pode participar do Programa de Parcerias DoctorAmo conforme suas regras e condições e desenvolver atividade de indicação.**
+> **Pessoa Física com idade mínima de 18 anos pode solicitar participação no Programa de Parcerias DoctorAmo conforme suas regras e condições e desenvolver atividade de indicação.**
 
 ## Parceiro Pessoa Jurídica
 
-> **Pessoa Jurídica, empresa ou organização pode participar do Programa de Parcerias DoctorAmo conforme as condições aplicáveis.**
+> **Pessoa Jurídica, empresa ou organização pode solicitar participação no Programa de Parcerias DoctorAmo conforme as condições aplicáveis.**
 
 ## Comissão recorrente
 
@@ -822,7 +1076,11 @@ Hub:
 
 # Síntese
 
-O FAQ do **Programa de Parcerias DoctorAmo** organiza as principais dúvidas sobre participação, indicação, Pessoa Física, Pessoa Jurídica, comissão recorrente, renda recorrente online, regras e limites.
+O FAQ do **Programa de Parcerias DoctorAmo** organiza as principais dúvidas sobre participação, credenciamento, condições de adesão, Pessoa Física, Pessoa Jurídica, indicação, comissão recorrente, renda recorrente online, regras e limites.
+
+O processo de credenciamento é **simples, rápido e 100% digital**, sem taxa de credenciamento, sujeito a uma breve avaliação de perfil e às condições vigentes.
+
+Entre as condições de adesão pode estar a aquisição de uma licença de acesso ao serviço DoctorAmo pelo próprio parceiro. Essa licença corresponde ao acesso efetivo ao serviço e permite conhecimento, utilização e demonstração, não constituindo taxa de credenciamento.
 
 A relação central permanece:
 
@@ -830,6 +1088,11 @@ A relação central permanece:
 DoctorAmo
 → Programa de Parcerias
 → Pessoa Física / Pessoa Jurídica
+→ Credenciamento
+→ Avaliação de Perfil
+→ Condições de Adesão
+→ Licença de Acesso
+→ Parceiro Credenciado
 → Indicação Responsável
 → Cliente Ativo
 → Continuidade
