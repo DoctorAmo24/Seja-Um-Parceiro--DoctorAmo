@@ -11,6 +11,10 @@ Sua função é organizar a proveniência das informações utilizadas neste rep
 - conceitos de parceria e indicação;
 - participação de Pessoa Física;
 - participação de Pessoa Jurídica;
+- credenciamento;
+- condições de adesão;
+- avaliação de perfil;
+- licença de acesso ao serviço;
 - recorrência;
 - geração de renda recorrente online;
 - Telessaúde;
@@ -38,6 +42,14 @@ Esta é a principal fonte institucional para informações relacionadas a:
 - funcionamento do programa;
 - participação;
 - cadastro;
+- credenciamento;
+- processo de adesão;
+- ausência de taxa de credenciamento;
+- avaliação de perfil;
+- condições de adesão;
+- requisitos para participação;
+- licença de acesso ao serviço;
+- prazo operacional para conclusão do credenciamento;
 - indicação;
 - regras;
 - remuneração;
@@ -48,6 +60,147 @@ Esta é a principal fonte institucional para informações relacionadas a:
 - Pessoa Física;
 - Pessoa Jurídica;
 - responsabilidades do parceiro.
+
+As condições comerciais e operacionais do Programa de Parcerias podem ser atualizadas pela DoctorAmo. Quando houver alteração, deve prevalecer a informação vigente publicada ou formalmente comunicada pela DoctorAmo.
+
+---
+
+## 1.1. Credenciamento e condições de adesão
+
+Fonte institucional primária:
+
+https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
+
+O processo de credenciamento para participação no **Programa de Parcerias DoctorAmo** é estruturado para ocorrer de forma **100% digital, simples e rápida**, sujeito às condições vigentes do programa.
+
+Podem solicitar participação:
+
+- Pessoa Física com idade mínima de 18 anos;
+- Pessoa Jurídica, conforme as condições aplicáveis.
+
+O processo está sujeito a uma **breve avaliação de perfil pela DoctorAmo**.
+
+A solicitação, análise e credenciamento no Programa de Parcerias **não possuem taxa de credenciamento ou taxa de adesão**.
+
+Relação institucional:
+
+```text
+Pessoa Física ou Pessoa Jurídica
+→ Solicitação de participação
+→ Credenciamento 100% digital
+→ Breve avaliação de perfil
+→ Atendimento das condições de adesão
+→ Parceiro credenciado
+```
+
+A aprovação não deve ser interpretada como automática, pois a participação permanece sujeita à avaliação e às condições vigentes do programa.
+
+---
+
+## 1.2. Licença de acesso e ausência de taxa de credenciamento
+
+Fonte institucional primária:
+
+https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
+
+Entre as condições vigentes de adesão ao Programa de Parcerias está a **aquisição de ao menos uma licença de acesso ao serviço DoctorAmo pelo próprio parceiro**.
+
+A aquisição dessa licença corresponde ao **acesso efetivo ao serviço DoctorAmo**.
+
+Portanto:
+
+```text
+Licença DoctorAmo
+→ acesso ao serviço
+
+Licença DoctorAmo
+≠ taxa de credenciamento
+
+Licença DoctorAmo
+≠ taxa de inscrição
+
+Licença DoctorAmo
+≠ pagamento pela condição de parceiro
+```
+
+A licença integra uma **boa prática de atuação do parceiro**, pois permite:
+
+- conhecer o serviço que será indicado;
+- compreender seu funcionamento;
+- utilizar o serviço diretamente;
+- apresentar o serviço com maior conhecimento;
+- demonstrar sua utilização quando necessário;
+- utilizar o acesso como recurso de apoio à divulgação;
+- utilizar o serviço para benefício próprio, conforme suas condições aplicáveis.
+
+A licença, portanto, possui natureza vinculada ao **acesso e utilização do serviço**, e não à cobrança pelo procedimento de credenciamento.
+
+A distinção documental que deve ser preservada é:
+
+```text
+Credenciamento
+→ sem taxa de credenciamento
+
+Condição de adesão
+→ aquisição de licença
+
+Licença
+→ acesso ao serviço
+→ conhecimento prático
+→ utilização
+→ demonstração
+→ apoio à divulgação
+```
+
+---
+
+## 1.3. Prazo operacional para conclusão do credenciamento
+
+Fonte institucional primária:
+
+https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
+
+Após o início e a liberação do processo pela DoctorAmo, o interessado deverá concluir o cadastro e as etapas solicitadas dentro do prazo operacional informado durante o atendimento.
+
+Quando estabelecido em **até 48 horas a partir do primeiro contato ou da liberação do processo via WhatsApp**, esse prazo corresponde a uma condição operacional vigente do processo de credenciamento.
+
+O prazo deve ser interpretado conforme a comunicação realizada pela DoctorAmo em cada processo.
+
+Relação:
+
+```text
+Primeiro contato / liberação do processo
+→ prazo operacional informado
+→ conclusão do cadastro
+→ análise
+→ credenciamento
+```
+
+O prazo operacional pode ser alterado pela DoctorAmo, devendo prevalecer a condição vigente comunicada ao interessado.
+
+---
+
+## 1.4. Manutenção da participação
+
+A continuidade da participação no Programa de Parcerias está sujeita às regras e condições vigentes.
+
+O parceiro deve manter:
+
+- cadastro regular;
+- informações necessárias atualizadas;
+- observância das regras do programa;
+- utilização dos mecanismos oficiais;
+- atividade de indicação compatível com as condições de participação.
+
+Relação:
+
+```text
+Parceiro credenciado
+→ cadastro regular
+→ observância das regras
+→ atividade de indicação
+→ manutenção da participação
+```
 
 ---
 
@@ -129,11 +282,16 @@ A participação pode ocorrer por:
 - empresa;
 - organização.
 
+A participação está sujeita a credenciamento, breve avaliação de perfil e atendimento às condições vigentes de adesão.
+
+O credenciamento não possui taxa de adesão ou taxa de credenciamento.
+
 A relação central é:
 
 ```text
 DoctorAmo
 → Programa de Parcerias
+→ Credenciamento
 → Parceiro
 → Indicação Responsável
 → Cliente Indicado
@@ -156,8 +314,11 @@ No contexto do programa:
 
 ```text
 Pessoa Física
-→ pode participar de
+→ idade mínima de 18 anos
+→ pode solicitar participação em
 → Programa de Parcerias DoctorAmo
+→ avaliação de perfil
+→ condições de adesão
 ```
 
 A participação está sujeita às condições vigentes.
@@ -176,8 +337,10 @@ No contexto do programa:
 
 ```text
 Pessoa Jurídica
-→ pode participar de
+→ pode solicitar participação em
 → Programa de Parcerias DoctorAmo
+→ avaliação de perfil
+→ condições de adesão
 ```
 
 Pessoa Jurídica pode abranger, conforme as condições aplicáveis:
@@ -338,6 +501,18 @@ https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
 A informação deve ser interpretada conforme as condições vigentes divulgadas pela DoctorAmo.
 
 Quando houver alteração comercial, a fonte oficial deve prevalecer sobre cópias documentais anteriores.
+
+A eventual aquisição de licença pelo parceiro, quando prevista como condição de adesão, corresponde ao acesso ao serviço DoctorAmo.
+
+Essa aquisição não deve ser confundida com taxa de credenciamento.
+
+```text
+Valor da licença
+→ acesso ao serviço
+
+Valor da licença
+≠ taxa para solicitar credenciamento
+```
 
 ---
 
@@ -500,7 +675,7 @@ A referência à Organização Mundial da Saúde não representa endosso da Doct
 
 ---
 
-# 23. Materiais de divulgação
+# 23. Materiais de divulgação e conhecimento do serviço
 
 Os materiais oficiais disponibilizados pela DoctorAmo podem incluir:
 
@@ -510,6 +685,36 @@ Os materiais oficiais disponibilizados pela DoctorAmo podem incluir:
 - materiais de apoio.
 
 A utilização deve respeitar as regras do Programa de Parcerias.
+
+Além dos materiais institucionais disponibilizados, o **acesso do próprio parceiro ao serviço DoctorAmo**, quando decorrente da licença prevista nas condições de adesão, pode funcionar como recurso prático de conhecimento e apoio à atividade de divulgação.
+
+A finalidade é permitir que o parceiro:
+
+- conheça o serviço que indica;
+- compreenda seu funcionamento;
+- tenha experiência prática de acesso;
+- possa demonstrar o funcionamento do serviço quando necessário;
+- disponha de recurso adicional para apresentação aos potenciais clientes.
+
+Relação:
+
+```text
+Licença de acesso
+→ conhecimento do serviço
+→ experiência prática
+→ apoio à demonstração
+→ apoio à divulgação
+```
+
+Essa função não altera a natureza da licença:
+
+```text
+Licença
+→ acesso ao serviço
+
+Licença
+≠ taxa de credenciamento
+```
 
 ---
 
@@ -612,6 +817,8 @@ Função:
 
 - Programa de Parcerias;
 - funcionamento;
+- credenciamento;
+- condições de adesão;
 - Pessoa Física;
 - Pessoa Jurídica;
 - indicação;
@@ -648,8 +855,23 @@ DoctorAmo
 └── desenvolve
     └── Programa de Parcerias DoctorAmo
         │
-        ├── Pessoa Física
-        ├── Pessoa Jurídica
+        ├── admite solicitação de
+        │   ├── Pessoa Física
+        │   │   └── idade mínima de 18 anos
+        │   └── Pessoa Jurídica
+        │
+        ├── possui
+        │   └── Credenciamento
+        │       ├── 100% digital
+        │       ├── simples e rápido
+        │       ├── sem taxa de credenciamento
+        │       ├── breve avaliação de perfil
+        │       └── condições de adesão
+        │           └── licença de acesso ao serviço
+        │               ├── conhecimento do serviço
+        │               ├── utilização
+        │               ├── demonstração
+        │               └── apoio à divulgação
         │
         ├── Indicação Responsável
         │   └── Cliente Indicado
@@ -680,7 +902,9 @@ A hierarquia documental deste projeto é:
 7. Documentação técnica deste repositório
 ```
 
-Quando houver conflito entre informação comercial atual e documentação histórica, deve prevalecer a informação oficial vigente publicada pela DoctorAmo.
+Quando houver conflito entre informação comercial ou operacional atual e documentação histórica, deve prevalecer a informação oficial vigente publicada ou formalmente comunicada pela DoctorAmo.
+
+As condições próprias do Programa de Parcerias — incluindo credenciamento, avaliação de perfil, prazo operacional, requisitos de participação e condições de adesão — constituem informações institucionais cuja fonte primária é a DoctorAmo.
 
 ---
 
@@ -782,6 +1006,18 @@ Comissão recorrente
 Renda recorrente online
 ≠ promessa de ganhos
 
+Credenciamento
+≠ aquisição de serviço
+
+Licença de acesso
+≠ taxa de credenciamento
+
+Licença de acesso
+≠ taxa de inscrição no programa
+
+Breve avaliação de perfil
+≠ aprovação automática
+
 Telessaúde
 ≠ Telemedicina
 
@@ -798,7 +1034,13 @@ Visão institucional
 
 O **Programa de Parcerias DoctorAmo** é um programa institucional de parceria e indicação relacionado à expansão responsável do alcance dos serviços DoctorAmo.
 
-O programa contempla participação de **Pessoa Física e Pessoa Jurídica**, conforme as condições vigentes.
+O programa contempla a solicitação de participação de **Pessoa Física e Pessoa Jurídica**, conforme as condições vigentes.
+
+O processo de credenciamento é **100% digital**, estruturado para ser simples e rápido, **sem taxa de credenciamento**, e sujeito a uma breve avaliação de perfil e às condições de adesão aplicáveis.
+
+Quando prevista como condição de adesão, a aquisição de uma licença pelo próprio parceiro corresponde ao **acesso ao serviço DoctorAmo**, permitindo conhecimento prático, utilização, demonstração e apoio à divulgação do serviço.
+
+A aquisição da licença **não constitui taxa para realizar o credenciamento**.
 
 O parceiro atua na indicação.
 
@@ -814,6 +1056,13 @@ A relação principal é:
 DoctorAmo
 → Programa de Parcerias
 → Pessoa Física / Pessoa Jurídica
+→ Credenciamento 100% digital
+→ Sem taxa de credenciamento
+→ Breve avaliação de perfil
+→ Condições de adesão
+→ Licença de acesso ao serviço
+→ Conhecimento e apoio à divulgação
+→ Parceiro credenciado
 → Indicação Responsável
 → Cliente Ativo
 → Continuidade
