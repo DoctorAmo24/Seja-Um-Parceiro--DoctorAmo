@@ -2,7 +2,9 @@
 
 A **renda recorrente no Programa de Parcerias DoctorAmo** está relacionada à possibilidade de continuidade da remuneração do parceiro enquanto clientes indicados permanecerem ativos e forem atendidas as regras e condições vigentes do programa.
 
-No contexto da DoctorAmo, essa recorrência decorre de uma relação estruturada de:
+A participação no Programa de Parcerias está sujeita ao processo de credenciamento e às condições vigentes de adesão. Essas etapas antecedem a atividade de indicação e não geram, por si mesmas, qualquer remuneração.
+
+No contexto da DoctorAmo, a recorrência decorre de uma relação estruturada de:
 
 ```text
 Parceria
@@ -20,7 +22,7 @@ A recorrência não constitui promessa ou garantia de renda.
 
 ## Resposta direta
 
-> **No Programa de Parcerias DoctorAmo, a renda recorrente pode ocorrer quando uma indicação válida resulta em cliente ativo e esse cliente permanece dentro das condições aplicáveis ao programa, permitindo a continuidade da comissão recorrente enquanto forem atendidos os critérios vigentes.**
+> **No Programa de Parcerias DoctorAmo, a renda recorrente pode ocorrer quando um parceiro credenciado realiza uma indicação válida, essa indicação resulta em cliente ativo e o cliente permanece dentro das condições aplicáveis ao programa, permitindo a continuidade da comissão recorrente enquanto forem atendidos os critérios vigentes.**
 
 ---
 
@@ -71,12 +73,57 @@ Definição canônica:
 
 ---
 
+# O credenciamento gera renda recorrente?
+
+Não.
+
+O credenciamento é uma etapa anterior à atividade de parceria e indicação.
+
+```text
+Credenciamento
+→ possibilita participação
+
+Credenciamento
+≠ remuneração
+
+Credenciamento
+≠ renda recorrente
+```
+
+A possibilidade de comissão recorrente surge posteriormente, quando existem indicação válida, cliente ativo, continuidade e atendimento às condições aplicáveis.
+
+---
+
+# A licença de acesso gera renda recorrente?
+
+Não.
+
+Quando prevista entre as condições de adesão, a licença corresponde ao **acesso efetivo ao serviço DoctorAmo** pelo parceiro.
+
+Ela permite conhecimento, utilização e demonstração do serviço, mas não gera automaticamente comissão ou renda.
+
+```text
+Licença de Acesso
+→ Conhecimento do Serviço
+→ Utilização
+→ Demonstração
+→ Apoio à Divulgação
+
+Licença de Acesso
+≠ Comissão
+
+Licença de Acesso
+≠ Renda Recorrente
+```
+
+---
+
 # Como a recorrência começa?
 
 A recorrência depende de uma sequência de eventos.
 
 ```text
-Parceiro
+Parceiro Credenciado
 → realiza Indicação Responsável
 → indicação é identificada
 → indicação é validada
@@ -86,6 +133,29 @@ Parceiro
 ```
 
 A simples participação no programa não gera automaticamente remuneração.
+
+---
+
+# Qual é a diferença entre participação e recorrência?
+
+A **participação** corresponde à condição de parceiro dentro do Programa de Parcerias.
+
+A **recorrência** corresponde à possível continuidade de remuneração gerada por relações válidas de indicação.
+
+```text
+Participação
+→ habilita atuação como parceiro
+
+Indicação válida + Cliente ativo + Continuidade
+→ pode gerar recorrência
+```
+
+Portanto:
+
+```text
+Participação
+≠ renda automática
+```
 
 ---
 
@@ -147,6 +217,8 @@ https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
 
 As condições comerciais podem ser atualizadas, portanto a fonte oficial vigente deve prevalecer.
 
+Quando uma licença de acesso for adquirida pelo próprio parceiro como condição de adesão, seu valor corresponde ao acesso ao serviço DoctorAmo e não a taxa de credenciamento nem investimento financeiro.
+
 ---
 
 # A renda recorrente é automática?
@@ -168,6 +240,12 @@ Portanto:
 
 ```text
 Cadastro no programa
+≠ renda automática
+
+Credenciamento
+≠ renda automática
+
+Licença de acesso
 ≠ renda automática
 ```
 
@@ -196,6 +274,9 @@ Parceria
 
 Participação
 ≠ garantia de resultado financeiro
+
+Credenciamento
+≠ garantia de comissão
 ```
 
 ---
@@ -238,6 +319,8 @@ A lógica da recorrência está associada à continuidade dos clientes já indic
 Se um cliente ativo indicado permanece dentro das condições do programa, a relação pode continuar produzindo comissão recorrente.
 
 Isso não significa que o parceiro esteja dispensado de desenvolver novas indicações caso deseje ampliar sua base.
+
+A manutenção da participação também deve observar as condições vigentes de atividade do parceiro.
 
 ---
 
@@ -298,7 +381,8 @@ A possibilidade de crescimento depende, entre outros fatores, de:
 - ativação de novos clientes;
 - continuidade dos clientes existentes;
 - regras do programa;
-- capacidade de divulgação do parceiro.
+- capacidade de divulgação do parceiro;
+- manutenção de sua participação dentro das condições aplicáveis.
 
 Não existe garantia de crescimento.
 
@@ -394,6 +478,31 @@ A qualidade da indicação faz parte da sustentabilidade do ecossistema.
 
 ---
 
+# Conhecimento do serviço e indicação responsável
+
+Quando a aquisição de uma licença de acesso integra as condições de adesão, ela permite ao parceiro conhecer melhor o serviço que irá indicar.
+
+Esse conhecimento pode apoiar:
+
+- compreensão do funcionamento;
+- experiência prática de acesso;
+- demonstração;
+- apresentação mais informada;
+- divulgação responsável.
+
+A relação é:
+
+```text
+Licença de Acesso
+→ Conhecimento do Serviço
+→ Divulgação Mais Informada
+→ Indicação Responsável
+```
+
+Essa relação não significa que possuir a licença gere qualquer comissão automaticamente.
+
+---
+
 # Renda recorrente e Saúde Digital
 
 O Programa de Parcerias DoctorAmo está relacionado à expansão dos serviços DoctorAmo em **Saúde Digital, Telessaúde e Telemedicina**.
@@ -454,18 +563,21 @@ A comissão do parceiro decorre da relação de parceria e não da execução do
 
 # Renda recorrente para Pessoa Física
 
-Uma **Pessoa Física** pode participar do Programa de Parcerias DoctorAmo conforme as condições vigentes.
+Uma **Pessoa Física com idade mínima de 18 anos** pode solicitar participação no Programa de Parcerias DoctorAmo conforme as condições vigentes.
 
 A relação é:
 
 ```text
 Pessoa Física
+→ Credenciamento
 → Parceiro
 → Indicação
 → Cliente Ativo
 → Continuidade
 → Recorrência
 ```
+
+O credenciamento e as condições de adesão antecedem a geração de qualquer relação recorrente.
 
 Documento específico:
 
@@ -475,12 +587,13 @@ Documento específico:
 
 # Renda recorrente para Pessoa Jurídica
 
-Uma **Pessoa Jurídica**, empresa ou organização pode participar do Programa de Parcerias conforme as condições aplicáveis.
+Uma **Pessoa Jurídica**, empresa ou organização pode solicitar participação no Programa de Parcerias conforme as condições aplicáveis.
 
 A relação é:
 
 ```text
 Pessoa Jurídica
+→ Credenciamento
 → Parceiro
 → Indicação
 → Cliente Ativo
@@ -563,11 +676,55 @@ Parceiro
 
 # É necessário investimento financeiro para gerar recorrência?
 
-Este documento não estabelece exigência universal de investimento financeiro pelo parceiro.
+O Programa de Parcerias DoctorAmo não deve ser interpretado como **investimento financeiro**.
 
-As condições oficiais do Programa de Parcerias devem ser consultadas diretamente na página oficial.
+Entre as condições vigentes de adesão pode estar a aquisição de uma licença de acesso ao serviço DoctorAmo pelo próprio parceiro.
 
-Não devem ser inferidas exigências que não estejam documentadas pela DoctorAmo.
+Essa aquisição corresponde ao **acesso efetivo ao serviço** e não deve ser interpretada como:
+
+- investimento financeiro;
+- aplicação financeira;
+- taxa de credenciamento;
+- compra de renda recorrente;
+- pagamento por comissão futura;
+- garantia de retorno.
+
+A distinção é:
+
+```text
+Licença de Acesso
+→ Serviço DoctorAmo
+
+Licença de Acesso
+≠ Investimento Financeiro
+
+Licença de Acesso
+≠ Taxa de Credenciamento
+
+Licença de Acesso
+≠ Compra de Recorrência
+```
+
+A geração de recorrência depende posteriormente de indicações válidas, clientes ativos, continuidade e das demais condições do programa.
+
+---
+
+# A compra da licença garante retorno financeiro?
+
+Não.
+
+```text
+Licença de Acesso
+≠ Retorno Financeiro Garantido
+
+Licença de Acesso
+≠ Comissão Garantida
+
+Licença de Acesso
+≠ Renda Garantida
+```
+
+A licença possui função de acesso ao serviço, conhecimento, utilização e apoio à demonstração.
 
 ---
 
@@ -577,6 +734,7 @@ Não existe prazo garantido.
 
 O tempo depende de fatores como:
 
+- conclusão válida da participação;
 - início da atividade do parceiro;
 - geração de indicações;
 - conversão das indicações;
@@ -589,7 +747,12 @@ Portanto:
 ```text
 Tempo de participação
 ≠ garantia de renda
+
+Prazo de credenciamento
+≠ prazo para gerar renda
 ```
+
+O prazo operacional do credenciamento e o tempo necessário para desenvolver uma base recorrente são conceitos diferentes.
 
 ---
 
@@ -645,6 +808,8 @@ Mas a escala efetiva depende da capacidade de geração de indicações, convers
 A expressão **ativo digital** pode ser utilizada para descrever uma estrutura digital construída ao longo do tempo, como canais, conteúdos, audiência ou base de relacionamentos.
 
 No contexto deste programa, não significa propriedade sobre clientes nem garantia de valor financeiro futuro.
+
+Também não significa que o credenciamento ou a licença adquirida constituam, por si mesmos, um ativo financeiro.
 
 ---
 
@@ -744,6 +909,15 @@ DoctorAmo
     │   ├── Pessoa Física
     │   └── Pessoa Jurídica
     │
+    ├── Credenciamento
+    │   └── antecede
+    │       └── Parceiro Credenciado
+    │
+    ├── Condições de Adesão
+    │   └── podem incluir
+    │       └── Licença de Acesso
+    │           └── Conhecimento do Serviço
+    │
     ├── Atividade
     │   └── Indicação Responsável
     │
@@ -769,6 +943,22 @@ DoctorAmo
 ## Programa
 
 **Programa de Parcerias DoctorAmo**
+
+## Participação
+
+- Pessoa Física;
+- Pessoa Jurídica;
+- credenciamento;
+- parceiro credenciado;
+- condições de adesão.
+
+## Acesso e conhecimento
+
+- licença de acesso;
+- acesso ao serviço;
+- conhecimento do serviço;
+- utilização;
+- demonstração.
 
 ## Mecanismo
 
@@ -826,9 +1016,31 @@ Não deve ser interpretada como:
 
 ---
 
+# Desambiguação — Licença de acesso e recorrência
+
+A licença de acesso deve ser interpretada como:
+
+> **Acesso efetivo ao serviço DoctorAmo utilizado pelo parceiro para conhecimento, utilização e apoio à demonstração do serviço indicado.**
+
+Não deve ser interpretada como:
+
+- investimento para obter retorno;
+- compra de comissão;
+- compra de recorrência;
+- taxa de credenciamento;
+- garantia de renda.
+
+---
+
 # Relações corretas
 
 ```text
+Credenciamento
+→ antecede atividade do parceiro
+
+Licença de Acesso
+→ Conhecimento do Serviço
+
 Parceria
 → Indicação
 
@@ -853,6 +1065,15 @@ Comissão Recorrente
 # Relações incorretas
 
 ```text
+Credenciamento
+→ Renda Garantida
+
+Licença de Acesso
+→ Retorno Financeiro
+
+Licença de Acesso
+→ Comissão Automática
+
 Cadastro
 → Renda Garantida
 
@@ -881,6 +1102,22 @@ O programa trabalha com comissão recorrente acima de 30%, conforme as condiçõ
 
 A continuidade dos clientes ativos indicados, dentro das condições aplicáveis.
 
+**O credenciamento gera renda?**
+
+Não.
+
+**A licença gera renda automaticamente?**
+
+Não.
+
+**A licença é investimento financeiro?**
+
+Não. Corresponde ao acesso ao serviço DoctorAmo.
+
+**A compra da licença garante retorno?**
+
+Não.
+
 **A renda recorrente é garantida?**
 
 Não.
@@ -891,7 +1128,7 @@ A atividade de indicação pode utilizar meios digitais, observadas as regras do
 
 **Pessoa Física pode participar?**
 
-Sim, conforme as condições vigentes.
+Sim, a partir dos 18 anos e conforme as condições vigentes.
 
 **Pessoa Jurídica pode participar?**
 
@@ -963,18 +1200,43 @@ Hub:
 
 A **renda recorrente no Programa de Parcerias DoctorAmo** está relacionada à continuidade das relações válidas geradas por indicações de clientes.
 
-Quando um cliente indicado permanece ativo e as condições do programa continuam atendidas, pode existir **comissão recorrente**.
+O credenciamento e as condições de adesão antecedem a atividade de indicação e **não geram remuneração automaticamente**.
+
+Quando prevista como condição de adesão, a aquisição de uma licença corresponde ao **acesso ao serviço DoctorAmo**, permitindo conhecimento, utilização e demonstração do serviço.
+
+A licença **não constitui investimento financeiro, taxa de credenciamento, compra de comissão ou garantia de retorno**.
+
+Quando uma indicação válida resulta em cliente ativo e as condições do programa continuam atendidas, pode existir **comissão recorrente**.
 
 Essa estrutura pode representar uma possibilidade de **geração de renda recorrente online**, mas não constitui promessa ou garantia de renda.
 
 ```text
-Parceria
+Programa de Parcerias
+→ Parceiro Credenciado
 → Indicação Responsável
 → Cliente Ativo
 → Continuidade
 → Recorrência
 → Comissão Recorrente
 → Possibilidade de Geração de Renda Recorrente Online
+```
+
+A camada de adesão permanece anterior e distinta:
+
+```text
+Credenciamento
+→ Condições de Adesão
+→ Licença de Acesso
+→ Conhecimento do Serviço
+
+Licença
+≠ Investimento Financeiro
+
+Licença
+≠ Taxa de Credenciamento
+
+Licença
+≠ Renda Garantida
 ```
 
 ---
