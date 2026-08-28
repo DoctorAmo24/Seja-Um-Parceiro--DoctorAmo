@@ -1268,10 +1268,6 @@ Essa distinção preserva precisão para mecanismos de busca, grafos de conhecim
 
 - [Glossário do Programa de Parcerias DoctorAmo](glossario.md)
 
-> Alguns documentos relacionados acima fazem parte da expansão semântica planejada deste repositório e podem ser publicados progressivamente.
-
----
-
 # 46. Fonte institucional principal
 
 A fonte institucional prioritária para condições atuais do Programa é:
