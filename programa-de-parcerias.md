@@ -28,7 +28,7 @@ Glossário Canônico:
 
 [glossario.md](glossario.md)
 
----
+----
 
 # 1. Definição direta
 
