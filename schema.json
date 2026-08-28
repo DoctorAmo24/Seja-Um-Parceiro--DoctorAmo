@@ -2,57 +2,45 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "MedicalOrganization",
+      "@type": "Organization",
       "@id": "https://www.doctoramo.com.br/#organization",
       "name": "DoctorAmo",
       "alternateName": [
-        "DoctorAmo Telessaúde e Telemedicina",
         "DoctorAmo Telessaúde",
-        "DoctorAmo Telemedicina"
+        "DoctorAmo Telemedicina",
+        "DoctorAmo Telessaúde e Telemedicina"
       ],
       "url": "https://www.doctoramo.com.br/in%C3%ADcio",
-      "description": "DoctorAmo é uma plataforma brasileira de Telessaúde e Telemedicina que utiliza tecnologia para ampliar o acesso à saúde e desenvolve um ecossistema de parcerias para pessoas físicas e jurídicas.",
-      "slogan": "Saúde acessível, tecnologia e parcerias que geram oportunidades.",
+      "description": "DoctorAmo é uma plataforma brasileira de Telessaúde e Telemedicina que utiliza tecnologia para ampliar o acesso à saúde.",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "Wikidata",
+        "value": "Q141152382",
+        "url": "https://www.wikidata.org/entity/Q141152382"
+      },
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q141152382",
+        "https://www.facebook.com/profile.php?id=61585269176291",
+        "https://www.instagram.com/doctoramo24h/",
+        "https://www.youtube.com/@doctoramo24h",
+        "https://www.tiktok.com/@doctoramo24h",
+        "https://www.linkedin.com/company/doctoramo24h",
+        "https://x.com/doctoramo24h",
+        "https://br.pinterest.com/doctoramo24h/",
+        "https://github.com/DoctorAmo24"
+      ],
+      "additionalType": "https://www.wikidata.org/entity/Q1641122",
       "areaServed": {
-        "@type": "Country",
-        "@id": "https://www.doctoramo.com.br/#brasil",
-        "name": "Brasil"
+        "@id": "https://www.doctoramo.com.br/#brasil"
       },
       "knowsAbout": [
-        {
-          "@id": "https://www.doctoramo.com.br/#saude-digital"
-        },
         {
           "@id": "https://www.doctoramo.com.br/#telessaude"
         },
         {
           "@id": "https://www.doctoramo.com.br/#telemedicina"
-        },
-        {
-          "@id": "https://www.doctoramo.com.br/#parcerias-saude-digital"
-        },
-        {
-          "@id": "https://www.doctoramo.com.br/#credenciamento-parceiro"
-        },
-        {
-          "@id": "https://www.doctoramo.com.br/#condicoes-adesao"
-        },
-        {
-          "@id": "https://www.doctoramo.com.br/#licenca-acesso"
-        },
-        {
-          "@id": "https://www.doctoramo.com.br/#indicacao-responsavel"
-        },
-        {
-          "@id": "https://www.doctoramo.com.br/#recorrencia"
-        },
-        {
-          "@id": "https://www.doctoramo.com.br/#geracao-renda-recorrente-online"
         }
       ],
-      "hasOfferCatalog": {
-        "@id": "https://www.doctoramo.com.br/#catalogo-parcerias"
-      },
       "subjectOf": [
         {
           "@id": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#webpage"
@@ -63,90 +51,46 @@
       ]
     },
     {
-      "@type": "WebSite",
-      "@id": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/#website",
-      "url": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/",
-      "name": "Programa de Parcerias DoctorAmo",
-      "publisher": {
-        "@id": "https://www.doctoramo.com.br/#organization"
-      },
-      "inLanguage": "pt-BR"
+      "@type": "Country",
+      "@id": "https://www.doctoramo.com.br/#brasil",
+      "name": "Brasil"
     },
     {
-      "@type": "WebPage",
-      "@id": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/#webpage",
-      "url": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/",
-      "name": "Programa de Parcerias DoctorAmo",
-      "headline": "Programa de Parcerias DoctorAmo",
-      "description": "Página pública sobre o Programa de Parcerias DoctorAmo para pessoas físicas e jurídicas, com credenciamento simples, rápido e 100% digital, sem taxa de inscrição, adesão ou credenciamento, sujeito a breve avaliação de perfil e às condições vigentes do programa.",
-      "isPartOf": {
-        "@id": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/#website"
-      },
+      "@type": "WebSite",
+      "@id": "https://www.doctoramo.com.br/#website",
+      "url": "https://www.doctoramo.com.br/",
+      "name": "DoctorAmo | Telessaúde e Telemedicina",
+      "alternateName": "DoctorAmo",
       "publisher": {
         "@id": "https://www.doctoramo.com.br/#organization"
-      },
-      "mainEntity": {
-        "@id": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#programa"
       },
       "about": [
         {
-          "@id": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#programa"
+          "@id": "https://www.doctoramo.com.br/#organization"
         },
-        {
-          "@id": "https://www.doctoramo.com.br/#parcerias-saude-digital"
-        },
-        {
-          "@id": "https://www.doctoramo.com.br/#credenciamento-parceiro"
-        },
-        {
-          "@id": "https://www.doctoramo.com.br/#condicoes-adesao"
-        },
-        {
-          "@id": "https://www.doctoramo.com.br/#licenca-acesso"
-        },
-        {
-          "@id": "https://www.doctoramo.com.br/#indicacao-responsavel"
-        },
-        {
-          "@id": "https://www.doctoramo.com.br/#geracao-renda-recorrente-online"
-        }
-      ],
-      "mentions": [
         {
           "@id": "https://www.doctoramo.com.br/#telessaude"
         },
         {
           "@id": "https://www.doctoramo.com.br/#telemedicina"
-        },
-        {
-          "@id": "https://www.doctoramo.com.br/#saude-digital"
-        },
-        {
-          "@id": "https://www.doctoramo.com.br/#parceiro-pessoa-fisica"
-        },
-        {
-          "@id": "https://www.doctoramo.com.br/#parceiro-pessoa-juridica"
-        },
-        {
-          "@id": "https://www.doctoramo.com.br/#avaliacao-perfil"
-        },
-        {
-          "@id": "https://www.doctoramo.com.br/#credenciamento-sem-taxa"
-        },
-        {
-          "@id": "https://www.doctoramo.com.br/#recorrencia"
-        },
-        {
-          "@id": "https://www.doctoramo.com.br/#comissao-recorrente"
         }
       ],
-      "significantLink": [
-        "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo",
-        "https://www.doctoramo.com.br/in%C3%ADcio",
-        "https://doctoramo24.github.io/doctoramo-proposito-missao-visao-valores/"
-      ],
-      "inLanguage": "pt-BR",
-      "isAccessibleForFree": true
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/#website",
+      "url": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/",
+      "name": "Documentação do Programa de Parcerias DoctorAmo",
+      "alternateName": "Programa de Parcerias DoctorAmo — Documentação Técnica",
+      "description": "Documentação pública e técnica relacionada ao Programa de Parcerias DoctorAmo, sua identidade, funcionamento, participantes, credenciamento, licença de acesso, regras, jornada, indicação e modelo de remuneração recorrente.",
+      "publisher": {
+        "@id": "https://www.doctoramo.com.br/#organization"
+      },
+      "about": {
+        "@id": "https://www.doctoramo.com.br/#programa-parcerias"
+      },
+      "inLanguage": "pt-BR"
     },
     {
       "@type": "WebPage",
@@ -154,35 +98,240 @@
       "url": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo",
       "name": "Programa de Parcerias DoctorAmo",
       "headline": "Programa de Parcerias DoctorAmo",
-      "description": "Página oficial do Programa de Parcerias DoctorAmo, com informações sobre participação de pessoas físicas e jurídicas, credenciamento digital, condições de adesão, indicação responsável e comissão recorrente.",
+      "description": "Página oficial do Programa de Parcerias DoctorAmo para Pessoas Físicas e Pessoas Jurídicas interessadas em atividades de parceria, afiliação, divulgação e indicação de serviços de Telessaúde e Telemedicina, com possibilidade de comissão recorrente vinculada aos clientes ativos indicados, conforme critérios, regras e condições vigentes.",
+      "isPartOf": {
+        "@id": "https://www.doctoramo.com.br/#website"
+      },
       "publisher": {
         "@id": "https://www.doctoramo.com.br/#organization"
       },
       "mainEntity": {
-        "@id": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#programa"
+        "@id": "https://www.doctoramo.com.br/#programa-parcerias"
+      },
+      "about": [
+        {
+          "@id": "https://www.doctoramo.com.br/#programa-parcerias"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#telessaude"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#telemedicina"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "https://www.doctoramo.com.br/#programa-afiliados"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#marketing-afiliados"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#afiliado-marketing"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#link-afiliado"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#credenciamento-parceiro"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#licenca-acesso"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#integracao-parceiro"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#capacitacao-parceiro"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#ativacao-parceiro"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#indicacao-responsavel"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#cliente-ativo"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#comissao-recorrente"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#renda-recorrente"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#receita-recorrente"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#servico-recorrente"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#empreendedorismo-digital"
+        }
+      ],
+      "hasPart": {
+        "@id": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#como-funciona"
+      },
+      "relatedLink": [
+        "https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo",
+        "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/"
+      ],
+      "significantLink": [
+        "https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo",
+        "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/"
+      ],
+      "keywords": [
+        "Programa de Parcerias DoctorAmo",
+        "programa de afiliados DoctorAmo",
+        "parceria DoctorAmo",
+        "programa de parceiros",
+        "parceria em telessaúde",
+        "parceria em telemedicina",
+        "programa de afiliados em telemedicina",
+        "programa de afiliados em telessaúde",
+        "indicação de serviços de saúde digital",
+        "comissão recorrente",
+        "remuneração recorrente",
+        "clientes ativos indicados",
+        "renda recorrente",
+        "renda recorrente online",
+        "marketing de afiliados",
+        "afiliado de marketing",
+        "link de afiliado",
+        "integração de parceiro",
+        "capacitação de parceiro",
+        "ativação de parceiro"
+      ],
+      "inLanguage": "pt-BR",
+      "isAccessibleForFree": true
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo#webpage",
+      "url": "https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo",
+      "name": "Perguntas Frequentes sobre o Programa de Parcerias DoctorAmo",
+      "headline": "Perguntas Frequentes sobre o Programa de Parcerias DoctorAmo",
+      "description": "Página oficial especializada em perguntas e respostas sobre participação, credenciamento, licença, integração, capacitação, ativação, indicação, clientes ativos, comissão recorrente e funcionamento do Programa de Parcerias DoctorAmo.",
+      "publisher": {
+        "@id": "https://www.doctoramo.com.br/#organization"
       },
       "about": {
-        "@id": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#programa"
+        "@id": "https://www.doctoramo.com.br/#programa-parcerias"
+      },
+      "isPartOf": {
+        "@id": "https://www.doctoramo.com.br/#website"
       },
       "inLanguage": "pt-BR"
     },
     {
+      "@type": "WebPage",
+      "@id": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/#webpage",
+      "url": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/",
+      "name": "Programa de Parcerias DoctorAmo | Documentação Técnica",
+      "headline": "Programa de Parcerias DoctorAmo",
+      "description": "Hub público de documentação técnica e semântica do Programa de Parcerias DoctorAmo, conectado à página oficial, ao FAQ oficial, ao vocabulário canônico e às entidades e conceitos estruturados relacionados ao Programa.",
+      "isPartOf": {
+        "@id": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/#website"
+      },
+      "publisher": {
+        "@id": "https://www.doctoramo.com.br/#organization"
+      },
+      "mainEntity": {
+        "@id": "https://www.doctoramo.com.br/#programa-parcerias"
+      },
+      "about": {
+        "@id": "https://www.doctoramo.com.br/#programa-parcerias"
+      },
+      "isBasedOn": {
+        "@id": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#webpage"
+      },
+      "citation": [
+        "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo",
+        "https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo",
+        "https://www.wikidata.org/entity/Q141152382",
+        "https://www.wikidata.org/entity/Q141152387"
+      ],
+      "relatedLink": [
+        "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo",
+        "https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo",
+        "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo"
+      ],
+      "significantLink": [
+        "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo",
+        "https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo"
+      ],
+      "hasPart": [
+        {
+          "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/programa-de-parcerias.md"
+        },
+        {
+          "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/como-funciona.md"
+        },
+        {
+          "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/credenciamento-parceiro.md"
+        },
+        {
+          "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/licenca-de-acesso.md"
+        },
+        {
+          "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/parceiro-pessoa-fisica.md"
+        },
+        {
+          "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/parceiro-pessoa-juridica.md"
+        },
+        {
+          "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/renda-recorrente.md"
+        },
+        {
+          "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/regras-do-programa.md"
+        },
+        {
+          "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/faq-parcerias.md"
+        },
+        {
+          "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/glossario.md"
+        },
+        {
+          "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/REFERENCIAS.md"
+        }
+      ],
+      "breadcrumb": {
+        "@id": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/#breadcrumb"
+      },
+      "inLanguage": "pt-BR",
+      "isAccessibleForFree": true
+    },
+    {
       "@type": "Service",
-      "@id": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#programa",
+      "@id": "https://www.doctoramo.com.br/#programa-parcerias",
       "name": "Programa de Parcerias DoctorAmo",
       "alternateName": [
-        "Parcerias DoctorAmo",
+        "Parceria DoctorAmo",
         "Programa de Parceiros DoctorAmo",
-        "Programa de Indicação DoctorAmo",
-        "Ecossistema de Parcerias DoctorAmo",
-        "Programa de Parcerias em Telessaúde",
-        "Programa de Parcerias em Telemedicina"
+        "Programa de afiliados DoctorAmo",
+        "Afiliação DoctorAmo",
+        "Programa de Indicação DoctorAmo"
       ],
+      "disambiguatingDescription": "Estrutura institucional oficial da DoctorAmo para parceria, afiliação, divulgação e indicação. As expressões programa de afiliados, afiliação e indicação descrevem dimensões do mesmo Programa e não programas independentes.",
       "url": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo",
-      "description": "Programa institucional de parceria e indicação da DoctorAmo destinado a pessoas físicas e jurídicas, com processo de credenciamento simples, rápido e 100% digital, sem taxa de inscrição, adesão ou credenciamento, sujeito a breve avaliação de perfil e às condições vigentes. O parceiro pode realizar indicações responsáveis e receber comissão recorrente vinculada à continuidade dos clientes indicados.",
-      "serviceType": "Programa de parceria e indicação em Telessaúde e Telemedicina",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "Wikidata",
+        "value": "Q141152387",
+        "url": "https://www.wikidata.org/entity/Q141152387"
+      },
+      "sameAs": "https://www.wikidata.org/entity/Q141152387",
+      "additionalType": "https://www.wikidata.org/entity/Q141124951",
+      "serviceType": "Programa de parceria, afiliação, divulgação e indicação de serviços de Telessaúde e Telemedicina",
+      "description": "Programa institucional oficial da DoctorAmo para participação de Pessoas Físicas e Pessoas Jurídicas em atividades de parceria, afiliação, divulgação e indicação de serviços de Telessaúde e Telemedicina, com possibilidade de comissão recorrente vinculada aos clientes ativos indicados, conforme critérios, regras e condições vigentes.",
       "provider": {
         "@id": "https://www.doctoramo.com.br/#organization"
+      },
+      "brand": {
+        "@id": "https://www.doctoramo.com.br/#organization"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#webpage"
       },
       "areaServed": {
         "@id": "https://www.doctoramo.com.br/#brasil"
@@ -193,50 +342,74 @@
         },
         {
           "@id": "https://www.doctoramo.com.br/#audiencia-pessoa-juridica"
+        },
+        {
+          "@type": "Audience",
+          "audienceType": "Profissionais que atuam com marketing de afiliados e divulgação digital"
+        },
+        {
+          "@type": "Audience",
+          "audienceType": "Criadores de conteúdo"
+        },
+        {
+          "@type": "Audience",
+          "audienceType": "Empreendedores"
         }
       ],
       "availableChannel": {
         "@type": "ServiceChannel",
         "@id": "https://www.doctoramo.com.br/#canal-programa-parcerias",
+        "name": "Canal digital do Programa de Parcerias DoctorAmo",
         "serviceUrl": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo",
         "availableLanguage": "pt-BR",
         "providesService": {
-          "@id": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#programa"
+          "@id": "https://www.doctoramo.com.br/#programa-parcerias"
         }
       },
       "termsOfService": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo",
-      "category": [
+      "subjectOf": [
         {
-          "@id": "https://www.doctoramo.com.br/#parcerias-saude-digital"
+          "@id": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#webpage"
         },
         {
-          "@id": "https://www.doctoramo.com.br/#credenciamento-parceiro"
+          "@id": "https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo#webpage"
         },
         {
-          "@id": "https://www.doctoramo.com.br/#condicoes-adesao"
-        },
-        {
-          "@id": "https://www.doctoramo.com.br/#licenca-acesso"
-        },
-        {
-          "@id": "https://www.doctoramo.com.br/#indicacao-responsavel"
-        },
-        {
-          "@id": "https://www.doctoramo.com.br/#recorrencia"
-        },
-        {
-          "@id": "https://www.doctoramo.com.br/#geracao-renda-recorrente-online"
+          "@id": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/#webpage"
         }
       ],
-      "mainEntityOfPage": {
-        "@id": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#webpage"
+      "category": [
+        "Programa de parceiros",
+        "Parceria em Telessaúde",
+        "Parceria em Telemedicina",
+        "Afiliação",
+        "Indicação de serviços de saúde digital"
+      ]
+    },
+    {
+      "@type": "PeopleAudience",
+      "@id": "https://www.doctoramo.com.br/#audiencia-pessoa-fisica",
+      "name": "Pessoa Física interessada no Programa de Parcerias DoctorAmo",
+      "audienceType": "Pessoa Física com 18 anos ou mais interessada em solicitar participação em atividades de divulgação e indicação, conforme as condições vigentes do Programa.",
+      "requiredMinAge": 18,
+      "geographicArea": {
+        "@id": "https://www.doctoramo.com.br/#brasil"
+      }
+    },
+    {
+      "@type": "BusinessAudience",
+      "@id": "https://www.doctoramo.com.br/#audiencia-pessoa-juridica",
+      "name": "Pessoa Jurídica interessada no Programa de Parcerias DoctorAmo",
+      "audienceType": "Pessoa Jurídica, empresa ou organização interessada em solicitar participação no Programa de Parcerias DoctorAmo, representada pelo responsável aplicável e sujeita às condições vigentes.",
+      "geographicArea": {
+        "@id": "https://www.doctoramo.com.br/#brasil"
       }
     },
     {
       "@type": "Service",
       "@id": "https://www.doctoramo.com.br/#plano-doctoramo",
-      "name": "Plano DoctorAmo",
-      "description": "Plano de acesso aos serviços DoctorAmo. Quando adquirido pelo parceiro conforme as condições de adesão, corresponde ao acesso efetivo ao serviço e não constitui taxa de credenciamento no Programa de Parcerias.",
+      "name": "Plano Padrão DoctorAmo",
+      "description": "Plano de acesso aos serviços DoctorAmo. O valor atual de referência é R$ 29,80 por mês, sujeito às condições comerciais vigentes. Quando utilizado pelo parceiro no contexto das condições de participação, corresponde ao acesso efetivo aos serviços DoctorAmo e não a taxa de inscrição, adesão ou credenciamento.",
       "provider": {
         "@id": "https://www.doctoramo.com.br/#organization"
       },
@@ -246,62 +419,44 @@
       "offers": {
         "@type": "Offer",
         "@id": "https://www.doctoramo.com.br/#oferta-plano-doctoramo",
+        "url": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo",
         "price": "29.80",
         "priceCurrency": "BRL",
         "availability": "https://schema.org/InStock",
-        "url": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo",
         "seller": {
           "@id": "https://www.doctoramo.com.br/#organization"
         },
         "itemOffered": {
           "@id": "https://www.doctoramo.com.br/#plano-doctoramo"
-        }
-      }
-    },
-    {
-      "@type": "OfferCatalog",
-      "@id": "https://www.doctoramo.com.br/#catalogo-parcerias",
-      "name": "Ecossistema de Parcerias DoctorAmo",
-      "description": "Estrutura institucional DoctorAmo relacionada ao Programa de Parcerias e ao acesso aos serviços da plataforma.",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@id": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#programa"
-          }
         },
-        {
-          "@id": "https://www.doctoramo.com.br/#oferta-plano-doctoramo"
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "29.80",
+          "priceCurrency": "BRL",
+          "unitText": "MONTH"
         }
-      ]
-    },
-    {
-      "@type": "PeopleAudience",
-      "@id": "https://www.doctoramo.com.br/#audiencia-pessoa-fisica",
-      "name": "Pessoa Física parceira DoctorAmo",
-      "audienceType": "Pessoas físicas interessadas em solicitar participação no Programa de Parcerias DoctorAmo conforme as condições vigentes.",
-      "requiredMinAge": 18,
-      "geographicArea": {
-        "@id": "https://www.doctoramo.com.br/#brasil"
-      }
-    },
-    {
-      "@type": "BusinessAudience",
-      "@id": "https://www.doctoramo.com.br/#audiencia-pessoa-juridica",
-      "name": "Pessoa Jurídica parceira DoctorAmo",
-      "audienceType": "Pessoas jurídicas, empresas e organizações interessadas em solicitar participação no Programa de Parcerias DoctorAmo conforme as condições aplicáveis.",
-      "geographicArea": {
-        "@id": "https://www.doctoramo.com.br/#brasil"
       }
     },
     {
       "@type": "DefinedTermSet",
       "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo",
       "name": "Vocabulário do Programa de Parcerias DoctorAmo",
-      "description": "Conjunto de conceitos relacionados ao Programa de Parcerias DoctorAmo, credenciamento, condições de adesão, participantes, licença de acesso, indicação, recorrência e contexto em saúde digital.",
+      "description": "Vocabulário técnico e semântico relacionado à identidade, participantes, credenciamento, licença, jornada, afiliação, indicação, clientes ativos e recorrência no Programa de Parcerias DoctorAmo.",
       "hasDefinedTerm": [
         {
-          "@id": "https://www.doctoramo.com.br/#parcerias-saude-digital"
+          "@id": "https://www.doctoramo.com.br/#telessaude"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#telemedicina"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#programa-afiliados"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#marketing-afiliados"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#afiliado-marketing"
         },
         {
           "@id": "https://www.doctoramo.com.br/#credenciamento-parceiro"
@@ -313,22 +468,34 @@
           "@id": "https://www.doctoramo.com.br/#avaliacao-perfil"
         },
         {
-          "@id": "https://www.doctoramo.com.br/#condicoes-adesao"
+          "@id": "https://www.doctoramo.com.br/#prazo-cadastro"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#condicoes-participacao"
         },
         {
           "@id": "https://www.doctoramo.com.br/#licenca-acesso"
         },
         {
-          "@id": "https://www.doctoramo.com.br/#conhecimento-servico"
+          "@id": "https://www.doctoramo.com.br/#integracao-parceiro"
         },
         {
-          "@id": "https://www.doctoramo.com.br/#parceiro-pessoa-fisica"
+          "@id": "https://www.doctoramo.com.br/#capacitacao-parceiro"
         },
         {
-          "@id": "https://www.doctoramo.com.br/#parceiro-pessoa-juridica"
+          "@id": "https://www.doctoramo.com.br/#ativacao-parceiro"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#link-afiliado"
         },
         {
           "@id": "https://www.doctoramo.com.br/#indicacao-responsavel"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#cliente-indicado"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#cliente-ativo"
         },
         {
           "@id": "https://www.doctoramo.com.br/#recorrencia"
@@ -337,38 +504,68 @@
           "@id": "https://www.doctoramo.com.br/#comissao-recorrente"
         },
         {
-          "@id": "https://www.doctoramo.com.br/#geracao-renda-recorrente-online"
+          "@id": "https://www.doctoramo.com.br/#renda-recorrente"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#receita-recorrente"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#servico-recorrente"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#empreendedorismo-digital"
         }
       ]
     },
     {
       "@type": "DefinedTerm",
-      "@id": "https://www.doctoramo.com.br/#saude-digital",
-      "name": "Saúde digital",
-      "description": "Aplicação de tecnologias digitais à prestação, organização, acompanhamento e gestão de serviços de saúde."
-    },
-    {
-      "@type": "DefinedTerm",
       "@id": "https://www.doctoramo.com.br/#telessaude",
       "name": "Telessaúde",
-      "description": "Prestação e organização de serviços de saúde à distância por tecnologias digitais, relacionada à ampliação do acesso à saúde."
+      "description": "Conceito relacionado à prestação, organização e apoio a serviços de saúde mediados por tecnologias de informação e comunicação.",
+      "sameAs": "https://www.wikidata.org/entity/Q4923501",
+      "inDefinedTermSet": {
+        "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
+      }
     },
     {
       "@type": "DefinedTerm",
       "@id": "https://www.doctoramo.com.br/#telemedicina",
       "name": "Telemedicina",
-      "description": "Prestação de serviços médicos à distância por tecnologias digitais, dentro dos limites técnicos, profissionais e normativos aplicáveis."
+      "description": "Prestação de serviços médicos mediados por tecnologias digitais dentro dos limites técnicos, profissionais e normativos aplicáveis.",
+      "sameAs": "https://www.wikidata.org/entity/Q46994",
+      "inDefinedTermSet": {
+        "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
+      }
     },
     {
       "@type": "DefinedTerm",
-      "@id": "https://www.doctoramo.com.br/#parcerias-saude-digital",
-      "name": "Parcerias em saúde digital",
+      "@id": "https://www.doctoramo.com.br/#programa-afiliados",
+      "name": "Programa de afiliados DoctorAmo",
       "alternateName": [
-        "Parceria em saúde digital",
-        "Parcerias em Telessaúde",
-        "Parcerias em Telemedicina"
+        "Afiliação DoctorAmo",
+        "Programa de afiliação DoctorAmo"
       ],
-      "description": "Relações de parceria associadas à expansão responsável do alcance de serviços de saúde digital.",
+      "description": "Expressão utilizada para descrever a dimensão de afiliação do Programa de Parcerias DoctorAmo. Não representa programa institucional independente.",
+      "inDefinedTermSet": {
+        "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.doctoramo.com.br/#marketing-afiliados",
+      "name": "Marketing de afiliados",
+      "description": "Conceito geral relacionado a modelos de divulgação e atribuição de resultados por afiliados.",
+      "sameAs": "https://www.wikidata.org/entity/Q382453",
+      "inDefinedTermSet": {
+        "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.doctoramo.com.br/#afiliado-marketing",
+      "name": "Afiliado de marketing",
+      "description": "Conceito genérico relacionado ao participante que realiza divulgação em modelos de marketing de afiliados. No Programa DoctorAmo, a denominação institucional do participante permanece Parceiro DoctorAmo.",
+      "sameAs": "https://www.wikidata.org/entity/Q141124950",
       "inDefinedTermSet": {
         "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
       }
@@ -378,11 +575,10 @@
       "@id": "https://www.doctoramo.com.br/#credenciamento-parceiro",
       "name": "Credenciamento de parceiro",
       "alternateName": [
-        "Credenciamento de Parceiro DoctorAmo",
-        "Credenciamento digital de parceiro",
-        "Processo de credenciamento de parceiro"
+        "Credenciamento DoctorAmo",
+        "Credenciamento digital de parceiro"
       ],
-      "description": "Processo oficial de solicitação, avaliação e formalização da participação no Programa de Parcerias DoctorAmo, realizado por meios digitais e sujeito às condições vigentes.",
+      "description": "Processo oficial de solicitação, cadastro, avaliação e participação no Programa de Parcerias DoctorAmo, realizado por meios digitais e sujeito às condições vigentes.",
       "inDefinedTermSet": {
         "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
       }
@@ -394,9 +590,9 @@
       "alternateName": [
         "Credenciamento sem taxa de adesão",
         "Credenciamento sem taxa de inscrição",
-        "Participação sem taxa de credenciamento"
+        "Credenciamento sem taxa de credenciamento"
       ],
-      "description": "Ausência de cobrança própria de inscrição, adesão ou credenciamento para realizar o processo de participação no Programa de Parcerias DoctorAmo. Não significa ausência de condições de adesão nem gratuidade da licença de acesso ao serviço.",
+      "description": "Ausência de cobrança específica de taxa de inscrição, adesão ou credenciamento para realizar o processo de participação. Não significa ausência de condições de participação nem gratuidade da licença de acesso aos serviços.",
       "inDefinedTermSet": {
         "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
       }
@@ -405,25 +601,32 @@
       "@type": "DefinedTerm",
       "@id": "https://www.doctoramo.com.br/#avaliacao-perfil",
       "name": "Avaliação de perfil",
-      "alternateName": [
-        "Breve avaliação de perfil",
-        "Avaliação do perfil do parceiro"
-      ],
-      "description": "Breve análise realizada pela DoctorAmo dentro do processo de credenciamento para verificar adequação às condições vigentes do Programa de Parcerias. Não representa aprovação automática.",
+      "alternateName": "Avaliação do perfil do parceiro",
+      "description": "Análise realizada pela DoctorAmo no processo de participação para verificar a adequação do interessado às condições e diretrizes vigentes. Não representa aprovação automática.",
       "inDefinedTermSet": {
         "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
       }
     },
     {
       "@type": "DefinedTerm",
-      "@id": "https://www.doctoramo.com.br/#condicoes-adesao",
-      "name": "Condições de adesão",
+      "@id": "https://www.doctoramo.com.br/#prazo-cadastro",
+      "name": "Prazo para conclusão do cadastro",
+      "alternateName": "Prazo operacional de 48 horas",
+      "description": "Prazo atualmente estabelecido de até 48 horas, após o envio das orientações oficiais, para que o interessado conclua seu cadastro. O prazo não representa garantia automática de aprovação ou ativação.",
+      "inDefinedTermSet": {
+        "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.doctoramo.com.br/#condicoes-participacao",
+      "name": "Condições de participação",
       "alternateName": [
-        "Condições para participação",
-        "Requisitos de parceria",
-        "Requisitos de adesão"
+        "Condições de adesão",
+        "Requisitos de participação",
+        "Requisitos de parceria"
       ],
-      "description": "Conjunto de requisitos e condições vigentes aplicáveis à participação no Programa de Parcerias DoctorAmo, incluindo avaliação de perfil, requisitos cadastrais, prazo operacional e demais condições comunicadas pela DoctorAmo.",
+      "description": "Conjunto de critérios e requisitos vigentes aplicáveis à participação no Programa de Parcerias DoctorAmo, incluindo aprovação, licença ativa, etapas da jornada, utilização dos mecanismos oficiais e cumprimento das regras aplicáveis.",
       "inDefinedTermSet": {
         "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
       }
@@ -431,53 +634,57 @@
     {
       "@type": "DefinedTerm",
       "@id": "https://www.doctoramo.com.br/#licenca-acesso",
-      "name": "Licença de acesso ao serviço",
+      "name": "Licença de Acesso DoctorAmo",
       "alternateName": [
-        "Licença de acesso DoctorAmo",
-        "Acesso do parceiro ao serviço",
-        "Licença DoctorAmo do parceiro"
+        "Licença de acesso ao serviço",
+        "Licença ativa DoctorAmo",
+        "Acesso do parceiro aos serviços DoctorAmo"
       ],
-      "description": "Acesso efetivo ao serviço DoctorAmo adquirido conforme as condições de adesão, utilizado para conhecimento, utilização e apoio à demonstração do serviço indicado. Não constitui taxa de credenciamento.",
+      "description": "Acesso efetivo aos serviços DoctorAmo. No contexto atual do Programa, possuir pelo menos uma licença ativa integra as condições documentadas de participação e permite ao parceiro conhecer, utilizar e compreender o serviço que irá divulgar. Não constitui taxa de inscrição, adesão ou credenciamento, investimento financeiro ou compra de comissão.",
       "inDefinedTermSet": {
         "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
       }
     },
     {
       "@type": "DefinedTerm",
-      "@id": "https://www.doctoramo.com.br/#conhecimento-servico",
-      "name": "Conhecimento do serviço",
-      "alternateName": [
-        "Conhecimento prático do serviço",
-        "Experiência prática com o serviço"
-      ],
-      "description": "Conhecimento adquirido pelo parceiro sobre o funcionamento e utilização do serviço DoctorAmo, utilizado como apoio à apresentação, demonstração e indicação responsável.",
+      "@id": "https://www.doctoramo.com.br/#integracao-parceiro",
+      "name": "Integração de parceiro",
+      "description": "Etapa da jornada do parceiro realizada após aprovação, destinada à introdução ao funcionamento, orientações e recursos do Programa.",
+      "sameAs": "https://www.wikidata.org/entity/Q141131339",
       "inDefinedTermSet": {
         "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
       }
     },
     {
       "@type": "DefinedTerm",
-      "@id": "https://www.doctoramo.com.br/#parceiro-pessoa-fisica",
-      "name": "Parceiro Pessoa Física",
-      "alternateName": [
-        "Pessoa Física parceira",
-        "Parceiro individual DoctorAmo"
-      ],
-      "description": "Pessoa física com idade mínima de 18 anos que participa do Programa de Parcerias DoctorAmo conforme suas regras e condições.",
+      "@id": "https://www.doctoramo.com.br/#capacitacao-parceiro",
+      "name": "Capacitação de parceiro",
+      "description": "Etapa da jornada destinada ao fornecimento de orientações e informações para a atividade de divulgação e indicação.",
+      "sameAs": "https://www.wikidata.org/entity/Q141131340",
       "inDefinedTermSet": {
         "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
       }
     },
     {
       "@type": "DefinedTerm",
-      "@id": "https://www.doctoramo.com.br/#parceiro-pessoa-juridica",
-      "name": "Parceiro Pessoa Jurídica",
+      "@id": "https://www.doctoramo.com.br/#ativacao-parceiro",
+      "name": "Ativação de parceiro",
+      "description": "Etapa operacional da jornada após a qual o parceiro pode iniciar sua atuação utilizando os mecanismos oficiais disponibilizados pelo Programa.",
+      "sameAs": "https://www.wikidata.org/entity/Q141131341",
+      "inDefinedTermSet": {
+        "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.doctoramo.com.br/#link-afiliado",
+      "name": "Link de afiliado",
       "alternateName": [
-        "Pessoa Jurídica parceira",
-        "Empresa parceira DoctorAmo",
-        "Organização parceira DoctorAmo"
+        "Link exclusivo de afiliado",
+        "Link de indicação do parceiro"
       ],
-      "description": "Pessoa jurídica, empresa ou organização que participa do Programa de Parcerias DoctorAmo conforme as condições aplicáveis.",
+      "description": "Mecanismo oficial utilizado no Programa para apoiar a identificação da origem, rastreamento, validação e atribuição das indicações ao parceiro.",
+      "sameAs": "https://www.wikidata.org/entity/Q141125007",
       "inDefinedTermSet": {
         "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
       }
@@ -486,7 +693,25 @@
       "@type": "DefinedTerm",
       "@id": "https://www.doctoramo.com.br/#indicacao-responsavel",
       "name": "Indicação responsável",
-      "description": "Indicação realizada de acordo com informações oficiais, regras institucionais, condições vigentes e comunicação não enganosa.",
+      "description": "Indicação realizada pelo parceiro segundo as informações oficiais, regras institucionais, condições vigentes, mecanismos autorizados e comunicação não enganosa.",
+      "inDefinedTermSet": {
+        "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.doctoramo.com.br/#cliente-indicado",
+      "name": "Cliente indicado",
+      "description": "Cliente cuja origem é atribuída ao parceiro segundo os mecanismos oficiais e critérios aplicáveis do Programa. Cliente indicado não significa automaticamente cliente ativo.",
+      "inDefinedTermSet": {
+        "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.doctoramo.com.br/#cliente-ativo",
+      "name": "Cliente ativo",
+      "description": "Cliente indicado que permanece em condição válida segundo os critérios aplicáveis do Programa. A condição de cliente ativo não representa garantia de permanência futura.",
       "inDefinedTermSet": {
         "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
       }
@@ -496,10 +721,10 @@
       "@id": "https://www.doctoramo.com.br/#recorrencia",
       "name": "Recorrência",
       "alternateName": [
-        "Recorrência sustentável",
-        "Relação recorrente"
+        "Relação recorrente",
+        "Recorrência de remuneração"
       ],
-      "description": "No Programa de Parcerias DoctorAmo, recorrência refere-se à possibilidade de continuidade da remuneração relacionada a clientes ativos indicados enquanto forem atendidas as condições vigentes do programa.",
+      "description": "Possibilidade de continuidade da remuneração relacionada aos clientes ativos indicados enquanto permanecerem atendidos os critérios, regras e condições vigentes do Programa.",
       "inDefinedTermSet": {
         "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
       }
@@ -509,36 +734,68 @@
       "@id": "https://www.doctoramo.com.br/#comissao-recorrente",
       "name": "Comissão recorrente",
       "alternateName": [
-        "Comissão mensal recorrente",
-        "Remuneração recorrente"
+        "Remuneração recorrente",
+        "Comissão recorrente do parceiro"
       ],
-      "description": "Comissão recorrente acima de 30% no contexto do Programa de Parcerias DoctorAmo, conforme as condições vigentes e a continuidade dos clientes indicados.",
+      "description": "Remuneração que pode continuar vinculada aos clientes ativos indicados enquanto forem atendidos os critérios e condições vigentes do Programa. Percentuais, critérios de cálculo e demais condições de remuneração são definidos e apresentados conforme as condições comerciais vigentes.",
+      "sameAs": "https://www.wikidata.org/entity/Q141124952",
       "inDefinedTermSet": {
         "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
       }
     },
     {
       "@type": "DefinedTerm",
-      "@id": "https://www.doctoramo.com.br/#geracao-renda-recorrente-online",
-      "name": "Geração de renda recorrente online",
+      "@id": "https://www.doctoramo.com.br/#renda-recorrente",
+      "name": "Renda recorrente",
       "alternateName": [
         "Renda recorrente online",
-        "Renda recorrente",
         "Geração de renda recorrente",
+        "Geração de renda recorrente online",
         "Renda recorrente por indicação",
         "Renda recorrente por parceria"
       ],
-      "description": "No contexto DoctorAmo, refere-se à possibilidade de remuneração recorrente decorrente da parceria e indicação, condicionada à continuidade dos clientes indicados e às regras vigentes do programa, sem promessa ou garantia de renda.",
+      "description": "Possibilidade de continuidade da remuneração relacionada aos clientes ativos indicados, condicionada à permanência desses clientes e às regras e condições vigentes. Não constitui promessa ou garantia de renda.",
+      "sameAs": "https://www.wikidata.org/entity/Q141125006",
+      "inDefinedTermSet": {
+        "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.doctoramo.com.br/#receita-recorrente",
+      "name": "Receita recorrente",
+      "description": "Conceito econômico geral relacionado à repetição de receitas ao longo de períodos sucessivos. Não é sinônimo absoluto de comissão recorrente.",
+      "sameAs": "https://www.wikidata.org/entity/Q141124953",
+      "inDefinedTermSet": {
+        "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.doctoramo.com.br/#servico-recorrente",
+      "name": "Serviço recorrente",
+      "description": "Conceito relacionado à disponibilização continuada de um serviço ao longo do tempo.",
+      "sameAs": "https://www.wikidata.org/entity/Q141125008",
+      "inDefinedTermSet": {
+        "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.doctoramo.com.br/#empreendedorismo-digital",
+      "name": "Empreendedorismo digital",
+      "description": "Conceito amplo relacionado ao desenvolvimento de atividades empreendedoras em ambientes digitais. Sua relação conceitual com a parceria não transforma o Programa de Parcerias DoctorAmo em sinônimo de empreendedorismo digital.",
+      "sameAs": "https://www.wikidata.org/entity/Q141124954",
       "inDefinedTermSet": {
         "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
       }
     },
     {
       "@type": "ItemList",
-      "@id": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/#fluxo-parceria",
-      "name": "Fluxo do Programa de Parcerias DoctorAmo",
-      "description": "Sequência conceitual do processo de participação, credenciamento, indicação e recorrência no Programa de Parcerias DoctorAmo.",
-      "numberOfItems": 15,
+      "@id": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#como-funciona",
+      "name": "Jornada do Programa de Parcerias DoctorAmo",
+      "description": "Sequência conceitual da solicitação de participação até a possibilidade de comissão recorrente vinculada aos clientes ativos indicados.",
+      "numberOfItems": 17,
       "itemListOrder": "https://schema.org/ItemListOrderAscending",
       "itemListElement": [
         {
@@ -549,74 +806,243 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Credenciamento 100% digital"
+          "name": "Cadastro"
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Breve avaliação de perfil"
+          "name": "Avaliação de perfil"
         },
         {
           "@type": "ListItem",
           "position": 4,
-          "name": "Atendimento às condições de adesão"
+          "name": "Possível aprovação"
         },
         {
           "@type": "ListItem",
           "position": 5,
-          "name": "Licença de acesso ao serviço"
+          "name": "Atendimento às condições de participação"
         },
         {
           "@type": "ListItem",
           "position": 6,
-          "name": "Conhecimento e utilização do serviço"
+          "name": "Licença ativa DoctorAmo"
         },
         {
           "@type": "ListItem",
           "position": 7,
-          "name": "Parceiro credenciado"
+          "name": "Integração de parceiro"
         },
         {
           "@type": "ListItem",
           "position": 8,
-          "name": "Indicação responsável"
+          "name": "Capacitação de parceiro"
         },
         {
           "@type": "ListItem",
           "position": 9,
-          "name": "Identificação da indicação"
+          "name": "Ativação de parceiro"
         },
         {
           "@type": "ListItem",
           "position": 10,
-          "name": "Validação da indicação"
+          "name": "Acesso aos mecanismos oficiais"
         },
         {
           "@type": "ListItem",
           "position": 11,
-          "name": "Cliente indicado"
+          "name": "Link exclusivo de afiliado"
         },
         {
           "@type": "ListItem",
           "position": 12,
-          "name": "Cliente ativo"
+          "name": "Indicação responsável"
         },
         {
           "@type": "ListItem",
           "position": 13,
-          "name": "Continuidade"
+          "name": "Identificação e validação da indicação"
         },
         {
           "@type": "ListItem",
           "position": 14,
-          "name": "Comissão recorrente"
+          "name": "Cliente indicado"
         },
         {
           "@type": "ListItem",
           "position": 15,
-          "name": "Possibilidade de geração de renda recorrente online"
+          "name": "Cliente ativo"
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "name": "Continuidade"
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "name": "Possibilidade de comissão recorrente"
         }
       ]
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/programa-de-parcerias.md",
+      "url": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/programa-de-parcerias.md",
+      "name": "Programa de Parcerias DoctorAmo",
+      "description": "Documento técnico especializado na identidade, definição, arquitetura e funcionamento institucional do Programa de Parcerias DoctorAmo.",
+      "about": {
+        "@id": "https://www.doctoramo.com.br/#programa-parcerias"
+      },
+      "isPartOf": {
+        "@id": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/#website"
+      },
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/como-funciona.md",
+      "url": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/como-funciona.md",
+      "name": "Como funciona o Programa de Parcerias DoctorAmo",
+      "description": "Documento técnico especializado na jornada operacional do parceiro.",
+      "about": {
+        "@id": "https://www.doctoramo.com.br/#programa-parcerias"
+      },
+      "isPartOf": {
+        "@id": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/#website"
+      },
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/credenciamento-parceiro.md",
+      "url": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/credenciamento-parceiro.md",
+      "name": "Credenciamento de Parceiro DoctorAmo",
+      "description": "Documento técnico especializado no processo de solicitação, cadastro, avaliação e credenciamento para participação no Programa.",
+      "about": {
+        "@id": "https://www.doctoramo.com.br/#credenciamento-parceiro"
+      },
+      "isPartOf": {
+        "@id": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/#website"
+      },
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/licenca-de-acesso.md",
+      "url": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/licenca-de-acesso.md",
+      "name": "Licença de Acesso DoctorAmo",
+      "description": "Documento técnico especializado na Licença de Acesso DoctorAmo e em sua distinção de taxa, investimento, credenciamento e remuneração.",
+      "about": {
+        "@id": "https://www.doctoramo.com.br/#licenca-acesso"
+      },
+      "isPartOf": {
+        "@id": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/#website"
+      },
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/parceiro-pessoa-fisica.md",
+      "url": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/parceiro-pessoa-fisica.md",
+      "name": "Parceiro Pessoa Física DoctorAmo",
+      "description": "Documento técnico especializado na participação de Pessoa Física no Programa de Parcerias DoctorAmo.",
+      "about": {
+        "@id": "https://www.doctoramo.com.br/#audiencia-pessoa-fisica"
+      },
+      "isPartOf": {
+        "@id": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/#website"
+      },
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/parceiro-pessoa-juridica.md",
+      "url": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/parceiro-pessoa-juridica.md",
+      "name": "Parceiro Pessoa Jurídica DoctorAmo",
+      "description": "Documento técnico especializado na participação de Pessoa Jurídica no Programa de Parcerias DoctorAmo.",
+      "about": {
+        "@id": "https://www.doctoramo.com.br/#audiencia-pessoa-juridica"
+      },
+      "isPartOf": {
+        "@id": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/#website"
+      },
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/renda-recorrente.md",
+      "url": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/renda-recorrente.md",
+      "name": "Renda Recorrente no Programa de Parcerias DoctorAmo",
+      "description": "Documento técnico especializado em recorrência, comissão recorrente, renda recorrente e continuidade dos clientes ativos indicados.",
+      "about": [
+        {
+          "@id": "https://www.doctoramo.com.br/#comissao-recorrente"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#renda-recorrente"
+        }
+      ],
+      "isPartOf": {
+        "@id": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/#website"
+      },
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/regras-do-programa.md",
+      "url": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/regras-do-programa.md",
+      "name": "Regras do Programa de Parcerias DoctorAmo",
+      "description": "Documento técnico especializado em governança, regras, responsabilidades, limites e condutas aplicáveis ao Programa.",
+      "about": {
+        "@id": "https://www.doctoramo.com.br/#programa-parcerias"
+      },
+      "isPartOf": {
+        "@id": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/#website"
+      },
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/faq-parcerias.md",
+      "url": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/faq-parcerias.md",
+      "name": "FAQ Técnico do Programa de Parcerias DoctorAmo",
+      "description": "Documento técnico de perguntas e respostas relacionado ao Programa de Parcerias DoctorAmo.",
+      "about": {
+        "@id": "https://www.doctoramo.com.br/#programa-parcerias"
+      },
+      "isPartOf": {
+        "@id": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/#website"
+      },
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/glossario.md",
+      "url": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/glossario.md",
+      "name": "Glossário Canônico do Programa de Parcerias DoctorAmo",
+      "description": "Vocabulário canônico e conjunto de definições utilizado para preservar a consistência semântica da documentação do Programa.",
+      "about": {
+        "@id": "https://www.doctoramo.com.br/#vocabulario-parcerias-doctoramo"
+      },
+      "isPartOf": {
+        "@id": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/#website"
+      },
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/REFERENCIAS.md",
+      "url": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/REFERENCIAS.md",
+      "name": "Referências do Programa de Parcerias DoctorAmo",
+      "description": "Documento de referências e proveniência relacionado à documentação técnica do Programa de Parcerias DoctorAmo.",
+      "about": {
+        "@id": "https://www.doctoramo.com.br/#programa-parcerias"
+      },
+      "isPartOf": {
+        "@id": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/#website"
+      },
+      "inLanguage": "pt-BR"
     },
     {
       "@type": "BreadcrumbList",
@@ -632,6 +1058,12 @@
           "@type": "ListItem",
           "position": 2,
           "name": "Programa de Parcerias DoctorAmo",
+          "item": "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Documentação Técnica",
           "item": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/"
         }
       ]
