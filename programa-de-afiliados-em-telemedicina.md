@@ -1510,10 +1510,6 @@ Esses temas possuem documentos especializados.
 
 - [Glossário](glossario.md)
 
-> Alguns documentos relacionados fazem parte da expansão planejada e serão publicados progressivamente.
-
----
-
 # 64. Página oficial
 
 Fonte institucional principal:
