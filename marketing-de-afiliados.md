@@ -1597,10 +1597,6 @@ Esses conceitos possuem ou possuirão documentos especializados.
 
 - [Glossário](glossario.md)
 
-> Alguns documentos relacionados fazem parte da expansão semântica planejada e serão publicados progressivamente.
-
----
-
 # 68. Página oficial
 
 Fonte institucional principal:
