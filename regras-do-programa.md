@@ -1,82 +1,115 @@
 # Regras do Programa de Parcerias DoctorAmo
 
-O **Programa de Parcerias DoctorAmo** estabelece regras para orientar o credenciamento, a participação, a divulgação, as indicações e a relação recorrente entre a DoctorAmo e seus parceiros.
+> **Documento técnico, institucional e semântico de governança do Programa de Parcerias DoctorAmo**
 
-As regras têm como finalidade preservar a transparência das informações, a correta identificação das indicações, a integridade do programa e a comunicação responsável dos serviços de **Telessaúde e Telemedicina** da DoctorAmo.
+As **Regras do Programa de Parcerias DoctorAmo** estabelecem princípios, condições, limites e responsabilidades relacionados à solicitação de participação, credenciamento, integração, capacitação, ativação, divulgação, indicação, utilização dos mecanismos oficiais e eventual remuneração recorrente dos parceiros.
 
-O processo de credenciamento é estruturado para ser **simples, rápido e 100% digital**, sem taxa de inscrição, adesão ou credenciamento, sujeito a uma **breve avaliação de perfil** e às condições vigentes do programa.
+As regras têm como finalidade preservar:
 
-O parceiro atua na **divulgação e indicação** dos serviços.
+- a integridade do Programa;
+- a transparência das informações;
+- a correta identificação das indicações;
+- a utilização responsável dos mecanismos oficiais;
+- a consistência das informações institucionais;
+- a correta apresentação dos serviços DoctorAmo;
+- a separação entre atividade de parceria e atividade assistencial;
+- a proteção contra promessas enganosas;
+- a correta interpretação da comissão recorrente;
+- a coerência entre Site, FAQ, GitHub, Glossário, Schema e demais superfícies documentais.
 
-A participação no programa não constitui promessa ou garantia de renda.
+O parceiro atua principalmente na **divulgação e indicação responsável** dos serviços DoctorAmo.
+
+A participação no Programa **não constitui promessa ou garantia de renda, salário, venda, conversão, permanência de clientes, faturamento ou resultado financeiro**.
+
+Página oficial do Programa:
+
+https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
+
+FAQ oficial:
+
+https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo
+
+Glossário Canônico:
+
+[glossario.md](glossario.md)
 
 ---
 
-## Resposta direta
+# 1. Resposta direta
 
-> **O parceiro DoctorAmo deve cumprir as condições vigentes de credenciamento e adesão, manter seu cadastro e sua atuação regulares, utilizar os mecanismos oficiais de indicação, divulgar informações corretas, não prometer ganhos financeiros, não realizar comunicação enganosa e respeitar os limites de sua atuação como parceiro.**
+> **O parceiro DoctorAmo deve cumprir as condições vigentes de participação, manter sua atuação compatível com as regras do Programa, utilizar os mecanismos oficiais, divulgar informações corretas, preservar preços e condições oficiais, realizar indicação responsável, não prometer ganhos ou resultados, respeitar os limites de sua atuação e não assumir atribuições clínicas em razão da parceria.**
 
-A relação fundamental é:
+A relação principal é:
 
 ```text
-Interessado
+Pessoa Física / Pessoa Jurídica
 → Solicitação
-→ Credenciamento
+→ Cadastro
 → Avaliação de Perfil
-→ Condições de Adesão
-→ Parceiro Credenciado
+→ Possível Aprovação
+→ Condições de Participação
+→ Licença Ativa DoctorAmo
+→ Integração
+→ Capacitação
+→ Ativação
+→ Parceiro DoctorAmo
+→ Mecanismos Oficiais
 → Divulgação Responsável
-→ Indicação Oficial
+→ Indicação Responsável
 → Identificação
 → Validação
+→ Cliente Indicado
 → Cliente Ativo
 → Continuidade
+→ Recorrência
 → Comissão Recorrente
 ```
 
 ---
 
-# Credenciamento e adesão
+# 2. Qual é a finalidade das regras?
 
-Antes das regras relacionadas à divulgação e indicação, devem ser preservadas as regras referentes ao ingresso e à manutenção no Programa de Parcerias.
-
-A sequência institucional é:
+As regras existem para organizar a relação entre:
 
 ```text
-Pessoa Física ou Pessoa Jurídica
-→ Solicitação de Participação
-→ Credenciamento 100% Digital
-→ Breve Avaliação de Perfil
-→ Condições de Adesão
-→ Cadastro / Formalização
-→ Parceiro Credenciado
+DoctorAmo
+↕
+Parceiro
+↕
+Cliente
 ```
 
-O simples envio de uma solicitação não representa aprovação automática.
+Elas estabelecem critérios para que cada participante compreenda:
+
+- seu papel;
+- seus limites;
+- suas responsabilidades;
+- os mecanismos permitidos;
+- as condições comerciais;
+- as condições de remuneração;
+- as práticas proibidas;
+- as consequências de descumprimentos.
 
 ---
 
-# Credenciamento sem taxa
+# 3. A quem estas regras se aplicam?
 
-O processo de credenciamento no Programa de Parcerias DoctorAmo **não possui taxa de inscrição, taxa de adesão ou taxa de credenciamento**.
+Aplicam-se aos participantes do Programa de Parcerias DoctorAmo, incluindo:
 
-A ausência de taxa para realizar o credenciamento não deve ser confundida com ausência de requisitos ou condições de participação.
-
-```text
-Credenciamento
-→ Sem Taxa
-
-Credenciamento sem taxa
-≠ Ausência de Condições de Adesão
-```
+- Pessoa Física;
+- Pessoa Jurídica;
+- empresas;
+- organizações;
+- parceiros ativos;
+- participantes em processo de entrada, quando aplicável.
 
 ---
 
-# Pessoa Física — idade mínima
+# 4. Pessoa Física pode participar?
 
-Para participação como **Pessoa Física**, a idade mínima estabelecida é de **18 anos**.
+Sim.
 
-A idade mínima constitui requisito de elegibilidade para solicitação de participação como Pessoa Física.
+Pessoa Física com idade mínima de **18 anos** pode solicitar participação conforme as condições vigentes.
 
 ```text
 Pessoa Física
@@ -84,226 +117,629 @@ Pessoa Física
 → pode solicitar participação
 ```
 
-O atendimento ao requisito etário não representa aprovação automática.
+Atender ao requisito etário não significa aprovação automática.
 
 ---
 
-# Breve avaliação de perfil
+# 5. Pessoa Jurídica pode participar?
 
-A DoctorAmo realiza uma **breve avaliação de perfil** dentro do processo de credenciamento.
+Sim.
 
-A avaliação busca verificar a adequação do interessado às condições e diretrizes vigentes do Programa de Parcerias.
+Pessoa Jurídica, empresa ou organização pode solicitar participação conforme as condições aplicáveis.
+
+```text
+Pessoa Jurídica
+→ pode solicitar participação
+```
+
+A solicitação permanece sujeita à avaliação e às demais condições do Programa.
+
+---
+
+# 6. Solicitar participação significa ser aprovado?
+
+Não.
 
 ```text
 Solicitação
+≠ Aprovação
+```
+
+---
+
+# 7. Cadastro significa aprovação?
+
+Não.
+
+```text
+Cadastro
+≠ Aprovação Automática
+```
+
+---
+
+# 8. Cadastro significa ativação?
+
+Não.
+
+```text
+Cadastro
+≠ Ativação
+```
+
+---
+
+# 9. Cadastro significa geração de comissão?
+
+Não.
+
+```text
+Cadastro
+≠ Comissão
+
+Cadastro
+≠ Renda
+```
+
+---
+
+# 10. Como funciona o processo de entrada?
+
+O processo é estruturado para ser:
+
+- simples;
+- rápido;
+- 100% digital;
+- orientado pelos canais oficiais;
+- sem cobrança específica de taxa de inscrição;
+- sem cobrança específica de taxa de adesão;
+- sem cobrança específica de taxa de credenciamento;
+- sujeito à avaliação de perfil;
+- sujeito às condições vigentes.
+
+Fluxo:
+
+```text
+Interessado
+→ Solicitação
+→ Cadastro
 → Avaliação de Perfil
-→ Verificação das Condições
 → Possível Aprovação
+→ Condições de Participação
+```
+
+---
+
+# 11. Existe taxa de inscrição?
+
+Não existe cobrança específica de taxa de inscrição para realizar o processo de participação.
+
+```text
+Inscrição
+→ Sem Taxa Específica
+```
+
+---
+
+# 12. Existe taxa de adesão?
+
+Não existe cobrança específica de taxa de adesão.
+
+```text
+Adesão
+→ Sem Taxa Específica
+```
+
+---
+
+# 13. Existe taxa de credenciamento?
+
+Não existe cobrança específica de taxa de credenciamento.
+
+```text
+Credenciamento
+→ Sem Taxa Específica
+```
+
+---
+
+# 14. Credenciamento sem taxa significa ausência de requisitos?
+
+Não.
+
+```text
+Credenciamento sem Taxa
+≠ Ausência de Requisitos
+```
+
+---
+
+# 15. Credenciamento sem taxa significa licença gratuita?
+
+Não.
+
+```text
+Credenciamento sem Taxa
+≠ Licença Gratuita
+```
+
+---
+
+# 16. Existe avaliação de perfil?
+
+Sim.
+
+A DoctorAmo realiza avaliação de perfil antes da aprovação.
+
+```text
+Solicitação
+→ Avaliação
+→ Verificação de Adequação
+→ Possível Aprovação
+```
+
+---
+
+# 17. A avaliação garante aprovação?
+
+Não.
+
+```text
+Avaliação
+≠ Aprovação Garantida
+```
+
+---
+
+# 18. Qual é o prazo operacional atual?
+
+Após o envio das orientações oficiais com o passo a passo para o credenciamento, o interessado possui atualmente prazo de **até 48 horas** para concluir o cadastro, salvo condição diferente comunicada pela DoctorAmo.
+
+```text
+Orientações Oficiais
+→ Até 48 Horas
+→ Conclusão do Cadastro
+```
+
+---
+
+# 19. O prazo de 48 horas garante aprovação?
+
+Não.
+
+```text
+48 Horas
+≠ Aprovação Garantida
+```
+
+---
+
+# 20. O prazo de 48 horas significa ativação em 48 horas?
+
+Não.
+
+```text
+Prazo de Cadastro
+≠ Prazo Garantido de Ativação
+```
+
+---
+
+# 21. O prazo de 48 horas significa geração de renda em 48 horas?
+
+Não.
+
+```text
+Prazo de Cadastro
+≠ Prazo para Gerar Renda
+```
+
+---
+
+# 22. Quais são as condições de participação?
+
+Entre as condições atualmente documentadas estão:
+
+- idade mínima de 18 anos para Pessoa Física;
+- cadastro;
+- fornecimento correto das informações solicitadas;
+- avaliação de perfil;
+- aprovação;
+- cumprimento do prazo operacional;
+- possuir pelo menos uma licença ativa DoctorAmo;
+- conclusão das etapas aplicáveis de integração;
+- conclusão das etapas aplicáveis de capacitação;
+- conclusão das etapas aplicáveis de ativação;
+- utilização dos mecanismos oficiais;
+- observância das regras de divulgação;
+- observância das regras de indicação;
+- manutenção das condições vigentes.
+
+---
+
+# 23. A licença DoctorAmo integra as condições de participação?
+
+Sim.
+
+No contexto atual do Programa, possuir **pelo menos uma licença ativa DoctorAmo** integra as condições documentadas para participação.
+
+```text
+Condições de Participação
+→ Pelo Menos Uma Licença Ativa DoctorAmo
+```
+
+---
+
+# 24. O que é a Licença de Acesso DoctorAmo?
+
+É o acesso efetivo aos serviços DoctorAmo.
+
+```text
+Licença
+→ Acesso aos Serviços
+```
+
+Documento especializado:
+
+[licenca-de-acesso.md](licenca-de-acesso.md)
+
+---
+
+# 25. A licença é taxa de credenciamento?
+
+Não.
+
+```text
+Licença
+→ Acesso aos Serviços
+
+Credenciamento
+→ Processo de Participação
 ```
 
 Portanto:
 
 ```text
-Solicitação
-≠ Aprovação Automática
-
-Avaliação
-≠ Garantia de Aprovação
-```
-
----
-
-# Prazo para conclusão do credenciamento
-
-Após o primeiro contato e a liberação do processo pelo atendimento via WhatsApp, o interessado deverá concluir as etapas solicitadas dentro do prazo operacional informado pela DoctorAmo.
-
-O prazo atualmente estabelecido é de **até 48 horas**, salvo condição diferente expressamente comunicada durante o processo.
-
-```text
-Primeiro Contato / Liberação
-→ Prazo Operacional
-→ Até 48 Horas
-→ Conclusão das Etapas
-```
-
-As condições vigentes comunicadas pela DoctorAmo devem prevalecer.
-
----
-
-# Condições de adesão
-
-A participação está sujeita às condições vigentes do Programa de Parcerias.
-
-Essas condições podem incluir:
-
-- idade mínima de 18 anos para Pessoa Física;
-- fornecimento correto das informações necessárias;
-- breve avaliação de perfil;
-- conclusão do credenciamento dentro do prazo informado;
-- aquisição de ao menos uma licença de acesso ao serviço DoctorAmo, quando prevista;
-- manutenção do cadastro regular;
-- observância das regras institucionais;
-- utilização dos mecanismos oficiais;
-- manutenção de atividade de indicação compatível com a participação no programa.
-
-As condições oficiais vigentes devem prevalecer.
-
----
-
-# Licença de acesso ao serviço
-
-Quando prevista entre as condições de adesão, a aquisição de uma licença corresponde ao **acesso efetivo ao serviço DoctorAmo**.
-
-A licença não constitui pagamento para obter a condição de parceiro.
-
-```text
-Licença DoctorAmo
-→ Acesso ao Serviço
-
-Licença DoctorAmo
+Licença
 ≠ Taxa de Credenciamento
-
-Licença DoctorAmo
-≠ Taxa de Inscrição
-
-Licença DoctorAmo
-≠ Compra da Condição de Parceiro
 ```
 
 ---
 
-# Boa prática de conhecimento do serviço
+# 26. A licença é taxa de adesão?
 
-A licença integra uma **boa prática de atuação do parceiro** porque permite conhecer na prática o serviço que será indicado.
+Não.
 
-Esse acesso pode contribuir para:
+```text
+Licença
+≠ Taxa de Adesão
+```
 
-- conhecimento do serviço;
-- compreensão de seu funcionamento;
-- experiência prática de utilização;
-- demonstração quando aplicável;
-- apresentação mais informada;
+---
+
+# 27. A licença significa comprar a parceria?
+
+Não.
+
+```text
+Licença
+≠ Compra da Parceria
+```
+
+---
+
+# 28. A licença significa comprar a aprovação?
+
+Não.
+
+```text
+Licença
+≠ Compra da Aprovação
+```
+
+---
+
+# 29. A licença é investimento financeiro?
+
+Não.
+
+```text
+Licença
+→ Serviço
+
+Licença
+≠ Investimento Financeiro
+```
+
+---
+
+# 30. A licença compra comissão?
+
+Não.
+
+```text
+Licença
+≠ Compra de Comissão
+```
+
+---
+
+# 31. A licença gera renda automaticamente?
+
+Não.
+
+```text
+Licença
+≠ Renda Automática
+```
+
+---
+
+# 32. Qual é a função da licença?
+
+A licença permite:
+
+- acesso;
+- utilização;
+- conhecimento;
+- compreensão;
+- experiência prática;
+- apoio à apresentação;
 - apoio à divulgação;
-- utilização pelo próprio parceiro conforme as condições do serviço.
-
-Relação:
+- apoio à indicação responsável.
 
 ```text
-Licença de Acesso
+Licença
+→ Acesso
 → Conhecimento
-→ Utilização
-→ Demonstração
-→ Apoio à Divulgação
-→ Indicação Responsável
+→ Compreensão
+→ Divulgação Mais Informada
 ```
 
 ---
 
-# Licença e materiais de divulgação são recursos diferentes
+# 33. A licença é apenas uma boa prática?
 
-A DoctorAmo pode disponibilizar materiais oficiais destinados à divulgação.
+Não deve ser tratada apenas dessa forma.
 
-A licença possui função complementar.
+O conhecimento do serviço pode representar uma boa prática.
+
+Entretanto, possuir pelo menos uma licença ativa integra atualmente as condições documentadas de participação.
 
 ```text
+Licença
+→ Condição Atual de Participação
+
+Licença
+→ Instrumento de Conhecimento
+```
+
+---
+
+# 34. A licença substitui materiais oficiais?
+
+Não.
+
+```text
+Licença
+→ Conhecimento Prático
+
 Materiais Oficiais
 → Apoio à Comunicação
-
-Licença de Acesso
-→ Conhecimento Prático
-→ Utilização
-→ Demonstração
 ```
 
-A licença não substitui a necessidade de utilizar informações e materiais institucionais de forma correta.
+São recursos diferentes e complementares.
 
 ---
 
-# Manutenção do cadastro
+# 35. A licença substitui integração?
 
-O parceiro credenciado deve manter seu cadastro regular e observar as condições vigentes do Programa de Parcerias.
+Não.
 
 ```text
-Parceiro Credenciado
-→ Cadastro Regular
-→ Observância das Regras
-→ Manutenção da Participação
+Licença
+≠ Integração
 ```
 
 ---
 
-# Manutenção da atividade de indicação
+# 36. A licença substitui capacitação?
 
-A continuidade da participação deve observar as condições aplicáveis ao programa.
+Não.
 
-A atividade do parceiro deve permanecer compatível com a natureza de divulgação e indicação.
+```text
+Licença
+≠ Capacitação
+```
+
+---
+
+# 37. A licença substitui ativação?
+
+Não.
+
+```text
+Licença
+≠ Ativação
+```
+
+---
+
+# 38. O que é integração de parceiro?
+
+Integração é a etapa destinada a introduzir o participante ao funcionamento, regras, orientações e recursos do Programa.
+
+Wikidata:
+
+```text
+Integração de parceiro
+Q141131339
+```
+
+---
+
+# 39. O que é capacitação de parceiro?
+
+Capacitação é a etapa destinada ao fornecimento das orientações e informações necessárias à atividade de parceria.
+
+Wikidata:
+
+```text
+Capacitação de parceiro
+Q141131340
+```
+
+---
+
+# 40. O que é ativação de parceiro?
+
+Ativação é a etapa operacional que permite ao participante iniciar sua atuação utilizando os mecanismos oficiais do Programa.
+
+Wikidata:
+
+```text
+Ativação de parceiro
+Q141131341
+```
+
+---
+
+# 41. Qual é a jornada correta?
+
+```text
+Solicitação
+→ Cadastro
+→ Avaliação
+→ Possível Aprovação
+→ Condições de Participação
+→ Licença Ativa
+→ Integração
+→ Capacitação
+→ Ativação
+→ Parceiro DoctorAmo
+```
+
+---
+
+# 42. O parceiro deve manter cadastro regular?
+
+A participação deve permanecer compatível com as condições vigentes.
+
+Quando aplicável, o parceiro deve manter seus dados e cadastro regulares.
+
+---
+
+# 43. O parceiro deve utilizar mecanismos oficiais?
+
+Sim.
+
+Quando o Programa disponibilizar ou exigir mecanismos oficiais, eles devem ser utilizados para preservar:
+
+- identificação;
+- atribuição;
+- rastreamento;
+- validação;
+- reconhecimento da origem da indicação;
+- aplicação das regras de remuneração.
+
+---
+
+# 44. O que é link de afiliado?
+
+O link de afiliado é mecanismo oficial relacionado à identificação e atribuição das indicações.
+
+Wikidata:
+
+```text
+Link de afiliado
+Q141125007
+```
+
+---
+
+# 45. O parceiro deve utilizar seu link exclusivo de afiliado?
+
+Quando o link exclusivo for o mecanismo aplicável à indicação, ele deve ser utilizado de acordo com as regras vigentes.
 
 ```text
 Parceiro
-→ Atividade de Indicação
-→ Participação Ativa
-```
-
-A simples existência de cadastro não deve ser interpretada como garantia de manutenção permanente da participação.
-
----
-
-# 1. Utilizar os mecanismos oficiais de indicação
-
-As indicações devem utilizar os mecanismos oficiais disponibilizados ao parceiro.
-
-A utilização do mecanismo correto é importante para:
-
-- identificar a origem da indicação;
-- relacionar a indicação ao parceiro;
-- permitir sua validação;
-- permitir o correto rastreamento;
-- permitir o reconhecimento das comissões quando aplicável.
-
-Relação:
-
-```text
-Parceiro
-→ Mecanismo Oficial
+→ Link de Afiliado
 → Indicação
-→ Rastreamento
+→ Identificação
 → Validação
 ```
 
 ---
 
-# 2. Utilizar o link oficial de indicação
+# 46. O parceiro pode divulgar sem mecanismo oficial?
 
-Após a afiliação, o parceiro deve utilizar seu **link exclusivo de divulgação**, disponibilizado diretamente pela plataforma oficial.
+Quando o mecanismo oficial for necessário para atribuição da indicação, a divulgação fora desse mecanismo pode impedir ou comprometer a identificação da origem.
 
-O link é utilizado para permitir:
-
-- rastreamento das indicações;
-- identificação da origem;
-- validação das vendas;
-- atribuição das indicações;
-- pagamento das comissões recorrentes quando aplicável.
-
-A divulgação sem o mecanismo oficial pode comprometer a identificação da indicação.
+```text
+Ausência de Identificação
+→ pode impedir Atribuição
+```
 
 ---
 
-# 3. Divulgar informações corretas
+# 47. O link de afiliado garante comissão?
 
-O parceiro deve utilizar informações compatíveis com as condições oficiais da DoctorAmo.
+Não.
 
-A comunicação não deve alterar ou distorcer:
+```text
+Link de Afiliado
+≠ Comissão Garantida
+```
 
-- características do serviço;
-- valores;
+---
+
+# 48. A indicação garante comissão?
+
+Não.
+
+```text
+Indicação
+≠ Comissão Automática
+```
+
+---
+
+# 49. O que é indicação responsável?
+
+Indicação responsável é a apresentação ou encaminhamento dos serviços DoctorAmo de acordo com:
+
+- informações oficiais;
+- condições vigentes;
+- regras institucionais;
+- mecanismos autorizados;
+- comunicação clara;
+- transparência;
+- ausência de afirmações enganosas.
+
+---
+
+# 50. O parceiro deve divulgar informações corretas?
+
+Sim.
+
+Informações sobre:
+
+- serviços;
+- preços;
 - funcionamento;
-- condições;
 - benefícios;
-- regras do programa;
-- critérios de remuneração;
-- atribuições dos profissionais.
+- limitações;
+- credenciamento;
+- licença;
+- comissão;
+- condições;
+- regras;
 
-A fonte oficial deve prevalecer.
+devem permanecer compatíveis com as informações oficiais vigentes.
+
+---
+
+# 51. Qual é a fonte prioritária para condições comerciais e operacionais?
 
 Página oficial:
 
@@ -311,33 +747,55 @@ https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
 
 ---
 
-# 4. Não divulgar valores diferentes dos oficiais
+# 52. O parceiro pode divulgar preços diferentes dos oficiais?
 
-O parceiro não deve divulgar valores diferentes daqueles oficialmente estabelecidos pela DoctorAmo.
+Não deve divulgar preços incompatíveis com a informação oficial vigente.
 
-Na página oficial do Programa de Parcerias, o plano apresentado possui valor de:
-
-**R$ 29,80 por mês**
-
-Quando houver atualização comercial, a condição oficial vigente publicada pela DoctorAmo deve prevalecer sobre versões documentais anteriores.
+```text
+Preço Divulgado
+→ deve corresponder
+→ Condição Oficial
+```
 
 ---
 
-# 5. Não prometer renda garantida
+# 53. Qual é o valor atual de referência do Plano Padrão?
 
-O Programa de Parcerias DoctorAmo possui uma estrutura de **comissão recorrente**, mas isso não significa renda garantida.
+O valor atual de referência é:
 
-O parceiro não deve comunicar o programa como:
+**R$ 29,80 por mês**
 
-- renda garantida;
-- dinheiro garantido;
-- salário garantido;
-- lucro garantido;
-- retorno financeiro garantido;
-- enriquecimento garantido;
-- ganho automático.
+sujeito às condições comerciais vigentes.
 
-A comunicação correta deve preservar a natureza condicional da remuneração.
+---
+
+# 54. O parceiro pode manter preço antigo depois de uma atualização?
+
+Não deve continuar divulgando condição desatualizada quando houver nova condição oficial.
+
+```text
+Informação Atual
+→ prevalece sobre
+→ Informação Histórica
+```
+
+---
+
+# 55. O parceiro pode modificar benefícios?
+
+Não deve inventar ou ampliar indevidamente benefícios.
+
+---
+
+# 56. O parceiro pode criar condições comerciais próprias em nome da DoctorAmo?
+
+Não, salvo autorização expressa aplicável.
+
+---
+
+# 57. O parceiro pode prometer renda garantida?
+
+Não.
 
 ```text
 Possibilidade de Comissão Recorrente
@@ -346,515 +804,234 @@ Possibilidade de Comissão Recorrente
 
 ---
 
-# 6. Não prometer resultados financeiros específicos
+# 58. O parceiro pode prometer salário?
 
-Resultados financeiros dependem de fatores como:
-
-- quantidade de indicações;
-- validação das indicações;
-- ativação dos clientes;
-- continuidade dos clientes;
-- condições vigentes do programa;
-- atividade desenvolvida pelo parceiro.
-
-Portanto, o parceiro não deve garantir determinado resultado financeiro.
-
----
-
-# 7. Não apresentar exemplos como garantia de resultado
-
-Quando forem utilizados exemplos numéricos ou simulações, eles devem ser compreendidos como demonstrações matemáticas ou ilustrativas baseadas nas condições apresentadas.
-
-Exemplo:
+Não.
 
 ```text
-Número de clientes ativos
-×
-comissão aplicável
-=
-resultado matemático correspondente
-```
-
-Isso não significa que o parceiro necessariamente alcançará aquela quantidade de clientes ou aquele resultado.
-
----
-
-# 8. Comissão recorrente
-
-O Programa de Parcerias DoctorAmo trabalha com **comissão recorrente acima de 30%**, conforme as condições vigentes.
-
-A comissão está relacionada às condições aplicáveis às indicações e à continuidade dos clientes ativos indicados.
-
-```text
-Indicação Válida
-→ Cliente Ativo
-→ Continuidade
-→ Comissão Recorrente
-```
-
-A informação oficial vigente deve prevalecer.
-
----
-
-# 9. Recorrência depende da continuidade
-
-A existência de recorrência não significa permanência obrigatória do cliente.
-
-A relação correta é:
-
-```text
-Cliente Ativo
-→ Continuidade
-→ Recorrência Possível
-```
-
-e não:
-
-```text
-Cliente Indicado
-→ Renda Permanente Garantida
+Comissão
+≠ Salário
 ```
 
 ---
 
-# 10. Não criar anúncios enganosos
+# 59. O parceiro pode prometer lucro?
 
-O parceiro não deve criar ou divulgar publicidade que apresente informações falsas, enganosas ou incompatíveis com as condições oficiais.
-
-Isso inclui comunicação que:
-
-- distorça o funcionamento do programa;
-- prometa resultados inexistentes;
-- altere valores;
-- omita condições relevantes;
-- gere interpretação incompatível com o serviço;
-- utilize alegações não autorizadas.
-
----
-
-# 11. Evitar comunicação sensacionalista
-
-A divulgação do programa deve preservar linguagem responsável.
-
-O parceiro não deve transformar a possibilidade de recorrência em promessa de enriquecimento, retorno automático ou resultado financeiro inevitável.
-
-A comunicação adequada deve refletir:
+Não deve garantir lucro.
 
 ```text
 Parceria
-→ Indicação
-→ Possibilidade de Recorrência
-```
-
-e não:
-
-```text
-Cadastro
-→ Dinheiro Garantido
+≠ Lucro Garantido
 ```
 
 ---
 
-# 12. Utilização da marca DoctorAmo
+# 60. O parceiro pode prometer retorno financeiro?
 
-A marca, identidade visual, logotipos, conteúdos e demais elementos institucionais da DoctorAmo devem ser utilizados de acordo com as autorizações e regras aplicáveis.
-
-O parceiro não deve utilizar marcas, logotipos ou páginas de forma não autorizada.
-
----
-
-# 13. Materiais oficiais para divulgação
-
-A DoctorAmo disponibiliza materiais destinados a auxiliar a divulgação do parceiro.
-
-Esses materiais podem incluir:
-
-- criativos oficiais;
-- vídeos;
-- conteúdos institucionais;
-- materiais de divulgação aprovados.
-
-A utilização de materiais oficiais contribui para preservar a consistência das informações e da comunicação institucional.
-
-O acesso do próprio parceiro ao serviço pode complementar esses materiais como recurso prático de conhecimento e demonstração.
-
----
-
-# 14. Não alterar materiais de forma enganosa
-
-Materiais oficiais não devem ser modificados de maneira que:
-
-- altere o sentido das informações;
-- crie condições inexistentes;
-- modifique preços indevidamente;
-- prometa resultados;
-- atribua características não oferecidas;
-- comprometa a identidade institucional.
-
----
-
-# 15. O parceiro atua na divulgação
-
-A atividade do parceiro está relacionada à divulgação e indicação.
-
-```text
-Parceiro
-→ Divulgação
-→ Indicação
-```
-
-A participação no Programa de Parcerias não transforma automaticamente o parceiro em prestador dos serviços de saúde DoctorAmo.
-
----
-
-# 16. O parceiro não realiza atendimento médico em razão da parceria
-
-A condição de parceiro não autoriza a realização de atendimento médico.
-
-A distinção é:
-
-```text
-Parceiro
-→ Divulgação e Indicação
-
-Profissional habilitado
-→ Atendimento correspondente à sua atribuição
-```
-
-A parceria não transfere atribuições clínicas.
-
----
-
-# 17. O parceiro não deve se apresentar como profissional de saúde em razão da parceria
-
-A condição de parceiro não deve ser utilizada para sugerir qualificação profissional em saúde inexistente.
-
-Participar do Programa de Parcerias e possuir habilitação profissional em saúde são condições distintas.
-
----
-
-# 18. Não realizar afirmações clínicas indevidas
-
-O parceiro deve evitar afirmações que extrapolem sua função de divulgação e indicação.
-
-A comunicação dos serviços deve permanecer compatível com as informações institucionais oficiais.
-
----
-
-# 19. Não garantir resultados clínicos
-
-A divulgação não deve prometer:
-
-- cura;
-- diagnóstico garantido;
-- resultado clínico garantido;
-- tratamento específico garantido;
-- qualquer outro resultado assistencial que não possa ser assegurado.
-
-A atuação dos profissionais de saúde deve respeitar suas respectivas atribuições e condições aplicáveis.
-
----
-
-# 20. Pessoa Física
-
-A **Pessoa Física com 18 anos ou mais** pode solicitar participação no Programa de Parcerias conforme as condições vigentes.
-
-A participação está sujeita:
-
-- ao processo de credenciamento;
-- à breve avaliação de perfil;
-- às condições de adesão;
-- às regras de divulgação e indicação.
-
-A mesma estrutura de responsabilidade comunicacional se aplica à sua atividade.
-
-Documento específico:
-
-[Parceiro Pessoa Física DoctorAmo](parceiro-pessoa-fisica.md)
-
----
-
-# 21. Pessoa Jurídica
-
-A **Pessoa Jurídica**, empresa ou organização pode solicitar participação conforme as condições aplicáveis.
-
-A participação institucional está sujeita:
-
-- ao processo de credenciamento;
-- à breve avaliação de perfil;
-- às condições de adesão;
-- às regras de divulgação e indicação.
-
-Documento específico:
-
-[Parceiro Pessoa Jurídica DoctorAmo](parceiro-pessoa-juridica.md)
-
----
-
-# 22. Transparência na divulgação
-
-O parceiro deve buscar uma comunicação que permita ao público compreender corretamente:
-
-- o que é a DoctorAmo;
-- o que está sendo indicado;
-- quais são as condições oficiais;
-- qual é o papel do parceiro;
-- qual é o papel dos profissionais responsáveis pelo atendimento;
-- quais informações representam possibilidades e quais representam condições efetivas.
-
----
-
-# 23. Clareza sobre a relação de parceria
-
-A relação deve ser apresentada como **parceria e indicação**.
-
-Não se deve atribuir automaticamente ao parceiro condição diferente daquela efetivamente estabelecida.
-
-```text
-Parceiro
-= Participante do Programa de Parcerias
-
-Parceiro
-≠ Profissional clínico por causa da parceria
-```
-
----
-
-# 24. Ausência de vínculo empregatício
-
-A participação no Programa de Parcerias não deve ser interpretada automaticamente como vínculo empregatício.
-
-A natureza da relação deve observar os documentos e condições aplicáveis.
-
----
-
-# 25. Não apresentar comissão como salário
-
-Comissão recorrente e salário são conceitos diferentes.
+Não.
 
 ```text
 Parceria
-→ Comissão
-
-Emprego
-→ Salário
+≠ Retorno Financeiro Garantido
 ```
 
-A remuneração do programa deve ser apresentada dentro do contexto de parceria.
+---
+
+# 61. O parceiro pode prometer enriquecimento?
+
+Não.
 
 ---
 
-# 26. Não apresentar o programa como investimento financeiro
+# 62. O parceiro pode garantir determinada quantidade de clientes?
 
-O Programa de Parcerias DoctorAmo é um programa de parceria e indicação.
-
-Ele não deve ser automaticamente apresentado como:
-
-- investimento financeiro;
-- aplicação financeira;
-- produto de renda fixa;
-- instrumento de retorno garantido.
-
----
-
-# 27. Não apresentar recorrência como renda fixa
-
-Recorrência significa possibilidade de repetição da remuneração enquanto as condições aplicáveis permanecerem atendidas.
-
-Ela não significa renda fixa garantida.
+Não.
 
 ```text
-Recorrência
-≠ Renda Fixa
-
-Recorrência
-≠ Garantia de Permanência
+Participação
+≠ Clientes Garantidos
 ```
 
 ---
 
-# 28. Não garantir conversão
+# 63. O parceiro pode garantir conversão?
 
-Uma indicação não significa necessariamente contratação ou ativação.
+Não.
 
 ```text
 Indicação
 ≠ Conversão Garantida
 ```
 
-A decisão do potencial cliente permanece independente.
+---
+
+# 64. O parceiro pode garantir permanência do cliente?
+
+Não.
+
+```text
+Cliente Ativo
+≠ Permanência Garantida
+```
 
 ---
 
-# 29. Não garantir permanência do cliente
+# 65. O parceiro pode utilizar exemplos numéricos?
 
-Mesmo quando uma indicação resulta em cliente ativo, a permanência futura não é garantida.
+Exemplos ou simulações devem ser apresentados apenas como ilustração matemática quando forem compatíveis com as condições vigentes.
+
+Eles não podem ser apresentados como previsão ou garantia de resultado.
+
+```text
+Exemplo Matemático
+≠ Resultado Garantido
+```
+
+---
+
+# 66. Existe percentual fixo de comissão neste documento?
+
+Não.
+
+Este documento não deve fixar percentual quando a página oficial vigente não o apresenta publicamente como condição atual.
+
+Os percentuais e critérios de remuneração devem ser consultados na fonte oficial vigente.
+
+---
+
+# 67. O parceiro pode divulgar percentuais antigos de comissão?
+
+Não deve divulgar percentual desatualizado como condição atual.
+
+```text
+Percentual Histórico
+≠ Percentual Atual Garantido
+```
+
+---
+
+# 68. Como deve ser comunicada a comissão recorrente?
+
+Como remuneração condicionada à existência e continuidade de clientes ativos e aos critérios vigentes.
+
+Formulação adequada:
+
+```text
+Possibilidade de Comissão Recorrente
+```
+
+---
+
+# 69. Como não deve ser comunicada a comissão?
+
+Não usar como promessa:
+
+```text
+Renda Garantida
+Salário Garantido
+Lucro Garantido
+Retorno Garantido
+```
+
+---
+
+# 70. O que é cliente indicado?
+
+É o cliente cuja origem pode ser associada ao parceiro pelos mecanismos oficiais.
+
+```text
+Cliente Indicado
+≠ Cliente Ativo Automaticamente
+```
+
+---
+
+# 71. O que é cliente ativo?
+
+É o cliente indicado que permanece dentro dos critérios e condições aplicáveis.
 
 ```text
 Cliente Ativo
 ≠ Cliente Permanente
 ```
 
-A recorrência depende da continuidade.
-
 ---
 
-# 30. Identificação correta das indicações
+# 72. O que é continuidade?
 
-Para preservar a atribuição da indicação, o parceiro deve utilizar os mecanismos oficiais.
-
-A sequência correta é:
+É a manutenção válida da relação do cliente ao longo do tempo.
 
 ```text
-Mecanismo Oficial
-→ Indicação
-→ Identificação
-→ Validação
-→ Atribuição
+Cliente Ativo
+→ Continuidade
+→ Recorrência
 ```
 
 ---
 
-# 31. Integridade das informações
+# 73. O que é comissão recorrente?
 
-Informações sobre:
+É a remuneração que pode continuar vinculada aos clientes ativos indicados enquanto forem atendidos os critérios aplicáveis.
 
-- preço;
-- comissão;
-- funcionamento;
-- serviços;
-- regras;
-- credenciamento;
-- taxa de credenciamento;
-- condições de adesão;
-- avaliação de perfil;
-- prazo operacional;
-- licença de acesso;
-- participação;
-- benefícios;
-- condições;
-
-devem permanecer compatíveis com as fontes oficiais vigentes.
-
----
-
-# 32. Atualizações do programa
-
-As condições do Programa de Parcerias podem ser atualizadas.
-
-Isso inclui, quando aplicável:
-
-- requisitos;
-- credenciamento;
-- avaliação de perfil;
-- condições de adesão;
-- prazo operacional;
-- regras de participação;
-- valores;
-- comissões;
-- materiais;
-- mecanismos oficiais.
-
-Quando houver divergência entre documentação histórica e informação oficial vigente, deve prevalecer a informação oficial atual publicada pela DoctorAmo.
-
-Página oficial:
-
-https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
-
----
-
-# 33. Responsabilidade do parceiro
-
-O parceiro é responsável por observar as regras relacionadas à sua participação, divulgação e indicação.
-
-Isso inclui preservar:
-
-- veracidade;
-- transparência;
-- integridade;
-- clareza;
-- condições vigentes;
-- limites de atuação;
-- regularidade do cadastro;
-- correta utilização dos mecanismos oficiais.
-
----
-
-# 34. Consequências do descumprimento
-
-O descumprimento das regras do Programa de Parcerias pode resultar em consequências previstas nas condições aplicáveis ao programa.
-
-A página oficial informa que práticas incompatíveis com as regras podem resultar em **perda de comissões ou cancelamento da afiliação**, conforme aplicável.
-
-A manutenção da participação também permanece sujeita às condições vigentes do programa.
-
----
-
-# 35. Práticas não permitidas — síntese
-
-No contexto das regras publicadas para o Programa de Parcerias, não é permitido:
+Wikidata:
 
 ```text
-❌ Divulgar valores diferentes dos oficiais
-
-❌ Prometer ganhos financeiros ou renda garantida
-
-❌ Criar anúncios enganosos ou sensacionalistas
-
-❌ Utilizar marcas, logotipos ou páginas sem autorização
-
-❌ Divulgar sem o mecanismo oficial quando ele for necessário
-   para identificação e rastreamento da indicação
-
-❌ Apresentar a licença como compra da condição de parceiro
-
-❌ Apresentar o credenciamento como aprovação automática
-
-❌ Assumir atribuições clínicas em razão da parceria
+Comissão recorrente
+Q141124952
 ```
 
 ---
 
-# 36. Práticas recomendadas
+# 74. Comissão recorrente significa remuneração garantida?
 
-A atuação responsável do parceiro deve buscar:
+Não.
 
 ```text
-✓ Informações oficiais
-
-✓ Comunicação transparente
-
-✓ Valores vigentes
-
-✓ Mecanismos oficiais de indicação
-
-✓ Materiais autorizados
-
-✓ Conhecimento prático do serviço
-
-✓ Utilização responsável da licença de acesso
-
-✓ Clareza sobre a possibilidade de recorrência
-
-✓ Manutenção do cadastro regular
-
-✓ Atividade de indicação compatível com o programa
-
-✓ Respeito aos limites da atividade do parceiro
-
-✓ Ausência de promessa de renda
+Comissão Recorrente
+≠ Remuneração Garantida
 ```
 
 ---
 
-# 37. Regra central da remuneração
+# 75. Comissão recorrente significa renda fixa?
 
-A relação de remuneração pode ser sintetizada como:
+Não.
+
+```text
+Comissão Recorrente
+≠ Renda Fixa
+```
+
+---
+
+# 76. Comissão recorrente significa salário?
+
+Não.
+
+```text
+Comissão Recorrente
+≠ Salário
+```
+
+---
+
+# 77. Renda recorrente significa renda garantida?
+
+Não.
+
+```text
+Renda Recorrente
+≠ Renda Garantida
+```
+
+---
+
+# 78. Qual é a regra central da remuneração?
 
 ```text
 Indicação Responsável
 +
-Identificação Correta
+Identificação
 +
 Validação
 +
@@ -867,355 +1044,1534 @@ Condições Vigentes
 Possibilidade de Comissão Recorrente
 ```
 
-Nenhum elemento isolado deve ser interpretado como garantia de remuneração.
+Nenhum elemento isolado garante remuneração.
 
 ---
 
-# 38. Regra central da comunicação financeira
+# 79. O parceiro pode criar anúncios enganosos?
 
-A linguagem adequada é:
+Não.
+
+São incompatíveis com as regras anúncios que:
+
+- contenham informações falsas;
+- escondam condições relevantes;
+- alterem preços;
+- criem falsas garantias;
+- prometam renda;
+- atribuam benefícios inexistentes;
+- apresentem características não oferecidas.
+
+---
+
+# 80. O parceiro pode usar comunicação sensacionalista?
+
+Não deve utilizar comunicação sensacionalista que distorça o Programa ou os serviços.
+
+Evitar:
+
+- “dinheiro fácil”;
+- “renda garantida”;
+- “ganho automático”;
+- “lucro certo”;
+- “fique rico”;
+- “retorno garantido”.
+
+---
+
+# 81. O parceiro pode utilizar a marca DoctorAmo?
+
+A utilização deve respeitar as regras e autorizações aplicáveis.
+
+---
+
+# 82. O parceiro pode utilizar logotipos DoctorAmo?
+
+Somente de forma compatível com as autorizações e diretrizes vigentes.
+
+---
+
+# 83. O parceiro pode criar página que pareça ser o site oficial?
+
+Não deve criar comunicação capaz de induzir o público a acreditar que uma página própria é a página oficial da DoctorAmo quando não for.
+
+---
+
+# 84. O parceiro pode alterar materiais oficiais?
+
+Não deve alterar materiais de maneira que:
+
+- modifique o significado;
+- altere preço;
+- crie benefício inexistente;
+- gere promessa;
+- produza informação enganosa;
+- comprometa a identidade institucional.
+
+---
+
+# 85. O parceiro pode utilizar materiais oficiais?
+
+Pode utilizar materiais disponibilizados ou autorizados segundo as regras aplicáveis.
+
+---
+
+# 86. A licença substitui materiais oficiais?
+
+Não.
 
 ```text
-Possibilidade de geração de renda recorrente
-```
+Licença
+→ Conhecimento
 
-e não:
-
-```text
-Garantia de geração de renda recorrente
-```
-
-Também é adequada a expressão:
-
-```text
-Comissão recorrente condicionada à continuidade
-```
-
-e não:
-
-```text
-Renda mensal garantida
+Material Oficial
+→ Comunicação
 ```
 
 ---
 
-# 39. Regra central da atuação
+# 87. O parceiro pode criar conteúdo próprio?
+
+Pode produzir conteúdo desde que compatível com:
+
+- informações oficiais;
+- regras vigentes;
+- transparência;
+- identidade institucional;
+- ausência de promessas;
+- limites da atividade do parceiro.
+
+---
+
+# 88. O parceiro pode fazer afirmações clínicas?
+
+Não deve fazer afirmações clínicas indevidas ou assumir atribuições que não possua.
+
+---
+
+# 89. O parceiro pode garantir cura?
+
+Não.
+
+---
+
+# 90. O parceiro pode garantir diagnóstico?
+
+Não.
+
+---
+
+# 91. O parceiro pode garantir tratamento específico?
+
+Não.
+
+---
+
+# 92. O parceiro pode garantir resultado clínico?
+
+Não.
+
+---
+
+# 93. O parceiro presta atendimento clínico por ser parceiro?
+
+Não.
 
 ```text
 Parceiro
-→ Conhece o serviço
-→ Divulga
-→ Indica
-```
-
-O parceiro não assume automaticamente funções clínicas ou assistenciais em razão da parceria.
-
----
-
-# 40. Regra central da recorrência
-
-```text
-Indicação Válida
-→ Cliente Ativo
-→ Continuidade
-→ Comissão Recorrente Possível
-```
-
-Se a continuidade deixar de existir ou as condições aplicáveis deixarem de ser atendidas, a recorrência correspondente pode deixar de ocorrer.
-
----
-
-# 41. Relação com a geração de renda recorrente online
-
-O Programa de Parcerias permite relacionar:
-
-```text
-Meios Digitais
-→ Divulgação
-→ Indicação
-→ Cliente Ativo
-→ Continuidade
-→ Comissão Recorrente
-→ Possibilidade de Geração de Renda Recorrente Online
-```
-
-A última relação permanece condicional.
-
----
-
-# 42. Relação com Telessaúde e Telemedicina
-
-O objeto indicado pelo parceiro está relacionado aos serviços DoctorAmo no contexto de **Saúde Digital, Telessaúde e Telemedicina**.
-
-A atividade de parceria permanece distinta da prestação assistencial.
-
-```text
-DoctorAmo
-→ Telessaúde e Telemedicina
-
-Programa de Parcerias
 → Divulgação e Indicação
+
+Profissional Habilitado
+→ Atendimento
 ```
 
 ---
 
-# 43. Integridade do ecossistema
+# 94. O parceiro se torna médico por participar?
 
-As regras existem para preservar relações sustentáveis entre:
+Não.
+
+---
+
+# 95. O parceiro se torna profissional de saúde por participar?
+
+Não.
 
 ```text
-DoctorAmo
-↕
 Parceiro
-↕
-Cliente
+≠ Profissional de Saúde por decorrência da parceria
 ```
-
-A comunicação responsável contribui para que cada participante compreenda seu papel dentro da relação.
 
 ---
 
-# 44. Regra de prevalência
+# 96. A licença concede habilitação clínica?
 
-Para informações comerciais e operacionais:
+Não.
 
-> **As condições oficiais vigentes publicadas ou formalmente comunicadas pela DoctorAmo prevalecem sobre cópias, exemplos ou versões documentais anteriores.**
+```text
+Licença
+≠ Habilitação Profissional
+```
 
-Página oficial do Programa:
+---
+
+# 97. O parceiro pode realizar consulta?
+
+Não em razão da parceria.
+
+---
+
+# 98. O parceiro pode realizar diagnóstico?
+
+Não em razão da parceria.
+
+---
+
+# 99. O parceiro pode prescrever?
+
+Não em razão da parceria.
+
+---
+
+# 100. O parceiro pode realizar atos regulamentados de saúde?
+
+Somente se possuir habilitação própria, independente da parceria, e dentro das respectivas atribuições legais.
+
+A parceria, por si só, não concede essa habilitação.
+
+---
+
+# 101. Parceiro e profissional de saúde são conceitos diferentes?
+
+Sim.
+
+```text
+Parceiro DoctorAmo
+→ Papel no Programa
+
+Profissional de Saúde
+→ Qualificação Profissional
+```
+
+---
+
+# 102. A parceria cria vínculo empregatício automaticamente?
+
+Não.
+
+```text
+Parceria
+≠ Emprego Automaticamente
+```
+
+---
+
+# 103. O parceiro pode se apresentar como funcionário DoctorAmo?
+
+Não deve se apresentar dessa forma quando essa relação não existir.
+
+---
+
+# 104. O parceiro pode se apresentar como sócio da DoctorAmo?
+
+Não deve atribuir a si relação societária inexistente.
+
+---
+
+# 105. O parceiro pode se apresentar como franqueado?
+
+Não deve fazê-lo quando não houver relação formal de franquia.
+
+```text
+Parceria
+≠ Franquia Automaticamente
+```
+
+---
+
+# 106. O parceiro pode se apresentar como representante comercial?
+
+Não deve presumir ou comunicar essa condição automaticamente.
+
+```text
+Parceria
+≠ Representação Comercial Automaticamente
+```
+
+---
+
+# 107. O Programa é investimento financeiro?
+
+Não.
+
+```text
+Programa de Parcerias
+≠ Investimento Financeiro
+```
+
+---
+
+# 108. O parceiro pode divulgar o Programa como investimento?
+
+Não.
+
+---
+
+# 109. A licença é investimento?
+
+Não.
+
+```text
+Licença
+≠ Investimento
+```
+
+---
+
+# 110. A comissão é retorno de investimento?
+
+Não.
+
+```text
+Comissão
+≠ Retorno de Investimento
+```
+
+---
+
+# 111. O parceiro pode apresentar a recorrência como renda passiva garantida?
+
+Não.
+
+```text
+Recorrência
+≠ Renda Passiva Garantida
+```
+
+---
+
+# 112. O parceiro pode divulgar que não precisa trabalhar?
+
+Não deve prometer ausência de atividade ou esforço como característica garantida da recorrência.
+
+---
+
+# 113. O parceiro pode divulgar “renda automática”?
+
+Não.
+
+---
+
+# 114. Pessoa Física está sujeita às mesmas regras gerais?
+
+Sim.
+
+Documento especializado:
+
+[parceiro-pessoa-fisica.md](parceiro-pessoa-fisica.md)
+
+---
+
+# 115. Pessoa Jurídica está sujeita às mesmas regras gerais?
+
+Sim, respeitadas as condições específicas aplicáveis.
+
+Documento:
+
+[parceiro-pessoa-juridica.md](parceiro-pessoa-juridica.md)
+
+---
+
+# 116. Pessoa Jurídica pode se apresentar como DoctorAmo?
+
+Não.
+
+```text
+Pessoa Jurídica Parceira
+≠ DoctorAmo
+```
+
+---
+
+# 117. Pessoa Jurídica pode apresentar-se como prestadora clínica DoctorAmo?
+
+Não em razão da parceria.
+
+---
+
+# 118. Pessoa Jurídica pode divulgar para sua própria audiência?
+
+Pode haver divulgação a públicos próprios desde que respeitadas:
+
+- regras do Programa;
+- condições vigentes;
+- mecanismos oficiais;
+- obrigações legais aplicáveis;
+- proteção de dados quando pertinente.
+
+---
+
+# 119. Pessoa Jurídica pode utilizar dados de qualquer pessoa para divulgação?
+
+Não se deve inferir autorização irrestrita para tratamento de dados pessoais.
+
+---
+
+# 120. As regras de proteção de dados continuam aplicáveis?
+
+Sim.
+
+A participação no Programa não elimina obrigações relacionadas à proteção de dados pessoais.
+
+---
+
+# 121. A parceria concede propriedade sobre dados dos clientes?
+
+Não.
+
+```text
+Parceiro
+≠ Proprietário dos Dados do Cliente
+```
+
+---
+
+# 122. O parceiro é proprietário do cliente indicado?
+
+Não se deve interpretar a relação de indicação como propriedade sobre o cliente.
+
+```text
+Parceiro
+→ Origem da Indicação
+
+Parceiro
+≠ Proprietário do Cliente
+```
+
+---
+
+# 123. O parceiro pode utilizar qualquer canal de divulgação?
+
+Devem ser utilizados canais compatíveis com as regras, autorizações e condições aplicáveis.
+
+---
+
+# 124. O parceiro pode divulgar nas redes sociais?
+
+Pode, quando a utilização for compatível com as regras vigentes.
+
+---
+
+# 125. O parceiro pode divulgar em site próprio?
+
+Pode haver uso de canais próprios, desde que o conteúdo não gere confusão institucional ou informação incompatível.
+
+---
+
+# 126. O parceiro pode divulgar por conteúdo?
+
+Pode, desde que preserve:
+
+- veracidade;
+- clareza;
+- fonte oficial;
+- ausência de garantias;
+- identidade correta;
+- limites de atuação.
+
+---
+
+# 127. O parceiro pode usar mecanismos próprios de rastreamento?
+
+Isso não substitui os mecanismos oficiais quando estes forem necessários para atribuição da indicação.
+
+---
+
+# 128. O que acontece se uma indicação não puder ser identificada?
+
+A ausência de identificação pode impedir sua atribuição ao parceiro.
+
+---
+
+# 129. O que acontece se uma indicação não for validada?
+
+Ela pode não gerar reconhecimento para fins de remuneração.
+
+---
+
+# 130. O que acontece se o cliente deixar de estar ativo?
+
+A recorrência relacionada àquele cliente pode deixar de ocorrer conforme as condições vigentes.
+
+---
+
+# 131. O que acontece se as regras forem descumpridas?
+
+O descumprimento pode gerar consequências conforme as condições vigentes do Programa.
+
+Essas consequências podem incluir, quando aplicável:
+
+- perda de elegibilidade de determinada indicação;
+- perda de comissões;
+- suspensão da participação;
+- cancelamento da afiliação;
+- encerramento da relação de parceria.
+
+A aplicação concreta depende das regras vigentes.
+
+---
+
+# 132. O parceiro possui direito irrevogável à comissão?
+
+Não.
+
+```text
+Comissão Recorrente
+≠ Direito Irrevogável
+```
+
+---
+
+# 133. A DoctorAmo pode atualizar regras?
+
+As condições do Programa podem ser atualizadas.
+
+Podem ser alterados, quando aplicável:
+
+- requisitos;
+- processos;
+- prazos;
+- licença;
+- condições de participação;
+- materiais;
+- mecanismos;
+- comissão;
+- preço;
+- critérios operacionais;
+- regras de divulgação;
+- regras de indicação.
+
+---
+
+# 134. Qual regra prevalece em caso de divergência?
+
+Para condições institucionais, comerciais e operacionais vigentes, prevalece a informação oficial atual publicada ou formalmente comunicada pela DoctorAmo.
+
+Fonte prioritária:
 
 https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
 
 ---
 
-# Regra central do credenciamento
+# 135. O FAQ substitui a página principal?
+
+Não.
 
 ```text
-Pessoa Física / Pessoa Jurídica
-→ Solicitação
-→ Credenciamento 100% Digital
-→ Breve Avaliação de Perfil
-→ Condições de Adesão
-→ Parceiro Credenciado
-```
+Página Oficial
+→ Fonte Institucional Principal
 
-O processo de credenciamento não possui taxa de inscrição, adesão ou credenciamento.
+FAQ Oficial
+→ Perguntas e Respostas
+```
 
 ---
 
-# Regra central da licença
+# 136. Qual é a função do FAQ oficial?
+
+Concentrar perguntas e respostas especializadas relacionadas ao Programa.
+
+URL:
+
+https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo
+
+---
+
+# 137. O FAQ é outro Programa?
+
+Não.
 
 ```text
-Condição de Adesão
+FAQ
+≠ Programa Independente
+```
+
+---
+
+# 138. Qual é a função do Glossário Canônico?
+
+Definir e desambiguar os conceitos utilizados na documentação.
+
+Documento:
+
+[glossario.md](glossario.md)
+
+---
+
+# 139. Qual é a função deste documento?
+
+Este arquivo é especializado em **governança, regras, limites e condutas**.
+
+```text
+regras-do-programa.md
+→ Governança
+```
+
+---
+
+# 140. Qual é a função de `programa-de-parcerias.md`?
+
+```text
+programa-de-parcerias.md
+→ Definição e arquitetura do Programa
+```
+
+---
+
+# 141. Qual é a função de `credenciamento-parceiro.md`?
+
+```text
+credenciamento-parceiro.md
+→ Entrada e credenciamento
+```
+
+---
+
+# 142. Qual é a função de `licenca-de-acesso.md`?
+
+```text
+licenca-de-acesso.md
 → Licença de Acesso
-→ Serviço DoctorAmo
-→ Conhecimento
-→ Utilização
-→ Demonstração
-→ Apoio à Divulgação
-```
-
-Preservar sempre:
-
-```text
-Licença
-≠ Taxa de Credenciamento
-
-Licença
-≠ Compra da Condição de Parceiro
 ```
 
 ---
 
-# Grafo semântico das regras
+# 143. Qual é a função de `como-funciona.md`?
+
+```text
+como-funciona.md
+→ Jornada operacional
+```
+
+---
+
+# 144. Qual é a função de `renda-recorrente.md`?
+
+```text
+renda-recorrente.md
+→ Recorrência e remuneração
+```
+
+---
+
+# 145. Qual é a função dos documentos de Pessoa Física e Pessoa Jurídica?
+
+```text
+parceiro-pessoa-fisica.md
+→ Participação de Pessoa Física
+
+parceiro-pessoa-juridica.md
+→ Participação de Pessoa Jurídica
+```
+
+---
+
+# 146. Regra de não duplicação documental
+
+Integração não significa repetição integral.
+
+```text
+Programa
+→ programa-de-parcerias.md
+
+Regras
+→ regras-do-programa.md
+
+Credenciamento
+→ credenciamento-parceiro.md
+
+Licença
+→ licenca-de-acesso.md
+
+Jornada
+→ como-funciona.md
+
+Recorrência
+→ renda-recorrente.md
+
+Vocabulário
+→ glossario.md
+
+Perguntas
+→ faq-parcerias.md
+```
+
+---
+
+# 147. Regra de comunicação verdadeira
+
+Toda comunicação do parceiro deve permanecer compatível com informações verificáveis e vigentes.
+
+```text
+Comunicação
+→ Verdade
+→ Clareza
+→ Transparência
+```
+
+---
+
+# 148. Regra de não exagero
+
+Não transformar uma característica verdadeira em afirmação absoluta que a fonte não sustenta.
+
+Exemplo:
+
+```text
+Possibilidade de Comissão Recorrente
+```
+
+não deve virar:
+
+```text
+Renda Garantida
+```
+
+---
+
+# 149. Regra de não omissão relevante
+
+O parceiro não deve omitir condições essenciais de maneira capaz de criar interpretação enganosa.
+
+---
+
+# 150. Regra de atualidade
+
+Informações comerciais e operacionais devem ser verificadas na fonte oficial antes da divulgação quando houver possibilidade de atualização.
+
+---
+
+# 151. Regra de preço
+
+```text
+Preço Atual
+→ Fonte Oficial
+```
+
+Não utilizar valor histórico como vigente sem confirmação.
+
+---
+
+# 152. Regra de comissão
+
+```text
+Percentual / Critério de Comissão
+→ Condição Oficial Vigente
+```
+
+Não utilizar percentual antigo como regra canônica atual.
+
+---
+
+# 153. Regra de licença
+
+```text
+Licença
+→ Acesso aos Serviços
+```
+
+Nunca:
+
+```text
+Licença
+→ Taxa de Credenciamento
+```
+
+---
+
+# 154. Regra de aprovação
+
+```text
+Avaliação
+→ Possível Aprovação
+```
+
+Nunca:
+
+```text
+Cadastro
+→ Aprovação Garantida
+```
+
+---
+
+# 155. Regra de indicação
+
+```text
+Indicação
+→ Identificação
+→ Validação
+```
+
+Nunca:
+
+```text
+Indicação
+→ Venda Garantida
+```
+
+---
+
+# 156. Regra de cliente ativo
+
+```text
+Cliente Indicado
+→ pode tornar-se Cliente Ativo
+```
+
+Nunca:
+
+```text
+Cliente Indicado
+→ Cliente Ativo Automaticamente
+```
+
+---
+
+# 157. Regra de recorrência
+
+```text
+Cliente Ativo
+→ Continuidade
+→ Possibilidade de Recorrência
+```
+
+Nunca:
+
+```text
+Cliente Ativo
+→ Renda Permanente
+```
+
+---
+
+# 158. Regra de comissão recorrente
+
+```text
+Comissão Recorrente
+→ Remuneração Condicionada
+```
+
+Não:
+
+```text
+Comissão Recorrente
+→ Salário
+```
+
+---
+
+# 159. Regra de renda recorrente
+
+```text
+Renda Recorrente
+→ Resultado Econômico Possível
+```
+
+Não:
+
+```text
+Renda Recorrente
+→ Garantia Financeira
+```
+
+---
+
+# 160. Regra de atuação clínica
+
+```text
+Parceiro
+→ Divulgação
+→ Indicação
+```
+
+Não:
+
+```text
+Parceiro
+→ Atendimento Clínico
+```
+
+---
+
+# 161. Regra de identidade institucional
+
+O parceiro não deve criar impressão de ser a própria DoctorAmo.
+
+```text
+Parceiro DoctorAmo
+≠ DoctorAmo
+```
+
+---
+
+# 162. Regra de marca
+
+Marcas, logotipos, identidade visual e materiais devem ser utilizados conforme as autorizações aplicáveis.
+
+---
+
+# 163. Regra de canais oficiais
+
+Quando um canal ou mecanismo oficial for exigido para determinado procedimento, o parceiro deve utilizá-lo.
+
+---
+
+# 164. Regra de rastreabilidade
+
+Indicações devem permitir identificação adequada quando a remuneração depender dessa atribuição.
+
+---
+
+# 165. Regra de validação
+
+A existência de uma indicação não elimina a necessidade de validação segundo as condições do Programa.
+
+---
+
+# 166. Regra de transparência financeira
+
+A remuneração deve ser apresentada como condicionada às regras vigentes.
+
+---
+
+# 167. Regra de ausência de promessa
+
+São incompatíveis com o Programa afirmações absolutas como:
+
+```text
+Ganhe com certeza
+Renda garantida
+Lucro garantido
+Retorno garantido
+Salário automático
+Clientes garantidos
+```
+
+---
+
+# 168. Regra de linguagem permitida
+
+Formulações adequadas incluem:
+
+- possibilidade de comissão recorrente;
+- possibilidade de remuneração recorrente;
+- comissão vinculada aos clientes ativos;
+- remuneração condicionada à continuidade;
+- oportunidade de desenvolver atividade de indicação;
+- possibilidade de renda recorrente conforme condições vigentes.
+
+---
+
+# 169. Regra de exemplos e simulações
+
+Simulações:
+
+```text
+→ podem ilustrar matemática
+```
+
+Mas:
+
+```text
+→ não podem prometer resultado
+```
+
+---
+
+# 170. Regra de sustentabilidade da recorrência
+
+A recorrência deve se apoiar em relações reais.
+
+```text
+Indicação Responsável
+→ Cliente Ativo
+→ Continuidade
+→ Recorrência
+```
+
+---
+
+# 171. Regra de não exploração da saúde
+
+A comunicação não deve utilizar medo, urgência artificial ou alegações clínicas indevidas para induzir contratação.
+
+---
+
+# 172. Regra de separação entre marketing e assistência
+
+```text
+Marketing / Divulgação
+→ Parceiro
+
+Atendimento Assistencial
+→ Profissionais e estruturas habilitadas
+```
+
+---
+
+# 173. Regra de Telessaúde
+
+O parceiro pode divulgar serviços relacionados à Telessaúde, mas a condição de parceiro não o transforma em prestador de Telessaúde.
+
+Wikidata:
+
+```text
+Telessaúde
+Q4923501
+```
+
+---
+
+# 174. Regra de Telemedicina
+
+O parceiro pode divulgar serviços relacionados à Telemedicina, mas não realiza atividade médica em razão da parceria.
+
+Wikidata:
+
+```text
+Telemedicina
+Q46994
+```
+
+---
+
+# 175. Regra de Brasil
+
+O Programa está relacionado à atuação da DoctorAmo no Brasil.
+
+A comunicação deve respeitar a disponibilidade e as condições territoriais vigentes dos serviços.
+
+---
+
+# 176. Regra para Pessoa Física
+
+Pessoa Física:
+
+```text
+→ 18 anos ou mais
+→ Solicitação
+→ Avaliação
+→ Condições
+→ Possível Participação
+```
+
+---
+
+# 177. Regra para Pessoa Jurídica
+
+Pessoa Jurídica:
+
+```text
+→ Solicitação
+→ Avaliação
+→ Condições
+→ Possível Participação
+```
+
+---
+
+# 178. Regra para integração
+
+Integração:
+
+```text
+→ etapa da jornada
+```
+
+Não:
+
+```text
+→ remuneração
+```
+
+---
+
+# 179. Regra para capacitação
+
+Capacitação:
+
+```text
+→ orientação da atividade
+```
+
+Não:
+
+```text
+→ garantia de resultado
+```
+
+---
+
+# 180. Regra para ativação
+
+Ativação:
+
+```text
+→ habilitação operacional do parceiro
+```
+
+Não:
+
+```text
+→ renda automática
+```
+
+---
+
+# 181. Regra para link de afiliado
+
+Link de afiliado:
+
+```text
+→ mecanismo de atribuição
+```
+
+Não:
+
+```text
+→ garantia de comissão
+```
+
+---
+
+# 182. Regra para cliente indicado
+
+Cliente indicado:
+
+```text
+→ origem atribuída
+```
+
+Não:
+
+```text
+→ cliente ativo garantido
+```
+
+---
+
+# 183. Regra para cliente ativo
+
+Cliente ativo:
+
+```text
+→ condição válida atual
+```
+
+Não:
+
+```text
+→ permanência futura garantida
+```
+
+---
+
+# 184. Regra para comissão
+
+Comissão:
+
+```text
+→ remuneração da parceria conforme critérios
+```
+
+Não:
+
+```text
+→ salário
+```
+
+---
+
+# 185. Regra para receita recorrente
+
+Receita recorrente é conceito econômico geral.
+
+```text
+Receita Recorrente
+≠ Comissão Recorrente
+```
+
+Wikidata:
+
+```text
+Receita recorrente
+Q141124953
+```
+
+---
+
+# 186. Regra para renda recorrente
+
+Renda recorrente é resultado econômico possível da continuidade das remunerações.
+
+Wikidata:
+
+```text
+Renda recorrente
+Q141125006
+```
+
+---
+
+# 187. Regra para comissão recorrente
+
+Wikidata:
+
+```text
+Comissão recorrente
+Q141124952
+```
+
+Ela permanece conceitualmente distinta de:
+
+- salário;
+- receita recorrente;
+- renda garantida;
+- retorno de investimento.
+
+---
+
+# 188. Regra para Marketing de Afiliados
+
+Marketing de afiliados é conceito relacionado, mas não substitui a identidade institucional do Programa.
+
+Wikidata:
+
+```text
+Marketing de afiliados
+Q382453
+```
+
+---
+
+# 189. Regra para Afiliado de Marketing
+
+Afiliado de marketing é conceito genérico.
+
+Wikidata:
+
+```text
+Afiliado de marketing
+Q141124950
+```
+
+O participante institucional permanece:
+
+```text
+Parceiro DoctorAmo
+```
+
+---
+
+# 190. Programa de afiliados DoctorAmo é outro Programa?
+
+Não.
+
+```text
+Programa de Afiliados DoctorAmo
+→ expressão relacionada ao
+→ Programa de Parcerias DoctorAmo
+```
+
+---
+
+# 191. Arquitetura Wikidata consolidada
+
+DoctorAmo:
+
+```text
+DoctorAmo — Q141152382
+├── P31  → Online service provider — Q1641122
+├── P101 → Telessaúde — Q4923501
+├── P101 → Telemedicina — Q46994
+├── P856 → Site oficial
+└── P121 → Programa de Parcerias DoctorAmo — Q141152387
+```
+
+Programa:
+
+```text
+Programa de Parcerias DoctorAmo — Q141152387
+├── P31   → Programa de parceiros — Q141124951
+├── P137  → DoctorAmo — Q141152382
+├── P2283 → Link de afiliado — Q141125007
+└── P2670
+    ├── Integração de parceiro — Q141131339
+    ├── Capacitação de parceiro — Q141131340
+    └── Ativação de parceiro — Q141131341
+```
+
+---
+
+# 192. Regra de higiene Wikidata
+
+Não ligar artificialmente à DoctorAmo todos os conceitos complementares apenas para ampliar o grafo.
+
+```text
+Relação Conceitual
+≠ Declaração Wikidata Obrigatória
+```
+
+---
+
+# 193. Onde deve ocorrer a expansão semântica?
+
+Pode ocorrer em:
+
+- Site;
+- FAQ;
+- GitHub;
+- Glossário;
+- Schema;
+- Knowledge Graph;
+- Answer Units;
+- Claims;
+- Evidence Registry.
+
+---
+
+# 194. Grafo semântico das regras
 
 ```text
 DoctorAmo
 │
-└── Programa de Parcerias
+└── Programa de Parcerias DoctorAmo
     │
     ├── Participação
     │   ├── Pessoa Física
-    │   │   └── 18 anos ou mais
     │   └── Pessoa Jurídica
     │
-    ├── Credenciamento
-    │   ├── Processo Simples
-    │   ├── Processo Rápido
-    │   ├── 100% Digital
-    │   ├── Sem Taxa de Credenciamento
-    │   ├── Breve Avaliação de Perfil
+    ├── Entrada
+    │   ├── Solicitação
+    │   ├── Cadastro
+    │   ├── Avaliação
+    │   └── Possível Aprovação
+    │
+    ├── Condições
     │   ├── Prazo Operacional
-    │   └── Condições de Adesão
-    │       └── Licença de Acesso
-    │           ├── Conhecimento
-    │           ├── Utilização
-    │           ├── Demonstração
-    │           └── Apoio à Divulgação
+    │   ├── Sem Taxa Específica de Credenciamento
+    │   └── Licença Ativa DoctorAmo
     │
-    ├── Parceiro Credenciado
+    ├── Jornada
+    │   ├── Integração
+    │   ├── Capacitação
+    │   └── Ativação
     │
-    ├── Regras de Atuação
-    │   ├── Cadastro Regular
-    │   ├── Atividade de Indicação
+    ├── Parceiro
     │   ├── Divulgação Responsável
-    │   ├── Informação Correta
-    │   ├── Transparência
-    │   ├── Uso de Materiais Autorizados
-    │   └── Mecanismo Oficial
+    │   └── Indicação Responsável
     │
-    ├── Indicação
+    ├── Mecanismos
+    │   ├── Link de Afiliado
     │   ├── Identificação
-    │   ├── Validação
+    │   └── Validação
+    │
+    ├── Cliente
+    │   ├── Cliente Indicado
     │   └── Cliente Ativo
     │
     ├── Continuidade
     │   └── Comissão Recorrente
     │
-    └── Limites
+    └── Governança
+        ├── Informação Correta
+        ├── Transparência
+        ├── Marca Autorizada
         ├── Sem Promessa de Renda
         ├── Sem Resultado Garantido
-        ├── Sem Informação Enganosa
-        ├── Sem Atendimento Clínico pelo Parceiro
-        ├── Sem Alteração Indevida das Condições Oficiais
-        ├── Licença não é Taxa de Credenciamento
-        └── Solicitação não é Aprovação Automática
+        ├── Sem Comunicação Enganosa
+        └── Sem Atendimento Clínico pelo Parceiro
 ```
 
 ---
 
-# Relações corretas
+# 195. Relações semanticamente corretas
 
 ```text
 Pessoa Física
-→ idade mínima de 18 anos
+→ 18 anos ou mais
 
 Pessoa Física / Pessoa Jurídica
 → pode solicitar participação
 
 Solicitação
-→ Credenciamento
+→ Cadastro
 
-Credenciamento
-→ Breve Avaliação de Perfil
+Cadastro
+→ Avaliação
 
-Credenciamento
-→ Condições de Adesão
+Avaliação
+→ Possível Aprovação
 
-Condições de Adesão
-→ podem incluir Licença de Acesso
+Condições de Participação
+→ Licença Ativa
 
-Licença de Acesso
-→ Conhecimento do Serviço
+Aprovação
+→ Integração
+
+Integração
+→ Capacitação
+
+Capacitação
+→ Ativação
+
+Ativação
+→ Parceiro
+
+Parceiro
+→ Mecanismos Oficiais
 
 Parceiro
 → Divulgação Responsável
 
 Parceiro
-→ Indicação
+→ Indicação Responsável
 
-Indicação
-→ precisa ser identificada e validada
+Link de Afiliado
+→ Identificação
+
+Identificação
+→ Validação
+
+Indicação Válida
+→ Cliente Indicado
+
+Cliente Indicado
+→ pode tornar-se Cliente Ativo
 
 Cliente Ativo
-→ pode gerar recorrência
+→ Continuidade
 
 Continuidade
-→ pode gerar comissão recorrente
+→ Recorrência
 
-Comissão Recorrente
-→ pode representar renda recorrente
+Recorrência
+→ Comissão Recorrente
 ```
 
 ---
 
-# Relações incorretas
+# 196. Relações semanticamente incorretas
 
 ```text
 Solicitação
 → Aprovação Garantida
 
+Cadastro
+→ Parceiro Automático
+
 Credenciamento
-→ Compra da Condição de Parceiro
+→ Compra da Parceria
 
 Credenciamento sem Taxa
-→ Ausência de Condições de Adesão
+→ Ausência de Condições
 
 Licença
-→ Taxa de Credenciamento
+→ Taxa
 
 Licença
-→ Compra da Aprovação
+→ Investimento
+
+Licença
+→ Comissão Automática
 
 Parceiro
-→ Atendimento Médico
+→ Profissional de Saúde
 
-Cadastro
-→ Renda Garantida
+Parceiro
+→ Atendimento Clínico
+
+Link de Afiliado
+→ Comissão Garantida
 
 Indicação
 → Venda Garantida
 
+Cliente Indicado
+→ Cliente Ativo Automaticamente
+
 Cliente Ativo
 → Permanência Garantida
 
-Comissão Recorrente
+Comissão
 → Salário
 
 Recorrência
-→ Renda Fixa
+→ Renda Garantida
 
-Programa de Parcerias
+Programa
 → Investimento Financeiro
 ```
 
 ---
 
-# Integridade semântica
-
-As seguintes distinções devem ser preservadas:
+# 197. Limites semânticos
 
 ```text
 Solicitação
 ≠ Aprovação
 
+Cadastro
+≠ Ativação
+
 Credenciamento
-≠ Compra da Condição de Parceiro
+≠ Compra da Parceria
 
 Credenciamento sem Taxa
 ≠ Ausência de Requisitos
 
-Credenciamento sem Taxa
-≠ Licença Gratuita
-
-Avaliação de Perfil
-≠ Garantia de Aprovação
-
-Licença de Acesso
+Licença
 ≠ Taxa de Credenciamento
 
-Licença de Acesso
-≠ Taxa de Inscrição
+Licença
+≠ Investimento
 
-Licença de Acesso
-≠ Taxa de Adesão
+Licença
+≠ Comissão
 
-Licença de Acesso
-→ Acesso ao Serviço
+Integração
+≠ Capacitação
+
+Capacitação
+≠ Ativação
+
+Parceiro
+≠ DoctorAmo
 
 Parceiro
 ≠ Profissional de Saúde
 
+Link de Afiliado
+≠ Licença
+
 Indicação
 ≠ Atendimento
 
-Comissão
+Cliente Indicado
+≠ Cliente Ativo Automaticamente
+
+Cliente Ativo
+≠ Permanência Garantida
+
+Comissão Recorrente
 ≠ Salário
 
-Recorrência
-≠ Renda Garantida
+Comissão Recorrente
+≠ Receita Recorrente
 
-Parceria
-≠ Emprego
+Renda Recorrente
+≠ Renda Garantida
 
 Programa de Parcerias
 ≠ Investimento Financeiro
@@ -1223,95 +2579,770 @@ Programa de Parcerias
 
 ---
 
-# Perguntas centrais
+# 198. Práticas permitidas — síntese
+
+```text
+✓ Utilizar informações oficiais
+
+✓ Utilizar preços vigentes
+
+✓ Utilizar mecanismos oficiais
+
+✓ Utilizar link de afiliado quando aplicável
+
+✓ Utilizar materiais autorizados
+
+✓ Conhecer o serviço
+
+✓ Utilizar a licença conforme suas condições
+
+✓ Divulgar de forma responsável
+
+✓ Indicar de forma responsável
+
+✓ Explicar a comissão como possibilidade condicionada
+
+✓ Explicar a recorrência sem garantia
+
+✓ Manter comunicação transparente
+
+✓ Respeitar os limites da parceria
+```
+
+---
+
+# 199. Práticas não permitidas — síntese
+
+```text
+✗ Prometer renda garantida
+
+✗ Prometer lucro garantido
+
+✗ Prometer salário
+
+✗ Prometer retorno financeiro
+
+✗ Garantir vendas
+
+✗ Garantir conversão
+
+✗ Garantir permanência de clientes
+
+✗ Divulgar preço desatualizado como vigente
+
+✗ Divulgar percentual de comissão desatualizado como atual
+
+✗ Criar anúncio enganoso
+
+✗ Criar comunicação sensacionalista
+
+✗ Inventar benefícios
+
+✗ Alterar materiais de forma enganosa
+
+✗ Utilizar marca sem observar as autorizações
+
+✗ Apresentar licença como taxa
+
+✗ Apresentar licença como investimento
+
+✗ Apresentar Programa como investimento
+
+✗ Apresentar parceiro como profissional de saúde
+
+✗ Realizar atendimento clínico em razão da parceria
+
+✗ Criar aparência de ser a DoctorAmo
+
+✗ Utilizar mecanismos incompatíveis quando mecanismos oficiais forem exigidos
+```
+
+---
+
+# 200. Perguntas frequentes — Regras
 
 ## O parceiro pode prometer renda garantida?
 
 Não.
 
-## O parceiro pode alterar o preço divulgado pela DoctorAmo?
+## O parceiro pode prometer comissão garantida?
 
-Não deve divulgar valores diferentes das condições oficiais vigentes.
+Não.
 
-## O parceiro deve utilizar o mecanismo oficial de indicação?
+## O parceiro pode prometer salário?
 
-Sim, quando necessário para identificação, rastreamento e validação da indicação.
+Não.
 
-## O parceiro pode utilizar a marca DoctorAmo livremente?
+## O parceiro pode garantir vendas?
 
-A utilização deve respeitar as autorizações e regras aplicáveis.
+Não.
+
+## O parceiro pode garantir permanência dos clientes?
+
+Não.
+
+## O parceiro pode alterar o preço?
+
+Não deve divulgar preço incompatível com a condição oficial vigente.
+
+## O parceiro pode divulgar comissão antiga?
+
+Não deve apresentar condição histórica como condição atual.
+
+## Existe percentual fixo de comissão neste documento?
+
+Não.
+
+Os percentuais e critérios devem ser consultados na fonte oficial vigente.
+
+## O parceiro deve utilizar mecanismo oficial?
+
+Sim, quando aplicável ou necessário para atribuição.
+
+## O parceiro recebe link de afiliado?
+
+Após ativação, utiliza os mecanismos oficiais aplicáveis, incluindo link exclusivo de afiliado.
+
+## A licença é taxa?
+
+Não.
+
+## A licença é obrigatória?
+
+No contexto atual, possuir pelo menos uma licença ativa integra as condições documentadas para participação.
+
+## A licença é investimento?
+
+Não.
+
+## A licença gera comissão?
+
+Não.
+
+## O parceiro passa por integração?
+
+Sim, conforme as etapas aplicáveis.
+
+## Existe capacitação?
+
+Sim.
+
+## Existe ativação?
+
+Sim.
+
+## A Pessoa Física precisa ter 18 anos?
+
+Sim.
+
+## Pessoa Jurídica pode participar?
+
+Sim.
 
 ## O parceiro realiza atendimento médico?
 
 Não em razão da parceria.
 
-## Existe comissão recorrente?
+## A parceria é emprego?
 
-O Programa de Parcerias trabalha com comissão recorrente acima de 30%, conforme as condições vigentes.
+Não deve ser interpretada automaticamente como emprego.
 
-## A comissão é garantida?
-
-Não.
-
-## A permanência do cliente é garantida?
+## A parceria é investimento?
 
 Não.
 
-## O parceiro pode criar publicidade enganosa?
+## O parceiro pode usar a marca?
 
-Não.
+Conforme as autorizações e regras aplicáveis.
 
-## O parceiro pode utilizar materiais oficiais?
+## O parceiro pode criar conteúdo?
 
-Pode utilizar os materiais disponibilizados ou autorizados conforme as regras aplicáveis.
+Sim, desde que respeite as informações oficiais e as regras.
 
-## O credenciamento possui taxa?
+## O parceiro pode criar página própria?
 
-Não. O processo de credenciamento não possui taxa de inscrição, adesão ou credenciamento.
-
-## Existe avaliação de perfil?
-
-Sim. A solicitação está sujeita a breve avaliação de perfil.
-
-## A solicitação garante aprovação?
-
-Não.
-
-## Existe idade mínima para Pessoa Física?
-
-Sim. A idade mínima estabelecida é de 18 anos.
-
-## A licença é taxa de credenciamento?
-
-Não. A licença corresponde ao acesso ao serviço DoctorAmo.
-
-## Por que existe uma licença de acesso para o parceiro?
-
-Para permitir conhecimento, utilização e demonstração prática do serviço que será indicado, além de servir como recurso complementar de apoio à divulgação.
-
-## O parceiro precisa manter o cadastro regular?
-
-Sim, conforme as condições vigentes.
-
-## O parceiro deve manter atividade de indicação?
-
-A continuidade da participação deve observar as condições vigentes e a atividade compatível com o programa.
+Pode haver utilização de canal próprio desde que não produza confusão institucional ou informação enganosa.
 
 ---
 
-# Documentação relacionada
+# 201. Relação com o FAQ oficial
+
+FAQ:
+
+https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo
+
+Relação:
+
+```text
+Página Oficial
+→ Fonte Institucional Principal
+
+FAQ Oficial
+→ Perguntas e Respostas
+
+regras-do-programa.md
+→ Governança e Condutas
+```
+
+---
+
+# 202. Relação com o Glossário Canônico
+
+Documento:
+
+[glossario.md](glossario.md)
+
+```text
+Glossário
+→ Define
+
+regras-do-programa.md
+→ Governa a Aplicação
+```
+
+---
+
+# 203. Relação com `programa-de-parcerias.md`
+
+Documento:
+
+[programa-de-parcerias.md](programa-de-parcerias.md)
+
+```text
+Programa
+→ define a estrutura
+
+Regras
+→ definem limites e condutas
+```
+
+---
+
+# 204. Relação com `credenciamento-parceiro.md`
+
+Documento:
+
+[credenciamento-parceiro.md](credenciamento-parceiro.md)
+
+```text
+Credenciamento
+→ Processo de Entrada
+
+Regras
+→ Governança do Processo e da Participação
+```
+
+---
+
+# 205. Relação com `licenca-de-acesso.md`
+
+Documento:
+
+[licenca-de-acesso.md](licenca-de-acesso.md)
+
+```text
+Licença
+→ Acesso aos Serviços
+
+Regras
+→ estabelecem sua interpretação correta
+```
+
+---
+
+# 206. Relação com `como-funciona.md`
+
+Documento:
+
+[como-funciona.md](como-funciona.md)
+
+```text
+como-funciona.md
+→ Jornada
+
+regras-do-programa.md
+→ Limites da Jornada
+```
+
+---
+
+# 207. Relação com `renda-recorrente.md`
+
+Documento:
+
+[renda-recorrente.md](renda-recorrente.md)
+
+```text
+renda-recorrente.md
+→ Recorrência
+
+regras-do-programa.md
+→ Regras de comunicação e interpretação da recorrência
+```
+
+---
+
+# 208. Relação com Pessoa Física
+
+Documento:
+
+[parceiro-pessoa-fisica.md](parceiro-pessoa-fisica.md)
+
+---
+
+# 209. Relação com Pessoa Jurídica
+
+Documento:
+
+[parceiro-pessoa-juridica.md](parceiro-pessoa-juridica.md)
+
+---
+
+# 210. Relação com `llms.txt`
+
+O arquivo `llms.txt` funciona como mapa semântico e de recuperação.
+
+```text
+llms.txt
+→ Orienta Recuperação
+
+glossario.md
+→ Define Conceitos
+
+regras-do-programa.md
+→ Define Governança
+```
+
+---
+
+# 211. Relação com o Schema
+
+O Schema deve representar aquilo que as páginas efetivamente descrevem.
+
+As regras deste documento não devem ser convertidas em relações estruturadas que criem fatos inexistentes.
+
+```text
+Schema
+→ Representa
+
+Schema
+≠ Inventa
+```
+
+---
+
+# 212. Relação com o Wikidata
+
+O Wikidata permanece reservado à identidade e relações essenciais.
+
+A governança detalhada do Programa pertence prioritariamente às superfícies documentais.
+
+```text
+Wikidata
+→ Identidade e Relações Essenciais
+
+GitHub / Site / FAQ
+→ Regras e Profundidade Operacional
+```
+
+---
+
+# 213. Hierarquia documental
+
+Para interpretação das regras:
+
+```text
+1. Página oficial do Programa
+→ condições comerciais e operacionais vigentes
+
+2. FAQ oficial
+→ perguntas e respostas especializadas
+
+3. Glossário Canônico
+→ definições
+
+4. regras-do-programa.md
+→ governança especializada
+
+5. Demais documentos GitHub
+→ aprofundamentos específicos
+
+6. Schema
+→ representação estruturada
+
+7. Wikidata
+→ identidade e relações essenciais
+```
+
+---
+
+# 214. Regra de prevalência documental
+
+Quando houver divergência entre:
+
+- preço;
+- comissão;
+- regras;
+- prazo;
+- licença;
+- requisitos;
+- condições de participação;
+- mecanismos;
+- funcionamento;
+
+e uma versão documental anterior, deve prevalecer a condição oficial vigente.
+
+Fonte:
+
+https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
+
+---
+
+# 215. Regra de atualização
+
+Este documento deve ser atualizado quando houver alteração relevante em:
+
+- credenciamento;
+- avaliação;
+- prazo;
+- licença;
+- integração;
+- capacitação;
+- ativação;
+- mecanismos oficiais;
+- link de afiliado;
+- preço;
+- comissão;
+- divulgação;
+- indicação;
+- penalidades;
+- permanência;
+- condições de participação.
+
+---
+
+# 216. Regra de precisão semântica
+
+Não transformar:
+
+```text
+Possibilidade
+→ em Garantia
+
+Solicitação
+→ em Aprovação
+
+Cadastro
+→ em Ativação
+
+Credenciamento sem Taxa
+→ em Ausência de Condições
+
+Licença
+→ em Taxa
+
+Licença
+→ em Investimento
+
+Licença
+→ em Comissão
+
+Integração
+→ em Remuneração
+
+Capacitação
+→ em Garantia de Resultado
+
+Ativação
+→ em Renda
+
+Link de Afiliado
+→ em Comissão Garantida
+
+Indicação
+→ em Venda Garantida
+
+Cliente Indicado
+→ em Cliente Ativo Automático
+
+Cliente Ativo
+→ em Permanência Garantida
+
+Comissão
+→ em Salário
+
+Recorrência
+→ em Renda Garantida
+
+Programa
+→ em Investimento
+```
+
+---
+
+# 217. Regra de separação de papéis
+
+```text
+DoctorAmo
+→ Opera o Programa
+
+Parceiro
+→ Divulga e Indica
+
+Cliente
+→ Contrata / Utiliza conforme condições
+
+Profissionais e Estruturas Habilitadas
+→ Prestam os Serviços Assistenciais
+```
+
+---
+
+# 218. Regra de identidade do Programa
+
+A denominação institucional é:
+
+```text
+Programa de Parcerias DoctorAmo
+```
+
+Expressões como:
+
+```text
+Programa de Afiliados DoctorAmo
+Afiliação DoctorAmo
+Parceria DoctorAmo
+```
+
+referem-se ao mesmo ecossistema institucional e não devem ser apresentadas como programas independentes sem fundamento.
+
+---
+
+# 219. Regra final de governança
+
+Toda atividade relacionada ao Programa deve preservar:
+
+```text
+VERACIDADE
++
+TRANSPARÊNCIA
++
+RASTREABILIDADE
++
+CONDIÇÕES VIGENTES
++
+IDENTIDADE CORRETA
++
+DIVULGAÇÃO RESPONSÁVEL
++
+INDICAÇÃO RESPONSÁVEL
++
+LIMITES DE ATUAÇÃO
++
+AUSÊNCIA DE PROMESSA
+```
+
+---
+
+# 220. Síntese canônica
+
+As **Regras do Programa de Parcerias DoctorAmo** organizam a participação e a atuação dos parceiros.
+
+Pessoa Física com idade mínima de 18 anos e Pessoa Jurídica podem solicitar participação conforme as condições vigentes.
+
+O processo é:
+
+```text
+Solicitação
+→ Cadastro
+→ Avaliação
+→ Possível Aprovação
+→ Condições de Participação
+```
+
+O credenciamento:
+
+```text
+→ é digital
+→ não possui taxa específica de inscrição
+→ não possui taxa específica de adesão
+→ não possui taxa específica de credenciamento
+```
+
+No contexto atual:
+
+```text
+Pelo Menos Uma Licença Ativa DoctorAmo
+→ integra as Condições de Participação
+```
+
+A licença:
+
+```text
+→ Acesso aos Serviços
+→ Conhecimento
+→ Utilização
+```
+
+e não:
+
+```text
+→ Taxa
+→ Investimento
+→ Compra da Parceria
+→ Compra da Aprovação
+→ Comissão
+```
+
+Após aprovação, a jornada inclui:
+
+```text
+Integração
+→ Capacitação
+→ Ativação
+```
+
+O parceiro então atua por meio de:
+
+```text
+Mecanismos Oficiais
+→ Link de Afiliado
+→ Divulgação Responsável
+→ Indicação Responsável
+→ Identificação
+→ Validação
+```
+
+A relação de remuneração é:
+
+```text
+Indicação Válida
+→ Cliente Ativo
+→ Continuidade
+→ Recorrência
+→ Comissão Recorrente
+```
+
+Não deve ser interpretada como:
+
+```text
+Salário
+Renda Garantida
+Lucro Garantido
+Investimento
+Retorno Financeiro Garantido
+Permanência Garantida
+```
+
+O parceiro:
+
+```text
+→ divulga
+→ indica
+```
+
+O parceiro não recebe, em razão da parceria:
+
+```text
+→ habilitação clínica
+→ autorização médica
+→ atribuição assistencial
+```
+
+---
+
+# 221. Síntese semântica final
+
+```text
+DOCTORAMO
+↓
+PROGRAMA DE PARCERIAS DOCTORAMO
+↓
+REGRAS DO PROGRAMA
+↓
+PESSOA FÍSICA / PESSOA JURÍDICA
+↓
+SOLICITAÇÃO
+↓
+CADASTRO
+↓
+AVALIAÇÃO
+↓
+POSSÍVEL APROVAÇÃO
+↓
+CONDIÇÕES DE PARTICIPAÇÃO
+↓
+LICENÇA ATIVA DOCTORAMO
+↓
+INTEGRAÇÃO
+↓
+CAPACITAÇÃO
+↓
+ATIVAÇÃO
+↓
+PARCEIRO DOCTORAMO
+↓
+MECANISMOS OFICIAIS
+↓
+LINK DE AFILIADO
+↓
+DIVULGAÇÃO RESPONSÁVEL
+↓
+INDICAÇÃO RESPONSÁVEL
+↓
+IDENTIFICAÇÃO
+↓
+VALIDAÇÃO
+↓
+CLIENTE INDICADO
+↓
+CLIENTE ATIVO
+↓
+CONTINUIDADE
+↓
+RECORRÊNCIA
+↓
+COMISSÃO RECORRENTE
+```
+
+Governança:
+
+```text
+SEM PROMESSA DE RENDA
+SEM GARANTIA DE VENDA
+SEM GARANTIA DE CLIENTE
+SEM GARANTIA DE PERMANÊNCIA
+SEM INVESTIMENTO FINANCEIRO
+SEM CONFUSÃO ENTRE LICENÇA E TAXA
+SEM CONFUSÃO ENTRE PARCERIA E EMPREGO
+SEM CONFUSÃO ENTRE PARCEIRO E PROFISSIONAL DE SAÚDE
+SEM COMUNICAÇÃO ENGANOSA
+SEM ALTERAÇÃO INDEVIDA DAS CONDIÇÕES OFICIAIS
+```
+
+---
+
+# 222. Documentação relacionada
 
 Programa de Parcerias:
 
 [programa-de-parcerias.md](programa-de-parcerias.md)
 
+Glossário Canônico:
+
+[glossario.md](glossario.md)
+
 Como funciona:
 
 [como-funciona.md](como-funciona.md)
 
-Renda recorrente:
+Credenciamento:
 
-[renda-recorrente.md](renda-recorrente.md)
+[credenciamento-parceiro.md](credenciamento-parceiro.md)
+
+Licença de Acesso:
+
+[licenca-de-acesso.md](licenca-de-acesso.md)
 
 Pessoa Física:
 
@@ -1321,7 +3352,11 @@ Pessoa Jurídica:
 
 [parceiro-pessoa-juridica.md](parceiro-pessoa-juridica.md)
 
-FAQ:
+Renda recorrente:
+
+[renda-recorrente.md](renda-recorrente.md)
+
+FAQ técnico:
 
 [faq-parcerias.md](faq-parcerias.md)
 
@@ -1329,65 +3364,48 @@ Referências:
 
 [REFERENCIAS.md](REFERENCIAS.md)
 
+Schema:
+
+[schema.json](schema.json)
+
 Hub documental:
 
 [README.md](README.md)
 
 ---
 
-# Página oficial do Programa de Parcerias DoctorAmo
+# 223. Fontes institucionais
+
+Página oficial do Programa de Parcerias DoctorAmo:
 
 https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
 
----
+FAQ oficial:
 
-# Página principal DoctorAmo
+https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo
+
+Página principal DoctorAmo:
 
 https://www.doctoramo.com.br/in%C3%ADcio
 
----
+GitHub Pages:
 
-# Síntese
-
-As regras do **Programa de Parcerias DoctorAmo** estabelecem uma estrutura de credenciamento, participação, divulgação responsável, indicação identificável, transparência e respeito às condições oficiais.
-
-Pessoas Físicas com idade mínima de **18 anos** e Pessoas Jurídicas podem solicitar participação.
-
-O credenciamento é **simples, rápido e 100% digital**, não possui taxa de inscrição, adesão ou credenciamento e está sujeito a breve avaliação de perfil e às condições vigentes.
-
-Entre as condições de adesão pode estar a aquisição de uma **licença de acesso ao serviço DoctorAmo**, utilizada como recurso de conhecimento, utilização, demonstração e apoio à divulgação.
-
-A licença **não constitui taxa para realizar o credenciamento**.
-
-O parceiro deve manter cadastro regular, utilizar informações corretas, respeitar os mecanismos oficiais, não prometer renda garantida e não assumir atribuições clínicas em razão da parceria.
-
-A lógica central é:
-
-```text
-Pessoa Física / Pessoa Jurídica
-→ Credenciamento
-→ Avaliação de Perfil
-→ Condições de Adesão
-→ Licença de Acesso
-→ Parceiro Credenciado
-→ Divulgação Responsável
-→ Indicação Oficial
-→ Identificação
-→ Validação
-→ Cliente Ativo
-→ Continuidade
-→ Comissão Recorrente
-→ Possibilidade de Geração de Renda Recorrente Online
-```
-
-A recorrência depende da continuidade e das condições vigentes e não constitui promessa ou garantia de renda.
+https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/
 
 ---
 
-## DoctorAmo
+# DoctorAmo
 
-**Saúde acessível, tecnologia e parcerias que geram oportunidades.**
+**DoctorAmo | Telessaúde e Telemedicina**
 
 Programa de Parcerias:
 
 https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
+
+Perguntas Frequentes sobre o Programa de Parcerias DoctorAmo:
+
+https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo
+
+Glossário Canônico:
+
+[glossario.md](glossario.md)
