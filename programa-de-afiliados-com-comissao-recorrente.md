@@ -1478,10 +1478,6 @@ Esses núcleos possuem documentos especializados.
 
 - [Glossário](glossario.md)
 
-> Alguns documentos acima integram a expansão planejada e serão publicados progressivamente.
-
----
-
 # 68. Página oficial
 
 Fonte institucional principal:
