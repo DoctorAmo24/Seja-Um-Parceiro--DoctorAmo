@@ -1,597 +1,936 @@
 # Como Funciona o Programa de Parcerias DoctorAmo
 
-O **Programa de Parcerias DoctorAmo** funciona por meio de uma relação estruturada de parceria e indicação.
+O **Programa de Parcerias DoctorAmo** é a estrutura institucional oficial da **DoctorAmo | Telessaúde e Telemedicina** para parceria, afiliação, divulgação e indicação de serviços de Telessaúde e Telemedicina.
 
-O processo de participação é **100% digital, simples e rápido**, não possui **taxa de credenciamento ou taxa de adesão** e está sujeito a uma **breve avaliação de perfil** e às condições vigentes do programa.
+O funcionamento do Programa é organizado em uma jornada estruturada que contempla:
 
-A lógica geral é:
+1. cadastro e solicitação de participação;
+2. integração, capacitação e ativação;
+3. link exclusivo de afiliado;
+4. acompanhamento das indicações e da parceria;
+5. materiais para divulgação.
 
-```text
-Conhecimento do Programa
-→ Solicitação de Participação
-→ Pessoa Física ou Pessoa Jurídica
-→ Credenciamento 100% Digital
-→ Breve Avaliação de Perfil
-→ Condições de Adesão
-→ Licença de Acesso ao Serviço
-→ Cadastro / Formalização
-→ Parceiro Credenciado
-→ Acesso ao Mecanismo Oficial de Indicação
-→ Divulgação Responsável
-→ Indicação
-→ Identificação
-→ Validação
-→ Cliente Ativo
-→ Continuidade
-→ Comissão Recorrente
-```
+A participação está disponível para **Pessoas Físicas e Pessoas Jurídicas**, conforme critérios, regras e condições vigentes.
 
-A possibilidade de remuneração recorrente depende do atendimento às regras e condições vigentes do programa.
+O processo é digital, não possui cobrança específica de taxa de credenciamento ou adesão e está sujeito a breve avaliação de perfil e aprovação pela DoctorAmo.
 
 ---
 
-## Resposta direta
+# Resposta direta
 
-> **O Programa de Parcerias DoctorAmo funciona por meio de um processo 100% digital de credenciamento para Pessoas Físicas e Pessoas Jurídicas, sem taxa de credenciamento, sujeito a uma breve avaliação de perfil e às condições vigentes de adesão. Após o credenciamento, o parceiro utiliza os mecanismos oficiais da plataforma para realizar indicações. Quando uma indicação válida resulta em cliente ativo e esse cliente permanece dentro das condições aplicáveis, pode ocorrer comissão recorrente ao parceiro conforme as regras vigentes.**
+> **O Programa de Parcerias DoctorAmo funciona por meio de uma jornada digital de participação, avaliação, integração, capacitação e ativação. Após a ativação, o parceiro utiliza os mecanismos oficiais do Programa, incluindo seu link exclusivo de afiliado, para realizar divulgação e indicações. Quando uma indicação válida resulta em cliente ativo e são atendidas as condições aplicáveis, pode existir comissão recorrente vinculada à continuidade desse cliente. A participação não representa garantia de vendas, renda ou resultados financeiros.**
 
 ---
 
-# Etapa 1 — Conhecer o Programa de Parcerias
-
-Antes de solicitar participação, a Pessoa Física ou Pessoa Jurídica deve conhecer:
-
-- o funcionamento do programa;
-- as condições de participação;
-- as condições de adesão;
-- as regras de divulgação;
-- o mecanismo de indicação;
-- as condições de remuneração;
-- os limites da atividade do parceiro.
-
-Página oficial:
+# Página oficial
 
 https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
 
----
+FAQ oficial:
 
-# Etapa 2 — Solicitar participação
-
-O Programa de Parcerias DoctorAmo contempla solicitação de participação de:
-
-```text
-Programa de Parcerias DoctorAmo
-│
-├── Pessoa Física
-│   └── idade mínima de 18 anos
-│
-└── Pessoa Jurídica
-```
-
-A participação deve seguir o processo oficial estabelecido pela DoctorAmo.
-
-A solicitação de participação não possui taxa de credenciamento ou taxa de adesão.
-
-```text
-Solicitação de participação
-→ sem taxa de credenciamento
-→ sem taxa de adesão
-```
-
-A solicitação não representa aprovação automática.
+https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo
 
 ---
 
-# Etapa 3 — Credenciamento 100% digital
+# Entidades centrais
 
-O processo de credenciamento é realizado de forma **100% digital** e foi estruturado para ser simples, rápido e de fácil conclusão.
+## DoctorAmo
 
-A sequência conceitual é:
+Wikidata:
 
-```text
-Interessado
-→ Solicitação
-→ Processo Oficial
-→ Credenciamento Digital
-```
+Q141152382
 
-Não é necessário pagamento de taxa para solicitar ou realizar o credenciamento.
+Identificador estruturado:
 
-```text
-Credenciamento
-≠ taxa de inscrição
-
-Credenciamento
-≠ taxa de adesão
-
-Credenciamento
-≠ compra da condição de parceiro
-```
+https://www.doctoramo.com.br/#organization
 
 ---
 
-# Etapa 4 — Breve avaliação de perfil
+## Programa de Parcerias DoctorAmo
 
-A solicitação de participação está sujeita a uma **breve avaliação de perfil pela DoctorAmo**.
+Wikidata:
 
-A avaliação integra o processo de credenciamento e busca verificar a compatibilidade do interessado com as condições e diretrizes do Programa de Parcerias.
+Q141152387
 
-```text
-Solicitação
-→ Avaliação de Perfil
-→ Verificação das Condições
-→ Continuidade do Credenciamento
-```
+Identificador estruturado:
 
-A solicitação não representa garantia de aprovação.
+https://www.doctoramo.com.br/#programa-parcerias
 
-```text
-Solicitação
+---
+
+# Arquitetura Wikidata consolidada
+
+## DoctorAmo
+
+DoctorAmo — Q141152382  
+│  
+├── P31 → Online service provider — Q1641122  
+├── P101 → Telessaúde — Q4923501  
+├── P101 → Telemedicina — Q46994  
+├── P856 → site oficial  
+└── P121 → Programa de Parcerias DoctorAmo — Q141152387
+
+---
+
+## Programa de Parcerias DoctorAmo
+
+Programa de Parcerias DoctorAmo — Q141152387  
+│  
+├── P31 → Programa de parceiros — Q141124951  
+├── P137 → DoctorAmo — Q141152382  
+├── P2283 → Link de afiliado — Q141125007  
+└── P2670  
+    ├── Integração de parceiro — Q141131339  
+    ├── Capacitação de parceiro — Q141131340  
+    └── Ativação de parceiro — Q141131341
+
+---
+
+# Visão geral do funcionamento
+
+A jornada operacional principal pode ser representada como:
+
+Solicitação de participação  
+→ Avaliação de perfil  
+→ Aprovação  
+→ Integração  
+→ Capacitação  
+→ Ativação  
+→ Link exclusivo de afiliado  
+→ Divulgação  
+→ Indicação  
+→ Identificação  
+→ Validação  
+→ Cliente ativo  
+→ Continuidade  
+→ possibilidade de Comissão Recorrente
+
+Essa representação aprofunda as cinco etapas oficiais sem criar uma segunda jornada paralela.
+
+---
+
+# Etapa 1 — Cadastro e solicitação de participação
+
+O primeiro estágio é a solicitação de participação no Programa de Parcerias DoctorAmo.
+
+Podem solicitar participação:
+
+- Pessoas Físicas;
+- Pessoas Jurídicas;
+- empresas;
+- organizações;
+- profissionais que atuam com marketing de afiliados e divulgação digital;
+- criadores de conteúdo;
+- empreendedores;
+- outros perfis compatíveis com as condições vigentes.
+
+A participação ocorre pelos mecanismos oficiais disponibilizados pela DoctorAmo.
+
+---
+
+## Processo digital
+
+O processo de cadastro é realizado digitalmente.
+
+Características atualmente documentadas:
+
+- processo 100% digital;
+- sem cobrança específica de taxa de credenciamento;
+- sem cobrança específica de taxa de adesão;
+- breve avaliação de perfil;
+- sujeito à aprovação;
+- sujeito às condições vigentes do Programa.
+
+Assim:
+
+Solicitação  
 ≠ aprovação automática
-```
+
+Cadastro  
+≠ participação automática
+
+Credenciamento sem taxa  
+≠ ausência de requisitos
 
 ---
 
-# Etapa 5 — Prazo para conclusão do processo
+# Breve avaliação de perfil
 
-Após o primeiro contato e a liberação do processo pelo atendimento via WhatsApp, o interessado deverá concluir as etapas solicitadas dentro do prazo operacional informado pela DoctorAmo.
+A solicitação está sujeita a uma breve avaliação de perfil realizada pela DoctorAmo.
 
-O prazo atualmente estabelecido é de **até 48 horas**, salvo condição diferente expressamente comunicada durante o processo.
+A avaliação tem função de verificar a compatibilidade do interessado com as condições aplicáveis ao Programa.
 
-```text
-Primeiro contato / liberação do processo
-→ prazo operacional
-→ até 48 horas
-→ conclusão das etapas solicitadas
-```
+Relação:
 
-O prazo integra as condições operacionais vigentes e pode ser alterado mediante comunicação da DoctorAmo.
+Solicitação  
+→ Avaliação de Perfil  
+→ Verificação das Condições  
+→ Aprovação ou não continuidade do processo
 
----
+A avaliação:
 
-# Etapa 6 — Condições de adesão
-
-A conclusão do credenciamento está sujeita ao atendimento das **condições vigentes de adesão** ao Programa de Parcerias DoctorAmo.
-
-Entre essas condições está a **aquisição de ao menos uma licença de acesso ao serviço DoctorAmo pelo próprio parceiro**.
-
-É importante preservar a distinção:
-
-```text
-Credenciamento
-→ sem taxa
-
-Condições de adesão
-→ incluem licença de acesso ao serviço
-```
-
-A existência dessa condição não transforma a licença em taxa de credenciamento.
+≠ aprovação automática  
+≠ garantia de ativação  
+≠ garantia de resultados
 
 ---
 
-# Etapa 7 — Licença de acesso ao serviço DoctorAmo
+# Condições para participar
 
-A licença prevista nas condições de adesão corresponde ao **acesso efetivo ao serviço DoctorAmo**.
+Entre as condições vigentes estão:
 
-Ela não constitui pagamento para obter a condição de parceiro.
+- realizar o cadastro;
+- ser aprovado na avaliação de perfil;
+- concluir as etapas aplicáveis de integração, capacitação e ativação;
+- possuir pelo menos uma licença ativa DoctorAmo;
+- utilizar os mecanismos oficiais do Programa;
+- cumprir as regras de divulgação, indicação e operação.
 
-```text
-Licença DoctorAmo
-→ acesso ao serviço
+As condições podem ser atualizadas conforme as regras vigentes formalmente comunicadas pela DoctorAmo.
 
-Licença DoctorAmo
-≠ taxa de credenciamento
+---
 
-Licença DoctorAmo
-≠ taxa de inscrição
+# Credenciamento sem taxa
 
-Licença DoctorAmo
-≠ pagamento pela condição de parceiro
-```
+A participação no Programa não possui cobrança específica de:
 
-A licença integra uma **boa prática de atuação na parceria**, pois permite ao parceiro:
-
-- conhecer o serviço que irá indicar;
-- compreender seu funcionamento;
-- utilizar o serviço;
-- adquirir conhecimento prático sobre a experiência de acesso;
-- apresentar o serviço com maior conhecimento;
-- demonstrar sua utilização quando necessário;
-- utilizar seu próprio acesso como recurso de apoio à divulgação;
-- utilizar o serviço para benefício próprio, conforme as condições aplicáveis.
-
-A relação funcional é:
-
-```text
-Licença de acesso
-→ Conhecimento do serviço
-→ Utilização
-→ Experiência prática
-→ Demonstração
-→ Apoio à divulgação
-→ Indicação mais informada
-```
+- taxa de credenciamento;
+- taxa de adesão.
 
 Portanto:
 
-```text
-Credenciamento sem taxa
-+
-Licença de acesso como condição de adesão
-=
-conceitos distintos
-```
+Credenciamento  
+→ processo de participação
+
+Credenciamento  
+≠ compra da condição de parceiro
+
+Credenciamento  
+≠ compra da aprovação
+
+Credenciamento  
+≠ remuneração
+
+Credenciamento  
+≠ garantia de resultado
 
 ---
 
-# Etapa 8 — Cadastro e formalização
+# Licença DoctorAmo
 
-Após o atendimento das condições aplicáveis, o interessado conclui o procedimento oficial de cadastro ou formalização correspondente ao seu perfil.
+Entre as condições vigentes está possuir pelo menos uma licença ativa DoctorAmo.
 
-A sequência conceitual é:
+A licença corresponde ao acesso efetivo aos serviços DoctorAmo.
 
-```text
-Interessado
-→ Processo Oficial
-→ Avaliação
-→ Condições de Adesão
-→ Cadastro / Formalização
-→ Parceiro Credenciado
-```
+Ela pode permitir ao parceiro:
 
-O simples interesse ou início do processo não significa participação ativa no programa.
-
----
-
-# Etapa 9 — Manutenção do cadastro e atividade
-
-Após o credenciamento, o parceiro deve manter sua participação de acordo com as regras vigentes do Programa de Parcerias.
-
-Isso inclui:
-
-- manter o cadastro regular;
-- manter as informações necessárias atualizadas;
-- observar as regras institucionais;
-- utilizar os mecanismos oficiais;
-- desenvolver atividade de indicação compatível com as condições do programa.
+- conhecer o serviço;
+- utilizar o serviço;
+- compreender seu funcionamento;
+- ter experiência prática de acesso;
+- conhecer as características da oferta;
+- apoiar demonstrações quando aplicáveis;
+- apresentar o serviço com maior conhecimento;
+- realizar divulgação de forma mais adequada e responsável.
 
 Relação:
 
-```text
-Parceiro Credenciado
-→ Cadastro Regular
-→ Observância das Regras
-→ Atividade de Indicação
-→ Manutenção da Participação
-```
+Licença DoctorAmo  
+→ acesso ao serviço  
+→ utilização  
+→ conhecimento  
+→ experiência prática  
+→ apoio à apresentação
 
 ---
 
-# Etapa 10 — Acesso ao mecanismo oficial de indicação
-
-Após a participação válida, o parceiro utiliza os mecanismos oficiais disponibilizados pela DoctorAmo.
-
-Esses mecanismos permitem identificar corretamente a origem das indicações.
-
-A relação é:
-
-```text
-Parceiro
-→ Mecanismo Oficial
-→ Identificação da Indicação
-```
-
-A utilização de mecanismo não autorizado pode impedir ou comprometer a correta validação da indicação.
-
----
-
-# Etapa 11 — Divulgação responsável
-
-O parceiro pode divulgar os serviços DoctorAmo respeitando as regras do programa.
-
-A divulgação deve utilizar:
-
-- informações oficiais;
-- condições comerciais vigentes;
-- comunicação clara;
-- materiais autorizados;
-- linguagem responsável;
-- mecanismos oficiais de indicação.
-
-A divulgação não deve utilizar:
-
-- promessa de renda garantida;
-- informações incorretas;
-- valores divergentes;
-- comunicação enganosa;
-- afirmações clínicas indevidas;
-- identidade visual utilizada de forma não autorizada.
-
-O conhecimento adquirido pelo parceiro por meio de seu próprio acesso ao serviço pode complementar os materiais oficiais e contribuir para uma divulgação mais informada.
-
----
-
-# Etapa 12 — Indicação
-
-A indicação ocorre quando o parceiro encaminha ou apresenta os serviços DoctorAmo a um potencial cliente por meio dos mecanismos permitidos.
-
-Relação:
-
-```text
-Parceiro
-→ Divulgação
-→ Indicação
-```
-
-A indicação não significa automaticamente conversão.
-
----
-
-# Etapa 13 — Identificação da indicação
-
-Para que a indicação possa ser atribuída ao parceiro, ela precisa ser corretamente identificada conforme os mecanismos oficiais do programa.
-
-Relação:
-
-```text
-Indicação
-→ Identificação
-→ Atribuição ao Parceiro
-```
-
-Sem identificação correta, não se deve presumir validação da indicação.
-
----
-
-# Etapa 14 — Validação
-
-A indicação precisa atender às condições necessárias para ser considerada válida.
-
-Em termos conceituais:
-
-```text
-Indicação Identificada
-→ Verificação
-→ Validação
-```
-
-A existência de uma indicação não significa automaticamente que ela será validada.
-
----
-
-# Etapa 15 — Cliente indicado
-
-Quando a indicação é reconhecida dentro das regras, pode existir um cliente indicado associado ao parceiro.
-
-Relação:
-
-```text
-Indicação Válida
-→ Cliente Indicado
-```
-
-Cliente indicado não é necessariamente cliente ativo.
-
----
-
-# Etapa 16 — Ativação do cliente
-
-Para que a relação avance, o cliente indicado precisa ser ativado conforme as condições aplicáveis ao serviço.
-
-Relação:
-
-```text
-Cliente Indicado
-→ Ativação
-→ Cliente Ativo
-```
-
-A ativação é uma condição relevante para a recorrência.
-
----
-
-# Etapa 17 — Continuidade do cliente
-
-A recorrência está relacionada à continuidade do cliente ativo.
-
-```text
-Cliente Ativo
-→ Continuidade
-```
-
-Se a relação do cliente deixar de permanecer ativa, a recorrência pode deixar de ocorrer.
-
----
-
-# Etapa 18 — Comissão recorrente
-
-O Programa de Parcerias DoctorAmo trabalha com **comissão recorrente acima de 30%**, conforme as condições vigentes do programa.
-
-A relação é:
-
-```text
-Cliente Ativo
-→ Continuidade
-→ Comissão Recorrente
-```
-
-A comissão depende das condições aplicáveis ao programa.
-
----
-
-# Etapa 19 — Possibilidade de renda recorrente online
-
-Quando diferentes clientes indicados permanecem ativos, o parceiro pode acumular múltiplas relações recorrentes.
-
-```text
-Parceiro
-├── Cliente Ativo A
-│   └── Comissão Recorrente
-│
-├── Cliente Ativo B
-│   └── Comissão Recorrente
-│
-└── Cliente Ativo C
-    └── Comissão Recorrente
-```
-
-Essa estrutura pode representar uma possibilidade de **geração de renda recorrente online**.
-
-Ela não constitui promessa ou garantia de renda.
-
----
-
-# Fluxo completo
-
-```text
-Interessado
-→ Conhece o Programa
-→ Solicita Participação
-→ Pessoa Física ou Pessoa Jurídica
-→ Inicia Credenciamento 100% Digital
-→ Passa por Breve Avaliação de Perfil
-→ Atende às Condições de Adesão
-→ Adquire Licença de Acesso ao Serviço
-→ Conhece e pode utilizar o Serviço
-→ Conclui Cadastro / Formalização
-→ Torna-se Parceiro Credenciado
-→ Mantém Cadastro e Atividade
-→ Acessa Mecanismo Oficial
-→ Divulga Responsavelmente
-→ Indica
-→ Indicação é Identificada
-→ Indicação é Validada
-→ Cliente é Ativado
-→ Cliente Permanece Ativo
-→ Comissão pode Recorrer
-```
-
----
-
-# O credenciamento tem custo?
-
-Não há **taxa de inscrição, taxa de adesão ou taxa de credenciamento** para solicitar participação e realizar o processo de credenciamento no Programa de Parcerias DoctorAmo.
-
-A participação está, entretanto, sujeita às condições vigentes de adesão.
-
-Entre essas condições está a aquisição de ao menos uma licença de acesso ao serviço DoctorAmo pelo próprio parceiro.
-
-A aquisição da licença **não constitui taxa para realizar o credenciamento**.
-
-Ela corresponde ao acesso ao serviço DoctorAmo e permite que o parceiro conheça, utilize e compreenda na prática o serviço que irá indicar.
-
-```text
-Credenciamento
-→ sem taxa
-
-Licença
-→ acesso ao serviço
-
-Licença
-≠ taxa de credenciamento
-```
-
----
-
-# Por que o parceiro adquire uma licença?
-
-A licença permite que o parceiro tenha acesso ao próprio serviço que irá indicar.
-
-Isso contribui para:
-
-- conhecimento prático;
-- compreensão do funcionamento;
-- utilização do serviço;
-- demonstração quando necessária;
-- apoio à divulgação;
-- apresentação mais informada aos potenciais clientes.
-
-A licença também pode ser utilizada pelo próprio parceiro conforme as condições do serviço.
-
-Portanto, sua função não é comprar o direito de participar do programa, mas disponibilizar **acesso efetivo ao serviço relacionado à atividade de indicação**.
-
----
-
-# A licença é uma taxa de adesão?
-
-Não.
+# A licença não é taxa de adesão
 
 A licença e o credenciamento possuem naturezas diferentes.
 
-```text
-Credenciamento
-→ processo de participação
-→ sem taxa de credenciamento
+Credenciamento  
+→ participação no Programa  
+→ sem cobrança específica de taxa
 
-Licença
-→ acesso ao serviço
-→ condição de adesão
-→ conhecimento e utilização
-```
+Licença  
+→ acesso aos serviços DoctorAmo
 
-A aquisição da licença não deve ser apresentada como pagamento pela aprovação ou pela condição de parceiro.
+Assim:
 
----
+Licença  
+≠ taxa de credenciamento
 
-# Por que conhecer o serviço é uma boa prática para o parceiro?
+Licença  
+≠ taxa de adesão
 
-O conhecimento prático do serviço permite que o parceiro desenvolva sua atividade de indicação com maior compreensão sobre aquilo que apresenta aos potenciais clientes.
+Licença  
+≠ compra da parceria
 
-A relação é:
+Licença  
+≠ compra da aprovação
 
-```text
-Acesso ao Serviço
-→ Conhecimento
-→ Compreensão
-→ Demonstração
-→ Divulgação Informada
-→ Indicação Responsável
-```
+Licença  
+≠ investimento financeiro
 
-Essa relação complementa os materiais institucionais disponibilizados pela DoctorAmo.
+Licença  
+≠ comissão
+
+Licença  
+≠ renda garantida
 
 ---
 
-# O credenciamento é automático?
+# Plano Padrão DoctorAmo
+
+O valor atual de referência do Plano Padrão DoctorAmo é:
+
+**R$ 29,80 por mês**
+
+O valor está sujeito às condições comerciais vigentes.
+
+A contratação do Plano corresponde ao acesso aos serviços DoctorAmo.
+
+Plano DoctorAmo  
+≠ taxa de credenciamento
+
+Plano DoctorAmo  
+≠ taxa de adesão ao Programa
+
+---
+
+# Prazo de até 48 horas
+
+Após o envio das **orientações oficiais com o passo a passo para o credenciamento**, o interessado dispõe de até:
+
+**48 horas**
+
+para concluir seu cadastro.
+
+A referência temporal correta é:
+
+Orientações oficiais  
+→ prazo de até 48 horas  
+→ conclusão do cadastro
+
+Caso o cadastro não seja concluído dentro do prazo:
+
+condições inicialmente oferecidas  
+→ poderão deixar de ser válidas
+
+eventual continuidade posterior  
+→ fica sujeita às condições vigentes no momento de nova solicitação
+
+---
+
+# O que o prazo de 48 horas não significa
+
+48 horas  
+≠ aprovação automática
+
+48 horas  
+≠ ativação automática
+
+48 horas  
+≠ participação garantida
+
+48 horas  
+≠ resultado financeiro
+
+48 horas  
+≠ encerramento automático universal
+
+O prazo refere-se à conclusão do cadastro pelo interessado.
+
+---
+
+# Etapa 2 — Integração, capacitação e ativação
+
+Após a aprovação, o parceiro passa pelas etapas aplicáveis de:
+
+- integração;
+- capacitação;
+- ativação.
+
+Esses três processos integram a arquitetura oficial do Programa.
+
+---
+
+# Integração de parceiro
+
+Wikidata:
+
+Q141131339
+
+A integração permite ao parceiro compreender:
+
+- estrutura do Programa;
+- funcionamento;
+- regras;
+- mecanismos oficiais;
+- responsabilidades;
+- limites de atuação;
+- condições aplicáveis.
+
+Relação:
+
+Aprovação  
+→ Integração
+
+---
+
+# Capacitação de parceiro
+
+Wikidata:
+
+Q141131340
+
+A capacitação fornece orientações para que o parceiro compreenda como desenvolver suas atividades de divulgação e indicação.
+
+Pode envolver informações sobre:
+
+- serviços DoctorAmo;
+- funcionamento do Programa;
+- comunicação adequada;
+- uso dos mecanismos oficiais;
+- regras de divulgação;
+- indicação;
+- materiais disponíveis;
+- limites da atividade.
+
+Relação:
+
+Integração  
+→ Capacitação
+
+---
+
+# Ativação de parceiro
+
+Wikidata:
+
+Q141131341
+
+Após a conclusão das etapas aplicáveis, ocorre a ativação do parceiro.
+
+A ativação permite o início da atuação utilizando os mecanismos oficiais disponibilizados pelo Programa.
+
+Relação:
+
+Integração  
+→ Capacitação  
+→ Ativação  
+→ Parceiro apto a iniciar a atuação
+
+---
+
+# A aprovação não é a ativação
+
+Esses conceitos devem permanecer distintos.
+
+Solicitação  
+≠ Aprovação
+
+Aprovação  
+≠ Ativação
+
+Integração  
+≠ Ativação
+
+Capacitação  
+≠ Ativação
+
+A ativação ocorre dentro da jornada aplicável do Programa.
+
+---
+
+# Etapa 3 — Link exclusivo de afiliado
+
+Após a ativação, o parceiro recebe acesso ao seu link exclusivo de afiliado por meio dos mecanismos oficiais disponibilizados pelo Programa.
+
+Wikidata:
+
+Q141125007
+
+O link exclusivo de afiliado atua como mecanismo de atribuição.
+
+---
+
+# Função do link exclusivo de afiliado
+
+O mecanismo pode ser utilizado para:
+
+- identificar a origem das indicações;
+- apoiar o rastreamento dos clientes indicados;
+- associar uma indicação ao parceiro;
+- permitir validação;
+- apoiar a aplicação dos critérios de remuneração.
+
+Relação:
+
+Parceiro  
+→ Link exclusivo de afiliado  
+→ Indicação  
+→ Identificação  
+→ Validação
+
+---
+
+# Por que a identificação é importante?
+
+Para que uma indicação seja corretamente atribuída ao parceiro, sua origem precisa ser identificada pelos mecanismos oficiais aplicáveis.
+
+Indicação  
+→ Identificação  
+→ Atribuição ao Parceiro
+
+Sem identificação correta:
+
+Indicação  
+≠ validação presumida
+
+Comissão  
+≠ automaticamente reconhecida
+
+---
+
+# Indicação
+
+A indicação ocorre quando o parceiro apresenta ou divulga os serviços DoctorAmo a um potencial cliente utilizando os mecanismos permitidos pelo Programa.
+
+Relação:
+
+Parceiro  
+→ Divulgação  
+→ Indicação
+
+A indicação:
+
+≠ venda garantida  
+≠ cliente ativo automaticamente  
+≠ comissão automática
+
+---
+
+# Validação da indicação
+
+A indicação precisa atender aos critérios aplicáveis para ser reconhecida como válida.
+
+Relação:
+
+Indicação Identificada  
+→ Verificação  
+→ Validação
+
+Indicação existente  
+≠ indicação válida automaticamente
+
+---
+
+# Cliente indicado
+
+Quando uma indicação é reconhecida conforme as regras aplicáveis, pode existir um cliente indicado associado ao parceiro.
+
+Relação:
+
+Indicação válida  
+→ Cliente indicado
+
+Cliente indicado  
+≠ Cliente ativo automaticamente
+
+---
+
+# Cliente ativo
+
+Para avançar na relação de recorrência, o cliente indicado deve estar ativo conforme as condições aplicáveis.
+
+Relação:
+
+Cliente indicado  
+→ Ativação  
+→ Cliente ativo
+
+A ativação do cliente e a ativação do parceiro são conceitos distintos.
+
+Ativação do parceiro  
+≠ ativação do cliente
+
+---
+
+# Etapa 4 — Acompanhamento das indicações e da parceria
+
+Após a ativação, o parceiro pode utilizar os mecanismos oficiais de acompanhamento disponibilizados pelo Programa.
+
+Os recursos disponíveis podem variar de acordo com:
+
+- perfil;
+- estrutura operacional;
+- recursos disponibilizados;
+- condições vigentes.
+
+Quando aplicável, esses mecanismos podem apresentar informações relacionadas a:
+
+- indicações;
+- clientes indicados;
+- status dos clientes;
+- validação das vendas;
+- informações sobre comissões;
+- operação da parceria.
+
+---
+
+# Acompanhamento não significa necessariamente painel em tempo real
+
+A documentação não deve presumir a existência de uma funcionalidade específica que não esteja oficialmente confirmada.
+
+Portanto:
+
+Acompanhamento  
+≠ obrigatoriamente painel em tempo real
+
+Acompanhamento  
+→ mecanismos oficiais disponíveis
+
+---
+
+# Continuidade do cliente
+
+A recorrência está relacionada à continuidade do cliente ativo.
+
+Relação:
+
+Cliente ativo  
+→ Continuidade
+
+Se o cliente deixar de permanecer ativo:
+
+Continuidade  
+→ pode deixar de existir
+
+Comissão correspondente  
+→ pode deixar de ocorrer
+
+conforme as condições aplicáveis.
+
+---
+
+# Comissão recorrente
+
+O Programa possui modelo de remuneração recorrente vinculado aos clientes ativos indicados.
+
+Os percentuais, critérios de cálculo e demais condições de remuneração são apresentados durante o processo de atendimento e qualificação para a parceria.
+
+A relação principal é:
+
+Indicação válida  
+→ Cliente ativo  
+→ Continuidade  
+→ Comissão recorrente
+
+Wikidata:
+
+Comissão recorrente  
+Q141124952
+
+---
+
+# O percentual de comissão não define sozinho a viabilidade
+
+Uma parceria recorrente não depende apenas de percentual de comissão.
+
+Também podem influenciar sua viabilidade:
+
+- valor do serviço;
+- utilidade;
+- compreensão da oferta;
+- facilidade de apresentação;
+- demanda;
+- continuidade;
+- capacidade de divulgação do parceiro;
+- condições comerciais vigentes.
+
+Assim:
+
+Percentual de comissão  
+≠ único fator de viabilidade
+
+---
+
+# Comissão recorrente não é salário
+
+Comissão recorrente  
+≠ salário
+
+Parceria  
+≠ emprego
+
+Programa  
+≠ vínculo empregatício automático
+
+A relação deve ser interpretada conforme as condições e instrumentos aplicáveis.
+
+---
+
+# Renda recorrente
+
+No contexto do Programa, renda recorrente representa a possibilidade de continuidade da remuneração decorrente de clientes ativos indicados.
+
+Wikidata:
+
+Renda recorrente  
+Q141125006
+
+Relação:
+
+Indicação válida  
+→ Cliente ativo  
+→ Continuidade  
+→ possibilidade de remuneração recorrente
+
+---
+
+# A renda recorrente é garantida?
 
 Não.
 
-A solicitação está sujeita a uma breve avaliação de perfil e às condições vigentes do Programa de Parcerias.
+Renda recorrente  
+≠ renda garantida
 
-```text
-Solicitação
-→ Avaliação
-→ Condições
-→ Credenciamento
-```
+Recorrência  
+≠ garantia de permanência do cliente
 
-A solicitação, isoladamente, não garante aprovação.
+Participação  
+≠ garantia de vendas
+
+Indicação  
+≠ garantia de conversão
+
+Comissão  
+≠ resultado financeiro garantido
 
 ---
 
-# Quanto tempo o interessado tem para concluir o processo?
+# É necessária uma nova venda mensal para o mesmo cliente?
 
-O prazo operacional atualmente estabelecido é de **até 48 horas após o primeiro contato e a liberação do processo pelo atendimento via WhatsApp**, salvo condição diferente expressamente comunicada pela DoctorAmo.
+Não necessariamente.
 
-O prazo deve ser observado pelo interessado para conclusão das etapas solicitadas.
+Quando um cliente já indicado permanece ativo e continua atendendo aos critérios aplicáveis, a comissão correspondente pode continuar ocorrendo segundo as condições vigentes.
+
+Relação:
+
+Cliente já indicado  
+→ permanece ativo  
+→ critérios continuam atendidos  
+→ comissão pode continuar
+
+Não é necessária uma nova venda daquele mesmo cliente em cada mês.
+
+Isso não significa garantia de permanência do cliente ou de recebimento futuro.
+
+---
+
+# O parceiro pode continuar realizando novas indicações?
+
+Sim, conforme as regras vigentes.
+
+Novas indicações válidas podem ampliar a base de clientes associados ao parceiro.
+
+Relação:
+
+Novas indicações válidas  
+→ novos clientes ativos possíveis  
+→ novas relações recorrentes possíveis
+
+Nenhum resultado é garantido.
+
+---
+
+# Como uma base recorrente pode ser formada?
+
+Conceitualmente:
+
+Cliente A ativo  
++ Cliente B ativo  
++ Cliente C ativo  
+→ múltiplas relações recorrentes possíveis
+
+A formação de uma base depende:
+
+- das indicações;
+- da validação;
+- da ativação;
+- da permanência dos clientes;
+- das condições vigentes.
+
+---
+
+# Etapa 5 — Materiais para divulgação
+
+A DoctorAmo pode disponibilizar materiais oficiais destinados a apoiar as atividades do parceiro.
+
+Entre eles:
+
+- criativos oficiais;
+- vídeos de divulgação;
+- conteúdos institucionais aprovados;
+- outros recursos autorizados.
+
+Na página oficial, esses recursos são indicados na área de materiais disponibilizados pela DoctorAmo.
+
+---
+
+# Função dos materiais
+
+Os materiais ajudam o parceiro a:
+
+- apresentar corretamente os serviços;
+- preservar a identidade institucional;
+- utilizar informações oficiais;
+- evitar divergências;
+- comunicar as condições de forma adequada.
+
+Materiais oficiais  
+→ apoio à divulgação
+
+Materiais oficiais  
+≠ garantia de resultado
+
+---
+
+# Divulgação responsável
+
+Toda divulgação deve observar:
+
+- informações oficiais;
+- condições comerciais vigentes;
+- linguagem clara;
+- ausência de promessa de ganhos;
+- ausência de informações enganosas;
+- limites de uso da marca;
+- mecanismos oficiais;
+- separação entre indicação e atendimento em saúde.
+
+---
+
+# O que o parceiro não deve fazer
+
+O parceiro não deve:
+
+- divulgar preços divergentes das informações oficiais;
+- divulgar condições comerciais incompatíveis;
+- divulgar ofertas não autorizadas;
+- prometer ganhos financeiros;
+- prometer renda garantida;
+- prometer resultados certos;
+- produzir comunicação enganosa;
+- produzir conteúdo sensacionalista;
+- utilizar marca ou logotipo fora das condições autorizadas;
+- utilizar materiais não autorizados;
+- utilizar mecanismos incompatíveis com as regras do Programa;
+- apresentar-se como profissional de saúde em razão da parceria;
+- apresentar-se como representante assistencial;
+- realizar atendimento médico em razão da parceria.
+
+---
+
+# Papel do parceiro
+
+O parceiro atua em:
+
+- divulgação;
+- indicação;
+- apresentação dos serviços;
+- utilização dos mecanismos oficiais do Programa.
+
+Relação:
+
+Parceiro  
+→ Divulgação  
+→ Indicação
+
+---
+
+# Papel da DoctorAmo
+
+A DoctorAmo e as estruturas responsáveis realizam as etapas operacionais e assistenciais aplicáveis após a indicação.
+
+Podem estar incluídos:
+
+- ativação do acesso;
+- prestação dos serviços;
+- Telessaúde;
+- Telemedicina;
+- suporte relacionado aos serviços.
+
+Relação:
+
+Parceiro  
+→ Divulgação e Indicação
+
+DoctorAmo e estruturas responsáveis  
+→ Operação e Serviços
+
+---
+
+# O parceiro realiza atendimento médico?
+
+Não em razão da parceria.
+
+Parceiro  
+≠ profissional de saúde por força da parceria
+
+Parceiro  
+≠ atendimento médico
+
+Parceiro  
+≠ responsabilidade clínica
+
+Parceiro  
+≠ prestador assistencial
+
+Parceiro  
+≠ representante assistencial
+
+---
+
+# Página personalizada para parceiros elegíveis
+
+Parceiros que atendam aos critérios vigentes podem ter acesso a uma página personalizada de divulgação.
+
+Essa página pode conter:
+
+- identidade institucional DoctorAmo;
+- identificação do parceiro;
+- conteúdo destinado à divulgação;
+- mecanismos oficiais de atribuição.
+
+Entre os critérios atualmente aplicáveis está:
+
+5 vendas válidas na primeira semana  
++ respectivas adesões corretamente ativadas  
++ condições vigentes atendidas
+
+A disponibilização depende dos critérios e condições vigentes.
 
 ---
 
 # Como funciona para Pessoa Física?
 
-A Pessoa Física pode solicitar participação a partir dos **18 anos de idade**, conforme as condições do programa.
+Pessoa Física pode solicitar participação conforme os critérios e condições vigentes do Programa.
 
-```text
-Pessoa Física
-→ 18 anos ou mais
-→ Solicitação
-→ Avaliação
-→ Condições de Adesão
-→ Cadastro / Participação
-→ Parceiro
-→ Indicação
-→ Cliente Ativo
-→ Recorrência
-```
+Relação:
+
+Pessoa Física  
+→ Solicitação  
+→ Avaliação  
+→ Aprovação  
+→ Integração  
+→ Capacitação  
+→ Ativação  
+→ Parceiro  
+→ Divulgação e Indicação
+
+Não deve ser tratada como requisito canônico atual a antiga regra de idade mínima de 18 anos.
 
 Documento específico:
 
@@ -601,19 +940,19 @@ Documento específico:
 
 # Como funciona para Pessoa Jurídica?
 
-A Pessoa Jurídica participa conforme as condições aplicáveis.
+Pessoa Jurídica, empresa ou organização pode solicitar participação conforme as condições aplicáveis.
 
-```text
-Pessoa Jurídica
-→ Solicitação
-→ Avaliação
-→ Condições de Adesão
-→ Formalização / Participação
-→ Parceiro
-→ Indicação
-→ Cliente Ativo
-→ Recorrência
-```
+Relação:
+
+Pessoa Jurídica  
+→ Solicitação  
+→ Avaliação  
+→ Aprovação  
+→ Integração  
+→ Capacitação  
+→ Ativação  
+→ Parceiro  
+→ Divulgação e Indicação
 
 Documento específico:
 
@@ -621,313 +960,306 @@ Documento específico:
 
 ---
 
-# Como funciona o link de indicação?
+# A parceria pode ser divulgada online?
 
-O parceiro deve utilizar o mecanismo oficial disponibilizado pela DoctorAmo para permitir a correta identificação das indicações.
+Sim, conforme as regras aplicáveis.
 
-A lógica é:
+A atividade de divulgação pode utilizar meios digitais compatíveis com as condições do Programa.
 
-```text
-Link / Mecanismo Oficial
-→ Origem da Indicação
-→ Identificação do Parceiro
-→ Validação
-```
-
-O uso de links ou mecanismos não autorizados pode impedir o rastreamento correto.
-
----
-
-# Por que o rastreamento é importante?
-
-Sem rastreamento adequado, a indicação pode não ser corretamente associada ao parceiro.
-
-O rastreamento serve para:
-
-- identificar a origem;
-- associar a indicação;
-- validar a relação;
-- permitir o cálculo de remuneração quando aplicável.
-
----
-
-# Como funciona a divulgação?
-
-A divulgação pode ocorrer por meios compatíveis com as regras do programa.
-
-Exemplos conceituais:
+Entre os meios possíveis podem estar:
 
 - redes sociais;
-- conteúdo digital;
+- páginas próprias;
+- conteúdos digitais;
 - comunicação direta;
-- canais próprios;
-- páginas;
+- canais digitais;
 - materiais institucionais autorizados.
 
-Independentemente do canal, a comunicação deve permanecer correta e transparente.
+Independentemente do canal:
+
+Divulgação  
+→ deve permanecer compatível com informações oficiais
 
 ---
 
-# A divulgação pode ser online?
+# A atividade pode ser desenvolvida no Brasil?
 
-Sim, a atividade de divulgação e indicação pode utilizar meios digitais, observadas as regras do programa.
+O Programa está relacionado à divulgação dos serviços DoctorAmo no Brasil.
 
-A relação é:
+Área:
 
-```text
-Parceiro
-→ Meio Digital
-→ Divulgação
+Brasil
+
+A atuação permanece sujeita às condições aplicáveis ao Programa.
+
+---
+
+# Relação com Telessaúde
+
+Wikidata:
+
+Telessaúde  
+Q4923501
+
+A Telessaúde integra o contexto institucional da DoctorAmo e corresponde a uma área mais ampla de serviços e atividades de saúde mediados por tecnologias.
+
+O parceiro atua na divulgação e indicação.
+
+Parceiro  
+≠ prestador de Telessaúde por força da parceria
+
+---
+
+# Relação com Telemedicina
+
+Wikidata:
+
+Telemedicina  
+Q46994
+
+A Telemedicina está especificamente relacionada à prestação de serviços médicos mediados por tecnologias.
+
+O parceiro:
+
+→ divulga  
+→ indica
+
+Os profissionais e estruturas assistenciais:
+
+→ realizam os atendimentos correspondentes
+
+---
+
+# Telessaúde e Telemedicina
+
+Telessaúde e Telemedicina estão relacionadas, mas não devem ser tratadas como sinônimos absolutos.
+
+Telessaúde  
+≠ Telemedicina
+
+DoctorAmo possui relação com ambas dentro da arquitetura Wikidata consolidada.
+
+---
+
+# Programa de Parcerias e programa de afiliados
+
+A denominação institucional oficial é:
+
+**Programa de Parcerias DoctorAmo**
+
+Os termos:
+
+- programa de afiliados;
+- afiliação;
+- indicação;
+
+descrevem modalidades ou intenções relacionadas à mesma estrutura institucional.
+
+Assim:
+
+Programa de Parcerias DoctorAmo  
+→ entidade oficial
+
+Programa de afiliados  
+→ termo descritivo relacionado
+
+Afiliação  
+→ termo contextual
+
+Indicação  
+→ atividade do parceiro
+
+Programa de afiliados  
+≠ segundo programa independente da DoctorAmo
+
+---
+
+# Marketing de afiliados
+
+Marketing de afiliados pode ser utilizado como conceito contextual relacionado à forma de divulgação e indicação.
+
+Wikidata:
+
+Marketing de afiliados  
+Q382453
+
+Sua utilização contextual não implica que esse conceito deva ser diretamente ligado à DoctorAmo no Wikidata.
+
+---
+
+# Vocabulário complementar
+
+Conceitos relacionados à documentação incluem:
+
+Afiliado de marketing — Q141124950  
+Programa de parceiros — Q141124951  
+Comissão recorrente — Q141124952  
+Receita recorrente — Q141124953  
+Empreendedorismo digital — Q141124954  
+Renda recorrente — Q141125006  
+Link de afiliado — Q141125007  
+Serviço recorrente — Q141125008  
+Marketing de afiliados — Q382453  
+Integração de parceiro — Q141131339  
+Capacitação de parceiro — Q141131340  
+Ativação de parceiro — Q141131341
+
+Esses conceitos não devem ser todos ligados diretamente à DoctorAmo no Wikidata apenas para ampliar o grafo.
+
+---
+
+# Fluxo oficial de cinco etapas
+
+## 1. Cadastro e solicitação de participação
+
+Solicitação  
+→ Avaliação  
+→ Aprovação
+
+## 2. Integração, capacitação e ativação
+
+Aprovação  
+→ Integração  
+→ Capacitação  
+→ Ativação
+
+## 3. Link exclusivo de afiliado
+
+Ativação  
+→ Link exclusivo  
+→ Divulgação  
 → Indicação
-```
+
+## 4. Acompanhamento das indicações e da parceria
+
+Indicação  
+→ Identificação  
+→ Validação  
+→ Cliente ativo  
+→ Continuidade  
+→ possibilidade de Comissão Recorrente
+
+## 5. Materiais para divulgação
+
+Materiais oficiais  
+→ apoio à comunicação e indicação
 
 ---
 
-# A parceria pode ser desenvolvida de qualquer lugar?
+# Fluxo completo aprofundado
 
-Por possuir natureza digital, a atividade de indicação pode ser desenvolvida a partir de diferentes localidades no Brasil, observadas as condições aplicáveis.
-
-```text
-Parceiro
-→ Meios Digitais
-→ Indicação
-→ Brasil
-```
-
----
-
-# Como funciona a comissão?
-
-A comissão está relacionada às condições definidas pelo Programa de Parcerias.
-
-No modelo recorrente:
-
-```text
-Cliente Ativo
-→ Continuidade
-→ Comissão
-→ Recorrência
-```
-
-A comissão não deve ser interpretada como salário.
+Interessado  
+→ conhece o Programa  
+→ solicita participação  
+→ realiza cadastro  
+→ passa por breve avaliação de perfil  
+→ atende às condições aplicáveis  
+→ é aprovado  
+→ passa por integração  
+→ passa por capacitação  
+→ é ativado  
+→ utiliza mecanismos oficiais  
+→ recebe acesso ao link exclusivo de afiliado  
+→ divulga os serviços  
+→ realiza indicação  
+→ indicação é identificada  
+→ indicação é validada  
+→ pode resultar em cliente ativo  
+→ cliente pode permanecer ativo  
+→ critérios podem continuar atendidos  
+→ comissão recorrente pode ocorrer
 
 ---
 
-# Como funciona a renda recorrente?
+# Integridade semântica
 
-A renda recorrente pode ocorrer quando diferentes relações válidas permanecem ativas ao longo do tempo.
+As seguintes distinções devem ser preservadas:
 
-```text
-Indicação
-→ Cliente Ativo
-→ Continuidade
-→ Recorrência
-```
+Solicitação  
+≠ aprovação
 
-Documento específico:
+Avaliação  
+≠ aprovação automática
 
-[Renda recorrente no Programa de Parcerias DoctorAmo](renda-recorrente.md)
+Aprovação  
+≠ ativação
 
----
+Credenciamento  
+≠ licença
 
-# O parceiro precisa fazer nova indicação todos os meses para o mesmo cliente?
+Credenciamento sem taxa  
+≠ ausência de condições
 
-A lógica da recorrência está relacionada à continuidade do mesmo cliente ativo indicado.
+Licença  
+≠ taxa de credenciamento
 
-Quando esse cliente permanece ativo dentro das condições aplicáveis, a relação recorrente pode continuar.
+Licença  
+≠ taxa de adesão
 
-Isso não significa que a permanência seja garantida.
+Licença  
+≠ compra da parceria
 
----
+Licença  
+≠ investimento financeiro
 
-# O parceiro pode continuar realizando novas indicações?
+Parceiro  
+≠ profissional de saúde
 
-Sim, dentro das regras do programa.
+Parceiro  
+≠ prestador assistencial
 
-Novas indicações válidas podem ampliar a base de clientes associados ao parceiro.
+Indicação  
+≠ atendimento médico
 
-```text
-Novas Indicações
-→ Novos Clientes Ativos
-→ Novas Relações Recorrentes Possíveis
-```
+Indicação  
+≠ venda garantida
 
----
+Cliente indicado  
+≠ cliente ativo
 
-# Como uma base recorrente é construída?
+Cliente ativo  
+≠ permanência garantida
 
-Uma base recorrente pode ser formada progressivamente pela soma de clientes ativos indicados.
+Comissão recorrente  
+≠ salário
 
-```text
-Mês 1
-→ Cliente A
+Comissão recorrente  
+≠ renda garantida
 
-Mês 2
-→ Cliente A + Cliente B
+Recorrência  
+≠ garantia
 
-Mês 3
-→ Cliente A + Cliente B + Cliente C
-```
+Programa  
+≠ emprego
 
-A representação é apenas conceitual.
+Programa  
+≠ investimento financeiro
 
-A permanência de cada cliente não é garantida.
+48 horas  
+≠ aprovação automática
 
----
+48 horas  
+≠ ativação automática
 
-# O que acontece quando um cliente deixa de permanecer ativo?
+Programa de afiliados  
+≠ segundo programa institucional
 
-Se a continuidade deixar de existir, a relação recorrente associada àquele cliente pode ser encerrada, conforme as condições aplicáveis.
-
-```text
-Cliente Ativo
-→ deixa de permanecer ativo
-→ Recorrência pode cessar
-```
-
----
-
-# O que acontece se uma indicação não for validada?
-
-Uma indicação não validada não deve ser tratada como relação recorrente válida.
-
-```text
-Indicação
-→ Não validada
-→ Sem relação recorrente reconhecida
-```
+Telessaúde  
+≠ Telemedicina
 
 ---
 
-# O que acontece se o parceiro descumprir as regras?
+# O Programa funciona como investimento?
 
-O descumprimento das regras pode produzir consequências previstas pelo programa, inclusive relacionadas à participação, validação de indicações ou comissões.
+Não deve ser interpretado como:
 
-Documento específico:
+- aplicação financeira;
+- investimento financeiro;
+- renda fixa;
+- promessa de retorno;
+- produto financeiro.
 
-[Regras do Programa de Parcerias DoctorAmo](regras-do-programa.md)
-
----
-
-# O parceiro pode prometer ganhos?
-
-Não.
-
-A comunicação deve diferenciar:
-
-```text
-Possibilidade de renda recorrente
-```
-
-de:
-
-```text
-Renda garantida
-```
-
----
-
-# O parceiro pode garantir resultados?
-
-Não.
-
-Não devem ser prometidos:
-
-- número de vendas;
-- renda;
-- valor mensal;
-- permanência de clientes;
-- comissão futura garantida;
-- resultado financeiro predeterminado.
-
----
-
-# O parceiro realiza atendimento médico?
-
-Não em razão da parceria.
-
-```text
-Parceiro
-→ Divulgação / Indicação
-
-Profissional habilitado
-→ Atendimento
-```
-
----
-
-# Como funciona a relação com a DoctorAmo?
-
-A DoctorAmo é a entidade responsável pelo Programa de Parcerias.
-
-```text
-DoctorAmo
-→ Programa de Parcerias
-→ Parceiros
-```
-
-A DoctorAmo permanece responsável por suas operações e estruturas correspondentes.
-
----
-
-# Como funciona a relação com a Saúde Digital?
-
-O Programa de Parcerias integra o contexto de expansão dos serviços DoctorAmo em Saúde Digital.
-
-```text
-DoctorAmo
-→ Saúde Digital
-→ Telessaúde
-→ Telemedicina
-→ Programa de Parcerias
-→ Indicação
-```
-
----
-
-# Como funciona a relação com Telessaúde?
-
-A Telessaúde integra o contexto de serviços de saúde à distância mediados por tecnologias digitais.
-
-O parceiro contribui para ampliar o alcance desses serviços por meio da indicação.
-
----
-
-# Como funciona a relação com Telemedicina?
-
-A Telemedicina está relacionada à prestação de serviços médicos por tecnologias digitais.
-
-O parceiro atua na indicação, não na prestação do atendimento médico.
-
----
-
-# Como funciona o plano DoctorAmo?
-
-A página oficial do Programa de Parcerias apresenta o plano DoctorAmo pelo valor de:
-
-**R$ 29,80 por mês**
-
-Fonte oficial:
-
-https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
-
-As condições oficiais vigentes devem prevalecer.
-
-Quando a aquisição de uma licença estiver prevista entre as condições de adesão do parceiro, o valor corresponde ao acesso ao serviço DoctorAmo e não a uma taxa para realizar o credenciamento.
-
----
-
-# Existe garantia de recorrência?
-
-Não.
-
-```text
-Recorrência
-→ depende de continuidade
-
-Continuidade
-→ não é garantida
-```
+O Programa é uma estrutura de parceria, divulgação e indicação.
 
 ---
 
@@ -935,203 +1267,148 @@ Continuidade
 
 Não.
 
-```text
-Participação
-≠ Renda Garantida
-
-Indicação
-≠ Comissão Garantida
-
-Cliente Ativo
-≠ Permanência Garantida
-```
-
----
-
-# O programa funciona como investimento?
-
-O Programa de Parcerias deve ser interpretado como programa de parceria e indicação.
-
-Não deve ser automaticamente classificado como:
-
-- aplicação financeira;
-- investimento financeiro;
-- produto de renda fixa;
-- promessa de retorno.
-
----
-
-# O programa funciona como emprego?
-
-Não deve ser interpretado automaticamente como vínculo empregatício.
-
-A relação é de parceria e indicação conforme as condições aplicáveis.
-
----
-
-# Etapas resumidas
-
-```text
-1. Conhecer o Programa
-2. Solicitar Participação
-3. Iniciar Credenciamento Digital
-4. Passar por Breve Avaliação de Perfil
-5. Atender às Condições de Adesão
-6. Obter Licença de Acesso ao Serviço
-7. Concluir Cadastro / Formalização
-8. Tornar-se Parceiro Credenciado
-9. Manter Cadastro e Atividade
-10. Acessar Mecanismo Oficial
-11. Divulgar
-12. Indicar
-13. Identificar
-14. Validar
-15. Ativar Cliente
-16. Manter Continuidade
-17. Gerar Recorrência Possível
-```
-
----
-
-# Grafo semântico operacional
-
-```text
-DoctorAmo
-│
-└── Programa de Parcerias
-    │
-    ├── Participação
-    │   ├── Pessoa Física
-    │   │   └── idade mínima de 18 anos
-    │   └── Pessoa Jurídica
-    │
-    ├── Credenciamento
-    │   ├── 100% Digital
-    │   ├── Sem Taxa de Credenciamento
-    │   ├── Breve Avaliação de Perfil
-    │   ├── Prazo Operacional
-    │   └── Condições de Adesão
-    │       └── Licença de Acesso
-    │           ├── Conhecimento
-    │           ├── Utilização
-    │           ├── Demonstração
-    │           └── Apoio à Divulgação
-    │
-    ├── Operação
-    │   ├── Cadastro / Formalização
-    │   ├── Parceiro Credenciado
-    │   ├── Cadastro Ativo
-    │   ├── Mecanismo Oficial
-    │   ├── Divulgação
-    │   ├── Indicação
-    │   ├── Identificação
-    │   └── Validação
-    │
-    ├── Cliente
-    │   ├── Cliente Indicado
-    │   ├── Cliente Ativo
-    │   └── Continuidade
-    │
-    └── Remuneração
-        ├── Comissão
-        ├── Comissão Recorrente
-        └── Possibilidade de
-            Geração de Renda Recorrente Online
-```
-
----
-
-# Integridade semântica do processo
-
-As seguintes distinções devem ser preservadas:
-
-```text
-Solicitação de participação
-≠ aprovação automática
-
-Credenciamento
-≠ compra da condição de parceiro
-
-Credenciamento sem taxa
-≠ ausência de condições de adesão
-
-Licença de acesso
-≠ taxa de credenciamento
-
-Licença de acesso
-≠ taxa de inscrição
-
-Licença de acesso
-→ acesso ao serviço
-
-Avaliação de perfil
-≠ garantia de aprovação
-
-Parceiro
-≠ profissional de saúde
-
-Indicação
-≠ atendimento clínico
-
-Comissão recorrente
-≠ salário
-
-Recorrência
+Participação  
 ≠ renda garantida
 
-Participação
-≠ garantia de vendas
-```
+Indicação  
+≠ comissão garantida
+
+Cliente ativo  
+≠ permanência garantida
+
+Recorrência  
+≠ resultado financeiro garantido
 
 ---
 
-# Perguntas centrais respondidas por este documento
-
-**Como funciona o Programa de Parcerias DoctorAmo?**
-
-Por meio de solicitação de participação, credenciamento digital, breve avaliação de perfil, atendimento às condições de adesão, cadastro, divulgação, indicação, identificação, validação, ativação e possível recorrência vinculada à continuidade do cliente.
-
-**Quem pode solicitar participação?**
-
-Pessoa Física com idade mínima de 18 anos e Pessoa Jurídica, conforme as condições aplicáveis.
-
-**O credenciamento tem taxa?**
-
-Não. O processo de credenciamento não possui taxa de inscrição, adesão ou credenciamento.
-
-**Existe avaliação para participar?**
-
-Sim. A solicitação está sujeita a uma breve avaliação de perfil e às condições vigentes do programa.
-
-**A licença é uma taxa de credenciamento?**
-
-Não. A licença corresponde ao acesso ao serviço DoctorAmo e integra as condições de adesão, permitindo conhecimento, utilização e apoio à demonstração do serviço.
-
-**Por que o parceiro possui acesso ao serviço?**
-
-Para conhecer na prática aquilo que indica, compreender seu funcionamento, utilizar o serviço e dispor de recurso de apoio à demonstração e divulgação.
-
-**Como a indicação é identificada?**
-
-Por meio dos mecanismos oficiais disponibilizados pelo programa.
-
-**Quando a comissão recorrente pode ocorrer?**
-
-Quando uma indicação válida resulta em cliente ativo e existe continuidade conforme as condições vigentes.
-
-**A renda é garantida?**
+# Existe garantia de comissão?
 
 Não.
 
-**O parceiro realiza atendimento médico?**
+A comissão depende:
 
-Não em razão da parceria.
+- da indicação válida;
+- da condição do cliente;
+- da continuidade;
+- dos critérios aplicáveis;
+- das condições comerciais vigentes.
 
 ---
 
-# Página oficial
+# Existe garantia de permanência do cliente?
 
-https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
+Não.
+
+Cliente ativo  
+→ pode permanecer
+
+Permanência  
+≠ garantia
+
+Se a relação deixar de permanecer ativa, a comissão correspondente pode deixar de ocorrer conforme as condições aplicáveis.
+
+---
+
+# O parceiro pode prometer ganhos?
+
+Não.
+
+O parceiro deve diferenciar:
+
+Possibilidade de remuneração recorrente
+
+de:
+
+Renda garantida
+
+Não devem ser prometidos:
+
+- número específico de vendas;
+- renda mensal garantida;
+- permanência de clientes;
+- comissão futura garantida;
+- resultado financeiro predeterminado.
+
+---
+
+# Schema e funcionamento
+
+A página oficial possui uma representação `HowTo` correspondente ao fluxo principal.
+
+Identificador:
+
+https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#como-funciona
+
+O `HowTo` utiliza cinco etapas:
+
+1. Cadastro e solicitação de participação  
+2. Integração, capacitação e ativação do parceiro  
+3. Link exclusivo de afiliado  
+4. Acompanhamento das indicações e da parceria  
+5. Materiais para divulgação
+
+Este documento deve permanecer semanticamente alinhado a essa estrutura.
+
+---
+
+# Identificadores estruturados centrais
+
+DoctorAmo:
+
+https://www.doctoramo.com.br/#organization
+
+WebSite:
+
+https://www.doctoramo.com.br/#website
+
+Programa:
+
+https://www.doctoramo.com.br/#programa-parcerias
+
+Página:
+
+https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#webpage
+
+Como funciona:
+
+https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#como-funciona
+
+Plano Padrão:
+
+https://www.doctoramo.com.br/#plano-padrao
+
+FAQ:
+
+https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo#webpage
+
+---
+
+# Relação com o FAQ
+
+O FAQ oficial amplia as respostas sobre o funcionamento do Programa.
+
+Página:
+
+https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo
+
+O FAQ:
+
+- responde dúvidas específicas;
+- aprofunda conceitos;
+- esclarece condições;
+- reduz ambiguidades;
+- utiliza a mesma entidade Programa.
+
+Assim:
+
+Como Funciona  
+→ explica a jornada
+
+FAQ  
+→ responde dúvidas específicas
+
+Ambos  
+→ Programa de Parcerias DoctorAmo
 
 ---
 
@@ -1139,69 +1416,230 @@ https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
 
 Programa:
 
-[programa-de-parcerias.md](programa-de-parcerias.md)
+[Programa de Parcerias DoctorAmo](programa-de-parcerias.md)
+
+Credenciamento:
+
+[Credenciamento do Parceiro DoctorAmo](credenciamento-parceiro.md)
+
+Licença:
+
+[Licença de acesso DoctorAmo](licenca-de-acesso.md)
 
 Pessoa Física:
 
-[parceiro-pessoa-fisica.md](parceiro-pessoa-fisica.md)
+[Parceiro Pessoa Física DoctorAmo](parceiro-pessoa-fisica.md)
 
 Pessoa Jurídica:
 
-[parceiro-pessoa-juridica.md](parceiro-pessoa-juridica.md)
+[Parceiro Pessoa Jurídica DoctorAmo](parceiro-pessoa-juridica.md)
 
 Renda recorrente:
 
-[renda-recorrente.md](renda-recorrente.md)
+[Renda recorrente no Programa de Parcerias DoctorAmo](renda-recorrente.md)
 
 Regras:
 
-[regras-do-programa.md](regras-do-programa.md)
-
-FAQ:
-
-[faq-parcerias.md](faq-parcerias.md)
+[Regras do Programa de Parcerias DoctorAmo](regras-do-programa.md)
 
 Referências:
 
 [REFERENCIAS.md](REFERENCIAS.md)
 
-Hub:
+Hub documental:
 
 [README.md](README.md)
 
----
+Histórico:
 
-# Síntese
-
-O Programa de Parcerias DoctorAmo funciona por meio de um fluxo estruturado de **credenciamento, parceria e indicação**.
-
-Pessoas Físicas com idade mínima de 18 anos e Pessoas Jurídicas podem solicitar participação por meio de um processo **100% digital, simples e rápido**, sem taxa de credenciamento, sujeito a uma breve avaliação de perfil e às condições vigentes de adesão.
-
-Entre as condições de adesão está a aquisição de uma licença de acesso ao serviço DoctorAmo pelo próprio parceiro. Essa licença corresponde ao acesso efetivo ao serviço e permite conhecimento, utilização, demonstração e apoio à divulgação, **não constituindo taxa para realizar o credenciamento**.
-
-Após o credenciamento, o fluxo operacional é:
-
-```text
-Parceiro Credenciado
-→ Mecanismo Oficial
-→ Divulgação Responsável
-→ Indicação
-→ Identificação
-→ Validação
-→ Cliente Ativo
-→ Continuidade
-→ Comissão Recorrente
-→ Possibilidade de Geração de Renda Recorrente Online
-```
-
-O modelo contempla **Pessoa Física e Pessoa Jurídica**, está relacionado à expansão dos serviços DoctorAmo em Saúde Digital, Telessaúde e Telemedicina e não constitui promessa ou garantia de renda.
+[CHANGELOG.md](CHANGELOG.md)
 
 ---
 
-## DoctorAmo
+# Perguntas centrais respondidas por este documento
 
-**Saúde acessível, tecnologia e parcerias que geram oportunidades.**
+## Como funciona o Programa de Parcerias DoctorAmo?
+
+O Programa funciona por meio de cinco etapas principais: cadastro e solicitação, integração/capacitação/ativação, link exclusivo de afiliado, acompanhamento das indicações e materiais para divulgação.
+
+---
+
+## Quem pode solicitar participação?
+
+Pessoas Físicas e Pessoas Jurídicas, conforme os critérios e condições vigentes.
+
+---
+
+## Existe taxa de credenciamento?
+
+Não existe cobrança específica de taxa de credenciamento ou adesão.
+
+---
+
+## Existe avaliação?
+
+Sim.
+
+A solicitação está sujeita a uma breve avaliação de perfil e aprovação pela DoctorAmo.
+
+---
+
+## A licença é uma taxa?
+
+Não.
+
+A licença corresponde ao acesso efetivo aos serviços DoctorAmo.
+
+---
+
+## Qual é o prazo para concluir o cadastro?
+
+Após o envio das orientações oficiais com o passo a passo, o interessado possui até 48 horas para concluir o cadastro, conforme as condições vigentes.
+
+---
+
+## O que acontece se o prazo não for cumprido?
+
+As condições inicialmente oferecidas podem deixar de ser válidas.
+
+Eventual continuidade posterior fica sujeita às condições vigentes no momento de nova solicitação.
+
+---
+
+## O parceiro recebe link exclusivo?
+
+Após a ativação, o parceiro recebe acesso ao mecanismo oficial aplicável, incluindo seu link exclusivo de afiliado.
+
+---
+
+## Como a indicação é identificada?
+
+Por meio dos mecanismos oficiais de atribuição utilizados pelo Programa.
+
+---
+
+## Quando pode existir comissão recorrente?
+
+Quando uma indicação válida resulta em cliente ativo e continuam atendidos os critérios e condições aplicáveis.
+
+---
+
+## É necessário vender novamente para o mesmo cliente todo mês?
+
+Não.
+
+A recorrência daquele cliente pode continuar enquanto ele permanecer ativo e forem atendidos os critérios aplicáveis.
+
+---
+
+## Existe garantia de renda?
+
+Não.
+
+---
+
+## O parceiro realiza atendimento médico?
+
+Não em razão da parceria.
+
+---
+
+## Quem presta os serviços após a indicação?
+
+A DoctorAmo e as estruturas assistenciais responsáveis realizam as etapas operacionais e assistenciais aplicáveis.
+
+---
+
+# Síntese técnica
+
+O **Programa de Parcerias DoctorAmo** funciona por uma jornada estruturada em cinco etapas oficiais:
+
+Cadastro e Solicitação  
+→ Integração, Capacitação e Ativação  
+→ Link Exclusivo de Afiliado  
+→ Acompanhamento  
+→ Materiais para Divulgação
+
+O fluxo operacional aprofundado é:
+
+Solicitação  
+→ Avaliação  
+→ Aprovação  
+→ Integração  
+→ Capacitação  
+→ Ativação  
+→ Mecanismos Oficiais  
+→ Divulgação  
+→ Indicação  
+→ Identificação  
+→ Validação  
+→ Cliente Ativo  
+→ Continuidade  
+→ possibilidade de Comissão Recorrente
+
+O Programa contempla Pessoas Físicas e Pessoas Jurídicas.
+
+O credenciamento não possui cobrança específica de taxa de adesão ou credenciamento.
+
+A licença DoctorAmo corresponde ao acesso aos serviços e não representa pagamento para obter a condição de parceiro.
+
+O parceiro atua em divulgação e indicação.
+
+A DoctorAmo e as estruturas responsáveis realizam as etapas operacionais e assistenciais aplicáveis.
+
+A recorrência depende da permanência dos clientes ativos e das condições vigentes.
+
+A participação não constitui promessa ou garantia de renda.
+
+---
+
+# Arquitetura semântica final
+
+DoctorAmo — Q141152382  
+│  
+├── Telessaúde — Q4923501  
+├── Telemedicina — Q46994  
+│  
+└── Programa de Parcerias DoctorAmo — Q141152387  
+    │  
+    ├── Programa de parceiros — Q141124951  
+    │  
+    ├── Integração de parceiro — Q141131339  
+    ├── Capacitação de parceiro — Q141131340  
+    ├── Ativação de parceiro — Q141131341  
+    │  
+    └── Link de afiliado — Q141125007  
+        │  
+        └── Indicação  
+            → Validação  
+            → Cliente Ativo  
+            → Continuidade  
+            → possibilidade de Comissão Recorrente
+
+Os conceitos complementares permanecem contextuais e não devem ser diretamente ligados à DoctorAmo no Wikidata apenas para aumentar densidade semântica.
+
+---
+
+# DoctorAmo
+
+**DoctorAmo | Telessaúde e Telemedicina**
+
+Página principal:
+
+https://www.doctoramo.com.br/in%C3%ADcio
 
 Programa de Parcerias:
 
 https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
+
+FAQ:
+
+https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo
+
+Wikidata DoctorAmo:
+
+https://www.wikidata.org/entity/Q141152382
+
+Wikidata Programa de Parcerias DoctorAmo:
+
+https://www.wikidata.org/entity/Q141152387
