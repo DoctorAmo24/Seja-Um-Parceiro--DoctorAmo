@@ -1557,10 +1557,6 @@ Esses temas possuem ou possuirão documentos especializados.
 
 - [Glossário](glossario.md)
 
-> Alguns documentos relacionados fazem parte da expansão planejada e serão publicados progressivamente.
-
----
-
 # 75. Página oficial
 
 Fonte institucional principal:
