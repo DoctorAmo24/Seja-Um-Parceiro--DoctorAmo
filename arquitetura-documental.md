@@ -842,22 +842,91 @@ Deve responder:
 Função dominante:
 
 ```text
-PROVENIÊNCIA E AUDITABILIDADE
+PROVENIÊNCIA
++
+AUDITABILIDADE
++
+ATOMICIDADE
++
+CONTROLE DE TEMPORALIDADE
++
+CONTROLE DE CONTRADIÇÕES
 ```
 
-Estrutura:
+Cada claim factual relevante deve obedecer ao núcleo estrutural:
 
 ```text
-Claim
-→ Fonte
-→ Escopo
-→ Temporalidade
-→ Estabilidade
-→ Risco
-→ Documentos dependentes
+CLAIM
+→ STATUS
+→ FONTE
+→ ESCOPO
+→ RISCO DE DESATUALIZAÇÃO
 ```
 
-É especialmente importante para impedir a recuperação de fatos históricos como atuais.
+Campos auxiliares podem complementar o registro quando necessários:
+
+```text
+CLASSE
+QID
+QUALIFICADORES
+NÃO INFERIR
+DOCUMENTOS DEPENDENTES
+OBSERVAÇÃO
+```
+
+Esses campos auxiliares não substituem os cinco campos nucleares.
+
+A função do arquivo é permitir responder, de forma auditável:
+
+```text
+Qual afirmação está sendo feita?
+Qual é o status dessa afirmação?
+Qual fonte a sustenta?
+A que entidade, processo ou domínio ela se aplica?
+Qual é o risco de ficar desatualizada?
+Quais qualificadores são necessários?
+O que não pode ser inferido?
+Quais documentos dependem desse fato?
+```
+
+É especialmente importante para impedir:
+
+```text
+fato histórico
+→ recuperado como atual
+
+condição variável
+→ tratada como permanente
+
+conceito relacionado
+→ tratado como identidade
+
+possibilidade
+→ tratada como garantia
+
+documentação interna
+→ usada como prova circular
+```
+
+Relação de governança:
+
+```text
+CLAIM
+↓
+STATUS
+↓
+FONTE
+↓
+ESCOPO
+↓
+RISCO DE DESATUALIZAÇÃO
+↓
+QUALIFICADORES
+↓
+DEPENDÊNCIAS
+↓
+REVISÃO
+```
 
 ---
 
@@ -1141,7 +1210,7 @@ Para relações documentais:
 entidades-e-relacoes.md
 ```
 
-Para evidência:
+Para evidência e governança factual:
 
 ```text
 claims-e-evidencias.md
@@ -1198,6 +1267,8 @@ conforme condições vigentes
 quando aplicável
 ```
 
+E devem possuir controle proporcional de risco no registro de Claims.
+
 ---
 
 # 53. Regra contra fatos históricos
@@ -1211,6 +1282,8 @@ Exemplo já identificado:
 ```
 
 não deve ser recuperado como condição atual sem nova confirmação oficial vigente.
+
+Da mesma forma, valores derivados de percentuais históricos não devem ser tratados como referência atual sem suporte contemporâneo.
 
 ---
 
@@ -1351,6 +1424,10 @@ qual documento responde a pergunta
 qual relação é válida
 qual relação é apenas contextual
 qual informação pode estar desatualizada
+qual claim é vigente
+qual claim é condicional
+qual claim é histórico
+qual claim está bloqueado
 ```
 
 A arquitetura foi construída para tornar essas distinções explícitas.
@@ -1373,6 +1450,8 @@ interligação
 autoridade temática
 +
 desambiguação
++
+proveniência
 ```
 
 ---
@@ -1444,7 +1523,9 @@ Quando um novo documento for criado:
 7. avaliar Schema;
 8. avaliar Sitemap;
 9. avaliar llms.txt;
-10. registrar fontes quando necessário.
+10. registrar fontes quando necessário;
+11. avaliar necessidade de novos claims;
+12. registrar alteração relevante no CHANGELOG.
 ```
 
 ---
@@ -1455,12 +1536,19 @@ Quando um fato institucional mudar:
 
 ```text
 1. confirmar a nova fonte;
-2. atualizar claims-e-evidencias.md;
-3. localizar documentos dependentes;
-4. atualizar documentos;
-5. revisar Schema;
-6. revisar Glossário;
-7. revisar hubs quando necessário.
+2. identificar o claim afetado;
+3. atualizar STATUS;
+4. atualizar FONTE;
+5. atualizar ESCOPO quando necessário;
+6. reavaliar RISCO DE DESATUALIZAÇÃO;
+7. localizar documentos dependentes;
+8. atualizar documentos;
+9. revisar Glossário;
+10. revisar Schema quando aplicável;
+11. revisar llms.txt quando aplicável;
+12. revisar hubs quando necessário;
+13. verificar Wikidata somente se houver alteração estrutural real;
+14. registrar a mudança relevante no CHANGELOG.
 ```
 
 ---
@@ -1517,7 +1605,7 @@ documentos especialistas
 entidades-e-relacoes.md
 ```
 
-## Evidências
+## Evidências e governança factual
 
 ```text
 claims-e-evidencias.md
@@ -1566,7 +1654,7 @@ Governança
 
 Documentos de governança não existem prioritariamente para disputar consultas comerciais.
 
-Eles existem para aumentar coerência e recuperabilidade do conjunto.
+Eles existem para aumentar coerência, auditabilidade e recuperabilidade do conjunto.
 
 ---
 
@@ -1577,7 +1665,7 @@ entidades-e-relacoes.md
 → QUEM se relaciona com QUEM
 
 claims-e-evidencias.md
-→ QUAL fato possui QUAL evidência
+→ QUAL claim possui QUAL status, fonte, escopo e risco
 
 mapa-de-consultas.md
 → QUAL documento responde QUAL intenção
@@ -1594,13 +1682,15 @@ Esses quatro arquivos possuem funções distintas.
 
 ```text
 claims-e-evidencias.md
-→ diz qual claim precisa de suporte
+→ identifica a fonte aplicável a cada claim
 
 REFERENCIAS.md
-→ concentra a fonte correspondente
+→ organiza e contextualiza as fontes correspondentes
 ```
 
 Eles são complementares.
+
+A existência de referências cruzadas entre documentos não substitui a exigência de proveniência não circular para fatos institucionais.
 
 ---
 
@@ -1612,6 +1702,9 @@ glossario.md
 
 entidades-e-relacoes.md
 → conecta
+
+claims-e-evidencias.md
+→ comprova e qualifica
 
 mapa-de-consultas.md
 → roteia
@@ -1639,6 +1732,10 @@ Schema inventado
 → conteúdo ajustado artificialmente para justificá-lo
 ```
 
+Claims vigentes e conteúdo documentado podem orientar a verificação do Schema.
+
+O Schema não deve criar claim inexistente.
+
 ---
 
 # 76. Relação com llms.txt
@@ -1649,6 +1746,9 @@ Arquitetura documental
 
 Mapa de consultas
 → define intenção
+
+Claims
+→ definem confiabilidade e temporalidade
 
 llms.txt
 → expõe rotas prioritárias para IA
@@ -1719,51 +1819,51 @@ O histórico não deve prevalecer sobre o estado vigente.
 
 ## Qual é a fonte principal do Programa de Parcerias DoctorAmo?
 
-A página oficial vigente do Programa.
+A página oficial vigente do Programa é a fonte institucional prioritária para fatos e condições atuais do Programa.
 
 ## Qual é a função do FAQ?
 
-Responder perguntas específicas sobre o Programa em formato de pergunta e resposta.
+Responder perguntas específicas sobre o Programa em formato de pergunta e resposta, complementando a fonte institucional principal.
 
 ## Qual é a função do GitHub?
 
-Aprofundar conceitos, relações, entidades, evidências e intenções relacionadas ao Programa.
+Aprofundar conceitos, relações, entidades, evidências, desambiguação e intenções relacionadas ao Programa, sem substituir a fonte institucional vigente.
 
 ## Qual é a função do Wikidata?
 
-Preservar identidade, classe e relações essenciais e defensáveis.
+Preservar identidade, classe e relações essenciais e defensáveis da DoctorAmo e do Programa, sem funcionar como depósito de todo o vocabulário documental.
 
 ## Qual é a função do Schema?
 
-Representar estruturalmente aquilo que está efetivamente documentado.
+Representar estruturalmente aquilo que está efetivamente documentado, sem inventar fatos ou relações.
 
 ## Qual é a função do Glossário?
 
-Fornecer definições canônicas curtas.
+Fornecer definições canônicas, desambiguação terminológica e caminhos para documentos especializados.
 
 ## Qual é a função do `llms.txt`?
 
-Orientar sistemas de IA e recuperação para as fontes e documentos prioritários.
+Orientar sistemas de IA e recuperação para fontes, entidades e documentos prioritários.
 
 ## Qual é a função de `REFERENCIAS.md`?
 
-Concentrar fontes e proveniência documental.
+Concentrar e contextualizar fontes e proveniência documental.
 
 ## Qual é a função de `entidades-e-relacoes.md`?
 
-Explicar o grafo de entidades e os limites das relações.
+Explicar o grafo de entidades, a direção das relações e os limites das inferências possíveis.
 
 ## Qual é a função de `claims-e-evidencias.md`?
 
-Registrar claims, evidências, temporalidade e riscos de desatualização.
+Registrar claims atômicos com **status, fonte, escopo e risco de desatualização**, preservando proveniência, temporalidade, qualificadores e controle de contradições.
 
 ## Qual é a função de `mapa-de-consultas.md`?
 
-Determinar qual documento é a autoridade principal de cada intenção.
+Determinar qual documento é a autoridade principal de cada intenção e quais documentos funcionam como apoio.
 
 ## Qual é a função de `arquitetura-documental.md`?
 
-Definir o papel de cada camada e de cada documento do ecossistema.
+Definir o papel de cada camada e de cada documento do ecossistema, reduzindo sobreposição, conflito e canibalização.
 
 ---
 
@@ -1778,7 +1878,7 @@ Definir o papel de cada camada e de cada documento do ecossistema.
 | Glossário | Definições | artigos especializados |
 | Schema | Representação estruturada | conteúdo visível |
 | `llms.txt` | Recuperação por IA | documentos-fonte |
-| `REFERENCIAS.md` | Fontes | documentos conceituais |
+| `REFERENCIAS.md` | Fontes e proveniência | documentos conceituais |
 | Sitemap | Descoberta de URLs | arquitetura semântica |
 | Robots | Rastreamento | conteúdo |
 
@@ -1789,11 +1889,11 @@ Definir o papel de cada camada e de cada documento do ecossistema.
 | Documento | Pergunta que responde |
 |---|---|
 | `entidades-e-relacoes.md` | Quem é quem e como se relacionam? |
-| `claims-e-evidencias.md` | Qual fato é suportado por qual fonte? |
+| `claims-e-evidencias.md` | Qual claim possui qual status, fonte, escopo e risco? |
 | `mapa-de-consultas.md` | Qual documento responde esta intenção? |
 | `arquitetura-documental.md` | Qual é a função de cada camada? |
 | `glossario.md` | O que significa este termo? |
-| `REFERENCIAS.md` | Onde está a fonte? |
+| `REFERENCIAS.md` | Onde está a fonte e qual é sua função? |
 | `llms.txt` | Onde uma IA deve procurar primeiro? |
 
 ---
@@ -1867,10 +1967,15 @@ Relação desejada:
 
 ```text
 Página oficial
-→ identidade e conversão
+→ identidade
+→ fatos vigentes
+→ conversão
 
 GitHub
-→ aprofundamento e recuperação
+→ aprofundamento
+→ especialização
+→ recuperação
+→ governança
 ```
 
 O GitHub não deve obrigar a página oficial a absorver todo o vocabulário genérico.
@@ -1889,7 +1994,7 @@ GitHub
 → grafo explicado
 ```
 
-Isso permite profundidade sem inflar o Wikidata.
+Isso permite profundidade sem inflar artificialmente o Wikidata.
 
 ---
 
@@ -1904,9 +2009,12 @@ O repositório fornece:
 - desambiguação;
 - proveniência;
 - especialização temática;
-- documentos de autoridade.
+- documentos de autoridade;
+- claims estruturados;
+- controle de temporalidade;
+- rotas de recuperação.
 
-Isso facilita recuperação e síntese.
+Isso facilita recuperação, compreensão e síntese.
 
 Não garante citação ou prioridade por qualquer sistema externo.
 
@@ -1928,6 +2036,10 @@ hierarquia
 conteúdo factual
 +
 contexto semântico
++
+proveniência
++
+autoridade por intenção
 ```
 
 Resultados de busca dependem também de fatores externos e não são garantidos pela arquitetura isoladamente.
@@ -2020,7 +2132,7 @@ Somente alterar quando houver necessidade real.
 
 ---
 
-# 95. Regra de não alterar por alteração
+# 95. Regra de não alterar por alterar
 
 Não modificar arquivos apenas para:
 
@@ -2030,7 +2142,7 @@ Não modificar arquivos apenas para:
 - aparentar atividade;
 - repetir conteúdo.
 
-Cada mudança precisa possuir função documental.
+Cada mudança precisa possuir função documental, semântica, factual ou técnica identificável.
 
 ---
 
@@ -2042,6 +2154,8 @@ Antes de adicionar uma URL a qualquer mapa técnico:
 confirmar que ela existe
 +
 confirmar que resolve publicamente
++
+confirmar que corresponde a documento real
 ```
 
 ---
@@ -2057,6 +2171,8 @@ POR QUE EXISTE?
 QUAL CONSULTA RESPONDE?
 QUAL RELAÇÃO PREENCHE?
 QUAL DOCUMENTO NÃO CONSEGUE RESPONDER BEM?
+QUAL SERÁ SUA AUTORIDADE PRINCIPAL?
+COM QUAIS DOCUMENTOS DEVE SE INTERLIGAR?
 ```
 
 ---
@@ -2093,6 +2209,9 @@ ENTIDADES E RELAÇÕES
 
 CLAIMS E EVIDÊNCIAS
 → AUDITABILIDADE
+→ STATUS
+→ TEMPORALIDADE
+→ CONTROLE DE CONTRADIÇÕES
 
 MAPA DE CONSULTAS
 → AUTORIDADE POR INTENÇÃO
@@ -2154,7 +2273,7 @@ PROGRAMA DE PARCERIAS DOCTORAMO
 
 # 100. Síntese canônica
 
-> **A arquitetura documental do Programa de Parcerias DoctorAmo distribui responsabilidades entre diferentes superfícies para preservar precisão, especialização e recuperabilidade. O site oficial é a fonte institucional para fatos e condições vigentes; o FAQ responde perguntas específicas; o Wikidata preserva identidade e relações essenciais; o GitHub funciona como camada de expansão documental e semântica; o Glossário fornece definições canônicas; o Schema representa estruturalmente o conteúdo efetivamente documentado; `llms.txt` orienta a recuperação por sistemas de IA; e `REFERENCIAS.md` concentra fontes e proveniência. Dentro do GitHub, documentos especializados possuem intenções próprias, enquanto arquivos de governança controlam relações, evidências, roteamento de consultas e responsabilidades documentais.**
+> **A arquitetura documental do Programa de Parcerias DoctorAmo distribui responsabilidades entre diferentes superfícies para preservar precisão, especialização, proveniência, auditabilidade e recuperabilidade. O site oficial é a fonte institucional para fatos e condições vigentes; o FAQ responde perguntas específicas; o Wikidata preserva identidade e relações essenciais; o GitHub funciona como camada de expansão documental e semântica; o Glossário fornece definições canônicas; o Schema representa estruturalmente o conteúdo efetivamente documentado; `llms.txt` orienta a recuperação por sistemas de IA; e `REFERENCIAS.md` concentra fontes e proveniência. Dentro do GitHub, documentos especializados possuem intenções próprias, enquanto arquivos de governança controlam relações, claims, status factual, evidências, riscos de desatualização, roteamento de consultas e responsabilidades documentais.**
 
 ---
 
@@ -2174,6 +2293,9 @@ RELAÇÃO CERTA
 
 CAMADA CERTA
 → para a função certa
+
+CLAIM CERTO
+→ com status, fonte, escopo e risco explícitos
 ```
 
 E evitar:
@@ -2185,10 +2307,14 @@ relação artificial
 fato desatualizado
 canibalização
 expansão sem função
+prova circular
+inferência apresentada como fato
+condição apresentada como promessa
+histórico apresentado como vigente
 ```
 
 O objetivo final não é possuir o maior número possível de arquivos.
 
-O objetivo é possuir uma **base documental especializada, interligada, auditável, semanticamente coerente e tecnicamente defensável**, capaz de conduzir consultas amplas e específicas até o Programa de Parcerias DoctorAmo por caminhos factualmente corretos.
+O objetivo é possuir uma **base documental especializada, interligada, auditável, semanticamente coerente, temporalmente governada e tecnicamente defensável**, capaz de conduzir consultas amplas e específicas até o Programa de Parcerias DoctorAmo por caminhos factualmente corretos.
 
 A arquitetura Wikidata consolidada permanece inalterada.
