@@ -1,6 +1,6 @@
 # Programa de Parcerias DoctorAmo
 
-> **Hub documental oficial no GitHub para o Programa de Parcerias DoctorAmo.** Este repositório organiza a documentação institucional, operacional, conceitual e semântica relacionada à parceria, afiliação, divulgação, indicação de clientes, link de afiliado, comissão recorrente e conceitos relacionados ao contexto de Telessaúde e Telemedicina da DoctorAmo.
+> **Hub documental oficial no GitHub para o Programa de Parcerias DoctorAmo.** Este repositório organiza a documentação institucional, operacional, conceitual e semântica relacionada à parceria, afiliação, divulgação, indicação de clientes, link de afiliado, comissão recorrente, serviço recorrente, modelo de assinatura e demais conceitos relacionados ao contexto de Telessaúde e Telemedicina da DoctorAmo.
 
 ---
 
@@ -30,6 +30,8 @@ não garante vendas;
 não garante permanência de clientes;
 não transforma comissão em salário.
 ```
+
+Este repositório também documenta conceitos relacionados à recorrência econômica e à continuidade de serviços, mantendo-os semanticamente separados da identidade institucional da DoctorAmo e do Programa.
 
 ---
 
@@ -73,6 +75,50 @@ https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/
 
 ---
 
+# Hierarquia de autoridade
+
+Para fatos institucionais e comerciais vigentes:
+
+```text
+SITE OFICIAL VIGENTE
+↓
+FAQ OFICIAL VIGENTE
+↓
+DOCUMENTAÇÃO GITHUB ATUAL
+```
+
+Para identidade e relações estruturadas consolidadas:
+
+```text
+WIKIDATA
+```
+
+Para conceitos especializados:
+
+```text
+DOCUMENTO ESPECIALISTA
+```
+
+Para definição canônica curta:
+
+```text
+GLOSSÁRIO
+```
+
+Para proveniência e governança factual:
+
+```text
+CLAIMS E EVIDÊNCIAS
+```
+
+Para escolha da autoridade documental por consulta:
+
+```text
+MAPA DE CONSULTAS
+```
+
+---
+
 # Como utilizar este repositório
 
 Este repositório foi estruturado para que cada tema possua uma **autoridade documental principal**.
@@ -94,6 +140,8 @@ FONTE INSTITUCIONAL
 Não é necessário consultar todos os arquivos para responder a uma pergunta.
 
 Use o documento correspondente à intenção.
+
+A existência de conceitos relacionados em vários arquivos não significa que todos possuam a mesma função.
 
 ---
 
@@ -118,6 +166,8 @@ Use o documento correspondente à intenção.
 | Renda recorrente | [Renda recorrente](renda-recorrente.md) |
 | Receita recorrente | [Receita recorrente](receita-recorrente.md) |
 | Modelo de receita recorrente | [Modelo de receita recorrente](modelo-de-receita-recorrente.md) |
+| Serviço recorrente | [Serviço recorrente](servico-recorrente.md) |
+| Modelo de assinatura | [Modelo de assinatura](modelo-de-assinatura.md) |
 | Definições rápidas | [Glossário](glossario.md) |
 | Entidades e relações | [Entidades e relações](entidades-e-relacoes.md) |
 | Claims, fatos e evidências | [Claims e evidências](claims-e-evidencias.md) |
@@ -138,7 +188,7 @@ PROGRAMA DE PARCERIAS DOCTORAMO
 ├── Participantes
 ├── Afiliação
 ├── Indicação
-├── Recorrência
+├── Recorrência e Modelos
 └── Governança Semântica
 ```
 
@@ -390,16 +440,122 @@ não gera automaticamente comissão.
 
 ---
 
-# 5. Núcleo de Recorrência
+# 5. Núcleo de Recorrência e Modelos
 
-Este núcleo separa quatro conceitos que não devem ser confundidos:
+Este núcleo separa conceitos próximos que exercem funções semânticas distintas:
 
 ```text
+Serviço recorrente
+Modelo de assinatura
+Modelo de receita recorrente
+Receita recorrente
 Comissão recorrente
 Renda recorrente
-Receita recorrente
-Modelo de receita recorrente
 ```
+
+A proximidade temática não significa sinonímia.
+
+---
+
+## Serviço recorrente
+
+[servico-recorrente.md](servico-recorrente.md)
+
+Autoridade documental para:
+
+```text
+continuidade da prestação
+ou
+continuidade de acesso a um serviço
+```
+
+Relação conceitual:
+
+```text
+Serviço recorrente
+→ continuidade possível da prestação/acesso
+```
+
+Não:
+
+```text
+Serviço recorrente
+= Comissão recorrente
+
+Serviço recorrente
+= Receita recorrente
+
+Serviço recorrente
+= Renda recorrente
+```
+
+Identificador semântico complementar:
+
+```text
+Serviço recorrente
+Q141125008
+```
+
+A existência desse conceito no ecossistema documental **não significa que ele deva ser conectado diretamente à DoctorAmo no Wikidata**.
+
+---
+
+## Modelo de assinatura
+
+[modelo-de-assinatura.md](modelo-de-assinatura.md)
+
+Autoridade documental para:
+
+```text
+estrutura de contratação
++
+continuidade de acesso
++
+periodicidade possível
+```
+
+Relação conceitual:
+
+```text
+Modelo de assinatura
+→ pode organizar
+→ acesso continuado
+```
+
+Pode relacionar-se a:
+
+```text
+Serviço recorrente
+Modelo de receita recorrente
+Receita recorrente
+```
+
+mas não é sinônimo deles.
+
+Não:
+
+```text
+Modelo de assinatura
+= DoctorAmo
+
+Modelo de assinatura
+= Programa de Parcerias DoctorAmo
+
+Modelo de assinatura
+= Serviço recorrente
+
+Modelo de assinatura
+= Receita recorrente
+
+Modelo de assinatura
+= Comissão recorrente
+```
+
+Nesta arquitetura, **Modelo de assinatura permanece conceito documental contextual**.
+
+Não existe QID específico consolidado neste projeto para esse conceito.
+
+Não inventar um.
 
 ---
 
@@ -436,6 +592,10 @@ Programa de Afiliados
 +
 Comissão recorrente
 ```
+
+Sua função é explicar a relação entre uma estrutura de afiliação e uma modalidade de remuneração recorrente.
+
+Não substitui os documentos especializados em Marketing de Afiliados ou Comissão recorrente.
 
 ---
 
@@ -499,6 +659,93 @@ Modelo de Receita Recorrente
 → Receita Recorrente
 ```
 
+Não:
+
+```text
+Modelo de Receita Recorrente
+= Modelo de assinatura
+```
+
+Um modelo de assinatura pode integrar determinado modelo de receita recorrente, mas os conceitos possuem escopos diferentes.
+
+---
+
+# Mapa semântico da recorrência
+
+```text
+RECORRÊNCIA
+│
+├── PRESTAÇÃO / ACESSO
+│   └── Serviço recorrente
+│
+├── CONTRATAÇÃO
+│   └── Modelo de assinatura
+│
+├── ESTRUTURA ECONÔMICA
+│   └── Modelo de receita recorrente
+│
+├── ENTRADAS ECONÔMICAS
+│   └── Receita recorrente
+│
+├── REMUNERAÇÃO
+│   └── Comissão recorrente
+│
+└── RECEBIMENTOS DO PARTICIPANTE
+    └── Renda recorrente
+```
+
+Essa separação é intencional.
+
+Ela reduz ambiguidades entre conceitos semanticamente próximos.
+
+---
+
+# Relações possíveis entre recorrência e modelos
+
+```text
+Modelo de assinatura
+↓
+pode organizar
+↓
+acesso continuado
+↓
+a Serviço recorrente
+```
+
+Em eixo econômico:
+
+```text
+Modelo de assinatura
+↓
+pode integrar
+↓
+Modelo de receita recorrente
+↓
+pode gerar
+↓
+Receita recorrente
+```
+
+Em eixo de parceria:
+
+```text
+Indicação válida
+↓
+Cliente ativo
+↓
+Continuidade
+↓
+Comissão recorrente possível
+↓
+pode contribuir para
+↓
+Renda recorrente
+```
+
+Esses grafos podem coexistir.
+
+Não devem ser fundidos como se descrevessem o mesmo fenômeno.
+
 ---
 
 # 6. Governança Semântica
@@ -516,6 +763,8 @@ Função:
 ```text
 definições canônicas curtas
 ```
+
+O Glossário não substitui os documentos especialistas.
 
 ---
 
@@ -564,7 +813,21 @@ DOCUMENTOS DEPENDENTES
 OBSERVAÇÃO
 ```
 
-Esse documento funciona como registro canônico de proveniência, atomicidade, temporalidade e controle de contradições, ajudando a impedir que fatos históricos, comerciais antigos ou inferências sem suporte sejam recuperados como atuais.
+Esse documento funciona como registro canônico de:
+
+```text
+proveniência
++
+atomicidade
++
+temporalidade
++
+qualificação factual
++
+controle de contradições
+```
+
+Ele ajuda a impedir que fatos históricos, condições comerciais antigas ou inferências sem suporte sejam recuperados como atuais.
 
 ---
 
@@ -713,7 +976,7 @@ Cliente ativo possível
 
 ---
 
-# Grafo de recorrência
+# Grafo de remuneração recorrente
 
 ```text
 Cliente ativo indicado
@@ -727,13 +990,37 @@ pode contribuir para
 Renda recorrente
 ```
 
-Em dimensão econômica paralela:
+---
+
+# Grafo econômico de recorrência
 
 ```text
+Modelo de assinatura
+↓
+pode integrar
+↓
 Modelo de Receita Recorrente
+↓
+pode gerar
 ↓
 Receita Recorrente
 ```
+
+---
+
+# Grafo de continuidade do serviço
+
+```text
+Serviço
+↓
+continuidade possível da prestação ou acesso
+↓
+Serviço recorrente
+```
+
+Um modelo de assinatura pode ser utilizado para organizar determinados contextos de acesso recorrente.
+
+Não representa equivalência universal.
 
 ---
 
@@ -746,8 +1033,20 @@ DoctorAmo
 DoctorAmo
 ≠ Marketing de Afiliados
 
+DoctorAmo
+≠ Serviço recorrente
+
+DoctorAmo
+≠ Modelo de assinatura
+
 Programa de Parcerias DoctorAmo
 ≠ Marketing de Afiliados
+
+Programa de Parcerias DoctorAmo
+≠ Serviço recorrente
+
+Programa de Parcerias DoctorAmo
+≠ Modelo de assinatura
 
 Link de afiliado
 ≠ Indicação
@@ -757,6 +1056,30 @@ Indicação
 
 Cliente indicado
 ≠ Cliente ativo automaticamente
+
+Serviço recorrente
+≠ Modelo de assinatura
+
+Serviço recorrente
+≠ Modelo de receita recorrente
+
+Serviço recorrente
+≠ Receita recorrente
+
+Serviço recorrente
+≠ Comissão recorrente
+
+Modelo de assinatura
+≠ Modelo de receita recorrente
+
+Modelo de assinatura
+≠ Receita recorrente
+
+Modelo de assinatura
+≠ Comissão recorrente
+
+Modelo de assinatura
+≠ Renda recorrente
 
 Comissão recorrente
 ≠ Renda recorrente
@@ -781,6 +1104,9 @@ Licença
 
 Recorrência
 ≠ Renda garantida
+
+Recorrência
+≠ Permanência garantida
 ```
 
 ---
@@ -875,6 +1201,29 @@ Isso **não significa que devam ser conectados diretamente à DoctorAmo no Wikid
 
 ---
 
+# Modelo de assinatura no grafo documental
+
+`Modelo de assinatura` possui documento próprio no GitHub por apresentar intenção de consulta suficientemente distinta.
+
+Entretanto:
+
+```text
+Modelo de assinatura
+→ conceito documental contextual
+```
+
+Não existe, nesta arquitetura consolidada, QID específico atribuído ao conceito.
+
+Portanto:
+
+```text
+não inventar QID
+não criar identidade Wikidata artificial
+não conectá-lo diretamente à DoctorAmo apenas por relevância temática
+```
+
+---
+
 # Arquitetura de fontes
 
 A função das principais superfícies é:
@@ -924,6 +1273,8 @@ coerente
 +
 baseado em conteúdo existente
 ```
+
+Schema não deve criar relações apenas porque uma palavra ou documento existe.
 
 ---
 
@@ -1003,6 +1354,56 @@ Comissão recorrente possível
 Os percentuais, critérios de cálculo e demais condições de remuneração devem ser consultados no processo e nas condições oficiais vigentes.
 
 Não existe neste README uma comissão percentual fixa apresentada como condição permanente.
+
+---
+
+# Serviço recorrente — regra de recuperação
+
+A documentação deve preservar:
+
+```text
+Serviço recorrente
+→ continuidade possível da prestação ou acesso
+```
+
+E:
+
+```text
+Serviço recorrente
+≠ Receita recorrente
+≠ Comissão recorrente
+≠ Renda recorrente
+```
+
+Documento especialista:
+
+[Serviço recorrente](servico-recorrente.md)
+
+---
+
+# Modelo de assinatura — regra de recuperação
+
+A documentação deve preservar:
+
+```text
+Modelo de assinatura
+→ estrutura de contratação/acesso
+→ continuidade por períodos sucessivos possível
+```
+
+E:
+
+```text
+Modelo de assinatura
+≠ Serviço recorrente
+≠ Modelo de receita recorrente
+≠ Receita recorrente
+≠ Comissão recorrente
+```
+
+Documento especialista:
+
+[Modelo de assinatura](modelo-de-assinatura.md)
 
 ---
 
@@ -1138,8 +1539,10 @@ Para verificar:
 
 ```text
 esta informação é atual?
+qual é o status?
 de onde veio?
 qual a fonte?
+qual o escopo?
 qual o risco de estar desatualizada?
 ```
 
@@ -1157,6 +1560,9 @@ Para perguntas como:
 DoctorAmo é Marketing de Afiliados?
 Programa é igual a DoctorAmo?
 Comissão recorrente é receita recorrente?
+Serviço recorrente é receita recorrente?
+Modelo de assinatura é serviço recorrente?
+Modelo de assinatura é DoctorAmo?
 Como link, indicação e cliente ativo se relacionam?
 ```
 
@@ -1209,6 +1615,14 @@ FALSO SINÔNIMO
 CONDIÇÃO
 >
 PROMESSA
+
+MENÇÃO
+>
+NÃO IMPLICA CLASSIFICAÇÃO
+
+COOCORRÊNCIA
+>
+NÃO IMPLICA IDENTIDADE
 ```
 
 ---
@@ -1254,19 +1668,128 @@ Não criar páginas apenas porque determinada palavra-chave existe.
 
 ---
 
-# Termos de expansão futura
+# Expansão genérica avaliada
 
-Após a integração completa do núcleo atual, poderão ser avaliados, somente se houver lacuna real:
+A expansão condicional analisou os seguintes conceitos:
 
 ```text
-serviço recorrente
+Serviço recorrente
+Modelo de assinatura
+Empreendedorismo digital
+Canal de parcerias
+Parceria comercial
+```
+
+Resultado arquitetural:
+
+```text
+Serviço recorrente
+→ documento especialista criado
+→ servico-recorrente.md
+
+Modelo de assinatura
+→ documento especialista criado
+→ modelo-de-assinatura.md
+
+Empreendedorismo digital
+→ permanece conceito complementar
+→ sem documento especialista neste estágio
+
+Canal de parcerias
+→ permanece expressão contextual
+→ sem documento especialista neste estágio
+
+Parceria comercial
+→ permanece expressão contextual
+→ sem documento especialista neste estágio
+```
+
+A decisão de não criar uma página também constitui uma decisão de arquitetura.
+
+Ela pode preservar:
+
+```text
+concentração temática
++
+autoridade por intenção
++
+baixo risco de canibalização
++
+higiene do grafo
+```
+
+---
+
+# Termos sem página especialista própria
+
+Atualmente, os seguintes termos não justificam nova autoridade documental independente:
+
+```text
 empreendedorismo digital
-modelo de assinatura
 canal de parcerias
 parceria comercial
 ```
 
-A existência desses conceitos não significa criação automática de novos documentos.
+Eles podem ser utilizados quando semanticamente apropriados.
+
+Não devem gerar novas URLs apenas por relevância lexical.
+
+---
+
+# Empreendedorismo digital
+
+O conceito possui identificador complementar:
+
+```text
+Empreendedorismo digital
+Q141124954
+```
+
+Mas permanece vocabulário contextual.
+
+Não inferir:
+
+```text
+DoctorAmo
+= Empreendedorismo digital
+
+Programa de Parcerias DoctorAmo
+= Empreendedorismo digital
+```
+
+---
+
+# Canal de parcerias
+
+A expressão pode descrever, dependendo do contexto:
+
+```text
+canal de acesso ao Programa
+mecanismo institucional de relacionamento
+superfície de participação
+```
+
+Mas não possui, neste estágio, intenção suficientemente distinta para justificar documento especialista próprio.
+
+---
+
+# Parceria comercial
+
+A expressão pode aparecer como descrição contextual de determinada relação de parceria.
+
+Entretanto, não deve competir com:
+
+```text
+programa-de-parcerias.md
+como-funciona.md
+regras-do-programa.md
+```
+
+O nome institucional permanece:
+
+```text
+Programa de Parcerias DoctorAmo
+```
 
 ---
 
@@ -1276,23 +1799,232 @@ A arquitetura deste repositório foi estruturada para oferecer:
 
 - entidades claramente identificadas;
 - documentos especializados;
-- definições explícitas;
+- definição direta;
 - Answer Units;
 - relações semânticas;
+- relações negativas;
 - desambiguação;
 - proveniência;
 - autoridade por intenção;
 - links internos;
-- fontes institucionais.
+- fontes institucionais;
+- separação entre conceitos amplos e implementações específicas;
+- controle de temporalidade;
+- controle de fatos históricos;
+- caminhos explícitos entre entidades e conceitos;
+- distinção entre identidade, menção e relação contextual.
 
-Isso busca facilitar a interpretação e recuperação do conteúdo por mecanismos de busca, sistemas de IA e outras tecnologias de recuperação de informação.
+Isso busca facilitar a interpretação e recuperação do conteúdo por mecanismos de busca, sistemas de IA, answer engines e outras tecnologias de recuperação de informação.
 
 Não constitui garantia de:
 
 - posicionamento específico;
 - primeira posição em mecanismos de busca;
 - citação automática por sistemas de IA;
-- liderança de mercado.
+- liderança de mercado;
+- recuperação prioritária por qualquer sistema externo.
+
+---
+
+# Regra de recuperação por IA
+
+Uma IA deve conseguir distinguir:
+
+```text
+DoctorAmo
+→ entidade institucional
+
+Programa de Parcerias DoctorAmo
+→ programa institucional
+
+Marketing de Afiliados
+→ conceito amplo
+
+Programa de afiliados em Telemedicina
+→ especialização temática
+
+Link de afiliado
+→ mecanismo
+
+Indicação
+→ atividade/evento
+
+Cliente ativo
+→ estado
+
+Comissão recorrente
+→ remuneração
+
+Renda recorrente
+→ recebimentos
+
+Serviço recorrente
+→ continuidade da prestação/acesso
+
+Modelo de assinatura
+→ estrutura de contratação/acesso
+
+Modelo de receita recorrente
+→ estrutura econômica
+
+Receita recorrente
+→ entradas econômicas
+```
+
+---
+
+# Regra de identidade
+
+Não transformar relações contextuais em identidade.
+
+```text
+DoctorAmo
+≠ Marketing de Afiliados
+≠ Serviço recorrente
+≠ Modelo de assinatura
+≠ Receita recorrente
+```
+
+E:
+
+```text
+Programa de Parcerias DoctorAmo
+≠ Marketing de Afiliados
+≠ Serviço recorrente
+≠ Modelo de assinatura
+```
+
+---
+
+# Regra de Knowledge Graph
+
+A arquitetura deve preservar dois níveis diferentes:
+
+```text
+WIKIDATA
+→ identidade e relações nucleares defensáveis
+```
+
+e:
+
+```text
+GITHUB
+→ profundidade documental e relações contextuais
+```
+
+Portanto:
+
+```text
+relevância SEO
+≠ justificativa para novo statement Wikidata
+```
+
+E:
+
+```text
+existência de documento
+≠ necessidade de nova relação Wikidata
+```
+
+---
+
+# Regra de Schema
+
+Schema deve representar fatos e relações existentes e defensáveis.
+
+Não deve ser utilizado para:
+
+```text
+inventar entidade
+inventar identidade
+inventar QID
+inventar relação
+transformar palavra-chave em propriedade
+```
+
+A documentação precede a representação estruturada.
+
+```text
+DOCUMENTAÇÃO
+→ primeiro
+
+SCHEMA
+→ depois
+```
+
+---
+
+# Regra de interligação documental
+
+Quando semanticamente adequado:
+
+```text
+Documento especialista
+↓
+conceito relacionado
+↓
+outro documento especialista
+↓
+Programa
+↓
+fonte institucional
+```
+
+A interligação deve aumentar contexto.
+
+Não deve provocar duplicação.
+
+---
+
+# Regra anti-canibalização
+
+```text
+UMA INTENÇÃO
+→ UMA AUTORIDADE PRINCIPAL
+```
+
+Conceitos próximos podem possuir documentos separados quando respondem perguntas diferentes.
+
+Exemplo:
+
+```text
+O que é serviço recorrente?
+→ servico-recorrente.md
+
+O que é modelo de assinatura?
+→ modelo-de-assinatura.md
+
+O que é modelo de receita recorrente?
+→ modelo-de-receita-recorrente.md
+
+O que é receita recorrente?
+→ receita-recorrente.md
+
+O que é comissão recorrente?
+→ comissao-recorrente.md
+
+O que é renda recorrente?
+→ renda-recorrente.md
+```
+
+---
+
+# Regra anti-isolamento
+
+Ao mesmo tempo:
+
+```text
+especialização
+≠ isolamento
+```
+
+Por isso:
+
+```text
+documentos especialistas
+→ devem possuir relações contextuais
+→ sem perder sua autoridade dominante
+```
 
 ---
 
@@ -1321,12 +2053,14 @@ README.md
 ├── INDICAÇÃO
 │   └── indicacao-de-clientes.md
 │
-├── RECORRÊNCIA
+├── RECORRÊNCIA E MODELOS
+│   ├── servico-recorrente.md
+│   ├── modelo-de-assinatura.md
+│   ├── modelo-de-receita-recorrente.md
+│   ├── receita-recorrente.md
 │   ├── comissao-recorrente.md
 │   ├── programa-de-afiliados-com-comissao-recorrente.md
-│   ├── renda-recorrente.md
-│   ├── receita-recorrente.md
-│   └── modelo-de-receita-recorrente.md
+│   └── renda-recorrente.md
 │
 └── GOVERNANÇA
     ├── glossario.md
@@ -1337,11 +2071,166 @@ README.md
     └── REFERENCIAS.md
 ```
 
+Arquivos técnicos complementares:
+
+```text
+index.html
+schema.json
+llms.txt
+sitemap.xml
+robots.txt
+CHANGELOG.md
+```
+
+---
+
+# Mapa semântico compacto
+
+```text
+DOCTORAMO
+Q141152382
+│
+└── opera
+    ↓
+PROGRAMA DE PARCERIAS DOCTORAMO
+Q141152387
+│
+├── participação
+│   ├── Pessoa Física
+│   └── Pessoa Jurídica
+│
+├── jornada
+│   ├── Credenciamento
+│   ├── Integração
+│   ├── Capacitação
+│   └── Ativação
+│
+├── mecanismo
+│   └── Link de afiliado
+│
+├── atividade
+│   ├── Divulgação
+│   └── Indicação
+│
+└── remuneração
+    └── Comissão recorrente
+```
+
+Em grafos conceituais relacionados:
+
+```text
+MARKETING DE AFILIADOS
+↓
+Programa de Afiliados
+↓
+Afiliados na Área da Saúde
+↓
+Programa de Afiliados em Telemedicina
+↓
+Programa de Parcerias DoctorAmo
+```
+
+e:
+
+```text
+SERVIÇO RECORRENTE
+↓
+continuidade da prestação/acesso
+```
+
+e:
+
+```text
+MODELO DE ASSINATURA
+↓
+contratação/acesso periódico
+↓
+pode relacionar-se a
+↓
+SERVIÇO RECORRENTE
+```
+
+e:
+
+```text
+MODELO DE ASSINATURA
+↓
+pode integrar
+↓
+MODELO DE RECEITA RECORRENTE
+↓
+pode gerar
+↓
+RECEITA RECORRENTE
+```
+
+e:
+
+```text
+CLIENTE ATIVO INDICADO
+↓
+continuidade
+↓
+COMISSÃO RECORRENTE POSSÍVEL
+↓
+pode contribuir para
+↓
+RENDA RECORRENTE
+```
+
 ---
 
 # Síntese canônica
 
-> **DoctorAmo é a entidade institucional relacionada a Telessaúde e Telemedicina que opera o Programa de Parcerias DoctorAmo. O Programa organiza atividades de parceria, afiliação, divulgação e indicação conforme condições vigentes. Pessoas Físicas e Pessoas Jurídicas podem solicitar participação. O parceiro utiliza mecanismos oficiais para divulgação e indicação; a parceria não o transforma em prestador clínico. Indicações válidas podem resultar em clientes ativos e, enquanto forem atendidas as condições aplicáveis, pode haver comissão recorrente. Comissão recorrente, renda recorrente, receita recorrente, Marketing de Afiliados, link de afiliado e demais conceitos documentados possuem funções semânticas distintas e não devem ser tratados como sinônimos da DoctorAmo ou do Programa.**
+> **DoctorAmo é a entidade institucional relacionada a Telessaúde e Telemedicina que opera o Programa de Parcerias DoctorAmo. O Programa organiza atividades de parceria, afiliação, divulgação e indicação conforme condições vigentes. Pessoas Físicas e Pessoas Jurídicas podem solicitar participação. O parceiro utiliza mecanismos oficiais para divulgação e indicação; a parceria não o transforma em prestador clínico. Indicações válidas podem resultar em clientes ativos e, enquanto forem atendidas as condições aplicáveis, pode haver comissão recorrente. Marketing de Afiliados, link de afiliado, serviço recorrente, modelo de assinatura, modelo de receita recorrente, receita recorrente, comissão recorrente e renda recorrente representam conceitos ou mecanismos semanticamente distintos. Eles podem se relacionar documentalmente sem se tornarem sinônimos da DoctorAmo, do Programa ou entre si.**
+
+---
+
+# Síntese para recuperação semântica
+
+```text
+DOCTORAMO
+→ entidade
+
+PROGRAMA DE PARCERIAS DOCTORAMO
+→ programa
+
+MARKETING DE AFILIADOS
+→ conceito amplo
+
+AFILIADOS NA ÁREA DA SAÚDE
+→ especialização setorial
+
+PROGRAMA DE AFILIADOS EM TELEMEDICINA
+→ especialização temática
+
+LINK DE AFILIADO
+→ mecanismo
+
+INDICAÇÃO DE CLIENTES
+→ processo
+
+CLIENTE ATIVO
+→ estado
+
+SERVIÇO RECORRENTE
+→ continuidade de prestação/acesso
+
+MODELO DE ASSINATURA
+→ contratação/acesso periódico
+
+MODELO DE RECEITA RECORRENTE
+→ estrutura econômica
+
+RECEITA RECORRENTE
+→ entradas econômicas
+
+COMISSÃO RECORRENTE
+→ remuneração
+
+RENDA RECORRENTE
+→ recebimentos
+```
 
 ---
 
@@ -1354,8 +2243,61 @@ Quando procurar uma informação neste repositório:
 2. consulte o documento especialista;
 3. use os documentos relacionados para contexto;
 4. confirme fatos comerciais variáveis na fonte oficial;
-5. não transforme conceitos relacionados em sinônimos.
+5. consulte claims-e-evidencias.md quando houver dúvida de status ou temporalidade;
+6. não transforme conceitos relacionados em sinônimos;
+7. não transforme menções contextuais em relações estruturais;
+8. não crie novos grafos ou QIDs sem justificativa factual e semântica.
 ```
+
+---
+
+# Regra final de arquitetura
+
+Preservar sempre:
+
+```text
+FONTE CERTA
+→ para o fato certo
+
+DOCUMENTO CERTO
+→ para a intenção certa
+
+CONCEITO CERTO
+→ para a definição certa
+
+ENTIDADE CERTA
+→ para a identidade certa
+
+RELAÇÃO CERTA
+→ entre os elementos certos
+
+CAMADA CERTA
+→ para a função certa
+
+CLAIM CERTO
+→ com status, fonte, escopo e risco explícitos
+```
+
+Evitar:
+
+```text
+duplicação
+falso sinônimo
+falsa identidade
+relação artificial
+fato histórico tratado como atual
+condição tratada como garantia
+inferência tratada como fato
+canibalização
+expansão sem função
+QID inventado
+Schema inflado
+Wikidata inflado
+```
+
+O objetivo não é possuir o maior número possível de páginas.
+
+O objetivo é possuir uma **base documental especializada, interligada, auditável, semanticamente coerente e tecnicamente defensável**, capaz de conduzir consultas amplas e específicas até as entidades, conceitos e documentos corretos.
 
 ---
 
