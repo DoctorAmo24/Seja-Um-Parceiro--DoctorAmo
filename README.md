@@ -544,16 +544,27 @@ Função:
 ```text
 CLAIM
 ↓
+STATUS
+↓
 FONTE
 ↓
 ESCOPO
 ↓
-TEMPORALIDADE
-↓
-ESTABILIDADE
+RISCO DE DESATUALIZAÇÃO
 ```
 
-Esse documento ajuda a impedir que fatos históricos ou comerciais antigos sejam recuperados como atuais.
+Campos auxiliares, quando necessários:
+
+```text
+CLASSE
+QID
+QUALIFICADORES
+NÃO INFERIR
+DOCUMENTOS DEPENDENTES
+OBSERVAÇÃO
+```
+
+Esse documento funciona como registro canônico de proveniência, atomicidade, temporalidade e controle de contradições, ajudando a impedir que fatos históricos, comerciais antigos ou inferências sem suporte sejam recuperados como atuais.
 
 ---
 
