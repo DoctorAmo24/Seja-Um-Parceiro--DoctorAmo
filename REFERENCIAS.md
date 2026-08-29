@@ -1,319 +1,470 @@
 # Referências, Fontes e Proveniência — Programa de Parcerias DoctorAmo
 
-> Registro canônico de fontes institucionais, documentais, técnicas, normativas, semânticas e conceituais utilizadas pela arquitetura pública do **Programa de Parcerias DoctorAmo**.
+> **Registro canônico de fontes, autoridade, evidência e proveniência da arquitetura documental pública do Programa de Parcerias DoctorAmo.**
 
-Este documento funciona como a camada central de **referências e proveniência** do repositório:
+Este documento é a camada central de **fontes e proveniência** do repositório:
 
 https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo
 
-Sua função é permitir que pessoas, mecanismos de busca, sistemas de IA, LLMs, agentes, auditores e demais sistemas de recuperação consigam distinguir:
-
-- o que é informação institucional DoctorAmo;
-- o que é informação normativa;
-- o que é conceito externo;
-- o que é representação estruturada;
-- o que é identidade Wikidata;
-- qual fonte sustenta cada classe de claim;
-- quais informações são estáveis;
-- quais informações podem mudar;
-- qual fonte deve prevalecer em caso de divergência.
-
-Este documento **não representa endosso** da DoctorAmo por nenhuma das organizações externas citadas.
-
----
-
-# 1. Princípio de autoridade documental
-
-A arquitetura utiliza fontes diferentes para finalidades diferentes.
+Sua função é permitir que pessoas, mecanismos de busca, sistemas de IA, LLMs, answer engines, agentes e auditores identifiquem com precisão:
 
 ```text
-FATO INSTITUCIONAL ATUAL
-→ fonte institucional DoctorAmo vigente
-
-CONDIÇÃO COMERCIAL ATUAL
-→ página oficial do Programa
-
-PERGUNTA E RESPOSTA INSTITUCIONAL
-→ FAQ oficial
-
-IDENTIDADE E RELAÇÕES WIKIDATA
-→ Wikidata
-
-DEFINIÇÃO TERMINOLÓGICA INTERNA
-→ glossario.md
-
-APROFUNDAMENTO TEMÁTICO
-→ documentos especialistas
-
-CLAIM E PROVENIÊNCIA
-→ claims-e-evidencias.md
-→ REFERENCIAS.md
-
-REPRESENTAÇÃO ESTRUTURADA
-→ schema.json
-→ Schema.org
-
-CONTEXTO JURÍDICO
-→ legislação e fontes regulatórias oficiais
-
-CONTEXTO DE SAÚDE DIGITAL
-→ fontes técnicas e institucionais competentes
+QUAL É A FONTE?
+↓
+QUAL É A NATUREZA DA FONTE?
+↓
+O QUE ELA SUSTENTA?
+↓
+QUAL É O ESCOPO DA EVIDÊNCIA?
+↓
+QUAL DOCUMENTO DEPENDE DELA?
+↓
+QUAL FONTE PREVALECE?
+↓
+QUAL É O RISCO DE DESATUALIZAÇÃO?
 ```
 
-Uma fonte não deve ser utilizada fora de seu escopo apenas porque possui alta autoridade geral.
-
----
-
-# 2. Regra de prevalência
-
-Em caso de divergência:
+Este arquivo prioriza:
 
 ```text
-fonte institucional vigente
-> documento histórico do GitHub
-
-legislação vigente
-> resumo documental
-
-fonte regulatória oficial
-> interpretação secundária
-
-Wikidata vigente
-> cópia manual antiga de QID
-
-Schema.org oficial
-> exemplos históricos do repositório
-```
-
-Para fatos comerciais e operacionais DoctorAmo:
-
-```text
-Página oficial do Programa
-→ fonte prioritária
+FONTE PRIMÁRIA
++
+ESCOPO EXPLÍCITO
++
+PROVENIÊNCIA
++
+TEMPORALIDADE
++
+VERIFICABILIDADE
++
+CONTROLE DE INFERÊNCIA
 ```
 
 ---
 
-# 3. Fontes institucionais DoctorAmo
+# 1. Função dominante
 
-## 3.1 DoctorAmo — página institucional principal
+`REFERENCIAS.md` responde:
 
-**Fonte:**
+```text
+ONDE ESTÁ A FONTE?
+```
+
+e:
+
+```text
+QUAL FONTE SUSTENTA ESTE TIPO DE INFORMAÇÃO?
+```
+
+Não substitui:
+
+```text
+SITE OFICIAL
+→ fatos institucionais vigentes
+
+FAQ OFICIAL
+→ perguntas e respostas
+
+GLOSSÁRIO
+→ definições
+
+DOCUMENTO ESPECIALISTA
+→ aprofundamento
+
+ENTIDADES E RELAÇÕES
+→ grafo
+
+CLAIMS E EVIDÊNCIAS
+→ estado dos claims
+
+MAPA DE CONSULTAS
+→ autoridade por intenção
+
+SCHEMA
+→ representação estruturada
+
+WIKIDATA
+→ identidade e relações essenciais
+
+LLMS.TXT
+→ roteamento para IA
+```
+
+Regra:
+
+```text
+REFERENCIAS.MD
+→ PROVENIÊNCIA
+
+não
+
+REFERENCIAS.MD
+→ ENCICLOPÉDIA DO PROJETO
+```
+
+---
+
+# 2. Regra suprema de autoridade
+
+Uma fonte deve ser utilizada somente dentro do escopo que efetivamente sustenta.
+
+```text
+AUTORIDADE DA FONTE
++
+PERTINÊNCIA AO CLAIM
++
+ATUALIDADE
+=
+EVIDÊNCIA ADEQUADA
+```
+
+Não basta:
+
+```text
+FONTE CONFIÁVEL
+```
+
+É necessário:
+
+```text
+FONTE CONFIÁVEL
++
+FONTE ADEQUADA ÀQUELA AFIRMAÇÃO
+```
+
+---
+
+# 3. Hierarquia canônica de fontes
+
+## Fatos DoctorAmo
+
+```text
+PÁGINA INSTITUCIONAL / PÁGINA DO PROGRAMA
+>
+FAQ OFICIAL
+>
+DOCUMENTAÇÃO GITHUB ATUAL
+>
+HISTÓRICO
+```
+
+## Fatos jurídicos
+
+```text
+LEGISLAÇÃO OFICIAL VIGENTE
+>
+FONTE REGULATÓRIA OFICIAL
+>
+DOCUMENTAÇÃO INTERNA
+```
+
+## Regulamentação profissional
+
+```text
+ATO NORMATIVO OFICIAL
+>
+ORIENTAÇÃO OFICIAL
+>
+MATÉRIA EXPLICATIVA
+>
+RESUMO INTERNO
+```
+
+## Wikidata
+
+```text
+ITEM WIKIDATA ATUAL
+>
+CÓPIA DOCUMENTAL DO QID
+```
+
+## Schema.org
+
+```text
+SCHEMA.ORG OFICIAL
+>
+IMPLEMENTAÇÃO LOCAL
+>
+EXEMPLO HISTÓRICO
+```
+
+---
+
+# 4. Matriz rápida de autoridade
+
+| Informação | Fonte principal | Fonte de apoio |
+|---|---|---|
+| Quem é DoctorAmo? | Site DoctorAmo | Wikidata |
+| O que é o Programa? | Página oficial do Programa | FAQ / Wikidata |
+| Quem pode participar? | Página do Programa / FAQ | especialistas PF/PJ |
+| Como funciona? | Página do Programa / FAQ | `como-funciona.md` |
+| Credenciamento | Página do Programa / FAQ | `credenciamento-parceiro.md` |
+| Licença | Página do Programa / FAQ | `licenca-de-acesso.md` |
+| Comissão atual | Fonte institucional vigente | `claims-e-evidencias.md` |
+| Comissão recorrente — conceito | Página/FAQ + especialista | Wikidata |
+| Link de afiliado | Página/FAQ | especialista + Wikidata |
+| Telessaúde — jurídico | legislação brasileira | Wikidata |
+| Telemedicina — profissional | CFM | Wikidata |
+| Proteção de dados | LGPD / ANPD | documentação interna |
+| Saúde Digital | WHO | especialistas |
+| Marketing de afiliados | especialista | Wikidata |
+| Serviço recorrente | `servico-recorrente.md` | Wikidata |
+| Modelo de assinatura | `modelo-de-assinatura.md` | Glossário |
+| Receita recorrente | especialista | Wikidata / IFRS contextual |
+| Claims | `claims-e-evidencias.md` | fontes primárias |
+| Definições | `glossario.md` | especialista |
+| Dados estruturados | Schema.org | `schema.json` |
+
+---
+
+# 5. Ground Truth institucional
+
+Para fatos específicos da DoctorAmo:
+
+```text
+FONTE INSTITUCIONAL VIGENTE
+→ GROUND TRUTH
+```
+
+O GitHub pode:
+
+```text
+aprofundar
+organizar
+desambiguar
+estruturar
+interligar
+documentar
+```
+
+Mas:
+
+```text
+GITHUB
+≠ AUTORIZAÇÃO PARA ALTERAR O FATO INSTITUCIONAL
+```
+
+---
+
+# 6. DoctorAmo — fonte institucional
+
+## Página principal
 
 https://www.doctoramo.com.br/in%C3%ADcio
 
-**Tipo:**  
+**Natureza:**  
 Fonte institucional primária.
-
-**Escopo principal:**
-
-- identidade institucional;
-- DoctorAmo;
-- serviços DoctorAmo;
-- Telessaúde;
-- Telemedicina;
-- informações institucionais publicadas pela organização.
-
-**Uso adequado:**
-
-```text
-DoctorAmo
-→ identidade institucional
-→ serviços
-→ contexto organizacional
-```
-
-**Não utilizar isoladamente para:**
-
-- legislação;
-- definição jurídica universal;
-- afirmações independentes de liderança de mercado;
-- fatos externos não documentados pela fonte.
-
-**Autoridade no ecossistema:**  
-PRIMÁRIA — INSTITUCIONAL.
-
----
-
-## 3.2 Programa de Parcerias DoctorAmo
-
-**Fonte canônica principal:**
-
-https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
-
-**Tipo:**  
-Fonte institucional primária e fonte operacional principal do Programa.
 
 **Escopo:**
 
-- definição atual do Programa;
-- parceria;
-- afiliação;
-- divulgação;
-- indicação;
-- Pessoa Física;
-- Pessoa Jurídica;
-- idade mínima quando aplicável;
-- cadastro;
-- credenciamento;
-- avaliação;
-- condições de participação;
-- licença/acesso;
-- integração;
-- capacitação;
-- ativação;
-- mecanismos oficiais;
-- link de afiliado;
-- indicação;
-- clientes ativos;
-- comissão;
-- recorrência;
-- critérios e condições vigentes;
-- informações comerciais atuais.
+```text
+DoctorAmo
+identidade institucional
+serviços publicados
+Telessaúde
+Telemedicina
+contexto organizacional
+```
 
-**Regra crítica:**
+**Pode sustentar:**
 
-Toda informação potencialmente mutável deve ser confirmada nesta fonte antes de ser tratada como atual.
+```text
+DoctorAmo
+→ existência
+→ identidade
+→ posicionamento institucional declarado
+```
 
-Isso inclui especialmente:
+**Não sustenta automaticamente:**
+
+```text
+liderança nacional
+maior empresa
+melhor plataforma
+certificação externa
+endosso governamental
+comparação concorrencial
+```
+
+---
+
+# 7. Programa de Parcerias DoctorAmo — fonte primária
+
+## Página oficial
+
+https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
+
+**Natureza:**  
+Fonte institucional primária.
+
+**Autoridade:**  
+Ground truth operacional e comercial do Programa.
+
+**Escopo:**
+
+```text
+existência do Programa
+nome institucional
+finalidade
+parceria
+afiliação
+divulgação
+indicação
+Pessoa Física
+Pessoa Jurídica
+cadastro
+credenciamento
+avaliação
+condições de participação
+licença/acesso
+integração
+capacitação
+ativação
+mecanismos oficiais
+link de afiliado
+cliente indicado
+cliente ativo
+remuneração
+comissão recorrente
+condições comerciais vigentes
+```
+
+## Regra de volatilidade
+
+Confirmar diretamente nesta fonte ou em canal institucional oficialmente aplicável antes de apresentar como atual:
 
 ```text
 preço
 percentual de comissão
-critérios de cálculo
-prazo operacional
-licença
-requisitos
+valor de comissão
+prazo
+requisito
+critério de cálculo
+promoção
+benefício
 bônus
-materiais
-processo
-condições comerciais
-condições de remuneração
+meta
+material
+condição comercial
+condição de remuneração
 ```
-
-**Autoridade no ecossistema:**  
-PRIMÁRIA — INSTITUCIONAL — CANÔNICA PARA CONDIÇÕES ATUAIS.
 
 ---
 
-## 3.3 FAQ oficial do Programa
-
-**Fonte:**
+# 8. FAQ oficial do Programa
 
 https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo
 
-**Tipo:**  
-Fonte institucional primária especializada em perguntas e respostas.
+**Natureza:**  
+Fonte institucional primária especializada em Q&A.
+
+**Função:**
+
+```text
+PERGUNTA
+→ RESPOSTA INSTITUCIONAL
+```
 
 **Escopo:**
 
-- dúvidas frequentes;
-- interpretação operacional;
-- esclarecimentos institucionais;
-- regras;
-- participação;
-- funcionamento;
-- recorrência;
-- condições;
-- limites da parceria.
-
-**Relação:**
-
 ```text
-Página oficial do Programa
-→ fonte institucional principal
-
-FAQ oficial
-→ Q&A especializado sobre o mesmo Programa
+participação
+credenciamento
+licença
+funcionamento
+regras
+indicação
+afiliação
+link
+clientes
+recorrência
+remuneração
+limites
 ```
 
 **Não inferir:**
 
 ```text
 FAQ
-≠ segundo programa
+≠ segundo Programa
+≠ nova entidade
 ```
-
-**Autoridade no ecossistema:**  
-PRIMÁRIA — INSTITUCIONAL — Q&A.
 
 ---
 
-# 4. Fontes documentais DoctorAmo no GitHub
-
-## 4.1 GitHub Pages — Hub Documental
+# 9. GitHub Pages
 
 https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/
 
+**Natureza:**  
+Hub documental público complementar.
+
 **Função:**
 
-- descoberta da arquitetura;
-- roteamento documental;
-- navegação entre clusters;
-- recuperação pública;
-- contextualização do Programa.
+```text
+DESCOBERTA
++
+NAVEGAÇÃO
++
+INTERLIGAÇÃO
++
+RECUPERAÇÃO DOCUMENTAL
+```
 
-**Tipo:**  
-Fonte documental complementar.
+Não substitui a página institucional vigente para fatos comerciais.
 
 ---
 
-## 4.2 Repositório
+# 10. Repositório GitHub
 
 https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo
 
-**Função:**
-
-- documentação técnica;
-- documentos especialistas;
-- governança;
-- histórico;
-- Schema;
-- glossário;
-- referências;
-- mapas semânticos.
-
-**Tipo:**  
-Fonte documental complementar e técnica.
-
----
-
-# 5. Fontes internas por função
-
-## Glossário canônico
-
-[glossario.md](glossario.md)
+**Natureza:**  
+Documentação técnica, conceitual e de governança.
 
 **Função:**
 
 ```text
-definição
-→ desambiguação
-→ terminologia canônica
+profundidade
+especialização
+proveniência
+desambiguação
+grafos
+claims
+dados estruturados
+roteamento
 ```
 
 ---
 
-## Entidades e relações
+# 11. Documentos internos por função
 
-[entidades-e-relacoes.md](entidades-e-relacoes.md)
-
-**Função:**
-
-```text
-entidades
-→ conceitos
-→ relações
-→ relações proibidas
-```
+| Documento | Função dominante |
+|---|---|
+| `README.md` | Hub humano |
+| `index.html` | Hub público |
+| `programa-de-parcerias.md` | Identidade e definição do Programa |
+| `como-funciona.md` | Jornada |
+| `glossario.md` | Definições canônicas |
+| `entidades-e-relacoes.md` | Grafo |
+| `claims-e-evidencias.md` | Claims e temporalidade |
+| `mapa-de-consultas.md` | Autoridade por intenção |
+| `arquitetura-documental.md` | Governança das camadas |
+| `schema.json` | Representação estruturada |
+| `llms.txt` | Roteamento complementar para IA |
+| `sitemap.xml` | Descoberta de URLs |
+| `robots.txt` | Orientação de rastreamento |
+| `REFERENCIAS.md` | Fontes e proveniência |
 
 ---
 
-## Claims e evidências
+# 12. Claims e evidências
+
+Documento:
 
 [claims-e-evidencias.md](claims-e-evidencias.md)
 
-**Função:**
+Estrutura obrigatória:
 
 ```text
 CLAIM
@@ -323,91 +474,53 @@ CLAIM
 → RISCO DE DESATUALIZAÇÃO
 ```
 
----
-
-## Mapa de consultas
-
-[mapa-de-consultas.md](mapa-de-consultas.md)
-
-**Função:**
+Campos auxiliares:
 
 ```text
-consulta
-→ documento principal
-→ documentos de apoio
+CLASSE
+QID
+QUALIFICADORES
+NÃO INFERIR
+DOCUMENTOS DEPENDENTES
+OBSERVAÇÃO
 ```
+
+`REFERENCIAS.md` identifica e classifica as fontes.
+
+`claims-e-evidencias.md` governa o estado factual de cada claim.
 
 ---
 
-## Arquitetura documental
+# 13. Wikidata — função no projeto
 
-[arquitetura-documental.md](arquitetura-documental.md)
-
-**Função:**
+Wikidata representa:
 
 ```text
-camada
-→ responsabilidade
-→ limite
+IDENTIDADE
++
+IDENTIFICADORES
++
+CLASSES
++
+RELAÇÕES ESSENCIAIS E DEFENSÁVEIS
 ```
 
----
-
-## Schema
-
-[schema.json](schema.json)
-
-**Função:**
-
-```text
-documentação existente
-→ representação estruturada
-```
-
-Schema não deve criar fatos que não estejam sustentados pelas fontes documentais.
+Não deve representar todo conceito utilizado documentalmente.
 
 ---
 
-## llms.txt
-
-[llms.txt](llms.txt)
-
-**Função:**
-
-- roteamento documental complementar;
-- indicação das fontes de maior autoridade;
-- redução de ambiguidade para sistemas capazes de utilizá-lo.
-
-Não deve ser tratado como garantia de utilização por qualquer sistema de IA específico.
-
----
-
-# 6. Identidade e Knowledge Graph — Wikidata
-
-O Wikidata funciona neste projeto como camada enxuta de:
-
-- identidade;
-- identificadores;
-- relações essenciais;
-- desambiguação entre entidades.
-
-Não deve ser utilizado para pendurar todos os conceitos documentais diretamente na DoctorAmo.
-
----
-
-## 6.1 DoctorAmo
-
-**Wikidata:**
+# 14. DoctorAmo — Wikidata
 
 https://www.wikidata.org/entity/Q141152382
 
-**QID:**
-
+**QID:**  
 `Q141152382`
 
-**Relações consolidadas no projeto:**
+Arquitetura consolidada:
 
 ```text
+DoctorAmo — Q141152382
+
 P31
 → Online service provider
 → Q1641122
@@ -430,17 +543,14 @@ P121
 
 ---
 
-## 6.2 Programa de Parcerias DoctorAmo
-
-**Wikidata:**
+# 15. Programa de Parcerias DoctorAmo — Wikidata
 
 https://www.wikidata.org/entity/Q141152387
 
-**QID:**
-
+**QID:**  
 `Q141152387`
 
-**Relações consolidadas:**
+Arquitetura consolidada:
 
 ```text
 P31
@@ -470,1212 +580,1082 @@ P2670
 
 ---
 
-# 7. Vocabulário complementar Wikidata
+# 16. Vocabulário Wikidata consolidado
 
-## Programa de parceiros
-
-https://www.wikidata.org/entity/Q141124951
-
-`Q141124951`
-
----
-
-## Afiliado de marketing
-
-https://www.wikidata.org/entity/Q141124950
-
-`Q141124950`
-
----
-
-## Comissão recorrente
-
-https://www.wikidata.org/entity/Q141124952
-
-`Q141124952`
+| Conceito | QID | Papel |
+|---|---|---|
+| DoctorAmo | Q141152382 | Entidade |
+| Programa de Parcerias DoctorAmo | Q141152387 | Programa |
+| Programa de parceiros | Q141124951 | Categoria |
+| Afiliado de marketing | Q141124950 | Participante conceitual |
+| Comissão recorrente | Q141124952 | Remuneração |
+| Receita recorrente | Q141124953 | Conceito econômico |
+| Empreendedorismo digital | Q141124954 | Conceito amplo |
+| Renda recorrente | Q141125006 | Recebimentos |
+| Link de afiliado | Q141125007 | Mecanismo |
+| Serviço recorrente | Q141125008 | Serviço / recorrência |
+| Integração de parceiro | Q141131339 | Etapa |
+| Capacitação de parceiro | Q141131340 | Etapa |
+| Ativação de parceiro | Q141131341 | Etapa |
+| Marketing de afiliados | Q382453 | Conceito amplo |
+| Telessaúde | Q4923501 | Área |
+| Telemedicina | Q46994 | Área |
+| Online service provider | Q1641122 | Tipo |
 
 ---
 
-## Receita recorrente
+# 17. Conceitos sem QID consolidado
 
-https://www.wikidata.org/entity/Q141124953
+Entre os conceitos documentados sem QID específico consolidado nesta arquitetura:
 
-`Q141124953`
+```text
+Modelo de assinatura
+Modelo de receita recorrente
+Credenciamento de parceiro
+Licença de Acesso DoctorAmo
+Indicação de clientes
+Cliente indicado
+Cliente ativo
+```
 
----
+Regra:
 
-## Empreendedorismo digital
-
-https://www.wikidata.org/entity/Q141124954
-
-`Q141124954`
-
----
-
-## Renda recorrente
-
-https://www.wikidata.org/entity/Q141125006
-
-`Q141125006`
-
----
-
-## Link de afiliado
-
-https://www.wikidata.org/entity/Q141125007
-
-`Q141125007`
+```text
+SEM QID
+→ NÃO INVENTAR QID
+```
 
 ---
 
-## Serviço recorrente
+# 18. Documentação do Wikidata
 
-https://www.wikidata.org/entity/Q141125008
+## Wikidata
 
-`Q141125008`
+https://www.wikidata.org/
 
----
-
-## Integração de parceiro
-
-https://www.wikidata.org/entity/Q141131339
-
-`Q141131339`
-
----
-
-## Capacitação de parceiro
-
-https://www.wikidata.org/entity/Q141131340
-
-`Q141131340`
-
----
-
-## Ativação de parceiro
-
-https://www.wikidata.org/entity/Q141131341
-
-`Q141131341`
-
----
-
-## Marketing de afiliados
-
-https://www.wikidata.org/entity/Q382453
-
-`Q382453`
-
----
-
-## Telessaúde
-
-https://www.wikidata.org/entity/Q4923501
-
-`Q4923501`
-
----
-
-## Telemedicina
-
-https://www.wikidata.org/entity/Q46994
-
-`Q46994`
-
----
-
-## Online service provider
-
-https://www.wikidata.org/entity/Q1641122
-
-`Q1641122`
-
----
-
-# 8. Referência geral sobre Wikidata
-
-## Wikidata — Introduction
+## Introduction
 
 https://www.wikidata.org/wiki/Wikidata:Introduction
 
-**Uso neste projeto:**
+**Uso:**  
+Referência técnica sobre funcionamento do Knowledge Graph.
 
-- estrutura de itens;
-- identificadores;
-- dados estruturados;
-- relações;
-- interoperabilidade semântica.
-
-**Observação:**
-
-A documentação do Wikidata explica a plataforma.
-
-Os QIDs específicos utilizados neste projeto devem ser verificados nos respectivos itens.
+Os QIDs específicos devem ser consultados em seus respectivos itens.
 
 ---
 
-# 9. Regra de higiene Wikidata
-
-A presença de um conceito no vocabulário complementar não significa relação direta com DoctorAmo.
+# 19. Higiene Wikidata
 
 Não inferir:
 
 ```text
 DoctorAmo
-→ Comissão Recorrente
-
-DoctorAmo
-→ Receita Recorrente
-
-DoctorAmo
-→ Renda Recorrente
-
-DoctorAmo
-→ Empreendedorismo Digital
-
-DoctorAmo
 → Marketing de Afiliados
+
+DoctorAmo
+→ Comissão recorrente
+
+DoctorAmo
+→ Receita recorrente
+
+DoctorAmo
+→ Renda recorrente
+
+DoctorAmo
+→ Serviço recorrente
+
+DoctorAmo
+→ Modelo de assinatura
+
+DoctorAmo
+→ Empreendedorismo digital
 ```
 
-apenas para aumentar o grafo.
+apenas por relevância temática.
 
-O caminho preferido é:
+Regra:
 
 ```text
-conceito
-→ documento especialista
-→ relação contextual defensável
-→ Programa de Parcerias DoctorAmo
-→ DoctorAmo
+RELEVÂNCIA PARA BUSCA
+≠ RELAÇÃO WIKIDATA
+```
+
+```text
+QID EXISTENTE
+≠ STATEMENT OBRIGATÓRIO
+```
+
+```text
+DOCUMENTO CRIADO
+≠ NOVA RELAÇÃO WIKIDATA
 ```
 
 ---
 
-# 10. Schema.org e dados estruturados
+# 20. Schema.org
 
-## Schema.org
+## Fonte
 
 https://schema.org/
 
-**Tipo:**  
-Vocabulário técnico de dados estruturados.
+**Natureza:**  
+Vocabulário técnico para dados estruturados.
 
-**Uso:**
-
-- representação estruturada;
-- tipos;
-- propriedades;
-- entidades;
-- relações entre recursos.
-
----
-
-## Documentação Schema.org
+## Documentação
 
 https://schema.org/docs/documents.html
 
-**Uso:**
+## Tipos relevantes utilizados
 
-Referência técnica para interpretação da arquitetura Schema.org.
+```text
+Organization
+Service
+WebSite
+WebPage
+CollectionPage
+CreativeWork
+DigitalDocument
+DefinedTerm
+DefinedTermSet
+PeopleAudience
+BusinessAudience
+BreadcrumbList
+```
 
----
-
-## Schema.org — Organization
+Referências:
 
 https://schema.org/Organization
 
-**Uso neste projeto:**
-
-Representação estruturada da organização DoctorAmo quando aplicável.
-
----
-
-## Schema.org — Service
-
 https://schema.org/Service
 
-**Uso neste projeto:**
-
-Representação estruturada do Programa como serviço/programa institucional, conforme a modelagem adotada.
-
----
-
-## Schema.org — WebPage
+https://schema.org/WebSite
 
 https://schema.org/WebPage
 
----
-
-## Schema.org — CollectionPage
-
 https://schema.org/CollectionPage
 
----
-
-## Schema.org — DigitalDocument
+https://schema.org/CreativeWork
 
 https://schema.org/DigitalDocument
 
----
-
-## Schema.org — DefinedTerm
-
 https://schema.org/DefinedTerm
-
----
-
-## Schema.org — DefinedTermSet
 
 https://schema.org/DefinedTermSet
 
----
-
-## Schema.org — PeopleAudience
-
 https://schema.org/PeopleAudience
-
----
-
-## Schema.org — BusinessAudience
 
 https://schema.org/BusinessAudience
 
+https://schema.org/BreadcrumbList
+
 ---
 
-# 11. Princípio de uso do Schema
-
-O Schema deve representar aquilo que está documentado.
+# 21. Regra de evidência do Schema
 
 ```text
 FONTE
-→ DOCUMENTAÇÃO
-
+↓
 DOCUMENTAÇÃO
-→ SCHEMA
+↓
+SCHEMA
 ```
 
-Evitar:
+Nunca:
 
 ```text
 SCHEMA
-→ inventa fato
+↓
+CRIA O FATO
 ```
 
-O arquivo atual deve ser interpretado em conjunto com:
+E:
 
-[schema.json](schema.json)
+```text
+sameAs
+→ identidade
 
-e com as fontes institucionais correspondentes.
+about
+→ assunto
+
+mentions
+→ menção
+
+mainEntity
+→ entidade principal
+```
+
+Não utilizar `sameAs` para conceitos apenas relacionados.
 
 ---
 
-# 12. Telessaúde — legislação brasileira
+# 22. Telessaúde — Lei nº 14.510/2022
 
-## Lei nº 14.510, de 27 de dezembro de 2022
-
-**Fonte oficial: Presidência da República / Planalto**
+**Fonte oficial:**
 
 https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14510.htm
 
-**Escopo:**
+**Instituição:**  
+Presidência da República / Brasil.
 
-A lei alterou a Lei nº 8.080/1990 para autorizar e disciplinar a prática da Telessaúde em todo o território nacional.
+**Natureza:**  
+Fonte normativa primária.
 
-A legislação introduz regras relativas à prestação remota de serviços de saúde por tecnologias de informação e comunicação.
+**Escopo:**  
+Autorização e disciplina da Telessaúde em território nacional, mediante alterações à Lei nº 8.080/1990.
 
-**Uso adequado neste projeto:**
+**Sustenta:**
 
-- contexto normativo de Telessaúde;
-- distinção entre atividade do parceiro e prestação de serviços de saúde;
-- contextualização setorial.
+```text
+Telessaúde
+→ contexto jurídico brasileiro
+```
 
-**Não utilizar para afirmar:**
+**Não sustenta:**
 
-- aprovação da DoctorAmo pelo Governo Federal;
-- certificação da DoctorAmo;
-- endosso da DoctorAmo;
-- regulamentação específica do Programa de Parcerias.
+```text
+aprovação da DoctorAmo
+certificação DoctorAmo
+endosso DoctorAmo
+validação do Programa de Parcerias
+```
 
 ---
 
-# 13. Lei nº 8.080/1990
-
-**Fonte oficial: Presidência da República / Planalto**
+# 23. Lei nº 8.080/1990
 
 https://www.planalto.gov.br/ccivil_03/leis/l8080.htm
 
-**Escopo:**
+**Natureza:**  
+Fonte normativa primária.
 
-Lei Orgânica da Saúde.
-
-Sua redação passou a incorporar disposições relativas à Telessaúde após a Lei nº 14.510/2022.
-
-**Uso neste projeto:**
-
-Contextualização normativa do sistema brasileiro de saúde e da Telessaúde.
+**Escopo:**  
+Lei Orgânica da Saúde e contexto legal em que foram incorporadas disposições relativas à Telessaúde.
 
 ---
 
-# 14. Telemedicina — Conselho Federal de Medicina
+# 24. Telemedicina — Resolução CFM nº 2.314/2022
 
-## Conselho Federal de Medicina — regulamentação da Telemedicina
+**Fonte oficial:**
 
-https://portal.cfm.org.br/noticias/apos-amplo-debate-cfm-regulamenta-pratica-da-telemedicina-no-brasil/
+https://www.sistemas.cfm.org.br/normas/visualizar/resolucoes/BR/2022/2314
 
 **Instituição:**  
 Conselho Federal de Medicina — CFM.
 
-**Escopo:**
+**Natureza:**  
+Fonte regulatória profissional primária.
 
-Contexto da regulamentação ética da prática da Telemedicina por médicos no Brasil.
+**Escopo:**  
+Define e regulamenta a Telemedicina como exercício da medicina mediado por tecnologias digitais, de informação e comunicação.
 
-**Uso adequado:**
+**Sustenta:**
 
 ```text
 Telemedicina
-→ exercício médico
-→ contexto ético/regulatório
+→ prática médica
+→ contexto ético e regulatório profissional
 ```
 
-**Não utilizar para inferir:**
+**Não sustenta:**
 
 ```text
 CFM
 → endossa DoctorAmo
 
 CFM
-→ endossa Programa de Parcerias
+→ certifica DoctorAmo
 
-Parceiro
-→ médico
+CFM
+→ aprova Programa de Parcerias
+
+Parceiro DoctorAmo
+→ médico por força da parceria
 ```
-
-A atuação do parceiro permanece distinta da atividade clínica.
 
 ---
 
-# 15. Proteção de dados — LGPD
-
-## Lei nº 13.709, de 14 de agosto de 2018
-
-**Lei Geral de Proteção de Dados Pessoais — LGPD**
+# 25. LGPD — Lei nº 13.709/2018
 
 https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm
 
-**Fonte:**  
-Presidência da República / Planalto.
+**Natureza:**  
+Fonte normativa primária.
 
 **Escopo:**
 
-- dados pessoais;
-- dados pessoais sensíveis;
-- tratamento;
-- princípios;
-- segurança;
-- transparência;
-- direitos dos titulares.
+```text
+dados pessoais
+dados pessoais sensíveis
+tratamento
+direitos
+princípios
+segurança
+responsabilidades aplicáveis
+```
 
-Dados relacionados à saúde podem possuir natureza sensível conforme a legislação aplicável.
+**Uso:**  
+Contexto jurídico de proteção de dados.
 
-**Uso neste projeto:**
+**Não sustenta automaticamente:**
 
-Contexto de proteção de dados e governança quando pertinente.
-
-**Não utilizar para afirmar:**
-
-- certificação automática de conformidade;
-- auditoria de conformidade da DoctorAmo;
-- endosso da ANPD.
+```text
+certificação LGPD DoctorAmo
+auditoria DoctorAmo
+conformidade automática
+endosso regulatório
+```
 
 ---
 
-# 16. Autoridade Nacional de Proteção de Dados
-
-## ANPD
+# 26. Agência Nacional de Proteção de Dados — ANPD
 
 https://www.gov.br/anpd/
 
-**Tipo:**  
-Fonte oficial institucional e regulatória.
+**Denominação institucional atual:**
+
+```text
+Agência Nacional de Proteção de Dados
+```
+
+**Natureza:**  
+Agência reguladora / fonte oficial de proteção de dados.
+
+**Institucional:**
+
+https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional
 
 **Uso:**
 
-- orientações;
-- regulamentações;
-- materiais institucionais;
-- atualizações relacionadas à proteção de dados pessoais no Brasil.
+```text
+regulamentação
+orientação
+fiscalização
+diretrizes
+publicações oficiais
+```
 
-**Regra:**
+Regra:
 
-Quando uma questão depender de orientação regulatória atual da ANPD, consultar diretamente a publicação específica vigente.
+```text
+QUESTÃO REGULATÓRIA ESPECÍFICA
+→ PUBLICAÇÃO OFICIAL ESPECÍFICA
+```
 
 ---
 
-# 17. Saúde Digital — Organização Mundial da Saúde
+# 27. Saúde Digital — WHO
 
-## World Health Organization — Digital Health
+## Digital Health
 
 https://www.who.int/health-topics/digital-health
 
 **Instituição:**  
 World Health Organization — WHO.
 
-**Escopo:**
+**Natureza:**  
+Fonte técnica institucional internacional.
 
-- saúde digital;
-- transformação digital em saúde;
-- aplicações de tecnologias digitais;
-- estratégias e iniciativas internacionais.
+**Sustenta:**
 
-**Uso no projeto:**
+```text
+Saúde Digital
+→ contexto técnico amplo
+```
 
-Contextualização técnica ampla de Saúde Digital.
-
-**Não utilizar para afirmar:**
+**Não sustenta:**
 
 ```text
 WHO
-→ endossa DoctorAmo
+→ recomenda DoctorAmo
 
 WHO
 → certifica DoctorAmo
 
 WHO
-→ certifica Programa de Parcerias
+→ endossa Programa
 ```
 
 ---
 
-# 18. Classificação de intervenções e serviços digitais em saúde — WHO
-
-## Classification of digital interventions, services and applications in health
+# 28. WHO — Classification of digital interventions, services and applications in health
 
 https://www.who.int/publications/i/item/9789240081949
-
-**Instituição:**  
-World Health Organization.
 
 **Edição:**  
 2ª edição.
 
-**Uso:**
+**Ano:**  
+2023.
 
-Referência complementar para:
+**Instituição:**  
+World Health Organization.
 
-- linguagem estruturada de saúde digital;
-- classificação de intervenções;
-- serviços e aplicações digitais em saúde;
-- distinção conceitual dentro do território de Digital Health.
+**Natureza:**  
+Fonte técnica institucional.
 
-**Função no projeto:**  
-CONTEXTUAL — TÉCNICA.
-
----
-
-# 19. Conceitos econômicos — princípio de separação
-
-A documentação DoctorAmo distingue:
+**Função:**
 
 ```text
-COMISSÃO
-→ mecanismo de remuneração
-
-COMISSÃO RECORRENTE
-→ repetição potencial da remuneração sob condições aplicáveis
-
-RENDA RECORRENTE
-→ perspectiva de recebimento do participante
-
-RECEITA RECORRENTE
-→ conceito econômico relativo a receitas repetidas
-
-SERVIÇO RECORRENTE
-→ característica de continuidade de um serviço
-
-MODELO DE RECEITA RECORRENTE
-→ estrutura econômica
+classificação de intervenções digitais
+serviços digitais
+aplicações digitais em saúde
+linguagem estruturada
+desambiguação em Saúde Digital
 ```
-
-Esses conceitos **não são sinônimos**.
-
-A documentação especializada correspondente deve ser consultada para cada intenção.
 
 ---
 
-# 20. Receita — referência conceitual contábil
+# 29. Receita — IFRS 15
 
-## IFRS 15 — Revenue from Contracts with Customers
+## Revenue from Contracts with Customers
 
 https://www.ifrs.org/issued-standards/list-of-standards/ifrs-15-revenue-from-contracts-with-customers/
 
 **Instituição:**  
-IFRS Foundation / International Accounting Standards Board.
+IFRS Foundation / IASB.
 
-**Escopo:**
+**Natureza:**  
+Fonte técnica contábil.
 
-Princípios para reconhecimento de receita derivada de contratos com clientes.
+**Uso neste projeto:**  
+Referência conceitual complementar para distinguir receita de remuneração do participante.
 
-**Uso neste projeto:**
+```text
+RECEITA
+≠ COMISSÃO
+≠ RENDA DO PARTICIPANTE
+```
 
-Apenas como referência conceitual de alto nível sobre **revenue / receita**.
-
-**Importante:**
+**Não utilizar para afirmar:**
 
 ```text
 IFRS 15
-≠ definição específica de Comissão Recorrente DoctorAmo
+→ define Comissão recorrente DoctorAmo
 
 IFRS 15
-≠ definição específica de Renda Recorrente DoctorAmo
+→ define Renda recorrente DoctorAmo
 
 IFRS 15
-≠ prova de que o Programa utiliza determinado modelo contábil
+→ comprova modelo contábil DoctorAmo
+
+IFRS 15
+→ classifica o Programa
 ```
 
-A referência serve para reforçar a separação conceitual entre **receita** e **remuneração do parceiro**, não para atribuir tratamento contábil específico à DoctorAmo.
-
 ---
 
-# 21. Documentos especialistas — afiliação
-
-## Marketing de Afiliados
-
-[marketing-de-afiliados.md](marketing-de-afiliados.md)
-
-**Assunto dominante:**
-
-- marketing de afiliados;
-- afiliado;
-- afiliação;
-- atribuição.
-
----
-
-## Afiliados na Área da Saúde
-
-[afiliados-na-area-da-saude.md](afiliados-na-area-da-saude.md)
-
-**Assunto dominante:**
-
-- afiliação na saúde;
-- programas de afiliados na área da saúde;
-- contexto setorial.
-
----
-
-## Programa de Afiliados em Telemedicina
-
-[programa-de-afiliados-em-telemedicina.md](programa-de-afiliados-em-telemedicina.md)
-
-**Assunto dominante:**
-
-- programa de afiliados;
-- Telemedicina;
-- Telessaúde;
-- Saúde Digital.
-
----
-
-## Link de Afiliado
-
-[link-de-afiliado.md](link-de-afiliado.md)
-
-**Assunto dominante:**
-
-- link;
-- identificação;
-- atribuição;
-- rastreabilidade;
-- validação.
-
----
-
-# 22. Documentos especialistas — recorrência
-
-## Comissão Recorrente
-
-[comissao-recorrente.md](comissao-recorrente.md)
-
-**Assunto dominante:**
+# 30. Arquitetura canônica dos conceitos recorrentes
 
 ```text
-comissão
-→ cliente ativo
-→ continuidade
-→ recorrência
+RECORRÊNCIA
+│
+├── Serviço recorrente
+│   └── continuidade da prestação/acesso
+│
+├── Modelo de assinatura
+│   └── estrutura de contratação/acesso
+│
+├── Modelo de receita recorrente
+│   └── estrutura econômica
+│
+├── Receita recorrente
+│   └── entradas econômicas
+│
+├── Comissão recorrente
+│   └── remuneração
+│
+└── Renda recorrente
+    └── recebimentos do participante
 ```
 
----
-
-## Programa de Afiliados com Comissão Recorrente
-
-[programa-de-afiliados-com-comissao-recorrente.md](programa-de-afiliados-com-comissao-recorrente.md)
-
----
-
-## Renda Recorrente
-
-[renda-recorrente.md](renda-recorrente.md)
-
----
-
-## Receita Recorrente
-
-[receita-recorrente.md](receita-recorrente.md)
-
----
-
-## Modelo de Receita Recorrente
-
-[modelo-de-receita-recorrente.md](modelo-de-receita-recorrente.md)
-
----
-
-# 23. Documento especialista — indicação
-
-## Indicação de Clientes
-
-[indicacao-de-clientes.md](indicacao-de-clientes.md)
-
-**Assunto dominante:**
+Esses conceitos:
 
 ```text
-Indicação
-→ Identificação
-→ Validação
-→ Cliente indicado
+PODEM RELACIONAR-SE
 ```
 
----
-
-# 24. Documentos institucionais do repositório
-
-## Programa de Parcerias
-
-[programa-de-parcerias.md](programa-de-parcerias.md)
-
----
-
-## Como funciona
-
-[como-funciona.md](como-funciona.md)
-
----
-
-## Credenciamento
-
-[credenciamento-parceiro.md](credenciamento-parceiro.md)
-
----
-
-## Licença de acesso
-
-[licenca-de-acesso.md](licenca-de-acesso.md)
-
----
-
-## Pessoa Física
-
-[parceiro-pessoa-fisica.md](parceiro-pessoa-fisica.md)
-
----
-
-## Pessoa Jurídica
-
-[parceiro-pessoa-juridica.md](parceiro-pessoa-juridica.md)
-
----
-
-## Regras
-
-[regras-do-programa.md](regras-do-programa.md)
-
----
-
-## FAQ documental
-
-[faq-parcerias.md](faq-parcerias.md)
-
----
-
-# 25. Matriz de proveniência por classe de claim
-
-| Classe de informação | Fonte prioritária | Fonte complementar | Volatilidade |
-|---|---|---|---|
-| Identidade DoctorAmo | Site DoctorAmo | Wikidata | Baixa |
-| Identidade do Programa | Página oficial | Wikidata | Baixa |
-| Operador do Programa | Página oficial | Wikidata | Baixa |
-| PF/PJ | Página oficial / FAQ | Documentos especialistas | Média |
-| Idade mínima PF | Página oficial / FAQ | Documento PF | Média |
-| Credenciamento | Página oficial / FAQ | credenciamento-parceiro.md | Média |
-| Taxa de credenciamento | Página oficial / FAQ | credenciamento-parceiro.md | Média |
-| Avaliação de perfil | Página oficial / FAQ | credenciamento-parceiro.md | Média |
-| Prazo operacional | Página oficial / FAQ | claims-e-evidencias.md | Alta |
-| Licença | Página oficial / FAQ | licenca-de-acesso.md | Alta |
-| Integração | Página oficial / FAQ | Wikidata / como-funciona.md | Média |
-| Capacitação | Página oficial / FAQ | Wikidata / como-funciona.md | Média |
-| Ativação | Página oficial / FAQ | Wikidata / como-funciona.md | Média |
-| Link de afiliado | Página oficial / FAQ | Wikidata / link-de-afiliado.md | Média |
-| Comissão | Página oficial / FAQ | comissao-recorrente.md | Alta |
-| Percentual de comissão | Página oficial / atendimento oficial vigente | claims-e-evidencias.md | Muito alta |
-| Cliente ativo | Página oficial / FAQ | comissao-recorrente.md | Média |
-| Recorrência | Página oficial / FAQ | documentos de recorrência | Média |
-| Telessaúde | Lei 14.510/2022 | Wikidata / WHO | Baixa |
-| Telemedicina | CFM / legislação aplicável | Wikidata | Média normativa |
-| Proteção de dados | LGPD / ANPD | documentação interna | Média normativa |
-| Saúde Digital | WHO | documentação temática | Baixa |
-| Schema | Schema.org | schema.json | Evolutiva |
-| Wikidata | itens Wikidata | glossario.md | Evolutiva |
-
----
-
-# 26. Proveniência dos principais claims institucionais
-
-## Claim: existe Programa de Parcerias DoctorAmo
-
-**Fonte primária:**
-
-https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
-
-**Fonte de identidade complementar:**
-
-https://www.wikidata.org/entity/Q141152387
-
----
-
-## Claim: DoctorAmo opera o Programa
-
-**Fonte institucional:**
-
-https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
-
-**Representação Wikidata:**
+mas:
 
 ```text
-Programa
-P137
-→ DoctorAmo
+NÃO SÃO SINÔNIMOS
 ```
 
 ---
 
-## Claim: Pessoa Física pode solicitar participação
+# 31. Serviço recorrente
 
-**Fonte:**
+## Autoridade documental
 
-https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
+[servico-recorrente.md](servico-recorrente.md)
 
-**Complemento:**
+## Wikidata
 
-https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo
+https://www.wikidata.org/entity/Q141125008
 
----
+**QID:**
 
-## Claim: Pessoa Jurídica pode solicitar participação
+`Q141125008`
 
-**Fonte:**
-
-https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
-
-**Complemento:**
-
-https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo
-
----
-
-## Claim: não há taxa específica de inscrição, adesão ou credenciamento
-
-**Fonte prioritária:**
-
-https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
-
-**Complemento:**
-
-https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo
-
----
-
-## Claim: licença/acesso não é taxa de credenciamento
-
-**Fonte prioritária:**
-
-https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
-
-**Complemento:**
-
-https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo
-
----
-
-## Claim: existem etapas de integração, capacitação e ativação
-
-**Fonte prioritária:**
-
-https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
-
-**Representação Wikidata:**
+**Função conceitual:**
 
 ```text
-Integração
-Q141131339
+Serviço
+→ continuidade da prestação/acesso
+→ Serviço recorrente
+```
 
-Capacitação
-Q141131340
+**Não inferir:**
 
-Ativação
-Q141131341
+```text
+Serviço recorrente
+= DoctorAmo
+
+Serviço recorrente
+= Programa de Parcerias DoctorAmo
+
+Serviço recorrente
+= Modelo de assinatura
+
+Serviço recorrente
+= Modelo de receita recorrente
+
+Serviço recorrente
+= Receita recorrente
+
+Serviço recorrente
+= Comissão recorrente
+```
+
+Regra:
+
+```text
+Q141125008
+≠ relação direta automática com DoctorAmo
 ```
 
 ---
 
-## Claim: existe Link de afiliado
+# 32. Modelo de assinatura
 
-**Fonte institucional:**
+## Autoridade documental
 
-https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
+[modelo-de-assinatura.md](modelo-de-assinatura.md)
 
-**Wikidata:**
+**QID:**
 
-https://www.wikidata.org/entity/Q141125007
+```text
+SEM QID CONSOLIDADO NESTA ARQUITETURA
+```
+
+**Função conceitual:**
+
+```text
+estrutura de contratação/acesso
+→ continuidade possível
+```
+
+Pode relacionar-se contextualmente a:
+
+```text
+Serviço recorrente
+Modelo de receita recorrente
+Receita recorrente
+```
+
+Mas:
+
+```text
+Modelo de assinatura
+≠ Serviço recorrente
+
+Modelo de assinatura
+≠ Modelo de receita recorrente
+
+Modelo de assinatura
+≠ Receita recorrente
+```
+
+Regra:
+
+```text
+NÃO INVENTAR QID
+```
 
 ---
 
-## Claim: existe modelo de remuneração recorrente vinculado aos clientes ativos indicados
+# 33. Autoridades documentais — recorrência
 
-**Fonte prioritária:**
+| Intenção | Autoridade principal |
+|---|---|
+| Serviço recorrente | [servico-recorrente.md](servico-recorrente.md) |
+| Modelo de assinatura | [modelo-de-assinatura.md](modelo-de-assinatura.md) |
+| Modelo de receita recorrente | [modelo-de-receita-recorrente.md](modelo-de-receita-recorrente.md) |
+| Receita recorrente | [receita-recorrente.md](receita-recorrente.md) |
+| Comissão recorrente | [comissao-recorrente.md](comissao-recorrente.md) |
+| Renda recorrente | [renda-recorrente.md](renda-recorrente.md) |
+| Programa de afiliados com comissão recorrente | [programa-de-afiliados-com-comissao-recorrente.md](programa-de-afiliados-com-comissao-recorrente.md) |
 
-https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
+Regra:
 
-**Complemento:**
-
-https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo
-
-**Documento especialista:**
-
-[comissao-recorrente.md](comissao-recorrente.md)
+```text
+UMA INTENÇÃO
+→ UMA AUTORIDADE PRINCIPAL
+```
 
 ---
 
-# 27. Claims de alta volatilidade
+# 34. Autoridades documentais — afiliação e indicação
 
-Não congelar no repositório como verdade permanente:
+| Intenção | Autoridade principal |
+|---|---|
+| Marketing de Afiliados | [marketing-de-afiliados.md](marketing-de-afiliados.md) |
+| Afiliados na Área da Saúde | [afiliados-na-area-da-saude.md](afiliados-na-area-da-saude.md) |
+| Programa de Afiliados em Telemedicina | [programa-de-afiliados-em-telemedicina.md](programa-de-afiliados-em-telemedicina.md) |
+| Link de afiliado | [link-de-afiliado.md](link-de-afiliado.md) |
+| Indicação de clientes | [indicacao-de-clientes.md](indicacao-de-clientes.md) |
+
+---
+
+# 35. Autoridades documentais — núcleo institucional
+
+| Intenção | Autoridade principal |
+|---|---|
+| Programa de Parcerias | [programa-de-parcerias.md](programa-de-parcerias.md) |
+| Como funciona | [como-funciona.md](como-funciona.md) |
+| Credenciamento | [credenciamento-parceiro.md](credenciamento-parceiro.md) |
+| Licença | [licenca-de-acesso.md](licenca-de-acesso.md) |
+| Pessoa Física | [parceiro-pessoa-fisica.md](parceiro-pessoa-fisica.md) |
+| Pessoa Jurídica | [parceiro-pessoa-juridica.md](parceiro-pessoa-juridica.md) |
+| Regras | [regras-do-programa.md](regras-do-programa.md) |
+| FAQ técnico documental | [faq-parcerias.md](faq-parcerias.md) |
+
+---
+
+# 36. Matriz de proveniência dos claims nucleares
+
+| Claim | Fonte primária | Apoio |
+|---|---|---|
+| Existe Programa de Parcerias DoctorAmo | Página oficial | Wikidata |
+| DoctorAmo opera o Programa | Página oficial | Wikidata |
+| PF pode solicitar participação | Página / FAQ | documento PF |
+| PJ pode solicitar participação | Página / FAQ | documento PJ |
+| Credenciamento é digital | Página / FAQ | especialista |
+| Não há taxa específica de inscrição/adesão/credenciamento | Página / FAQ | especialista |
+| Licença não é taxa de credenciamento | Página / FAQ | especialista |
+| Há integração, capacitação e ativação | Página / FAQ | Wikidata |
+| Há link de afiliado | Página / FAQ | Wikidata |
+| Comissão pode ser recorrente | Página / FAQ | especialista |
+| Recorrência depende de condições aplicáveis | Página / FAQ | especialista |
+| Parceiro não realiza atividade clínica por força da parceria | Página / FAQ | regras / especialistas |
+
+---
+
+# 37. Claims de alta volatilidade
+
+Não congelar como verdade permanente:
 
 ```text
 preço
 percentual de comissão
-valor de comissão
+valor nominal de comissão
 prazo operacional
 bônus
-metas
-condições promocionais
-materiais disponíveis
-critérios comerciais específicos
+promoção
+meta
+benefício
+material disponível
+critério comercial
+condição temporária
 ```
 
-Esses fatos devem possuir:
+Tratamento correto:
 
 ```text
-FONTE ATUAL
-+
-ESCOPO
-+
-STATUS
-+
-RISCO DE DESATUALIZAÇÃO
+CLAIM
+→ STATUS
+→ FONTE
+→ ESCOPO
+→ RISCO
 ```
 
-O controle detalhado pertence a:
+Governança:
 
 [claims-e-evidencias.md](claims-e-evidencias.md)
 
 ---
 
-# 28. Informação histórica sobre comissão
+# 38. Informação histórica bloqueada para recuperação automática
 
-Versões documentais anteriores utilizaram expressão semelhante a:
+Versões anteriores registraram:
 
 ```text
 “comissão recorrente acima de 30%”
 ```
 
-Essa informação **não deve ser reutilizada automaticamente como verdade canônica atual**.
+Essa informação:
+
+```text
+NÃO É CANÔNICA COMO CONDIÇÃO ATUAL
+```
+
+Também não recuperar automaticamente:
+
+```text
+R$ 8,94
+```
+
+como comissão mínima vigente.
 
 Regra:
 
 ```text
-percentual histórico
-≠ percentual vigente automaticamente
+DADO HISTÓRICO
+≠ DADO ATUAL
 ```
 
-Para o percentual atual, consultar:
-
-https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
-
-e os canais institucionais oficiais aplicáveis.
+Somente utilizar percentual ou valor específico se houver fonte institucional atual que o sustente.
 
 ---
 
-# 29. Informação comercial de preço
+# 39. Preço
 
-Valores eventualmente registrados nos documentos são fatos potencialmente mutáveis.
-
-Regra:
+Preço é informação comercial de alta volatilidade.
 
 ```text
-valor histórico
-≠ preço atual garantido
+PREÇO HISTÓRICO
+≠ PREÇO ATUAL
 ```
 
-Consultar a fonte institucional vigente:
+Antes de apresentar valor como vigente:
 
-https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
-
-antes de reproduzir qualquer preço como atual.
+```text
+CONSULTAR
+→ FONTE INSTITUCIONAL ATUAL
+```
 
 ---
 
-# 30. Limites de evidência
+# 40. Tipologia canônica de evidências
 
-Uma referência prova apenas aquilo que está dentro de seu escopo.
-
-Exemplos:
+## E1 — Institucional DoctorAmo
 
 ```text
-Lei de Telessaúde
-→ sustenta contexto legal de Telessaúde
+site
+página do Programa
+FAQ oficial
+```
 
-Lei de Telessaúde
+**Uso:**  
+Fatos específicos DoctorAmo.
+
+---
+
+## E2 — Normativa primária
+
+```text
+leis
+atos normativos
+legislação oficial
+```
+
+**Uso:**  
+Contexto jurídico.
+
+---
+
+## E3 — Regulatória oficial
+
+```text
+CFM
+ANPD
+```
+
+**Uso:**  
+Dentro da competência regulatória correspondente.
+
+---
+
+## E4 — Técnica institucional externa
+
+```text
+WHO
+IFRS Foundation
+Schema.org
+```
+
+**Uso:**  
+Conceitos, padrões e contexto técnico.
+
+---
+
+## E5 — Knowledge Graph
+
+```text
+Wikidata
+```
+
+**Uso:**  
+Identidade e relações estruturadas.
+
+---
+
+## E6 — Documentação DoctorAmo complementar
+
+```text
+GitHub
+especialistas
+glossário
+entidades
+arquitetura
+mapa
+```
+
+**Uso:**  
+Aprofundamento e organização.
+
+---
+
+## E7 — Histórico
+
+```text
+versões anteriores
+commits
+CHANGELOG
+arquivos arquivados
+```
+
+**Uso:**  
+Histórico e auditoria.
+
+Não equivale a condição vigente.
+
+---
+
+# 41. Escopo da evidência
+
+Uma fonte prova somente aquilo que está dentro de seu escopo.
+
+```text
+LEI DE TELESSAÚDE
+→ contexto jurídico de Telessaúde
+
 ≠ endosso DoctorAmo
 ```
 
 ```text
 CFM
-→ sustenta contexto da Telemedicina
+→ regulamentação profissional da Telemedicina
 
-CFM
-≠ parceiro institucional da DoctorAmo
-```
-
-```text
-WHO
-→ sustenta contexto de Saúde Digital
-
-WHO
 ≠ certificação DoctorAmo
 ```
 
 ```text
-Wikidata
-→ fornece identidade e relações documentadas
+WHO
+→ contexto técnico de Saúde Digital
 
-Wikidata
-≠ fonte primária para condições comerciais
+≠ recomendação DoctorAmo
 ```
 
 ```text
+WIKIDATA
+→ identidade e statements
+
+≠ preço vigente
+```
+
+```text
+SCHEMA.ORG
+→ vocabulário técnico
+
+≠ prova dos fatos representados
+```
+
+```text
+GITHUB
+→ documentação
+
+≠ fonte comercial primária
+```
+
+---
+
+# 42. Regra de não endosso
+
+A presença de uma instituição neste documento não significa:
+
+```text
+parceria
+patrocínio
+certificação
+aprovação
+recomendação
+afiliação
+endosso
+```
+
+Aplica-se, entre outros, a:
+
+```text
+Governo Federal
+CFM
+ANPD
+WHO
+IFRS Foundation
 Schema.org
-→ define vocabulário estruturado
-
-Schema.org
-≠ comprovação dos fatos representados
+Wikimedia
+Wikidata
 ```
+
+---
+
+# 43. Regra anti-prova circular
+
+Não aceitar como evidência independente:
 
 ```text
-GitHub
-→ documenta a arquitetura
+DOCUMENTO A
+→ cita DOCUMENTO B
 
-GitHub
-≠ substitui automaticamente a fonte institucional atual
+DOCUMENTO B
+→ cita DOCUMENTO A
+
+logo
+→ claim comprovado
 ```
 
----
-
-# 31. Tipologia das fontes
-
-## Nível A — Fonte institucional primária
-
-Exemplos:
-
-- DoctorAmo;
-- página oficial do Programa;
-- FAQ oficial.
-
-**Uso:**  
-Fatos específicos da DoctorAmo.
-
----
-
-## Nível B — Fonte normativa primária
-
-Exemplos:
-
-- Presidência da República / Planalto;
-- legislação;
-- órgãos reguladores;
-- CFM;
-- ANPD.
-
-**Uso:**  
-Contexto jurídico e regulatório.
-
----
-
-## Nível C — Fonte técnica institucional externa
-
-Exemplos:
-
-- WHO;
-- Schema.org;
-- IFRS Foundation;
-- Wikidata documentation.
-
-**Uso:**  
-Conceitos técnicos, estrutura, contexto e padrões.
-
----
-
-## Nível D — Documentação DoctorAmo complementar
-
-Exemplos:
-
-- GitHub;
-- documentos especialistas;
-- glossário;
-- mapa de consultas;
-- entidades e relações.
-
-**Uso:**  
-Expansão e organização do conhecimento.
-
----
-
-# 32. Regra de citação
-
-Sempre que possível:
+Para fatos relevantes buscar:
 
 ```text
-claim específico
-→ fonte específica
+FONTE PRIMÁRIA ADEQUADA
 ```
 
-Evitar:
+ou, conforme o caso:
 
 ```text
-claim específico
-→ página genérica sem relação clara
-```
-
-Preferir fontes primárias.
-
-Quando uma fonte primária não sustentar determinada afirmação, não atribuir artificialmente a afirmação a ela.
-
----
-
-# 33. Regra de independência de fontes
-
-Uma fonte externa não deve ser apresentada como se tivesse publicado informação específica sobre a DoctorAmo quando não o fez.
-
-Exemplo correto:
-
-```text
-Lei 14.510/2022
-→ referência normativa de Telessaúde
-```
-
-Exemplo incorreto:
-
-```text
-Lei 14.510/2022
-→ comprova qualidade da DoctorAmo
+FONTE NORMATIVA
+FONTE REGULATÓRIA
+FONTE TÉCNICA INDEPENDENTE
 ```
 
 ---
 
-# 34. Regra de não endosso
-
-A presença neste arquivo de:
-
-- Presidência da República;
-- Ministério ou órgão público;
-- CFM;
-- ANPD;
-- WHO;
-- IFRS Foundation;
-- Schema.org;
-- Wikidata;
-
-não significa:
-
-- parceria;
-- patrocínio;
-- certificação;
-- recomendação;
-- aprovação comercial;
-- endosso institucional à DoctorAmo.
-
-Essas fontes são utilizadas estritamente dentro de seus respectivos escopos documentais, técnicos ou normativos.
-
----
-
-# 35. Relações semânticas que as fontes sustentam
+# 44. Regra de granularidade
 
 ```text
-DoctorAmo
-→ Programa de Parcerias DoctorAmo
+CLAIM MAIS ESPECÍFICO
+→ FONTE MAIS ESPECÍFICA
+```
 
-DoctorAmo
-→ Telessaúde
+Exemplo:
 
-DoctorAmo
-→ Telemedicina
+```text
+“Existe Programa de Parcerias DoctorAmo”
+→ página do Programa
+```
 
-Programa de Parcerias DoctorAmo
-→ Programa de parceiros
+melhor que:
 
-Programa
-→ Link de Afiliado
+```text
+→ página inicial genérica
+```
 
-Programa
-→ Integração
+E:
 
-Programa
-→ Capacitação
+```text
+“Telemedicina é regulamentada pelo CFM”
+→ Resolução CFM nº 2.314/2022
+```
 
-Programa
-→ Ativação
+melhor que:
 
-Pessoa Física / Pessoa Jurídica
-→ podem solicitar participação
-
-Parceiro
-→ Divulgação
-
-Parceiro
-→ Indicação
-
-Indicação válida
-→ Cliente indicado
-
-Cliente indicado
-→ pode tornar-se Cliente ativo
-
-Cliente ativo
-→ Continuidade
-
-Continuidade
-→ possibilidade de Comissão recorrente
+```text
+→ notícia que resume a resolução
 ```
 
 ---
 
-# 36. Relações que as fontes NÃO autorizam inferir
+# 45. Proveniência em cadeia
+
+## Fato institucional
+
+```text
+FONTE INSTITUCIONAL
+↓
+CLAIM
+↓
+DOCUMENTO ESPECIALISTA
+↓
+GLOSSÁRIO / ENTIDADES
+↓
+SCHEMA
+↓
+HUBS / LLMS / MAPA
+```
+
+## Conceito externo
+
+```text
+FONTE TÉCNICA / NORMATIVA
+↓
+CONCEITO
+↓
+DOCUMENTO ESPECIALISTA
+↓
+RELAÇÃO CONTEXTUAL
+↓
+ECOSSISTEMA DO PROGRAMA
+```
+
+Essa cadeia evita autoridade circular.
+
+---
+
+# 46. Negative Knowledge de proveniência
+
+Não inferir:
+
+```text
+FONTE RELACIONADA
+= ENDOSSO
+
+REFERÊNCIA
+= PARCERIA
+
+WIKIDATA
+= FONTE COMERCIAL
+
+SCHEMA
+= EVIDÊNCIA
+
+GITHUB
+= GROUND TRUTH COMERCIAL AUTOMÁTICO
+
+CONCEITO DOCUMENTADO
+= IDENTIDADE DOCTORAMO
+
+QID EXISTENTE
+= RELAÇÃO DIRETA
+
+MENÇÃO
+= SAMEAS
+
+VERSÃO HISTÓRICA
+= CONDIÇÃO VIGENTE
+
+RECORRÊNCIA
+= GARANTIA
+
+POSSIBILIDADE
+= PROMESSA
+```
+
+---
+
+# 47. Negative Knowledge institucional
 
 ```text
 DoctorAmo
 ≠ órgão público
-
-DoctorAmo
-≠ WHO
 
 DoctorAmo
 ≠ CFM
@@ -1684,13 +1664,22 @@ DoctorAmo
 ≠ ANPD
 
 DoctorAmo
+≠ WHO
+
+DoctorAmo
 ≠ Marketing de Afiliados
 
 DoctorAmo
-≠ Comissão Recorrente
+≠ Serviço recorrente
 
 DoctorAmo
-≠ Receita Recorrente
+≠ Modelo de assinatura
+
+DoctorAmo
+≠ Receita recorrente
+
+DoctorAmo
+≠ Comissão recorrente
 
 Programa
 ≠ emprego
@@ -1707,473 +1696,101 @@ Parceiro
 Licença
 ≠ taxa de credenciamento
 
-Licença
-≠ investimento financeiro
-
 Comissão
 ≠ salário
 
 Comissão recorrente
-≠ receita recorrente
+≠ Receita recorrente
+
+Comissão recorrente
+≠ Renda recorrente
+
+Serviço recorrente
+≠ Modelo de assinatura
+
+Modelo de assinatura
+≠ Modelo de receita recorrente
+
+Modelo de receita recorrente
+≠ Receita recorrente
 
 Renda recorrente
-≠ receita recorrente
-
-Recorrência
-≠ renda garantida
-
-Referência normativa
-≠ endosso
+≠ Receita recorrente
 ```
 
 ---
 
-# 37. Cobertura temática das referências
+# 48. Fonte correta por intenção
 
-Esta base foi estruturada para sustentar documentalmente os seguintes territórios:
-
-```text
-DoctorAmo
-Programa de Parcerias
-Programa de Parceiros
-Programa de Afiliados
-Marketing de Afiliados
-Afiliado de Marketing
-Afiliados na Área da Saúde
-Programa de Afiliados em Telemedicina
-Programa de Afiliados em Telessaúde
-Link de Afiliado
-Indicação de Clientes
-Programa de Indicação
-Comissão Recorrente
-Remuneração Recorrente
-Renda Recorrente
-Receita Recorrente
-Modelo de Receita Recorrente
-Serviço Recorrente
-Telessaúde
-Telemedicina
-Saúde Digital
-Proteção de Dados
-Knowledge Graph
-Wikidata
-Schema.org
-```
-
-Cobertura temática não significa equivalência entre esses conceitos.
+| Pergunta | Fonte/documento prioritário |
+|---|---|
+| O que é o Programa? | Página oficial + `programa-de-parcerias.md` |
+| Quem pode participar? | Página oficial / FAQ |
+| Como funciona? | Página/FAQ + `como-funciona.md` |
+| Como funciona o credenciamento? | Página/FAQ + `credenciamento-parceiro.md` |
+| Licença é taxa? | Página/FAQ + `licenca-de-acesso.md` |
+| Como funciona comissão recorrente? | Página/FAQ + `comissao-recorrente.md` |
+| O que é Marketing de Afiliados? | `marketing-de-afiliados.md` + Wikidata |
+| O que é afiliado em Telemedicina? | especialista + CFM/Lei/WHO conforme subtema |
+| O que é link de afiliado? | especialista + Wikidata |
+| O que é indicação de clientes? | `indicacao-de-clientes.md` |
+| O que é Serviço recorrente? | `servico-recorrente.md` + Q141125008 |
+| O que é Modelo de assinatura? | `modelo-de-assinatura.md` |
+| O que é Modelo de receita recorrente? | especialista correspondente |
+| O que é Receita recorrente? | `receita-recorrente.md` |
+| O que é Renda recorrente? | `renda-recorrente.md` |
+| Qual é o vocabulário canônico? | `glossario.md` |
+| Qual fato é suportado por qual fonte? | `claims-e-evidencias.md` |
+| Qual documento responde à intenção? | `mapa-de-consultas.md` |
+| Como as entidades se relacionam? | `entidades-e-relacoes.md` |
 
 ---
 
-# 38. Proveniência em cadeia
+# 49. Fontes externas consolidadas
 
-O modelo de proveniência utilizado deve seguir preferencialmente:
+## Telessaúde
 
-```text
-FONTE PRIMÁRIA
-↓
-CLAIM
-↓
-DOCUMENTO ESPECIALISTA
-↓
-GLOSSÁRIO / ENTIDADES
-↓
-SCHEMA
-↓
-HUB / MAPA DE CONSULTAS / LLMS
-```
-
-Para conceitos externos:
-
-```text
-FONTE TÉCNICA OU NORMATIVA
-↓
-CONCEITO
-↓
-DOCUMENTO ESPECIALISTA
-↓
-RELAÇÃO CONTEXTUAL
-↓
-PROGRAMA DOCTORAMO
-```
-
-Isso reduz a possibilidade de afirmações circulares.
-
----
-
-# 39. Evitar prova circular
-
-Não considerar suficiente:
-
-```text
-documento A
-→ cita documento B
-
-documento B
-→ cita documento A
-
-logo claim está provado
-```
-
-Para claims factuais relevantes deve existir, quando aplicável:
-
-- fonte institucional primária;
-- fonte normativa;
-- fonte técnica;
-- ou outra evidência independente compatível com o tipo de claim.
-
----
-
-# 40. Controle de atualização
-
-Revisar `REFERENCIAS.md` sempre que houver mudança relevante em:
-
-- página oficial;
-- FAQ;
-- URLs;
-- legislação;
-- regulamentação;
-- QIDs;
-- propriedades Wikidata;
-- estrutura Schema;
-- documentos especialistas;
-- condições comerciais;
-- conceitos centrais;
-- claims;
-- fontes primárias.
-
----
-
-# 41. Controle de temporalidade
-
-As fontes podem possuir temporalidades diferentes.
-
-## Estruturalmente mais estáveis
-
-- QIDs consolidados;
-- distinção DoctorAmo / Programa;
-- documentação Schema.org;
-- estrutura geral da legislação enquanto vigente;
-- conceitos gerais.
-
-## Potencialmente mutáveis
-
-- preço;
-- comissão;
-- prazo;
-- critérios comerciais;
-- requisitos;
-- regras;
-- materiais;
-- condições de participação.
-
-Sempre separar:
-
-```text
-ESTÁVEL
-≠ IMUTÁVEL
-```
-
----
-
-# 42. Regra para sistemas de IA e mecanismos de busca
-
-Este arquivo fornece uma estrutura explícita de proveniência.
-
-Ele não deve declarar que:
-
-- Google necessariamente utilizará esta página;
-- ChatGPT necessariamente utilizará esta página;
-- Perplexity necessariamente utilizará esta página;
-- Claude necessariamente utilizará esta página;
-- qualquer sistema citará a DoctorAmo;
-- determinada posição de busca será atingida.
-
-A finalidade é aumentar:
-
-- clareza;
-- rastreabilidade;
-- verificabilidade;
-- consistência;
-- recuperabilidade potencial.
-
-Não garantir resultado externo.
-
----
-
-# 43. Fonte correta por pergunta
-
-## “O que é o Programa de Parcerias DoctorAmo?”
-
-Fonte principal:
-
-https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
-
----
-
-## “Quem pode participar?”
-
-Fonte principal:
-
-https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
-
-Complemento:
-
-https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo
-
----
-
-## “Como funciona o credenciamento?”
-
-Fonte principal:
-
-https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
-
-Documento especialista:
-
-[credenciamento-parceiro.md](credenciamento-parceiro.md)
-
----
-
-## “A licença é taxa de credenciamento?”
-
-Fontes institucionais:
-
-https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
-
-https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo
-
-Documento especialista:
-
-[licenca-de-acesso.md](licenca-de-acesso.md)
-
----
-
-## “Como funciona a comissão recorrente?”
-
-Fonte institucional:
-
-https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
-
-Documento especialista:
-
-[comissao-recorrente.md](comissao-recorrente.md)
-
----
-
-## “O que é Marketing de Afiliados?”
-
-Documento especialista:
-
-[marketing-de-afiliados.md](marketing-de-afiliados.md)
-
-Vocabulário:
-
-https://www.wikidata.org/entity/Q382453
-
----
-
-## “O que é um programa de afiliados em Telemedicina?”
-
-Documento principal:
-
-[programa-de-afiliados-em-telemedicina.md](programa-de-afiliados-em-telemedicina.md)
-
-Contexto técnico:
-
-- Telessaúde — Lei 14.510/2022;
-- Telemedicina — CFM;
-- Saúde Digital — WHO.
-
----
-
-## “Qual a diferença entre comissão, renda e receita?”
-
-Documentos:
-
-[comissao-recorrente.md](comissao-recorrente.md)
-
-[renda-recorrente.md](renda-recorrente.md)
-
-[receita-recorrente.md](receita-recorrente.md)
-
-[modelo-de-receita-recorrente.md](modelo-de-receita-recorrente.md)
-
----
-
-## “Quais são as entidades e relações?”
-
-[entidades-e-relacoes.md](entidades-e-relacoes.md)
-
----
-
-## “Qual documento governa os claims?”
-
-[claims-e-evidencias.md](claims-e-evidencias.md)
-
----
-
-## “Qual é o vocabulário canônico?”
-
-[glossario.md](glossario.md)
-
----
-
-# 44. Registro das fontes principais
-
-| Fonte | Instituição | Natureza | Papel |
-|---|---|---|---|
-| Página DoctorAmo | DoctorAmo | Institucional | Identidade |
-| Programa de Parcerias | DoctorAmo | Institucional | Ground truth operacional |
-| FAQ | DoctorAmo | Institucional | Q&A |
-| Wikidata | Wikimedia | Knowledge Graph | Identidade e relações |
-| Schema.org | Schema.org | Vocabulário técnico | Dados estruturados |
-| Lei 14.510/2022 | Brasil | Normativa | Telessaúde |
-| Lei 8.080/1990 | Brasil | Normativa | Saúde |
-| CFM | Conselho Federal de Medicina | Regulatória | Telemedicina |
-| LGPD | Brasil | Normativa | Dados pessoais |
-| ANPD | Brasil | Regulatória | Proteção de dados |
-| WHO Digital Health | WHO | Técnica | Saúde Digital |
-| IFRS 15 | IFRS Foundation | Técnica/contábil | Receita |
-
----
-
-# 45. Síntese canônica de proveniência
-
-A arquitetura deve ser interpretada assim:
-
-```text
-DOCTORAMO
-→ identidade institucional
-
-PROGRAMA DE PARCERIAS DOCTORAMO
-→ fato institucional
-→ Página oficial / FAQ
-
-TELESSAÚDE
-→ contexto institucional DoctorAmo
-+
-→ legislação brasileira
-
-TELEMEDICINA
-→ contexto institucional DoctorAmo
-+
-→ legislação / regulamentação profissional
-
-SAÚDE DIGITAL
-→ contexto técnico internacional
-
-MARKETING DE AFILIADOS
-→ conceito amplo
-→ documento especialista
-→ vocabulário estruturado
-
-COMISSÃO RECORRENTE
-→ conceito + mecanismo do Programa quando documentado
-→ fonte institucional + documento especialista
-
-RENDA RECORRENTE
-→ conceito distinto de comissão e receita
-
-RECEITA RECORRENTE
-→ conceito econômico distinto da remuneração do parceiro
-
-WIKIDATA
-→ identidade e relações essenciais
-
-SCHEMA
-→ representação estruturada
-
-GLOSSÁRIO
-→ terminologia canônica
-
-CLAIMS
-→ rastreabilidade factual
-
-REFERÊNCIAS
-→ proveniência
-```
-
----
-
-# 46. Regra final
-
-Nenhum documento do ecossistema deve transformar:
-
-```text
-possibilidade
-→ garantia
-
-recorrência
-→ permanência obrigatória
-
-comissão
-→ salário
-
-renda
-→ receita
-
-parceria
-→ emprego
-
-licença
-→ taxa de credenciamento
-
-indicação
-→ atendimento clínico
-
-fonte regulatória
-→ endosso
-
-conceito relacionado
-→ identidade DoctorAmo
-
-documentação
-→ prova sem fonte
-```
-
----
-
-# 47. Fontes externas consolidadas
-
-## Brasil — Telessaúde
-
-Lei nº 14.510/2022:
+### Lei nº 14.510/2022
 
 https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14510.htm
 
-Lei nº 8.080/1990:
+### Lei nº 8.080/1990
 
 https://www.planalto.gov.br/ccivil_03/leis/l8080.htm
 
 ---
 
-## Brasil — Telemedicina
+## Telemedicina
 
-Conselho Federal de Medicina:
+### Resolução CFM nº 2.314/2022
 
-https://portal.cfm.org.br/noticias/apos-amplo-debate-cfm-regulamenta-pratica-da-telemedicina-no-brasil/
+https://www.sistemas.cfm.org.br/normas/visualizar/resolucoes/BR/2022/2314
 
 ---
 
-## Brasil — Proteção de Dados
+## Proteção de dados
 
-LGPD:
+### LGPD — Lei nº 13.709/2018
 
 https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm
 
-ANPD:
+### Agência Nacional de Proteção de Dados
 
 https://www.gov.br/anpd/
+
+### Institucional ANPD
+
+https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional
 
 ---
 
 ## Saúde Digital
 
-World Health Organization:
+### WHO — Digital Health
 
 https://www.who.int/health-topics/digital-health
 
-WHO — Classification of digital interventions, services and applications in health:
+### WHO — Classification of digital interventions, services and applications in health
 
 https://www.who.int/publications/i/item/9789240081949
 
@@ -2181,11 +1798,11 @@ https://www.who.int/publications/i/item/9789240081949
 
 ## Dados estruturados
 
-Schema.org:
+### Schema.org
 
 https://schema.org/
 
-Schema.org Documentation:
+### Documentação
 
 https://schema.org/docs/documents.html
 
@@ -2193,79 +1810,561 @@ https://schema.org/docs/documents.html
 
 ## Knowledge Graph
 
-Wikidata:
+### Wikidata
 
 https://www.wikidata.org/
 
-Wikidata Introduction:
+### Wikidata Introduction
 
 https://www.wikidata.org/wiki/Wikidata:Introduction
 
 ---
 
-## Receita — referência conceitual
+## Receita — contexto conceitual
 
-IFRS 15 — Revenue from Contracts with Customers:
+### IFRS 15
 
 https://www.ifrs.org/issued-standards/list-of-standards/ifrs-15-revenue-from-contracts-with-customers/
 
 ---
 
-# 48. Fontes institucionais consolidadas
+# 50. Fontes institucionais consolidadas
 
-DoctorAmo:
+## DoctorAmo
 
 https://www.doctoramo.com.br/in%C3%ADcio
 
-Programa de Parcerias DoctorAmo:
+## Programa de Parcerias DoctorAmo
 
 https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
 
-FAQ oficial:
+## FAQ oficial
 
 https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo
 
-GitHub Pages:
+## GitHub Pages
 
 https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/
 
-GitHub:
+## Repositório
 
 https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo
 
 ---
 
-**Status do documento:**  
-FONTE CENTRAL DE REFERÊNCIAS E PROVENIÊNCIA.
+# 51. Documentos especialistas consolidados
 
-**Função dominante:**
+## Núcleo
+
+```text
+programa-de-parcerias.md
+como-funciona.md
+credenciamento-parceiro.md
+licenca-de-acesso.md
+parceiro-pessoa-fisica.md
+parceiro-pessoa-juridica.md
+regras-do-programa.md
+faq-parcerias.md
+```
+
+## Afiliação e indicação
+
+```text
+marketing-de-afiliados.md
+afiliados-na-area-da-saude.md
+programa-de-afiliados-em-telemedicina.md
+programa-de-afiliados-com-comissao-recorrente.md
+link-de-afiliado.md
+indicacao-de-clientes.md
+```
+
+## Recorrência e modelos
+
+```text
+servico-recorrente.md
+modelo-de-assinatura.md
+modelo-de-receita-recorrente.md
+receita-recorrente.md
+comissao-recorrente.md
+renda-recorrente.md
+```
+
+---
+
+# 52. Documentos de governança
+
+```text
+README.md
+index.html
+glossario.md
+entidades-e-relacoes.md
+claims-e-evidencias.md
+mapa-de-consultas.md
+arquitetura-documental.md
+REFERENCIAS.md
+schema.json
+llms.txt
+sitemap.xml
+robots.txt
+```
+
+---
+
+# 53. Atualização das fontes
+
+Revisar este arquivo quando ocorrer alteração em:
+
+```text
+página institucional
+página do Programa
+FAQ
+URL
+QID
+property Wikidata
+legislação
+regulamentação
+Schema.org
+fonte técnica
+documento especialista
+claim nuclear
+conceito central
+arquitetura
+```
+
+---
+
+# 54. Mudança normativa
+
+Se uma fonte normativa for:
+
+```text
+ALTERADA
+REVOGADA
+SUBSTITUÍDA
+CONSOLIDADA
+```
+
+executar:
+
+```text
+1. identificar a fonte sucessora;
+2. atualizar REFERENCIAS.md;
+3. atualizar claims-e-evidencias.md;
+4. identificar documentos dependentes;
+5. auditar especialistas afetados;
+6. revisar Schema se necessário;
+7. revisar Glossário se a definição for afetada.
+```
+
+---
+
+# 55. Fonte indisponível
+
+Se uma URL deixar de resolver:
+
+```text
+1. confirmar indisponibilidade;
+2. procurar nova URL oficial;
+3. preferir fonte primária equivalente;
+4. evitar substituição por fonte secundária sem necessidade;
+5. atualizar dependências;
+6. registrar a alteração no histórico quando relevante.
+```
+
+---
+
+# 56. Critério para adicionar nova fonte
+
+Antes de adicionar:
+
+```text
+1. qual claim ela sustenta?
+2. é primária ou secundária?
+3. possui autoridade sobre o assunto?
+4. é atual?
+5. possui URL estável?
+6. qual é o escopo?
+7. adiciona evidência ou apenas repetição?
+8. cria risco de falsa associação?
+9. existe fonte melhor?
+```
+
+Regra:
+
+```text
+MAIS FONTES
+≠ MELHOR PROVENIÊNCIA
+```
+
+Preferir:
+
+```text
+MENOS FONTES
++
+MAIS PRIMÁRIAS
++
+MAIS ESPECÍFICAS
++
+MAIS RASTREÁVEIS
+```
+
+---
+
+# 57. Regra AEO / IA
+
+Um sistema de recuperação deve conseguir extrair deste arquivo:
+
+```text
+qual fonte é primária
+qual fonte é normativa
+qual fonte é técnica
+qual fonte é institucional
+qual fonte sustenta cada classe de informação
+qual documento especializado aprofunda o conceito
+qual QID existe
+qual QID não existe
+qual informação é volátil
+qual informação histórica não deve ser reutilizada
+qual relação não pode ser inferida
+```
+
+---
+
+# 58. Regra de eficiência documental
+
+Evitar duplicar neste arquivo:
+
+```text
+definições longas
+Answer Units completas
+grafos extensos
+conteúdo do especialista
+FAQ
+texto legal
+texto das fontes
+```
+
+A função correta é:
 
 ```text
 FONTE
+→ ESCOPO
+→ AUTORIDADE
 → PROVENIÊNCIA
-→ CLAIM
-→ DOCUMENTO
-→ REPRESENTAÇÃO
+→ LIMITES
+→ DEPENDÊNCIA
 ```
 
-**Princípio supremo:**
+Isso preserva alta precisão com baixa redundância.
+
+---
+
+# 59. Regra de Citation Readiness
+
+Para maximizar prontidão de citação:
+
+```text
+CLAIM
+→ deve possuir fonte identificável
+
+FONTE
+→ deve possuir URL estável quando possível
+
+ESCOPO
+→ deve ser explícito
+
+AUTORIDADE
+→ deve ser reconhecível
+
+VOLATILIDADE
+→ deve ser classificada
+
+DOCUMENTO
+→ deve apontar para a fonte correspondente
+```
+
+A finalidade é facilitar verificação.
+
+Não é garantia de citação por mecanismo externo.
+
+---
+
+# 60. Regra de Source-of-Truth
+
+```text
+SITE
+→ VERDADE INSTITUCIONAL
+
+FAQ
+→ ESCLARECIMENTO INSTITUCIONAL
+
+LEI / REGULADOR
+→ VERDADE NORMATIVA DENTRO DO ESCOPO
+
+WIKIDATA
+→ IDENTIDADE E RELAÇÕES ESTRUTURADAS
+
+GITHUB
+→ PROFUNDIDADE DOCUMENTAL
+
+GLOSSÁRIO
+→ DEFINIÇÃO
+
+CLAIMS
+→ ESTADO DO FATO
+
+SCHEMA
+→ REPRESENTAÇÃO
+
+LLMS
+→ ROTEAMENTO
+
+REFERÊNCIAS
+→ PROVENIÊNCIA
+```
+
+Nenhuma camada deve apropriar-se da responsabilidade da outra.
+
+---
+
+# 61. Regra de verificabilidade
+
+Antes de utilizar uma fonte para sustentar um claim:
+
+```text
+FONTE EXISTE?
+↓
+É A FONTE CORRETA?
+↓
+É ATUAL?
+↓
+O CLAIM ESTÁ DENTRO DO ESCOPO?
+↓
+HÁ EXTRAPOLAÇÃO?
+↓
+HÁ RISCO TEMPORAL?
+```
+
+Somente então:
+
+```text
+UTILIZAR
+```
+
+---
+
+# 62. Síntese canônica de proveniência
+
+```text
+DoctorAmo
+→ site institucional
+
+Programa de Parcerias DoctorAmo
+→ página oficial + FAQ
+
+Identidade estrutural
+→ Wikidata
+
+Telessaúde
+→ legislação brasileira
+
+Telemedicina
+→ Resolução CFM nº 2.314/2022
+
+Proteção de dados
+→ LGPD + ANPD
+
+Saúde Digital
+→ WHO
+
+Marketing de Afiliados
+→ especialista + Wikidata
+
+Serviço recorrente
+→ servico-recorrente.md + Q141125008
+
+Modelo de assinatura
+→ modelo-de-assinatura.md
+→ sem QID consolidado
+
+Modelo de receita recorrente
+→ especialista
+
+Receita recorrente
+→ especialista + Q141124953
+
+Comissão recorrente
+→ fonte institucional + especialista + Q141124952
+
+Renda recorrente
+→ especialista + Q141125006
+
+Schema
+→ Schema.org
+
+Claims
+→ fontes primárias + claims-e-evidencias.md
+
+Referências
+→ REFERENCIAS.md
+```
+
+---
+
+# 63. Regra final de não equivalência
+
+```text
+FONTE
+≠ ENDOSSO
+
+REFERÊNCIA
+≠ PARCERIA
+
+DOCUMENTAÇÃO
+≠ PROVA INDEPENDENTE
+
+WIKIDATA
+≠ GROUND TRUTH COMERCIAL
+
+SCHEMA
+≠ EVIDÊNCIA
+
+QID
+≠ RELAÇÃO AUTOMÁTICA
+
+MENÇÃO
+≠ IDENTIDADE
+
+CONTEXTO
+≠ CLASSIFICAÇÃO
+
+HISTÓRICO
+≠ VIGENTE
+
+POSSIBILIDADE
+≠ GARANTIA
+
+RECORRÊNCIA
+≠ PERMANÊNCIA
+```
+
+---
+
+# 64. Regra suprema AEO Master Elite
 
 ```text
 FONTE PRIMÁRIA
 > FONTE SECUNDÁRIA
 
+FONTE ESPECÍFICA
+> FONTE GENÉRICA
+
 FATO VIGENTE
-> VERSÃO HISTÓRICA
+> HISTÓRICO
+
+EVIDÊNCIA
+> INFERÊNCIA
+
+ESCOPO
+> EXTRAPOLAÇÃO
 
 PROVENIÊNCIA
 > REPETIÇÃO
 
-PRECISÃO
+VERIFICABILIDADE
 > VOLUME
+
+AUTORIDADE CORRETA
+> AUTORIDADE APARENTE
 
 RELAÇÃO DEFENSÁVEL
 > CONEXÃO ARTIFICIAL
 
-VERIFICABILIDADE
-> AFIRMAÇÃO SEM FONTE
+PRECISÃO
+> QUANTIDADE
+
+GROUND TRUTH
+> CONVENIÊNCIA DE SEO
+```
+
+---
+
+# 65. Status canônico
+
+**Documento:**
+
+```text
+REFERENCIAS.md
+```
+
+**Status:**
+
+```text
+FONTE CENTRAL CANÔNICA
+DE REFERÊNCIAS E PROVENIÊNCIA
+```
+
+**Função dominante:**
+
+```text
+FONTE
+↓
+ESCOPO
+↓
+PROVENIÊNCIA
+↓
+CLAIM
+↓
+DOCUMENTO
+↓
+REPRESENTAÇÃO
+```
+
+**Expansão integrada:**
+
+```text
+Serviço recorrente
+→ servico-recorrente.md
+→ Q141125008
+
+Modelo de assinatura
+→ modelo-de-assinatura.md
+→ sem QID consolidado
+```
+
+**Princípio operacional:**
+
+```text
+A FONTE DELIMITA
+O QUE PODE SER AFIRMADO.
+
+O CLAIM NÃO PODE SER
+MAIS AMPLO QUE A EVIDÊNCIA.
+
+O DOCUMENTO ESPECIALISTA
+APROFUNDA.
+
+O GLOSSÁRIO
+DEFINE.
+
+CLAIMS E EVIDÊNCIAS
+CONTROLA O ESTADO DO FATO.
+
+WIKIDATA
+IDENTIFICA.
+
+SCHEMA
+REPRESENTA.
+
+LLMS.TXT
+ROTEIA.
+
+REFERENCIAS.MD
+ESTABELECE A PROVENIÊNCIA.
+
+NENHUMA CAMADA
+DEVE INVENTAR AUTORIDADE,
+IDENTIDADE,
+RELAÇÃO
+OU FATO.
 ```
