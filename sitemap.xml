@@ -83,8 +83,16 @@
 
 
   <!-- =========================================================
-       RECORRÊNCIA E REMUNERAÇÃO
+       RECORRÊNCIA, REMUNERAÇÃO E MODELOS
        ========================================================= -->
+
+  <url>
+    <loc>https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/servico-recorrente</loc>
+  </url>
+
+  <url>
+    <loc>https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/modelo-de-assinatura</loc>
+  </url>
 
   <url>
     <loc>https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/comissao-recorrente</loc>
