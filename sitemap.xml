@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <!-- =========================================================
+       PROGRAMA DE PARCERIAS DOCTORAMO
+       Sitemap público canônico do GitHub Pages
+       ========================================================= -->
+
+
+  <!-- =========================================================
        HUB PRINCIPAL
        ========================================================= -->
 
@@ -74,7 +80,7 @@
 
 
   <!-- =========================================================
-       INDICAÇÃO
+       INDICAÇÃO E ATRIBUIÇÃO
        ========================================================= -->
 
   <url>
@@ -95,6 +101,14 @@
   </url>
 
   <url>
+    <loc>https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/modelo-de-receita-recorrente</loc>
+  </url>
+
+  <url>
+    <loc>https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/receita-recorrente</loc>
+  </url>
+
+  <url>
     <loc>https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/comissao-recorrente</loc>
   </url>
 
@@ -104,14 +118,6 @@
 
   <url>
     <loc>https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/renda-recorrente</loc>
-  </url>
-
-  <url>
-    <loc>https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/receita-recorrente</loc>
-  </url>
-
-  <url>
-    <loc>https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/modelo-de-receita-recorrente</loc>
   </url>
 
 
