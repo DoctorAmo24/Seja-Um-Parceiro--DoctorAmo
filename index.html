@@ -13,7 +13,7 @@
 
   <meta
     name="description"
-    content="Hub documental público do Programa de Parcerias DoctorAmo: programa institucional, credenciamento, participantes, Marketing de Afiliados, Telemedicina, link de afiliado, indicação, comissão recorrente, renda recorrente, receita recorrente e governança semântica."
+    content="Hub documental público do Programa de Parcerias DoctorAmo: funcionamento, credenciamento, afiliados, Telemedicina, indicação, link de afiliado, comissão recorrente, renda recorrente, receita recorrente, serviço recorrente, modelo de assinatura e governança semântica."
   >
 
   <meta
@@ -53,7 +53,7 @@
 
   <meta
     property="og:description"
-    content="Documentação pública complementar sobre o Programa de Parcerias DoctorAmo, seus participantes, funcionamento, afiliação, indicação, recorrência e arquitetura semântica."
+    content="Documentação pública complementar sobre o Programa de Parcerias DoctorAmo, afiliação, indicação, recorrência, modelos relacionados e governança semântica."
   >
 
   <meta
@@ -81,10 +81,15 @@
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Country",
+        "@id": "https://www.doctoramo.com.br/#brasil",
+        "name": "Brasil"
+      },
+      {
         "@type": "Organization",
         "@id": "https://www.doctoramo.com.br/#organization",
         "name": "DoctorAmo",
-        "url": "https://www.doctoramo.com.br/",
+        "url": "https://www.doctoramo.com.br/in%C3%ADcio",
         "identifier": {
           "@type": "PropertyValue",
           "propertyID": "Wikidata",
@@ -96,8 +101,7 @@
           "https://github.com/DoctorAmo24"
         ],
         "areaServed": {
-          "@type": "Country",
-          "name": "Brasil"
+          "@id": "https://www.doctoramo.com.br/#brasil"
         }
       },
       {
@@ -113,25 +117,24 @@
         },
         "sameAs": "https://www.wikidata.org/entity/Q141152387",
         "additionalType": "https://www.wikidata.org/entity/Q141124951",
-        "serviceType": "Programa de parceria, afiliação, divulgação e indicação de serviços relacionados à Telessaúde e Telemedicina",
+        "serviceType": "Programa institucional de parceria, afiliação, divulgação e indicação de serviços relacionados à Telessaúde e Telemedicina",
         "provider": {
           "@id": "https://www.doctoramo.com.br/#organization"
         },
         "areaServed": {
-          "@type": "Country",
-          "name": "Brasil"
+          "@id": "https://www.doctoramo.com.br/#brasil"
         }
       },
       {
         "@type": [
-          "WebPage",
-          "CollectionPage"
+          "CollectionPage",
+          "WebPage"
         ],
         "@id": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/#webpage",
         "url": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/",
         "name": "Programa de Parcerias DoctorAmo — Hub Documental",
         "headline": "Programa de Parcerias DoctorAmo",
-        "description": "Hub documental público complementar que organiza os documentos especializados e a governança semântica relacionados ao Programa de Parcerias DoctorAmo.",
+        "description": "Hub documental público complementar que organiza documentos institucionais, especialistas e de governança relacionados ao Programa de Parcerias DoctorAmo.",
         "inLanguage": "pt-BR",
         "about": {
           "@id": "https://www.doctoramo.com.br/#programa-parcerias"
@@ -149,6 +152,82 @@
         "significantLink": [
           "https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo",
           "https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo"
+        ],
+        "hasPart": {
+          "@id": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/#documentos"
+        }
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/#documentos",
+        "name": "Documentos especializados do Programa de Parcerias DoctorAmo",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Programa de Parcerias DoctorAmo",
+            "url": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/programa-de-parcerias"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Marketing de Afiliados",
+            "url": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/marketing-de-afiliados"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Programa de Afiliados em Telemedicina",
+            "url": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/programa-de-afiliados-em-telemedicina"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Comissão Recorrente",
+            "url": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/comissao-recorrente"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Serviço Recorrente",
+            "url": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/servico-recorrente"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Modelo de Assinatura",
+            "url": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/modelo-de-assinatura"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Modelo de Receita Recorrente",
+            "url": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/modelo-de-receita-recorrente"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "Receita Recorrente",
+            "url": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/receita-recorrente"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "Renda Recorrente",
+            "url": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/renda-recorrente"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Link de Afiliado",
+            "url": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/link-de-afiliado"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Indicação de Clientes",
+            "url": "https://doctoramo24.github.io/Seja-Um-Parceiro--DoctorAmo/indicacao-de-clientes"
+          }
         ]
       }
     ]
@@ -221,7 +300,7 @@
     }
 
     .subtitle {
-      max-width: 820px;
+      max-width: 840px;
       margin: 0 auto 30px;
       text-align: center;
       font-size: 1.08rem;
@@ -358,7 +437,9 @@
       <p class="subtitle">
         Hub documental público complementar sobre o programa institucional
         da DoctorAmo para parceria, afiliação, divulgação e indicação de
-        serviços relacionados à <strong>Telessaúde e Telemedicina</strong>.
+        serviços relacionados à <strong>Telessaúde e Telemedicina</strong>,
+        com documentos especializados sobre afiliação, indicação,
+        recorrência, remuneração e modelos relacionados.
       </p>
     </header>
 
@@ -366,9 +447,9 @@
       <h2 id="fonte-principal">Fonte institucional e função deste hub</h2>
 
       <p>
-        Esta página organiza a documentação pública disponível neste
-        repositório. Ela não substitui a página institucional da DoctorAmo
-        nem o FAQ oficial.
+        Esta página organiza e direciona para a documentação pública
+        especializada deste repositório. Ela não substitui a página
+        institucional da DoctorAmo nem o FAQ oficial.
       </p>
 
       <div class="source-box">
@@ -408,7 +489,7 @@
 
       <div class="notice">
         <strong>Regra de atualização:</strong>
-        preço, percentuais, prazo, requisitos e demais condições comerciais
+        preços, percentuais, prazos, requisitos e demais condições comerciais
         ou operacionais variáveis devem ser confirmados nas fontes
         institucionais vigentes.
       </div>
@@ -426,13 +507,14 @@
 
       <p>
         Pessoas Físicas e Pessoas Jurídicas podem solicitar participação,
-        conforme as regras e condições vigentes.
+        conforme critérios, regras e condições vigentes.
       </p>
 
       <p>
-        O parceiro atua principalmente na <strong>divulgação e indicação</strong>.
-        A participação no Programa não atribui ao parceiro função clínica ou
-        assistencial.
+        O parceiro atua principalmente na
+        <strong>divulgação e indicação</strong>.
+        A participação no Programa não atribui ao parceiro função clínica,
+        assistencial ou profissional de saúde.
       </p>
 
       <div class="flow">
@@ -441,12 +523,12 @@
 → Programa de Parcerias DoctorAmo
 
 Programa
-→ parceiro
-→ divulgação
-→ indicação
-→ atribuição e validação
+→ participante
+→ divulgação / indicação
+→ identificação e validação
 → cliente indicado
 → cliente ativo possível
+→ continuidade possível
 → comissão recorrente possível</pre>
       </div>
     </section>
@@ -455,8 +537,8 @@ Programa
       <h2 id="navegacao-intencao">Encontre o documento pela sua intenção</h2>
 
       <p>
-        Cada documento possui uma responsabilidade principal. Escolha o tema
-        que corresponde à informação procurada.
+        Cada documento possui uma responsabilidade principal.
+        Escolha o tema correspondente à informação procurada.
       </p>
 
       <div class="nav-grid">
@@ -492,6 +574,12 @@ Programa
             <li>
               <a href="regras-do-programa.md">
                 Regras e limites do Programa
+              </a>
+            </li>
+
+            <li>
+              <a href="faq-parcerias.md">
+                FAQ documental do Programa
               </a>
             </li>
           </ul>
@@ -563,9 +651,33 @@ Programa
         </article>
 
         <article class="card">
-          <h3>Recorrência</h3>
+          <h3>Recorrência e modelos</h3>
 
           <ul>
+            <li>
+              <a href="servico-recorrente.md">
+                Serviço recorrente
+              </a>
+            </li>
+
+            <li>
+              <a href="modelo-de-assinatura.md">
+                Modelo de assinatura
+              </a>
+            </li>
+
+            <li>
+              <a href="modelo-de-receita-recorrente.md">
+                Modelo de receita recorrente
+              </a>
+            </li>
+
+            <li>
+              <a href="receita-recorrente.md">
+                Receita recorrente
+              </a>
+            </li>
+
             <li>
               <a href="comissao-recorrente.md">
                 Comissão recorrente
@@ -581,18 +693,6 @@ Programa
             <li>
               <a href="renda-recorrente.md">
                 Renda recorrente
-              </a>
-            </li>
-
-            <li>
-              <a href="receita-recorrente.md">
-                Receita recorrente
-              </a>
-            </li>
-
-            <li>
-              <a href="modelo-de-receita-recorrente.md">
-                Modelo de receita recorrente
               </a>
             </li>
           </ul>
@@ -634,7 +734,7 @@ Programa
 
             <li>
               <a href="REFERENCIAS.md">
-                Referências
+                Referências, fontes e proveniência
               </a>
             </li>
           </ul>
@@ -652,7 +752,8 @@ Programa
           <h3>Núcleo Institucional</h3>
 
           <p>
-            Identidade do Programa, funcionamento, entrada, licença e regras.
+            Identidade do Programa, funcionamento, ingresso, licença,
+            regras e FAQ documental.
           </p>
         </article>
 
@@ -668,7 +769,8 @@ Programa
           <h3>Afiliação</h3>
 
           <p>
-            Marketing de Afiliados, saúde, Telemedicina e link de afiliado.
+            Marketing de Afiliados, afiliação na saúde, Telemedicina
+            e mecanismos de atribuição.
           </p>
         </article>
 
@@ -681,11 +783,11 @@ Programa
         </article>
 
         <article class="card">
-          <h3>Recorrência</h3>
+          <h3>Recorrência e Modelos</h3>
 
           <p>
-            Comissão recorrente, renda recorrente, receita recorrente e
-            modelos econômicos relacionados.
+            Serviço recorrente, modelo de assinatura, modelo de receita,
+            receita recorrente, comissão recorrente e renda recorrente.
           </p>
         </article>
 
@@ -693,8 +795,8 @@ Programa
           <h3>Governança Semântica</h3>
 
           <p>
-            Definições, relações, evidências, fontes, arquitetura e
-            roteamento de consultas.
+            Definições, relações, claims, evidências, fontes,
+            arquitetura e roteamento de consultas.
           </p>
         </article>
 
@@ -720,16 +822,56 @@ Programa
 
       <p>
         Essa relação representa contexto e especialização.
-        Os elementos não devem ser tratados como sinônimos absolutos.
+        Os elementos não devem ser tratados como sinônimos ou
+        entidades equivalentes.
       </p>
     </section>
 
     <section aria-labelledby="recorrencia">
-      <h2 id="recorrencia">Comissão, renda e receita recorrente</h2>
+      <h2 id="recorrencia">Recorrência, serviço, assinatura, receita, comissão e renda</h2>
 
       <p>
-        O repositório mantém esses conceitos em documentos distintos para
-        impedir ambiguidades.
+        O repositório mantém autoridades documentais diferentes para conceitos
+        próximos que exercem funções distintas.
+      </p>
+
+      <div class="flow">
+        <pre>RECORRÊNCIA
+│
+├── Serviço recorrente
+│   → continuidade da prestação ou acesso
+│
+├── Modelo de assinatura
+│   → estrutura de contratação ou acesso
+│
+├── Modelo de receita recorrente
+│   → estrutura econômica
+│
+├── Receita recorrente
+│   → entradas econômicas
+│
+├── Comissão recorrente
+│   → remuneração
+│
+└── Renda recorrente
+    → recebimentos do participante</pre>
+      </div>
+
+      <p>
+        <strong>Serviço recorrente</strong> descreve a continuidade da
+        prestação ou do acesso.
+        <strong>Modelo de assinatura</strong> descreve uma estrutura possível
+        de contratação ou acesso.
+        <strong>Modelo de receita recorrente</strong> descreve uma estrutura
+        econômica.
+        <strong>Receita recorrente</strong> refere-se às entradas econômicas.
+        <strong>Comissão recorrente</strong> refere-se à remuneração.
+        <strong>Renda recorrente</strong> refere-se aos recebimentos sob a
+        perspectiva do participante.
+      </p>
+
+      <p>
+        Esses conceitos podem relacionar-se, mas não são sinônimos.
       </p>
 
       <div class="flow">
@@ -737,24 +879,106 @@ Programa
 + condições aplicáveis
 → Comissão recorrente possível
 → pode contribuir para
-→ Renda recorrente
-
-Modelo de Receita Recorrente
-→ pode gerar
-→ Receita Recorrente</pre>
+→ Renda recorrente</pre>
       </div>
 
       <p>
-        <strong>Comissão recorrente</strong> representa remuneração do
-        participante. <strong>Renda recorrente</strong> representa a
-        perspectiva dos recebimentos do participante.
-        <strong>Receita recorrente</strong> é um conceito econômico diferente.
+        Recorrência não constitui garantia de vendas, permanência,
+        comissão ou renda.
       </p>
+    </section>
 
-      <p>
-        Recorrência não constitui garantia de vendas, permanência, comissão
-        ou renda.
-      </p>
+    <section aria-labelledby="especialistas-recorrencia">
+      <h2 id="especialistas-recorrencia">Autoridades documentais de recorrência</h2>
+
+      <div class="nav-grid">
+
+        <article class="card">
+          <h3>Serviço recorrente</h3>
+
+          <p>
+            Autoridade para continuidade de prestação ou acesso.
+          </p>
+
+          <p>
+            <a href="servico-recorrente.md">
+              Consultar Serviço recorrente
+            </a>
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Modelo de assinatura</h3>
+
+          <p>
+            Autoridade para estrutura de contratação ou acesso.
+          </p>
+
+          <p>
+            <a href="modelo-de-assinatura.md">
+              Consultar Modelo de assinatura
+            </a>
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Modelo de receita recorrente</h3>
+
+          <p>
+            Autoridade para a estrutura econômica de recorrência.
+          </p>
+
+          <p>
+            <a href="modelo-de-receita-recorrente.md">
+              Consultar Modelo de receita recorrente
+            </a>
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Receita recorrente</h3>
+
+          <p>
+            Autoridade para o conceito econômico de receita recorrente.
+          </p>
+
+          <p>
+            <a href="receita-recorrente.md">
+              Consultar Receita recorrente
+            </a>
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Comissão recorrente</h3>
+
+          <p>
+            Autoridade para remuneração recorrente.
+          </p>
+
+          <p>
+            <a href="comissao-recorrente.md">
+              Consultar Comissão recorrente
+            </a>
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Renda recorrente</h3>
+
+          <p>
+            Autoridade para recebimentos recorrentes sob a perspectiva
+            do participante.
+          </p>
+
+          <p>
+            <a href="renda-recorrente.md">
+              Consultar Renda recorrente
+            </a>
+          </p>
+        </article>
+
+      </div>
     </section>
 
     <section aria-labelledby="link-indicacao">
@@ -770,19 +994,22 @@ Modelo de Receita Recorrente
 → mecanismo de identificação e atribuição
 
 Indicação
-→ evento
+→ evento/processo
+
+Identificação
+→ reconhece a origem
 
 Atribuição
-→ identifica origem
+→ associa a origem
 
 Validação
-→ verifica elegibilidade
+→ verifica condições aplicáveis
 
 Cliente indicado
-→ origem atribuída
+→ possui origem atribuída
 
 Cliente ativo
-→ estado válido da relação</pre>
+→ representa estado posterior possível</pre>
       </div>
     </section>
 
@@ -791,7 +1018,8 @@ Cliente ativo
 
       <p>
         Além dos documentos temáticos, o repositório possui uma camada
-        específica destinada à organização e auditabilidade da informação.
+        específica para organizar autoridade, relações, evidências,
+        fontes e recuperação.
       </p>
 
       <div class="nav-grid">
@@ -800,8 +1028,8 @@ Cliente ativo
           <h3>Entidades e Relações</h3>
 
           <p>
-            Define quem é quem, quais relações são válidas e quais relações
-            não devem ser inferidas.
+            Define quem é quem, quais relações são válidas e quais
+            relações não devem ser inferidas.
           </p>
 
           <p>
@@ -815,7 +1043,8 @@ Cliente ativo
           <h3>Claims e Evidências</h3>
 
           <p>
-            Registra fatos, fontes, temporalidade e risco de desatualização.
+            Registra status, fonte, escopo, temporalidade e risco de
+            desatualização dos claims.
           </p>
 
           <p>
@@ -829,8 +1058,7 @@ Cliente ativo
           <h3>Mapa de Consultas</h3>
 
           <p>
-            Define qual documento é a autoridade principal para cada
-            intenção.
+            Determina qual documento deve responder primeiro a cada intenção.
           </p>
 
           <p>
@@ -844,12 +1072,42 @@ Cliente ativo
           <h3>Arquitetura Documental</h3>
 
           <p>
-            Define a responsabilidade de cada camada e de cada documento.
+            Define responsabilidades, fronteiras e dependências de cada
+            camada e documento.
           </p>
 
           <p>
             <a href="arquitetura-documental.md">
               Acessar arquitetura documental
+            </a>
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Glossário</h3>
+
+          <p>
+            Define e desambigua termos canônicos e encaminha para
+            especialistas.
+          </p>
+
+          <p>
+            <a href="glossario.md">
+              Acessar glossário
+            </a>
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Referências e Proveniência</h3>
+
+          <p>
+            Identifica fontes, autoridade, escopo e proveniência.
+          </p>
+
+          <p>
+            <a href="REFERENCIAS.md">
+              Acessar referências
             </a>
           </p>
         </article>
@@ -863,25 +1121,23 @@ Cliente ativo
       <ul>
         <li>
           <strong>DoctorAmo:</strong>
-          Wikidata
           <a
             href="https://www.wikidata.org/entity/Q141152382"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Q141152382
+            Wikidata Q141152382
           </a>
         </li>
 
         <li>
           <strong>Programa de Parcerias DoctorAmo:</strong>
-          Wikidata
           <a
             href="https://www.wikidata.org/entity/Q141152387"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Q141152387
+            Wikidata Q141152387
           </a>
         </li>
 
@@ -891,8 +1147,38 @@ Cliente ativo
         </li>
 
         <li>
+          <strong>Marketing de Afiliados:</strong>
+          Q382453
+        </li>
+
+        <li>
           <strong>Link de afiliado:</strong>
           Q141125007
+        </li>
+
+        <li>
+          <strong>Comissão recorrente:</strong>
+          Q141124952
+        </li>
+
+        <li>
+          <strong>Receita recorrente:</strong>
+          Q141124953
+        </li>
+
+        <li>
+          <strong>Renda recorrente:</strong>
+          Q141125006
+        </li>
+
+        <li>
+          <strong>Serviço recorrente:</strong>
+          Q141125008
+        </li>
+
+        <li>
+          <strong>Modelo de assinatura:</strong>
+          sem QID específico consolidado nesta arquitetura
         </li>
 
         <li>
@@ -911,18 +1197,19 @@ Cliente ativo
         </li>
       </ul>
 
-      <p>
-        Conceitos complementares documentados no repositório não devem ser
-        conectados diretamente à DoctorAmo no Wikidata apenas para ampliar
-        artificialmente o grafo.
-      </p>
+      <div class="notice">
+        <strong>Higiene do Knowledge Graph:</strong>
+        a existência de um conceito, documento ou QID não autoriza sua
+        conexão direta à DoctorAmo no Wikidata. Relações devem permanecer
+        semanticamente defensáveis.
+      </div>
     </section>
 
     <section aria-labelledby="fontes">
       <h2 id="fontes">Fontes, evidências e atualidade</h2>
 
       <p>
-        Para conhecer as fontes institucionais, técnicas, normativas e
+        Para identificar as fontes institucionais, técnicas, normativas e
         documentais utilizadas:
       </p>
 
@@ -933,8 +1220,8 @@ Cliente ativo
       </p>
 
       <p>
-        Para verificar se uma afirmação é estrutural, variável, histórica ou
-        sujeita a atualização:
+        Para verificar status, fonte, escopo, temporalidade e risco de
+        desatualização de uma afirmação:
       </p>
 
       <p>
@@ -945,10 +1232,9 @@ Cliente ativo
 
       <div class="notice">
         <strong>Importante:</strong>
-        versões históricas não devem prevalecer sobre a fonte institucional
-        atual. Percentuais de comissão, preços e outras condições comerciais
-        não devem ser recuperados de versões antigas como se fossem condições
-        atuais.
+        versões históricas não prevalecem sobre a fonte institucional atual.
+        Preços, percentuais de comissão, prazos e demais condições variáveis
+        não devem ser recuperados de versões antigas como se fossem vigentes.
       </div>
     </section>
 
@@ -957,28 +1243,46 @@ Cliente ativo
 
       <div class="flow">
         <pre>Site oficial
-→ fatos institucionais e condições atuais
+→ verdade institucional vigente
 
 FAQ oficial
-→ perguntas e respostas
+→ perguntas e respostas institucionais
 
 Wikidata
 → identidade e relações essenciais
 
 GitHub
-→ aprofundamento documental
+→ expansão documental e semântica
+
+Documentos especialistas
+→ autoridade temática por intenção
 
 Glossário
-→ definições canônicas
+→ definição e desambiguação
+
+Entidades e Relações
+→ grafo documental
+
+Claims e Evidências
+→ estado factual e temporalidade
+
+Mapa de Consultas
+→ roteamento por intenção
+
+Arquitetura Documental
+→ responsabilidades das camadas
+
+REFERENCIAS.md
+→ fontes e proveniência
 
 Schema
 → representação estruturada
 
 llms.txt
-→ orientação complementar de recuperação
+→ roteamento complementar para IA
 
-REFERENCIAS.md
-→ fontes e proveniência</pre>
+Sitemap
+→ descoberta de URLs</pre>
       </div>
     </section>
 
@@ -986,18 +1290,22 @@ REFERENCIAS.md
       <h2 id="precisao">Princípios de precisão semântica</h2>
 
       <ul>
-        <li>DoctorAmo não é sinônimo do Programa de Parcerias.</li>
+        <li>DoctorAmo não é sinônimo do Programa de Parcerias DoctorAmo.</li>
         <li>Programa de Parcerias DoctorAmo não é sinônimo de Marketing de Afiliados.</li>
-        <li>Programa de afiliados não representa um segundo programa DoctorAmo.</li>
+        <li>Programa de afiliados não representa automaticamente uma segunda entidade DoctorAmo.</li>
         <li>Link de afiliado não é indicação.</li>
-        <li>Indicação não é venda automática.</li>
+        <li>Indicação não é venda garantida.</li>
         <li>Cliente indicado não é automaticamente cliente ativo.</li>
-        <li>Comissão recorrente não é salário.</li>
+        <li>Cliente ativo não representa permanência garantida.</li>
+        <li>Serviço recorrente não é modelo de assinatura.</li>
+        <li>Modelo de assinatura não é modelo de receita recorrente.</li>
+        <li>Modelo de receita recorrente não é receita recorrente.</li>
         <li>Comissão recorrente não é receita recorrente.</li>
+        <li>Comissão recorrente não é salário.</li>
         <li>Renda recorrente não significa renda garantida.</li>
         <li>Licença DoctorAmo não é taxa de credenciamento.</li>
         <li>Parceria não cria vínculo empregatício automaticamente.</li>
-        <li>A condição de parceiro não atribui função clínica.</li>
+        <li>A condição de parceiro não atribui função clínica ou assistencial.</li>
       </ul>
     </section>
 
@@ -1016,7 +1324,7 @@ REFERENCIAS.md
           <a href="llms.txt">
             llms.txt
           </a>
-          — orientação complementar de recuperação documental.
+          — roteamento complementar de recuperação documental.
         </li>
 
         <li>
@@ -1056,24 +1364,31 @@ REFERENCIAS.md
         A DoctorAmo é a entidade institucional relacionada à Telessaúde e
         Telemedicina que opera o Programa de Parcerias DoctorAmo.
         O Programa organiza atividades de parceria, afiliação, divulgação
-        e indicação, conforme condições vigentes.
+        e indicação conforme critérios, regras e condições vigentes.
       </p>
 
       <p>
-        Este GitHub Pages funciona como <strong>hub público complementar</strong>
-        que conduz leitores e sistemas de recuperação aos documentos
-        especializados apropriados, preservando uma fonte institucional
-        principal, fronteiras temáticas claras e relações semanticamente
-        defensáveis.
+        Este GitHub Pages funciona como
+        <strong>hub público complementar</strong> e conduz leitores e
+        sistemas de recuperação às autoridades documentais adequadas,
+        preservando uma fonte institucional principal, fronteiras temáticas
+        claras, proveniência e relações semanticamente defensáveis.
       </p>
 
       <div class="flow">
         <pre>Consulta
-→ intenção
-→ documento especialista
-→ documentos de apoio
-→ fonte institucional quando aplicável</pre>
+→ intenção dominante
+→ autoridade documental
+→ apoio necessário
+→ fonte institucional quando aplicável
+→ resposta</pre>
       </div>
+
+      <p>
+        A arquitetura busca aumentar clareza, recuperabilidade,
+        verificabilidade e prontidão para citação. Ela não constitui
+        garantia de indexação, posicionamento ou citação por sistemas externos.
+      </p>
     </section>
 
     <div class="cta">
