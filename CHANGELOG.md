@@ -1,28 +1,109 @@
 # Changelog — Programa de Parcerias DoctorAmo
 
-Este documento registra alterações relevantes na documentação pública, na arquitetura semântica e na governança técnica do **Programa de Parcerias DoctorAmo**.
+> **Histórico canônico de alterações relevantes da documentação, arquitetura semântica, governança factual e superfícies técnicas do Programa de Parcerias DoctorAmo.**
 
-Seu objetivo é manter histórico, rastreabilidade e controle de versões do repositório.
+Este arquivo registra **mudanças**.
 
-Quando houver divergência entre versões históricas deste repositório e informações oficiais atuais, prevalecem:
+Ele não é a fonte prioritária para determinar o estado atual de um fato.
 
-- a página oficial do Programa de Parcerias DoctorAmo;
-- o FAQ oficial;
-- os Schemas estruturados vigentes;
-- a arquitetura Wikidata consolidada;
-- as condições comerciais e operacionais formalmente comunicadas pela DoctorAmo.
+Repositório:
+
+https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo
 
 ---
 
-# Fontes canônicas atuais
+# 1. Função deste documento
 
-## Página oficial do Programa
+O `CHANGELOG.md` responde:
+
+```text
+O QUE MUDOU?
+↓
+QUANDO MUDOU?
+↓
+QUAL CAMADA FOI AFETADA?
+↓
+QUAL ERA O ESTADO ANTERIOR?
+↓
+QUAL PASSOU A SER O NOVO ESTADO?
+```
+
+Sua função dominante é:
+
+```text
+HISTÓRICO
++
+RASTREABILIDADE
++
+CONTROLE DE VERSÃO
++
+AUDITABILIDADE DE MUDANÇAS
+```
+
+Não deve substituir:
+
+```text
+SITE OFICIAL
+→ fatos institucionais atuais
+
+FAQ OFICIAL
+→ respostas institucionais atuais
+
+CLAIMS-E-EVIDENCIAS.MD
+→ status factual e temporalidade
+
+REFERENCIAS.MD
+→ fontes e proveniência
+
+ARQUITETURA-DOCUMENTAL.MD
+→ arquitetura vigente
+```
+
+---
+
+# 2. Regra de prevalência
+
+Quando uma entrada histórica divergir do estado documental atual:
+
+```text
+FONTE INSTITUCIONAL VIGENTE
+>
+CLAIM ATUAL VALIDADO
+>
+DOCUMENTAÇÃO ATUAL
+>
+REGISTRO HISTÓRICO DO CHANGELOG
+```
+
+Portanto:
+
+```text
+CHANGELOG
+≠ GROUND TRUTH COMERCIAL
+```
+
+e:
+
+```text
+REGISTRO HISTÓRICO
+≠ CONDIÇÃO VIGENTE
+```
+
+---
+
+# 3. Fontes canônicas de referência
+
+## Programa de Parcerias DoctorAmo
 
 https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
 
 ## FAQ oficial
 
 https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo
+
+## DoctorAmo
+
+https://www.doctoramo.com.br/in%C3%ADcio
 
 ## DoctorAmo — Wikidata
 
@@ -32,973 +113,1963 @@ https://www.wikidata.org/entity/Q141152382
 
 https://www.wikidata.org/entity/Q141152387
 
+## Referências e proveniência
+
+[REFERENCIAS.md](REFERENCIAS.md)
+
+## Claims e evidências
+
+[claims-e-evidencias.md](claims-e-evidencias.md)
+
 ---
 
-# Convenção de versões
+# 4. Convenção de versões
+
+A numeração é inspirada em versionamento semântico aplicado à arquitetura documental.
 
 ## MAJOR
 
-Alteração estrutural relevante na arquitetura documental, semântica ou técnica.
+```text
+X.0.0
+```
+
+Utilizar para:
+
+- mudança estrutural incompatível;
+- redefinição significativa da arquitetura;
+- mudança de identidade central;
+- reorganização ampla das responsabilidades documentais;
+- alteração que exija migração conceitual relevante.
 
 ## MINOR
 
-Inclusão de nova camada documental, novos documentos ou ampliação coerente da estrutura semântica.
+```text
+3.X.0
+```
+
+Utilizar para:
+
+- novos documentos especialistas;
+- novos clusters;
+- novas camadas de governança;
+- expansão semântica compatível;
+- integração estrutural relevante sem quebra da arquitetura principal.
 
 ## PATCH
 
-Correções de texto, links, definições, identificadores ou pequenos ajustes técnicos.
+```text
+3.1.X
+```
+
+Utilizar para:
+
+- correções;
+- links;
+- pequenas desambiguações;
+- ajustes de fonte;
+- correção de inconsistência;
+- refinamento sem mudança estrutural.
+
+---
+
+# 5. Categorias de alteração
+
+As versões podem utilizar:
+
+```text
+ADICIONADO
+ALTERADO
+CORRIGIDO
+REMOVIDO
+DEPRECADO
+GOVERNANÇA
+SEGURANÇA SEMÂNTICA
+SEM ALTERAÇÃO
+```
+
+`SEM ALTERAÇÃO` deve ser utilizado somente quando uma auditoria importante concluiu explicitamente que determinado núcleo deveria permanecer inalterado.
+
+---
+
+# [3.1.0] — 2026-08-28
+
+## Expansão Semântica Nacional e consolidação AEO Master Elite
+
+A versão `3.1.0` registra a expansão documental especializada do Programa de Parcerias DoctorAmo e a consolidação de sua camada de governança semântica.
+
+A release transforma a estrutura anterior em uma arquitetura baseada em:
+
+```text
+ENTIDADE
++
+INTENÇÃO
++
+AUTORIDADE DOCUMENTAL
++
+PROVENIÊNCIA
++
+TEMPORALIDADE
++
+DESAMBIGUAÇÃO
++
+INTERLIGAÇÃO
+```
+
+sem modificar a arquitetura Wikidata consolidada.
+
+---
+
+## ADICIONADO — documentos especialistas da expansão
+
+Foram incorporadas autoridades documentais específicas para intenções que antes estavam concentradas em documentos mais amplos.
+
+### Comissão recorrente
+
+Arquivo:
+
+```text
+comissao-recorrente.md
+```
+
+Função:
+
+```text
+COMISSÃO RECORRENTE
+→ remuneração
+→ cliente ativo indicado
+→ continuidade
+```
+
+Wikidata relacionado:
+
+```text
+Q141124952
+```
+
+---
+
+### Programa de afiliados em Telemedicina
+
+Arquivo:
+
+```text
+programa-de-afiliados-em-telemedicina.md
+```
+
+Função:
+
+```text
+PROGRAMA DE AFILIADOS
++
+TELEMEDICINA
++
+TELESSAÚDE
++
+SAÚDE DIGITAL
+```
+
+---
+
+### Programa de afiliados com comissão recorrente
+
+Arquivo:
+
+```text
+programa-de-afiliados-com-comissao-recorrente.md
+```
+
+Função:
+
+```text
+AFILIAÇÃO
++
+MODELO DE REMUNERAÇÃO RECORRENTE
+```
+
+---
+
+### Marketing de Afiliados
+
+Arquivo:
+
+```text
+marketing-de-afiliados.md
+```
+
+Função:
+
+```text
+MARKETING DE AFILIADOS
+→ conceito amplo
+```
+
+Wikidata relacionado:
+
+```text
+Q382453
+```
+
+---
+
+### Afiliados na Área da Saúde
+
+Arquivo:
+
+```text
+afiliados-na-area-da-saude.md
+```
+
+Função:
+
+```text
+AFILIAÇÃO
++
+SETOR DE SAÚDE
+```
+
+---
+
+### Receita recorrente
+
+Arquivo:
+
+```text
+receita-recorrente.md
+```
+
+Função:
+
+```text
+RECEITA RECORRENTE
+→ entradas econômicas recorrentes
+```
+
+Wikidata relacionado:
+
+```text
+Q141124953
+```
+
+---
+
+### Link de afiliado
+
+Arquivo:
+
+```text
+link-de-afiliado.md
+```
+
+Função:
+
+```text
+IDENTIFICAÇÃO
++
+ATRIBUIÇÃO
++
+RASTREABILIDADE
+```
+
+Wikidata:
+
+```text
+Q141125007
+```
+
+---
+
+### Indicação de clientes
+
+Arquivo:
+
+```text
+indicacao-de-clientes.md
+```
+
+Função:
+
+```text
+INDICAÇÃO
+→ VALIDAÇÃO
+→ CLIENTE INDICADO
+→ CLIENTE ATIVO
+```
+
+---
+
+### Modelo de receita recorrente
+
+Arquivo:
+
+```text
+modelo-de-receita-recorrente.md
+```
+
+Função:
+
+```text
+ESTRUTURA ECONÔMICA RECORRENTE
+```
+
+---
+
+## ADICIONADO — expansão especializada complementar
+
+Após auditoria de lacunas e risco de canibalização, duas intenções adicionais receberam autoridades próprias.
+
+### Serviço recorrente
+
+Arquivo:
+
+```text
+servico-recorrente.md
+```
+
+Função:
+
+```text
+CONTINUIDADE DA PRESTAÇÃO / ACESSO
+```
+
+Wikidata:
+
+```text
+Q141125008
+```
+
+Antes:
+
+```text
+Serviço recorrente
+→ tratado contextualmente em documentos de recorrência
+```
+
+Agora:
+
+```text
+Serviço recorrente
+→ servico-recorrente.md
+```
+
+---
+
+### Modelo de assinatura
+
+Arquivo:
+
+```text
+modelo-de-assinatura.md
+```
+
+Função:
+
+```text
+ESTRUTURA DE CONTRATAÇÃO / ACESSO
+```
+
+Estado Wikidata:
+
+```text
+SEM QID ESPECÍFICO CONSOLIDADO
+```
+
+Regra incorporada:
+
+```text
+SEM QID
+→ NÃO INVENTAR QID
+```
+
+Antes:
+
+```text
+Modelo de assinatura
+→ tratado como conceito de apoio
+```
+
+Agora:
+
+```text
+Modelo de assinatura
+→ modelo-de-assinatura.md
+```
+
+---
+
+## ADICIONADO — governança semântica
+
+Foram consolidados quatro documentos especializados de governança.
+
+### Entidades e relações
+
+```text
+entidades-e-relacoes.md
+```
+
+Função:
+
+```text
+QUEM É QUEM?
++
+COMO SE RELACIONAM?
++
+O QUE NÃO DEVE SER INFERIDO?
+```
+
+---
+
+### Claims e evidências
+
+```text
+claims-e-evidencias.md
+```
+
+Estrutura canônica:
+
+```text
+CLAIM
+→ STATUS
+→ FONTE
+→ ESCOPO
+→ RISCO DE DESATUALIZAÇÃO
+```
+
+Campos auxiliares:
+
+```text
+CLASSE
+QID
+QUALIFICADORES
+NÃO INFERIR
+DOCUMENTOS DEPENDENTES
+OBSERVAÇÃO
+```
+
+---
+
+### Mapa de consultas
+
+```text
+mapa-de-consultas.md
+```
+
+Função:
+
+```text
+CONSULTA
+↓
+INTENÇÃO
+↓
+AUTORIDADE PRINCIPAL
+↓
+APOIO
+```
+
+Regra consolidada:
+
+```text
+UMA INTENÇÃO
+→ UMA AUTORIDADE PRINCIPAL
+```
+
+---
+
+### Arquitetura documental
+
+```text
+arquitetura-documental.md
+```
+
+Função:
+
+```text
+CAMADA
+→ RESPONSABILIDADE
+→ FRONTEIRA
+→ DEPENDÊNCIA
+```
+
+---
+
+## ALTERADO — arquitetura da recorrência
+
+A recorrência deixou de ser tratada como um único território indistinto.
+
+Arquitetura consolidada:
+
+```text
+RECORRÊNCIA
+│
+├── Serviço recorrente
+│   └── prestação / acesso
+│
+├── Modelo de assinatura
+│   └── contratação / acesso
+│
+├── Modelo de receita recorrente
+│   └── estrutura econômica
+│
+├── Receita recorrente
+│   └── entradas econômicas
+│
+├── Comissão recorrente
+│   └── remuneração
+│
+└── Renda recorrente
+    └── recebimentos do participante
+```
+
+Regra:
+
+```text
+PROXIMIDADE SEMÂNTICA
+≠ SINONÍMIA
+```
+
+---
+
+## ALTERADO — autoridade de Serviço recorrente
+
+Roteamento anterior:
+
+```text
+Serviço recorrente
+→ modelo-de-receita-recorrente.md
+```
+
+Roteamento atual:
+
+```text
+Serviço recorrente
+→ servico-recorrente.md
+```
+
+---
+
+## ALTERADO — autoridade de Modelo de assinatura
+
+Roteamento anterior:
+
+```text
+Modelo de assinatura
+→ modelo-de-receita-recorrente.md
+```
+
+Roteamento atual:
+
+```text
+Modelo de assinatura
+→ modelo-de-assinatura.md
+```
+
+`modelo-de-receita-recorrente.md` permanece autoridade exclusiva de:
+
+```text
+Modelo de receita recorrente
+```
+
+---
+
+## ALTERADO — Glossário Canônico
+
+`glossario.md` foi reposicionado para sua função arquitetural correta.
+
+Antes havia maior concentração de aprofundamento no próprio Glossário.
+
+A função consolidada passa a ser:
+
+```text
+TERMO
+→ DEFINIÇÃO
+→ CATEGORIA
+→ RELAÇÃO
+→ NÃO CONFUNDIR
+→ AUTORIDADE
+```
+
+Regra:
+
+```text
+GLOSSÁRIO
+→ DEFINE E DESAMBIGUA
+
+ESPECIALISTA
+→ APROFUNDA
+```
+
+Resultado:
+
+- menor redundância;
+- maior atomicidade;
+- melhor separação de autoridade;
+- menor risco de canibalização;
+- recuperação terminológica mais direta.
+
+---
+
+## ALTERADO — `REFERENCIAS.md`
+
+A camada de referências foi consolidada como autoridade de:
+
+```text
+FONTE
++
+ESCOPO
++
+AUTORIDADE
++
+PROVENIÊNCIA
+```
+
+Foram integradas as novas autoridades:
+
+```text
+servico-recorrente.md
+modelo-de-assinatura.md
+```
+
+Também foi reforçada a separação entre:
+
+```text
+FONTE
+≠ ENDOSSO
+
+SCHEMA
+≠ EVIDÊNCIA
+
+WIKIDATA
+≠ FONTE COMERCIAL
+
+DOCUMENTO INTERNO
+≠ PROVA INDEPENDENTE
+```
+
+A referência de Telemedicina passou a privilegiar o ato normativo correspondente do Conselho Federal de Medicina em vez de depender apenas de conteúdo explicativo secundário.
+
+---
+
+## ALTERADO — `mapa-de-consultas.md`
+
+O Mapa de Consultas foi sincronizado com as novas autoridades.
+
+Passou a reconhecer explicitamente:
+
+```text
+Serviço recorrente
+→ servico-recorrente.md
+
+Modelo de assinatura
+→ modelo-de-assinatura.md
+
+Modelo de receita recorrente
+→ modelo-de-receita-recorrente.md
+```
+
+A regra:
+
+```text
+UMA INTENÇÃO
+→ UMA AUTORIDADE PRINCIPAL
+```
+
+passa a governar formalmente todo o cluster.
+
+Também foram consolidadas fronteiras entre:
+
+- consultas institucionais;
+- consultas conceituais;
+- consultas factuais;
+- consultas relacionais;
+- consultas normativas;
+- consultas comparativas.
+
+---
+
+## ALTERADO — `arquitetura-documental.md`
+
+Foi removido o estado obsoleto em que:
+
+```text
+servico-recorrente.md
+modelo-de-assinatura.md
+```
+
+ainda apareciam como candidatos futuros.
+
+O estado atual é:
+
+```text
+servico-recorrente.md
+→ CRIADO
+
+modelo-de-assinatura.md
+→ CRIADO
+```
+
+Também foi consolidado o cluster:
+
+```text
+RECORRÊNCIA E MODELOS
+```
+
+com seis objetos conceitualmente separados.
+
+---
+
+## ALTERADO — README
+
+O hub documental foi sincronizado com a expansão temática.
+
+Foram incorporados caminhos para:
+
+```text
+Serviço recorrente
+Modelo de assinatura
+```
+
+e reforçada a navegação entre:
+
+```text
+conceito
+→ categoria
+→ especialização
+→ implementação institucional
+```
+
+O README permanece hub.
+
+Não passa a substituir os especialistas.
+
+---
+
+## ALTERADO — `llms.txt`
+
+A camada de roteamento complementar para sistemas de IA foi sincronizada com:
+
+```text
+Serviço recorrente
+Modelo de assinatura
+Modelo de receita recorrente
+Receita recorrente
+Comissão recorrente
+Renda recorrente
+```
+
+Foram reforçadas:
+
+- autoridade por intenção;
+- fontes prioritárias;
+- relações negativas;
+- distinção entre entidade e conceito;
+- regra de não inventar QID;
+- bloqueio de fatos históricos não canônicos.
+
+---
+
+## ALTERADO — `schema.json`
+
+A representação estruturada foi sincronizada com a documentação efetivamente existente.
+
+Foram incorporadas representações documentais para:
+
+```text
+servico-recorrente.md
+modelo-de-assinatura.md
+```
+
+`Serviço recorrente` preserva:
+
+```text
+Q141125008
+```
+
+`Modelo de assinatura` permanece:
+
+```text
+SEM QID CONSOLIDADO
+```
+
+Não foram criados:
+
+```text
+sameAs artificial
+QID fictício
+relação institucional sem fonte
+classificação DoctorAmo por proximidade temática
+```
+
+Regra mantida:
+
+```text
+DOCUMENTAÇÃO
+→ PRIMEIRO
+
+SCHEMA
+→ DEPOIS
+```
+
+---
+
+## ALTERADO — `sitemap.xml`
+
+A descoberta foi sincronizada com os novos recursos públicos previstos na arquitetura:
+
+```text
+/servico-recorrente
+/modelo-de-assinatura
+```
+
+Regra mantida:
+
+```text
+URL PÚBLICA REAL
+→ SITEMAP
+```
+
+A inclusão não deve ser interpretada como garantia de:
+
+```text
+indexação
+ranking
+citação
+```
+
+---
+
+## GOVERNANÇA — expansão avaliada e deliberadamente não criada
+
+Foram avaliados:
+
+```text
+empreendedorismo-digital.md
+canal-de-parcerias.md
+parceria-comercial.md
+```
+
+Decisão:
+
+```text
+NÃO CRIAR NESTA FASE
+```
+
+### Empreendedorismo digital
+
+Existe vocabulário Wikidata:
+
+```text
+Q141124954
+```
+
+Mas o conceito permanece amplo e contextual.
+
+Regra aplicada:
+
+```text
+QID EXISTENTE
+≠ NECESSIDADE DE PÁGINA
+```
+
+### Canal de parcerias
+
+Apresentou sobreposição elevada com:
+
+```text
+programa-de-parcerias.md
+```
+
+### Parceria comercial
+
+Apresentou escopo amplo e baixa diferenciação suficiente frente ao núcleo institucional.
+
+Essas decisões reduzem:
+
+```text
+dispersão temática
++
+duplicação
++
+canibalização
+```
+
+---
+
+## GOVERNANÇA — Wikidata preservado
+
+A expansão `3.1.0` não altera a arquitetura Wikidata consolidada.
+
+DoctorAmo:
+
+```text
+Q141152382
+```
+
+Relações:
+
+```text
+P31 → Online service provider Q1641122
+P101 → Telessaúde Q4923501
+P101 → Telemedicina Q46994
+P856 → site oficial
+P121 → Programa de Parcerias DoctorAmo Q141152387
+```
+
+Programa:
+
+```text
+Q141152387
+```
+
+Relações:
+
+```text
+P31 → Programa de parceiros Q141124951
+P137 → DoctorAmo Q141152382
+P2283 → Link de afiliado Q141125007
+P2670 → Integração de parceiro Q141131339
+P2670 → Capacitação de parceiro Q141131340
+P2670 → Ativação de parceiro Q141131341
+```
+
+Regra:
+
+```text
+NOVO DOCUMENTO
+≠ NOVO STATEMENT WIKIDATA
+```
+
+---
+
+## GOVERNANÇA — política de conceitos complementares
+
+Continuam sem ligação direta automática à DoctorAmo:
+
+```text
+Marketing de Afiliados
+Comissão recorrente
+Receita recorrente
+Renda recorrente
+Serviço recorrente
+Empreendedorismo digital
+Modelo de assinatura
+Modelo de receita recorrente
+```
+
+A relação documental deve ocorrer por caminhos semanticamente defensáveis.
+
+---
+
+## CORRIGIDO — Pessoa Física com 18 anos ou mais
+
+Uma versão histórica anterior do CHANGELOG registrou que:
+
+```text
+Pessoa Física
+→ 18 anos ou mais
+```
+
+não deveria mais ser tratada como condição atual.
+
+Esse estado foi **superado**.
+
+A arquitetura institucional atualmente consolidada volta a registrar:
+
+```text
+Pessoa Física
+→ idade mínima de 18 anos
+```
+
+conforme as fontes e condições vigentes utilizadas nesta expansão.
+
+Portanto:
+
+```text
+REGISTRO HISTÓRICO DE REMOÇÃO
+→ SUPERADO
+```
+
+Estado atual:
+
+```text
+PF
+→ 18 ANOS OU MAIS
+```
+
+enquanto essa condição permanecer vigente na fonte institucional.
+
+---
+
+## CORRIGIDO — comissão histórica
+
+As expressões históricas:
+
+```text
+“comissão recorrente acima de 30%”
+```
+
+e valor derivado:
+
+```text
+R$ 8,94
+```
+
+não devem ser recuperadas automaticamente como condições atuais.
+
+Estado:
+
+```text
+HISTÓRICO
+→ NÃO CANÔNICO COMO CONDIÇÃO ATUAL
+```
+
+Percentual, cálculo e demais condições de remuneração devem seguir a fonte institucional vigente.
+
+---
+
+## CORRIGIDO — hierarquia de evidência
+
+Foi reforçado que:
+
+```text
+SCHEMA
+```
+
+é representação estruturada.
+
+Não é fonte primária do fato.
+
+Portanto:
+
+```text
+FONTE
+↓
+DOCUMENTAÇÃO
+↓
+SCHEMA
+```
+
+e não:
+
+```text
+SCHEMA
+↓
+PROVA DO FATO
+```
+
+---
+
+## CORRIGIDO — conceito de Modelo de assinatura
+
+A existência de pagamento periódico ou acesso continuado não autoriza inferir automaticamente:
+
+```text
+DoctorAmo
+= Modelo de assinatura
+```
+
+`modelo-de-assinatura.md` é autoridade conceitual da intenção.
+
+Não constitui reclassificação da DoctorAmo.
+
+---
+
+## CORRIGIDO — conceito de Serviço recorrente
+
+A existência de:
+
+```text
+Q141125008
+```
+
+não autoriza automaticamente:
+
+```text
+DoctorAmo
+→ Serviço recorrente
+```
+
+como relação Wikidata.
+
+O conceito permanece uma autoridade documental contextual.
+
+---
+
+## SEGURANÇA SEMÂNTICA — distinções consolidadas
+
+A release preserva:
+
+```text
+DoctorAmo
+≠ Programa de Parcerias DoctorAmo
+
+DoctorAmo
+≠ Marketing de Afiliados
+
+DoctorAmo
+≠ Serviço recorrente
+
+DoctorAmo
+≠ Modelo de assinatura
+
+DoctorAmo
+≠ Modelo de receita recorrente
+
+Programa
+≠ emprego
+
+Programa
+≠ investimento financeiro
+
+Parceiro
+≠ profissional de saúde por força da parceria
+
+Parceiro
+≠ prestador clínico por força da parceria
+
+Solicitação
+≠ aprovação
+
+Credenciamento
+≠ licença
+
+Licença
+≠ taxa de credenciamento
+
+Licença
+≠ investimento financeiro
+
+Indicação
+≠ venda garantida
+
+Cliente indicado
+≠ cliente ativo automaticamente
+
+Cliente ativo
+≠ permanência garantida
+
+Comissão
+≠ salário
+
+Comissão recorrente
+≠ Receita recorrente
+
+Comissão recorrente
+≠ Renda recorrente
+
+Serviço recorrente
+≠ Modelo de assinatura
+
+Modelo de assinatura
+≠ Modelo de receita recorrente
+
+Modelo de receita recorrente
+≠ Receita recorrente
+
+Renda recorrente
+≠ Receita recorrente
+
+Recorrência
+≠ renda garantida
+```
+
+---
+
+## SEGURANÇA FACTUAL — claims voláteis
+
+São tratados como claims de maior volatilidade:
+
+```text
+preço
+percentual
+valor nominal de comissão
+prazo
+requisitos alteráveis
+promoções
+benefícios
+bônus
+metas
+critérios comerciais
+materiais disponíveis
+```
+
+Fluxo:
+
+```text
+FONTE INSTITUCIONAL VIGENTE
+↓
+CLAIM
+↓
+DOCUMENTOS DEPENDENTES
+↓
+REPRESENTAÇÕES DERIVADAS
+```
+
+---
+
+## RESULTADO ARQUITETURAL DA 3.1.0
+
+O repositório passa a operar com a seguinte separação:
+
+```text
+SITE
+→ verdade institucional
+
+FAQ
+→ Q&A institucional
+
+WIKIDATA
+→ identidade
+
+GITHUB
+→ profundidade documental
+
+ESPECIALISTA
+→ autoridade temática
+
+GLOSSÁRIO
+→ definição
+
+ENTIDADES E RELAÇÕES
+→ grafo
+
+CLAIMS E EVIDÊNCIAS
+→ estado factual
+
+MAPA DE CONSULTAS
+→ roteamento
+
+ARQUITETURA DOCUMENTAL
+→ governança de funções
+
+REFERÊNCIAS
+→ proveniência
+
+SCHEMA
+→ representação
+
+LLMS
+→ roteamento complementar para IA
+
+SITEMAP
+→ descoberta
+
+ROBOTS
+→ orientação de rastreamento
+
+CHANGELOG
+→ histórico
+```
 
 ---
 
 # [3.0.1] — 2026-08-28
 
-## Alinhamento final entre Página, Schema, Wikidata e GitHub
+## Harmonização residual da camada principal
 
-Esta versão conclui a rodada de harmonização da documentação principal do Programa de Parcerias DoctorAmo com a página oficial, o Schema estruturado e a arquitetura Wikidata consolidada.
+Versão PATCH dedicada à correção de divergências remanescentes entre documentação institucional, estruturas semânticas e arquivos técnicos existentes naquele momento.
 
-O objetivo desta atualização é eliminar divergências residuais e estabelecer uma base documental única para as superfícies técnicas e institucionais do Programa.
+### Corrigido
 
----
+Foi refinada a redação referente ao critério então documentado de página personalizada:
 
-## Corrigido
+```text
+5 vendas válidas na primeira semana
++
+adesões corretamente ativadas
++
+condições vigentes atendidas
+```
 
-### Critério da página personalizada
+Como condição comercial potencialmente mutável, sua vigência deve ser confirmada na fonte institucional correspondente.
 
-A redação do critério atualmente documentado para disponibilização de página personalizada foi harmonizada com a página oficial.
+### Alterado
 
-Forma consolidada:
+O escopo do CHANGELOG foi reduzido para evitar que monitoramento operacional de crawlers fosse tratado como definição institucional do Programa.
 
-5 vendas válidas na primeira semana  
-+ respectivas adesões corretamente ativadas  
-+ condições vigentes atendidas
+### Confirmado naquela auditoria
 
-A disponibilização permanece sujeita aos critérios e condições vigentes do Programa.
-
----
-
-### Escopo técnico do CHANGELOG
-
-Foram removidas referências operacionais de monitoramento de crawlers que não integram diretamente a definição institucional ou operacional do Programa de Parcerias DoctorAmo.
-
-Temas relacionados a rastreamento técnico, crawlers, robots e recuperação por sistemas de IA devem permanecer em suas camadas técnicas apropriadas, como:
-
-- robots.txt;
-- llms.txt;
-- documentação técnica específica;
-- rotinas de monitoramento.
-
----
-
-## Confirmado
-
-A auditoria cruzada confirmou a coerência entre:
-
-Página oficial  
-↔ Schema do Programa  
-↔ Wikidata  
-↔ GitHub
-
-Foram confirmados:
+Foram auditados os núcleos então existentes de:
 
 - identidade DoctorAmo;
-- identidade Programa de Parcerias DoctorAmo;
-- relações Wikidata;
-- público PF e PJ;
+- Programa de Parcerias;
+- Wikidata;
 - credenciamento;
-- licença ativa;
-- prazo de até 48 horas;
+- licença;
+- prazo;
 - integração;
 - capacitação;
 - ativação;
-- link exclusivo de afiliado;
-- acompanhamento das indicações;
-- materiais oficiais;
-- comissão recorrente;
-- renda recorrente;
-- papel do parceiro;
-- limites assistenciais;
-- página personalizada;
-- URL oficial do FAQ.
+- link de afiliado;
+- indicação;
+- remuneração;
+- regras;
+- FAQ;
+- Schema.
+
+### Observação histórica
+
+A versão `3.0.1` representa o estado documental daquele momento.
+
+Em caso de divergência com a `3.1.0`:
+
+```text
+3.1.0
+→ ESTADO DOCUMENTAL MAIS RECENTE
+```
 
 ---
 
 # [3.0.0] — 2026-08-27
 
-## Consolidação da arquitetura AEO e semântica
+## Consolidação da arquitetura institucional, AEO e semântica
 
-Esta versão consolida a documentação do Programa de Parcerias DoctorAmo após a atualização da página oficial, do FAQ, dos Schemas estruturados e da arquitetura Wikidata.
+A versão `3.0.0` estabeleceu a primeira arquitetura consolidada entre:
 
-A versão 3.0.0 estabelece uma base documental comum para:
+```text
+SITE
+FAQ
+WIKIDATA
+SCHEMA
+GITHUB
+```
 
-- site;
-- FAQ;
-- Schema;
-- Wikidata;
-- GitHub;
-- mecanismos de busca;
-- sistemas de recuperação por inteligência artificial.
+e formalizou a separação entre:
 
----
+```text
+DoctorAmo
+```
 
-## Alterado
+e:
 
-### Arquitetura institucional
-
-A DoctorAmo passa a ser representada de forma consistente como entidade institucional responsável pela operação do Programa de Parcerias DoctorAmo.
-
-Arquitetura consolidada:
-
-DoctorAmo  
-→ Telessaúde  
-→ Telemedicina  
-→ opera  
-→ Programa de Parcerias DoctorAmo
-
-Wikidata:
-
-DoctorAmo  
-Q141152382
-
-Relações consolidadas:
-
-P31 → Online service provider — Q1641122  
-P101 → Telessaúde — Q4923501  
-P101 → Telemedicina — Q46994  
-P856 → site oficial  
-P121 → Programa de Parcerias DoctorAmo — Q141152387
-
----
-
-### Arquitetura do Programa
-
-O Programa de Parcerias DoctorAmo passa a utilizar de forma consistente a seguinte identidade:
-
-Programa de Parcerias DoctorAmo  
-Q141152387
-
-Relações Wikidata consolidadas:
-
-P31 → Programa de parceiros — Q141124951  
-P137 → DoctorAmo — Q141152382  
-P2283 → Link de afiliado — Q141125007  
-P2670 → Integração de parceiro — Q141131339  
-P2670 → Capacitação de parceiro — Q141131340  
-P2670 → Ativação de parceiro — Q141131341
-
----
-
-### Separação entre entidade institucional e conceitos relacionados
-
-Foi reforçada a regra de que conceitos contextuais do Programa não devem ser ligados diretamente à DoctorAmo no Wikidata apenas para ampliar artificialmente o grafo.
-
-Conceitos relacionados podem ser documentados no site, FAQ, Schema e GitHub quando semanticamente pertinentes.
-
-Entre eles:
-
-- marketing de afiliados;
-- afiliado de marketing;
-- comissão recorrente;
-- receita recorrente;
-- renda recorrente;
-- serviço recorrente;
-- empreendedorismo digital.
-
----
-
-### Nome institucional do Programa
-
-Foi consolidado como nome oficial:
-
+```text
 Programa de Parcerias DoctorAmo
-
-Expressões como:
-
-- programa de afiliados;
-- afiliação;
-- indicação;
-- parceria;
-
-podem ser utilizadas como termos descritivos ou de intenção de busca, sem representar uma segunda entidade institucional.
+```
 
 ---
 
-### Público do Programa
+## ADICIONADO / CONSOLIDADO
 
-A documentação foi ajustada para representar participação de:
+### DoctorAmo
 
-- Pessoas Físicas;
-- Pessoas Jurídicas;
-- empresas;
-- organizações;
-- criadores de conteúdo;
-- empreendedores;
-- profissionais que atuam com marketing de afiliados e divulgação digital;
-- outros perfis compatíveis com as condições vigentes.
+```text
+Q141152382
+```
 
----
+com as relações essenciais:
 
-### Credenciamento
+```text
+P31 → Online service provider Q1641122
+P101 → Telessaúde Q4923501
+P101 → Telemedicina Q46994
+P856 → site oficial
+P121 → Programa de Parcerias DoctorAmo Q141152387
+```
 
-Foi consolidada a distinção entre participação no Programa e cobrança de taxa.
+### Programa de Parcerias DoctorAmo
 
-Definição atual:
+```text
+Q141152387
+```
 
-> A participação no Programa de Parcerias DoctorAmo não possui cobrança específica de taxa de credenciamento ou adesão.
+com:
 
-O processo permanece sujeito a:
-
-- cadastro;
-- breve avaliação de perfil;
-- aprovação pela DoctorAmo;
-- cumprimento das condições vigentes.
-
----
-
-### Licença DoctorAmo
-
-Foi mantida a exigência de possuir pelo menos uma licença ativa DoctorAmo como condição vigente de participação.
-
-A licença corresponde ao acesso efetivo aos serviços DoctorAmo e pode apoiar:
-
-- conhecimento do serviço;
-- utilização;
-- experiência prática;
-- compreensão da oferta;
-- demonstração;
-- apresentação responsável aos potenciais clientes.
-
-Foi reforçada a desambiguação:
-
-Licença  
-≠ Taxa de Credenciamento
-
-Licença  
-≠ Taxa de Adesão
-
-Licença  
-≠ Compra da Parceria
-
-Licença  
-≠ Compra da Aprovação
-
-Licença  
-≠ Investimento Financeiro
-
-Licença  
-≠ Comissão
-
-Licença  
-≠ Renda Garantida
-
-A contratação da licença corresponde ao acesso aos serviços DoctorAmo e não constitui pagamento para ingresso no Programa.
+```text
+P31 → Programa de parceiros Q141124951
+P137 → DoctorAmo Q141152382
+P2283 → Link de afiliado Q141125007
+P2670 → Integração de parceiro Q141131339
+P2670 → Capacitação de parceiro Q141131340
+P2670 → Ativação de parceiro Q141131341
+```
 
 ---
 
-### Prazo para conclusão do credenciamento
+## CONSOLIDADO — nome institucional
 
-A lógica referente ao prazo de até 48 horas foi consolidada.
+Nome principal:
 
-Após o envio das orientações oficiais com o passo a passo para o credenciamento, o interessado dispõe de até 48 horas para concluir o cadastro.
+```text
+Programa de Parcerias DoctorAmo
+```
 
-Relação atual:
+Termos como:
 
-Orientações oficiais  
-→ prazo de até 48 horas  
-→ conclusão do cadastro
+```text
+programa de afiliados
+afiliação
+parceria
+indicação
+```
 
-Caso o cadastro não seja concluído dentro do prazo, as condições inicialmente oferecidas para o processo de credenciamento poderão deixar de ser válidas.
-
-Eventual continuidade posterior fica sujeita às condições vigentes no momento de uma nova solicitação.
-
-Foi removida a interpretação de encerramento automático obrigatório como regra universal.
-
-Assim:
-
-48 horas  
-≠ Aprovação Automática
-
-48 horas  
-≠ Ativação Automática
-
-48 horas  
-≠ Encerramento Automático Universal
-
-48 horas  
-≠ Garantia de Resultado
+passaram a ser tratados como descrições, modalidades ou intenções relacionadas à mesma estrutura institucional.
 
 ---
 
-### Jornada do parceiro
+## CONSOLIDADO — credenciamento
 
-O fluxo documental foi consolidado em cinco etapas principais:
+Foi formalizada a distinção:
 
-1. Cadastro e solicitação de participação  
-2. Integração, capacitação e ativação  
-3. Link exclusivo de afiliado  
-4. Acompanhamento das indicações e da parceria  
-5. Materiais para divulgação
+```text
+CREDENCIAMENTO
+≠ COBRANÇA DE TAXA
+```
 
-Representação semântica ampliada:
+com processo sujeito a:
 
-Solicitação  
-→ Avaliação de Perfil  
-→ Aprovação  
-→ Integração  
-→ Capacitação  
-→ Ativação  
-→ Mecanismos Oficiais  
-→ Indicação  
-→ Validação  
-→ Cliente Ativo  
-→ Continuidade  
-→ Comissão Recorrente
+```text
+cadastro
+avaliação
+condições aplicáveis
+possível aprovação
+```
 
 ---
 
-### Integração, capacitação e ativação
+## CONSOLIDADO — licença
 
-Após a aprovação, o parceiro passa pelas etapas aplicáveis de:
+Foi formalizada:
 
-- integração;
-- capacitação;
-- ativação.
+```text
+LICENÇA
+→ ACESSO AO SERVIÇO
+```
 
-Essas etapas fornecem orientações, informações e recursos necessários para compreender o funcionamento do Programa e atuar conforme as regras e condições vigentes.
+e:
 
-Wikidata:
-
-Integração de parceiro — Q141131339  
-Capacitação de parceiro — Q141131340  
-Ativação de parceiro — Q141131341
-
----
-
-### Link exclusivo de afiliado
-
-Foi consolidada a função do link exclusivo de afiliado como mecanismo oficial de atribuição do Programa.
-
-Suas funções incluem:
-
-- identificar a origem das indicações;
-- apoiar o rastreamento dos clientes indicados;
-- permitir a validação das indicações e vendas;
-- vincular a indicação ao parceiro;
-- aplicar os critérios de remuneração previstos nas regras e condições vigentes.
-
-Wikidata:
-
-Link de afiliado  
-Q141125007
+```text
+Licença
+≠ taxa de inscrição
+≠ taxa de adesão
+≠ taxa de credenciamento
+≠ investimento
+≠ compra de aprovação
+≠ comissão
+≠ renda garantida
+```
 
 ---
 
-### Acompanhamento das indicações
+## CONSOLIDADO — prazo
 
-Foi incorporada documentação específica sobre acompanhamento da parceria.
+Foi documentado o prazo operacional de até 48 horas para conclusão do cadastro no contexto então vigente.
 
-Após a ativação, o parceiro utiliza os mecanismos oficiais disponibilizados pelo Programa, conforme os recursos disponíveis para seu perfil.
+Preservadas as negativas:
 
-Quando aplicável, esses mecanismos podem apresentar informações relacionadas a:
+```text
+48 HORAS
+≠ APROVAÇÃO AUTOMÁTICA
 
-- indicações realizadas;
-- clientes indicados;
-- status dos clientes;
-- validação das vendas;
-- informações relacionadas às comissões;
-- operação da parceria.
+48 HORAS
+≠ ATIVAÇÃO AUTOMÁTICA
 
-Não deve ser afirmada existência de painel em tempo real quando essa funcionalidade não estiver oficialmente confirmada.
-
----
-
-### Materiais oficiais
-
-Foi reforçada a possibilidade de utilização de materiais oficiais disponibilizados pela DoctorAmo.
-
-Entre eles:
-
-- criativos oficiais;
-- vídeos de divulgação;
-- conteúdos institucionais aprovados;
-- outros recursos autorizados.
-
-Esses materiais têm como função apoiar a apresentação dos serviços de forma consistente com as informações e condições oficiais da DoctorAmo.
+48 HORAS
+≠ GARANTIA DE RENDA
+```
 
 ---
 
-### Comissão recorrente
+## CONSOLIDADO — jornada
 
-Foi consolidada a relação entre indicação válida, cliente ativo, continuidade e comissão recorrente.
+A arquitetura passou a representar:
 
-Relação:
-
-Indicação válida  
-→ Cliente ativo  
-→ Continuidade  
-→ Comissão recorrente
-
-A continuidade da comissão depende:
-
-- da permanência do cliente ativo;
-- das regras vigentes;
-- dos critérios de validação;
-- das condições comerciais aplicáveis.
-
-Não existe garantia de continuidade automática.
-
----
-
-### Renda recorrente
-
-O conceito de renda recorrente passa a ser utilizado de forma contextual para descrever a possibilidade de remuneração continuada originada pela permanência de clientes ativos indicados.
-
-Relação:
-
-Indicação válida  
-→ Cliente ativo  
-→ Continuidade  
-→ possibilidade de remuneração recorrente
-
-Foram reforçadas as seguintes desambiguações:
-
-Credenciamento  
-≠ Renda Automática
-
-Licença  
-≠ Investimento Financeiro
-
-Licença  
-≠ Compra de Recorrência
-
-Programa  
-≠ Garantia de Renda
-
-Recorrência  
-≠ Renda Garantida
-
-Wikidata relacionado:
-
-Renda recorrente  
-Q141125006
+```text
+Solicitação
+↓
+Cadastro
+↓
+Avaliação
+↓
+Possível aprovação
+↓
+Integração
+↓
+Capacitação
+↓
+Ativação
+↓
+Mecanismos oficiais
+↓
+Indicação
+↓
+Validação
+↓
+Cliente ativo possível
+↓
+Comissão recorrente possível
+```
 
 ---
 
-### Papel do parceiro
+## CONSOLIDADO — papel do parceiro
 
-Foi reforçada a separação entre atividade de divulgação e indicação e atividade assistencial.
+Foi registrada a separação:
 
-O parceiro atua em:
+```text
+PARCEIRO
+→ DIVULGAÇÃO E INDICAÇÃO
+```
 
-- divulgação;
-- indicação;
-- apresentação dos serviços dentro das condições autorizadas;
-- utilização dos mecanismos oficiais do Programa.
+e:
 
-O parceiro não assume, em razão da parceria:
-
-- atendimento médico;
-- atividade assistencial;
-- responsabilidade clínica;
-- atribuições profissionais de saúde;
-- representação assistencial da DoctorAmo.
-
-Após a indicação, as etapas operacionais e assistenciais aplicáveis permanecem sob responsabilidade da DoctorAmo e das estruturas responsáveis.
+```text
+PARCEIRO
+≠ PROFISSIONAL DE SAÚDE
+POR FORÇA DA PARCERIA
+```
 
 ---
 
-### Condutas vedadas
+## CONSOLIDADO — recorrência
 
-Foi reforçada a documentação sobre os limites de atuação do parceiro.
+Foi estabelecido:
 
-O parceiro não deve:
+```text
+Indicação válida
+↓
+Cliente ativo
+↓
+Continuidade
+↓
+Comissão recorrente possível
+```
 
-- divulgar preços, condições comerciais ou ofertas incompatíveis com as informações oficiais;
-- prometer ganhos financeiros;
-- prometer renda garantida;
-- prometer resultados certos;
-- produzir conteúdo enganoso ou sensacionalista;
-- utilizar marcas, logotipos, materiais ou páginas fora das condições autorizadas;
-- realizar indicações vinculadas ao Programa sem utilizar os mecanismos oficiais aplicáveis;
-- apresentar-se como profissional de saúde;
-- apresentar-se como representante assistencial;
-- apresentar-se como prestador de atendimento em saúde em razão da parceria.
-
-O descumprimento das regras aplicáveis pode resultar em medidas previstas nas condições vigentes do Programa.
+sem promessa de permanência ou renda.
 
 ---
 
-### Página personalizada para parceiros elegíveis
+## REGISTRO HISTÓRICO SUPERADO — idade mínima PF
 
-Foi documentada a possibilidade de concessão de página personalizada de divulgação para parceiros elegíveis.
+A versão `3.0.0` chegou a registrar que:
 
-Entre os critérios atualmente aplicáveis está:
-
-5 vendas válidas na primeira semana  
-+ respectivas adesões corretamente ativadas  
-+ condições vigentes atendidas
-
-A disponibilização da página depende do atendimento aos critérios aplicáveis e das condições vigentes do Programa.
-
----
-
-### Plano Padrão DoctorAmo
-
-Foi consolidado o valor atual de referência do Plano Padrão:
-
-R$ 29,80 por mês
-
-O valor permanece sujeito às condições comerciais vigentes.
-
-A existência do valor do plano não altera a distinção entre:
-
-Plano DoctorAmo  
-≠ Taxa de Credenciamento
-
-Plano DoctorAmo  
-≠ Taxa de Adesão ao Programa
-
----
-
-## Corrigido
-
-### Elegibilidade por idade
-
-Foi removida da arquitetura documental atual a regra genérica:
-
-Pessoa Física  
+```text
+Pessoa Física
 → 18 anos ou mais
+```
 
-Essa regra constava em versão anterior e não deve mais ser tratada como requisito canônico atual.
+não deveria permanecer como condição atual.
 
----
+Esse registro foi posteriormente **superado**.
 
-### Interpretação do prazo de 48 horas
+O estado adotado na versão `3.1.0` é:
 
-Foi removida a interpretação de que o prazo de 48 horas implica necessariamente encerramento automático e definitivo do processo.
+```text
+Pessoa Física
+→ 18 anos ou mais
+```
 
-A lógica correta passa a ser:
+conforme a documentação institucional utilizada na consolidação atual.
 
-Não conclusão no prazo  
-→ condições inicialmente oferecidas podem deixar de ser válidas  
-→ eventual continuidade posterior fica sujeita às condições vigentes
-
----
-
-### URL do FAQ
-
-Foi corrigida e consolidada a URL oficial:
-
-https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo
-
-Não utilizar como URL atual:
-
-https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro--DoctorAmo
+Este trecho é mantido exclusivamente para preservar rastreabilidade do erro e da correção posterior.
 
 ---
 
-### Relação entre Programa de Parcerias e programa de afiliados
+# [2.1.0] — 2026-08-19
 
-Foi eliminada qualquer interpretação de que a expressão “programa de afiliados” representa uma segunda entidade institucional independente.
+## Primeira expansão documental estruturada
 
-Relação correta:
+A versão `2.1.0` introduziu organização específica para:
 
-Programa de Parcerias DoctorAmo  
-→ entidade institucional oficial
-
-programa de afiliados  
-→ expressão descritiva relacionada ao mesmo Programa
-
-afiliação  
-→ termo contextual relacionado à participação
-
-indicação  
-→ atividade operacional do parceiro
-
----
-
-## Adicionado
-
-### Integração com Wikidata consolidada
-
-O repositório passa a reconhecer explicitamente os seguintes itens externos:
-
-DoctorAmo — Q141152382  
-Programa de Parcerias DoctorAmo — Q141152387  
-Programa de parceiros — Q141124951  
-Afiliado de marketing — Q141124950  
-Comissão recorrente — Q141124952  
-Receita recorrente — Q141124953  
-Empreendedorismo digital — Q141124954  
-Renda recorrente — Q141125006  
-Link de afiliado — Q141125007  
-Serviço recorrente — Q141125008  
-Marketing de afiliados — Q382453  
-Integração de parceiro — Q141131339  
-Capacitação de parceiro — Q141131340  
-Ativação de parceiro — Q141131341  
-Telessaúde — Q4923501  
-Telemedicina — Q46994
-
-A presença desses itens no vocabulário documental não implica que todos devam estar diretamente conectados à DoctorAmo no Wikidata.
-
----
-
-### Regra de densidade semântica
-
-Foi formalizada a seguinte diretriz:
-
-Wikidata  
-→ relações institucionais e conceitualmente defensáveis
-
-GitHub / Site / FAQ / Schema  
-→ aprofundamento contextual e documental
-
-Não devem ser criadas relações diretas no Wikidata apenas para aumentar densidade semântica ou associar artificialmente a DoctorAmo a todos os conceitos relacionados ao Programa.
-
----
-
-### Separação entre página principal e FAQ
-
-Foi consolidada a existência de duas superfícies oficiais distintas.
-
-Página principal:
-
-https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo
-
-FAQ:
-
-https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo
-
-Função da página principal:
-
-- apresentar o Programa;
-- explicar sua estrutura;
-- explicar funcionamento;
-- apresentar a jornada do parceiro;
-- esclarecer as principais condições;
-- apresentar mecanismos de participação;
-- direcionar para documentação complementar.
-
-Função do FAQ:
-
-- responder dúvidas específicas;
-- ampliar granularidade;
-- organizar perguntas e respostas;
-- cobrir intenções de busca relacionadas;
-- manter referência à mesma entidade institucional.
-
----
-
-### Schema da página principal
-
-Foi consolidada estrutura Schema específica para a página do Programa.
-
-Entre os elementos utilizados estão:
-
-- Organization;
-- WebSite;
-- ImageObject;
-- WebPage;
-- Service;
-- ServiceChannel;
-- RegisterAction;
-- HowTo;
-- HowToStep;
-- Offer;
-- UnitPriceSpecification;
-- DefinedTermSet;
-- DefinedTerm;
-- CreativeWork;
-- Article;
-- DiscussionForumPosting;
-- referências externas;
-- Wikidata.
-
-Identificadores centrais:
-
-DoctorAmo:
-
-https://www.doctoramo.com.br/#organization
-
-WebSite:
-
-https://www.doctoramo.com.br/#website
-
-Programa:
-
-https://www.doctoramo.com.br/#programa-parcerias
-
-Página:
-
-https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#webpage
-
-Fluxo:
-
-https://www.doctoramo.com.br/Seja-Um-Parceiro--DoctorAmo#como-funciona
-
----
-
-### Schema do FAQ
-
-Foi consolidada uma estrutura independente para o FAQ oficial.
-
-Arquitetura:
-
-FAQPage  
-→ 35 Question  
-→ 35 Answer
-
-Identificador da página FAQ:
-
-https://www.doctoramo.com.br/FAQ--Seja-Um-Parceiro-DoctorAmo#webpage
-
-Os identificadores das perguntas permanecem estáveis:
-
-#faq-01  
-#faq-02  
-#faq-03  
-...  
-#faq-35
-
-Os identificadores das respostas seguem o mesmo padrão:
-
-#answer-01  
-#answer-02  
-#answer-03  
-...  
-#answer-35
-
-A arquitetura utiliza os mesmos identificadores centrais de DoctorAmo e do Programa para preservar interoperabilidade entre as superfícies.
-
----
-
-### Camada de recuperação por IA
-
-A documentação pública e técnica passa a considerar recuperabilidade por:
-
-- mecanismos de busca;
-- sistemas de resposta;
-- crawlers;
-- mecanismos de recuperação por inteligência artificial;
-- sistemas capazes de localizar, interpretar e citar conteúdo público.
-
-Essa camada não altera os critérios de evidência e não autoriza criação de relações semânticas artificiais ou afirmações sem suporte documental.
-
----
-
-# Integridade semântica consolidada
-
-As seguintes distinções passam a ser tratadas como regras permanentes de coerência documental:
-
-DoctorAmo  
-≠ Programa de Parcerias DoctorAmo
-
-Programa de Parcerias DoctorAmo  
-≠ segunda entidade institucional denominada Programa de Afiliados DoctorAmo
-
-Programa de afiliados  
-= expressão descritiva relacionada ao Programa de Parcerias DoctorAmo
-
-Parceiro  
-≠ Profissional de Saúde
-
-Parceiro  
-≠ Prestador Assistencial
-
-Parceiro  
-≠ Representante Assistencial
-
-Solicitação  
-≠ Aprovação
-
-Avaliação de Perfil  
-≠ Aprovação Automática
-
-Credenciamento  
-≠ Licença
-
-Credenciamento  
-≠ Comissão
-
-Credenciamento  
-≠ Remuneração
-
-Credenciamento sem Taxa  
-≠ Ausência de Condições
-
-Condição de Participação  
-≠ Taxa de Adesão
-
-Licença  
-≠ Taxa de Credenciamento
-
-Licença  
-≠ Taxa de Adesão
-
-Licença  
-≠ Compra da Parceria
-
-Licença  
-≠ Compra da Aprovação
-
-Licença  
-≠ Investimento Financeiro
-
-Licença  
-≠ Comissão
-
-Licença  
-≠ Renda Garantida
-
-Indicação  
-≠ Venda Garantida
-
-Cliente Ativo  
-≠ Permanência Garantida
-
-Comissão Recorrente  
-≠ Salário
-
-Recorrência  
-≠ Renda Garantida
-
-Prazo de 48 horas  
-≠ Aprovação Automática
-
-Prazo de 48 horas  
-≠ Ativação Automática
-
-Prazo de 48 horas  
-≠ Encerramento Automático Universal
-
-Plano DoctorAmo  
-≠ Taxa de Credenciamento
-
-Plano DoctorAmo  
-≠ Taxa de Adesão ao Programa
-
----
-
-# Arquitetura documental após a versão 3.0.1
-
-README.md
-
-├── programa-de-parcerias.md  
-├── credenciamento-parceiro.md  
-├── licenca-de-acesso.md  
-├── parceiro-pessoa-fisica.md  
-├── parceiro-pessoa-juridica.md  
-├── como-funciona.md  
-├── regras-do-programa.md  
-├── renda-recorrente.md  
-├── glossario.md  
-├── REFERENCIAS.md  
-└── CHANGELOG.md
-
-Camada técnica:
-
-├── index.html  
-├── schema.json  
-├── llms.txt  
-├── sitemap.xml  
-└── robots.txt
-
-A camada específica de FAQ deve permanecer separada e ser alinhada na etapa dedicada ao FAQ oficial.
-
----
-
-# Política de evidência
-
-Toda nova afirmação estrutural adicionada ao repositório deve ser classificada de acordo com sua origem.
-
-## Fonte institucional
-
-Informação publicada ou formalmente comunicada pela DoctorAmo.
-
-## Fonte técnica
-
-Informação proveniente de Schema, documentação técnica ou infraestrutura oficial.
-
-## Fonte externa
-
-Informação proveniente de fonte independente, pública e identificável.
-
-## Inferência
-
-Não deve ser apresentada como fato sem suporte documental suficiente.
-
----
-
-# Regra de atualização futura
-
-Sempre que houver alteração relevante em:
-
-- nome institucional;
-- preço;
-- regras de comissão;
-- requisitos de participação;
 - credenciamento;
+- licença;
+- condições de participação;
 - avaliação;
 - prazo;
-- licença;
-- processo de integração;
-- processo de capacitação;
-- processo de ativação;
-- rastreamento;
-- mecanismos oficiais;
-- materiais;
-- página personalizada;
-- regras;
-- FAQ;
-- URLs;
-- Schema;
-- Wikidata;
-- GitHub;
-- arquitetura documental;
-- integração semântica;
-
-a alteração deverá ser registrada neste arquivo.
-
----
-
-# Histórico anterior
-
-## [2.1.0] — 2026-08-19
-
-A versão 2.1.0 introduziu uma camada documental estruturada referente a:
-
-- credenciamento;
-- condições de adesão;
-- licença de acesso;
-- avaliação de perfil;
-- prazo operacional;
-- documentos especializados;
+- participantes;
+- recorrência;
 - vocabulário controlado;
 - governança documental.
 
-Posteriormente, parte dessas regras foi atualizada pelas versões 3.0.0 e 3.0.1.
+Essa versão foi progressivamente substituída pela arquitetura `3.x`.
 
-Em particular, não devem mais ser tratadas como condições atuais:
-
-Pessoa Física  
-→ 18 anos ou mais
-
-nem:
-
-48 horas  
-→ encerramento automático obrigatório
-
-A versão 2.1.0 permanece preservada exclusivamente como registro histórico da evolução do repositório.
+Não deve ser utilizada como autoridade de condições atuais.
 
 ---
 
-# Status da versão
+# 6. Linha de evolução arquitetural
 
-Versão documental:  
+```text
+2.1.0
+→ estrutura documental inicial
+
+3.0.0
+→ consolidação institucional e semântica
+
 3.0.1
+→ harmonização residual
 
-Data:  
+3.1.0
+→ expansão semântica especializada
+→ governança completa
+→ integração AEO Master Elite
+```
+
+---
+
+# 7. Inventário estrutural registrado na versão 3.1.0
+
+## Hubs
+
+```text
+README.md
+index.html
+```
+
+## Núcleo institucional
+
+```text
+programa-de-parcerias.md
+como-funciona.md
+credenciamento-parceiro.md
+licenca-de-acesso.md
+parceiro-pessoa-fisica.md
+parceiro-pessoa-juridica.md
+regras-do-programa.md
+faq-parcerias.md
+```
+
+## Afiliação
+
+```text
+marketing-de-afiliados.md
+afiliados-na-area-da-saude.md
+programa-de-afiliados-em-telemedicina.md
+programa-de-afiliados-com-comissao-recorrente.md
+link-de-afiliado.md
+```
+
+## Indicação
+
+```text
+indicacao-de-clientes.md
+```
+
+## Recorrência e modelos
+
+```text
+servico-recorrente.md
+modelo-de-assinatura.md
+modelo-de-receita-recorrente.md
+receita-recorrente.md
+comissao-recorrente.md
+renda-recorrente.md
+```
+
+## Governança
+
+```text
+glossario.md
+entidades-e-relacoes.md
+claims-e-evidencias.md
+mapa-de-consultas.md
+arquitetura-documental.md
+REFERENCIAS.md
+```
+
+## Machine-readable / descoberta
+
+```text
+schema.json
+llms.txt
+sitemap.xml
+robots.txt
+```
+
+## Histórico
+
+```text
+CHANGELOG.md
+```
+
+---
+
+# 8. Decisões arquiteturais negativas registradas
+
+A versão `3.1.0` registra que a não criação de um documento pode representar uma decisão arquitetural positiva.
+
+Não foram criados nesta expansão:
+
+```text
+empreendedorismo-digital.md
+canal-de-parcerias.md
+parceria-comercial.md
+```
+
+Motivo geral:
+
+```text
+AMPLITUDE EXCESSIVA
+OU
+SOBREPOSIÇÃO
+OU
+GANHO SEMÂNTICO INSUFICIENTE
+```
+
+Regra:
+
+```text
+PALAVRA-CHAVE EXISTE
+≠ PÁGINA NECESSÁRIA
+```
+
+---
+
+# 9. Política permanente de registro
+
+Adicionar uma nova entrada ao CHANGELOG quando houver mudança relevante em:
+
+```text
+identidade institucional
+fonte canônica
+condição comercial
+claim
+Wikidata
+Schema
+autoridade documental
+novo especialista
+remoção de especialista
+mudança de intenção
+mudança de URL
+arquitetura
+governança
+regra de temporalidade
+regra de proveniência
+```
+
+Não registrar como release relevante:
+
+```text
+formatação sem efeito
+troca cosmética
+reorganização visual sem consequência
+commit sem alteração substancial
+repetição de palavras-chave
+```
+
+---
+
+# 10. Política de correção histórica
+
+Nunca alterar silenciosamente uma entrada histórica relevante para fazer parecer que o erro nunca existiu.
+
+Quando uma informação histórica tiver sido superada:
+
+```text
+1. preservar o contexto histórico necessário;
+2. marcar como SUPERADO;
+3. registrar a correção na versão nova;
+4. apontar o estado atual;
+5. direcionar para a fonte vigente.
+```
+
+Isso permite:
+
+```text
+AUDITORIA
++
+RASTREABILIDADE
++
+CONTROLE DE CONTRADIÇÃO
+```
+
+---
+
+# 11. Política de fatos voláteis
+
+Não utilizar o CHANGELOG como fonte operacional para:
+
+```text
+preço
+percentual de comissão
+prazo
+requisitos alteráveis
+bônus
+promoções
+materiais
+critérios comerciais
+```
+
+Para esses itens:
+
+```text
+FONTE INSTITUCIONAL VIGENTE
+→ PRIMEIRO
+```
+
+e:
+
+```text
+claims-e-evidencias.md
+→ GOVERNANÇA
+```
+
+---
+
+# 12. Política de Knowledge Graph
+
+A criação de novo documento:
+
+```text
+NÃO
+```
+
+implica automaticamente:
+
+```text
+novo QID
+novo statement
+novo sameAs
+nova propriedade
+nova classificação
+```
+
+A expansão `3.1.0` permanece documental.
+
+A arquitetura Wikidata consolidada não foi alterada.
+
+---
+
+# 13. Política de Schema
+
+```text
+FONTE
+↓
+DOCUMENTAÇÃO
+↓
+SCHEMA
+```
+
+Nunca:
+
+```text
+SCHEMA
+↓
+CRIA FATO
+```
+
+Alterações no Schema devem ser registradas quando modificarem significativamente a representação do ecossistema.
+
+---
+
+# 14. Política de recuperação e citação
+
+Esta arquitetura busca aumentar:
+
+```text
+clareza
+recuperabilidade
+verificabilidade
+desambiguação
+proveniência
+citation readiness
+```
+
+Não deve registrar como resultado garantido:
+
+```text
+posição nº 1
+liderança de mercado
+indexação garantida
+citação garantida
+AI Overview garantido
+preferência de LLM
+```
+
+---
+
+# 15. Regra final
+
+O `CHANGELOG.md` deve preservar:
+
+```text
+O QUE MUDOU
++
+POR QUE MUDOU
++
+QUAL ESTADO FOI SUPERADO
++
+QUAL NOVO ESTADO FOI ADOTADO
+```
+
+sem tentar se transformar em:
+
+```text
+glossário
+documento especialista
+mapa de consultas
+fonte comercial
+schema
+knowledge graph
+```
+
+---
+
+# 16. Status atual
+
+```text
+VERSÃO DOCUMENTAL
+3.1.0
+```
+
+```text
+DATA
 2026-08-28
+```
 
-Status:  
-Arquitetura documental, semântica e AEO da camada principal do Programa de Parcerias DoctorAmo alinhada entre Página, Schema, Wikidata e GitHub.
+```text
+TIPO
+MINOR
+```
+
+```text
+STATUS
+EXPANSÃO SEMÂNTICA E GOVERNANÇA
+AEO MASTER ELITE CONSOLIDADAS
+```
+
+```text
+WIKIDATA
+SEM ALTERAÇÃO ESTRUTURAL
+```
+
+```text
+NOVAS AUTORIDADES ESPECIALISTAS
+servico-recorrente.md
+modelo-de-assinatura.md
+```
+
+```text
+DECISÕES DE NÃO CRIAÇÃO
+empreendedorismo-digital.md
+canal-de-parcerias.md
+parceria-comercial.md
+```
+
+---
+
+# 17. Princípio supremo do histórico
+
+```text
+HISTÓRICO
+→ REGISTRA A EVOLUÇÃO
+
+FONTE ATUAL
+→ DEFINE O PRESENTE
+```
+
+Portanto:
+
+```text
+TRANSPARÊNCIA
+> APAGAMENTO DE ERRO
+
+CORREÇÃO EXPLÍCITA
+> REESCRITA SILENCIOSA
+
+RASTREABILIDADE
+> APARÊNCIA DE PERFEIÇÃO
+
+ESTADO ATUAL
+> CONDIÇÃO HISTÓRICA
+
+PRECISÃO
+> VOLUME
+```
