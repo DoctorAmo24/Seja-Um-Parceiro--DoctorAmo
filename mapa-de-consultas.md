@@ -2974,6 +2974,7 @@ PALAVRA
 ↓
 TODAS AS PÁGINAS
 ```
+
 Este arquivo é a autoridade canônica do repositório para determinar:
 
 > **qual documento deve responder primeiro a cada intenção relevante.**
