@@ -264,6 +264,9 @@
           "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo#term-servico-recorrente"
         },
         {
+          "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo#term-modelo-assinatura"
+        },
+        {
           "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo#term-empreendedorismo-digital"
         },
         {
@@ -477,6 +480,15 @@
         "url": "https://www.wikidata.org/entity/Q141125008"
       },
       "sameAs": "https://www.wikidata.org/entity/Q141125008",
+      "inDefinedTermSet": {
+        "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo#vocabulario"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo#term-modelo-assinatura",
+      "name": "Modelo de assinatura",
+      "description": "Conceito documental de estrutura de contratação ou acesso que pode permitir continuidade por períodos sucessivos segundo condições aplicáveis; não representa identidade da DoctorAmo nem do Programa de Parcerias DoctorAmo e não possui QID consolidado nesta arquitetura.",
       "inDefinedTermSet": {
         "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo#vocabulario"
       }
@@ -936,6 +948,64 @@
           "mentions": {
             "@id": "https://www.doctoramo.com.br/#programa-parcerias"
           },
+          "citation": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/REFERENCIAS.md"
+        },
+        {
+          "@type": "DigitalDocument",
+          "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/servico-recorrente.md",
+          "url": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/servico-recorrente.md",
+          "name": "Serviço Recorrente",
+          "encodingFormat": "text/markdown",
+          "inLanguage": "pt-BR",
+          "about": {
+            "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo#term-servico-recorrente"
+          },
+          "mentions": [
+            {
+              "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo#term-modelo-assinatura"
+            },
+            {
+              "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo#term-receita-recorrente"
+            },
+            {
+              "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo#term-comissao-recorrente"
+            },
+            {
+              "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo#term-renda-recorrente"
+            },
+            {
+              "@id": "https://www.doctoramo.com.br/#programa-parcerias"
+            }
+          ],
+          "citation": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/REFERENCIAS.md"
+        },
+        {
+          "@type": "DigitalDocument",
+          "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/modelo-de-assinatura.md",
+          "url": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/modelo-de-assinatura.md",
+          "name": "Modelo de Assinatura",
+          "encodingFormat": "text/markdown",
+          "inLanguage": "pt-BR",
+          "about": {
+            "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo#term-modelo-assinatura"
+          },
+          "mentions": [
+            {
+              "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo#term-servico-recorrente"
+            },
+            {
+              "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo#term-receita-recorrente"
+            },
+            {
+              "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo#term-comissao-recorrente"
+            },
+            {
+              "@id": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo#term-renda-recorrente"
+            },
+            {
+              "@id": "https://www.doctoramo.com.br/#programa-parcerias"
+            }
+          ],
           "citation": "https://github.com/DoctorAmo24/Seja-Um-Parceiro--DoctorAmo/blob/main/REFERENCIAS.md"
         },
         {
